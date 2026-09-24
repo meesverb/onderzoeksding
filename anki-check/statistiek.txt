@@ -1,0 +1,11 @@
+aangepast: 23
+behouden: 526
+dubbel: 88
+gesplitst: 10
+gesplitst-nieuw: 11
+nieuw: 22
+verwijderen: 5
+totaal regels: 685
+na opruimen (zonder dubbel/verwijderen): 592
+check::lang: 74
+prio::tentamen: 141
