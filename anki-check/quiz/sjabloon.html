@@ -1,0 +1,275 @@
+<title>Uitstrijkje GZC III</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --bg:#f6f4f8; --surface:#ffffff; --ink:#221a2e; --muted:#6b6278; --line:#e2dbe9;
+  --hema:#5b3f8c; --hema-soft:#ece5f6; --eosin:#d9577a; --eosin-soft:#fbe6ec;
+  --good:#1f8a4c; --good-soft:#e2f4e9; --bad:#c2372f; --bad-soft:#fbe5e3;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
+  --bg:#17131e; --surface:#211b2b; --ink:#efe9f6; --muted:#a79cb6; --line:#352c43;
+  --hema:#b69ae6; --hema-soft:#2e2540; --eosin:#f08aa6; --eosin-soft:#3a2230;
+  --good:#5fd08f; --good-soft:#193426; --bad:#f07c73; --bad-soft:#3a1f1e;
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#17131e; --surface:#211b2b; --ink:#efe9f6; --muted:#a79cb6; --line:#352c43;
+  --hema:#b69ae6; --hema-soft:#2e2540; --eosin:#f08aa6; --eosin-soft:#3a2230;
+  --good:#5fd08f; --good-soft:#193426; --bad:#f07c73; --bad-soft:#3a1f1e;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;padding-inline:16px;padding-block:20px 48px}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}
+.slide{width:44px;height:26px;border-radius:4px;background:linear-gradient(90deg,var(--hema-soft) 0 30%,var(--surface) 30%);border:1.5px solid var(--hema);position:relative}
+.slide::after{content:"";position:absolute;left:58%;top:50%;width:12px;height:12px;border-radius:50%;background:var(--eosin);transform:translate(-50%,-50%);box-shadow:-7px 3px 0 -3px var(--hema)}
+h1{font-family:var(--display);font-weight:800;font-size:1.6rem;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.stats{display:flex;gap:8px;font-family:var(--mono);font-size:.85rem;font-variant-numeric:tabular-nums}
+.pill{padding:4px 10px;border-radius:99px;background:var(--surface);border:1px solid var(--line);white-space:nowrap}
+.pill b{color:var(--hema)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:16px}
+.label{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:99px;padding:6px 12px;font:inherit;font-size:.9rem;cursor:pointer}
+.chip[aria-pressed="true"]{border-color:var(--hema);background:var(--hema-soft);color:var(--ink)}
+.chip small{color:var(--muted);font-family:var(--mono);margin-left:4px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+button{font:inherit}
+.btn{border:0;border-radius:10px;padding:12px 18px;font-weight:600;cursor:pointer;background:var(--hema);color:var(--surface)}
+.btn.ghost{background:transparent;color:var(--hema);border:1.5px solid var(--hema)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+:focus-visible{outline:3px solid var(--eosin);outline-offset:2px}
+.progress{height:6px;border-radius:99px;background:var(--line);overflow:hidden}
+.progress span{display:block;height:100%;background:var(--hema);transition:width .3s}
+.meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}
+.tag{font-family:var(--mono);font-size:.78rem;padding:2px 8px;border-radius:6px;background:var(--eosin-soft);color:var(--ink)}
+.vraag{font-family:var(--display);font-weight:600;font-size:1.25rem;line-height:1.35;margin:0;text-wrap:pretty}
+.opties{display:grid;gap:10px}
+.optie{display:flex;gap:12px;align-items:flex-start;text-align:left;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:12px 14px;cursor:pointer;line-height:1.4}
+.optie:hover:not(:disabled){border-color:var(--hema)}
+.optie kbd{font-family:var(--mono);font-size:.8rem;min-width:22px;height:22px;display:inline-grid;place-items:center;border-radius:6px;background:var(--surface);border:1px solid var(--line);flex:none}
+.optie.goed{border-color:var(--good);background:var(--good-soft)}
+.optie.fout{border-color:var(--bad);background:var(--bad-soft)}
+.optie:disabled{cursor:default}
+.uitleg{border-radius:10px;padding:12px 14px;background:var(--hema-soft);font-size:.95rem}
+.uitleg strong{display:block;margin-bottom:2px}
+.combo{font-family:var(--mono);font-size:.85rem;color:var(--eosin);font-weight:500;min-height:1.2em}
+.score{font-family:var(--display);font-weight:800;font-size:3rem;line-height:1;color:var(--hema)}
+.bars{display:grid;gap:8px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) 110px 44px;gap:10px;align-items:center;font-size:.9rem}
+.bar .track{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar .track span{display:block;height:100%;background:var(--good)}
+.bar .pct{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.fouten{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.fouten li{border-left:3px solid var(--bad);padding:4px 0 4px 12px;font-size:.92rem}
+.fouten li b{display:block}
+.note{font-size:.85rem;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.25)}100%{transform:scale(1)}}
+.pop{animation:pop .35s ease}
+@media (max-width:480px){.vraag{font-size:1.1rem}.bar{grid-template-columns:minmax(0,1fr) 70px 40px}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand"><div class="slide" aria-hidden="true"></div><h1>Uitstrijkje</h1></div>
+    <div class="stats">
+      <span class="pill" title="Niveau op basis van al je punten">niv <b id="niveau">1</b></span>
+      <span class="pill" title="Goede antwoorden op rij">🔥 <b id="reeks">0</b></span>
+      <span class="pill" title="Punten deze ronde">⚡ <b id="punten">0</b></span>
+    </div>
+  </header>
+
+  <section class="panel" id="start">
+    <div>
+      <div class="label">GZC III-quiz</div>
+      <p style="margin:4px 0 0">Tentamenvragen, „wie ben ik?”-casussen en vergelijkingsvragen uit je eigen deck en de oude tentamens. Drie goed op rij geeft ×2 punten, zes op rij ×3. Foute vragen komen aan het eind van de ronde terug.</p>
+    </div>
+    <div>
+      <div class="label" style="margin-bottom:8px">Thema's</div>
+      <div class="chips" id="themas"></div>
+    </div>
+    <div>
+      <div class="label" style="margin-bottom:8px">Soort vragen</div>
+      <div class="chips" id="soorten"></div>
+    </div>
+    <div>
+      <div class="label" style="margin-bottom:8px">Ronde</div>
+      <div class="chips" id="lengtes"></div>
+    </div>
+    <div class="row">
+      <button class="btn" id="go">Start ronde</button>
+      <span class="note" id="beschikbaar"></span>
+    </div>
+    <p class="note" id="zwak-info"></p>
+  </section>
+
+  <section class="panel" id="spel" hidden>
+    <div class="progress" aria-hidden="true"><span id="balk" style="width:0%"></span></div>
+    <div class="meta"><span id="teller"></span><span class="tag" id="soort"></span></div>
+    <p class="vraag" id="vraag"></p>
+    <div class="opties" id="opties"></div>
+    <div class="combo" id="combo" aria-live="polite"></div>
+    <div class="uitleg" id="uitleg" hidden></div>
+    <div class="row"><button class="btn" id="volgende" hidden>Volgende ↵</button><button class="btn ghost" id="stop">Stoppen</button></div>
+  </section>
+
+  <section class="panel" id="eind" hidden>
+    <div class="label">Ronde klaar</div>
+    <div class="row" style="gap:20px;align-items:flex-end">
+      <div class="score" id="eindscore">0</div>
+      <div class="note" id="eindtekst"></div>
+    </div>
+    <div class="bars" id="perthema"></div>
+    <div id="foutblok">
+      <div class="label" style="margin-bottom:8px">Om nog eens naar te kijken</div>
+      <ul class="fouten" id="foutlijst"></ul>
+    </div>
+    <div class="row"><button class="btn" id="opnieuw">Nieuwe ronde</button><button class="btn ghost" id="terug">Instellingen</button></div>
+  </section>
+</div>
+
+<script>
+const DATA = /*DATA*/null;
+const $ = id => document.getElementById(id);
+const store = {
+  get(k, d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+let xp = store.get('gzc3-xp', 0);
+let fout = store.get('gzc3-fout', {});          // id -> aantal keer fout (goed antwoord trekt 1 af)
+const keuze = store.get('gzc3-keuze', {themas: Object.keys(DATA.themas), soorten: ['Tentamenvraag','Wie ben ik?','Vergelijk'], lengte: 15});
+
+function niveau(){ return 1 + Math.floor(Math.sqrt(xp / 60)); }
+function toonStats(){ $('niveau').textContent = niveau(); }
+
+function chipGroep(el, items, actief, multi, onChange){
+  el.innerHTML = '';
+  items.forEach(([waarde, tekst, extra]) => {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.type = 'button';
+    b.innerHTML = tekst + (extra !== undefined ? `<small>${extra}</small>` : '');
+    const aan = multi ? actief.includes(waarde) : actief === waarde;
+    b.setAttribute('aria-pressed', aan);
+    b.onclick = () => onChange(waarde);
+    el.appendChild(b);
+  });
+}
+function pool(){
+  return DATA.vragen.filter(v => keuze.themas.includes(v.thema) && keuze.soorten.includes(v.soort));
+}
+function zwakke(){ return DATA.vragen.filter(v => (fout[v.id] || 0) > 0); }
+function tekenStart(){
+  const tel = t => DATA.vragen.filter(v => v.thema === t).length;
+  chipGroep($('themas'), Object.entries(DATA.themas).map(([k, n]) => [k, n, tel(k)]), keuze.themas, true, w => {
+    keuze.themas = keuze.themas.includes(w) ? keuze.themas.filter(x => x !== w) : [...keuze.themas, w]; tekenStart();
+  });
+  chipGroep($('soorten'), [['Tentamenvraag','Tentamenvragen'],['Wie ben ik?','Wie ben ik?'],['Vergelijk','Vergelijken']], keuze.soorten, true, w => {
+    keuze.soorten = keuze.soorten.includes(w) ? keuze.soorten.filter(x => x !== w) : [...keuze.soorten, w]; tekenStart();
+  });
+  const nz = zwakke().length;
+  chipGroep($('lengtes'), [[10,'10 vragen'],[15,'15 vragen'],[30,'30 vragen'],['zwak',`Zwakke plekken`, nz]], keuze.lengte, false, w => { keuze.lengte = w; tekenStart(); });
+  const n = keuze.lengte === 'zwak' ? nz : pool().length;
+  $('beschikbaar').textContent = keuze.lengte === 'zwak' ? `${nz} vragen die je eerder fout had` : `${n} vragen beschikbaar`;
+  $('go').disabled = n === 0;
+  $('zwak-info').textContent = nz ? '' : 'Zwakke plekken vult zich vanzelf met vragen die je fout beantwoordt.';
+  store.set('gzc3-keuze', keuze);
+}
+
+const shuffle = a => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+let ronde, idx, reeks, punten, antwoorden, beantwoord;
+
+function start(){
+  const bron = keuze.lengte === 'zwak' ? zwakke() : pool();
+  const n = keuze.lengte === 'zwak' ? bron.length : Math.min(keuze.lengte, bron.length);
+  ronde = shuffle(bron).slice(0, n).map(v => ({v, herkansing:false}));
+  idx = 0; reeks = 0; punten = 0; antwoorden = [];
+  $('start').hidden = true; $('eind').hidden = true; $('spel').hidden = false;
+  $('reeks').textContent = 0; $('punten').textContent = 0;
+  toon();
+}
+function toon(){
+  const {v, herkansing} = ronde[idx];
+  beantwoord = false;
+  $('balk').style.width = (idx / ronde.length * 100) + '%';
+  $('teller').textContent = `Vraag ${idx + 1} van ${ronde.length} · ${DATA.themas[v.thema]}`;
+  $('soort').textContent = herkansing ? 'Herkansing' : v.soort;
+  $('vraag').textContent = v.vraag;
+  $('uitleg').hidden = true; $('volgende').hidden = true; $('combo').textContent = '';
+  const box = $('opties'); box.innerHTML = '';
+  shuffle(v.opties.map((t, i) => ({t, goed: i === 0}))).forEach((o, i) => {
+    const b = document.createElement('button');
+    b.className = 'optie'; b.type = 'button'; b.dataset.goed = o.goed;
+    b.innerHTML = `<kbd>${i + 1}</kbd><span></span>`; b.lastChild.textContent = o.t;
+    b.onclick = () => kies(b);
+    box.appendChild(b);
+  });
+}
+function kies(b){
+  if (beantwoord) return; beantwoord = true;
+  const {v, herkansing} = ronde[idx];
+  const goed = b.dataset.goed === 'true';
+  [...$('opties').children].forEach(o => { o.disabled = true; if (o.dataset.goed === 'true') o.classList.add('goed'); });
+  if (goed) {
+    reeks++;
+    const mult = reeks >= 6 ? 3 : reeks >= 3 ? 2 : 1;
+    const p = (herkansing ? 5 : 10) * mult;
+    punten += p; xp += p;
+    $('combo').textContent = `+${p}${mult > 1 ? `  ·  ×${mult} combo` : ''}`;
+    if (fout[v.id]) { fout[v.id]--; if (!fout[v.id]) delete fout[v.id]; }
+  } else {
+    b.classList.add('fout'); reeks = 0;
+    fout[v.id] = (fout[v.id] || 0) + 1;
+    if (!herkansing) ronde.push({v, herkansing:true});
+    $('combo').textContent = herkansing ? '' : 'Deze vraag komt aan het eind terug.';
+  }
+  if (!herkansing) antwoorden.push({v, goed});
+  store.set('gzc3-xp', xp); store.set('gzc3-fout', fout);
+  const u = $('uitleg'); u.hidden = false;
+  u.innerHTML = `<strong></strong><span></span>`;
+  u.firstChild.textContent = goed ? 'Goed.' : `Het juiste antwoord: ${v.opties[0]}`;
+  u.lastChild.textContent = v.uitleg;
+  $('reeks').textContent = reeks; $('punten').textContent = punten;
+  const s = $('reeks').parentElement; s.classList.remove('pop'); void s.offsetWidth; if (goed) s.classList.add('pop');
+  toonStats();
+  $('volgende').hidden = false; $('volgende').focus();
+}
+function volgende(){ idx++; idx < ronde.length ? toon() : eind(); }
+function eind(){
+  $('spel').hidden = true; $('eind').hidden = false;
+  const g = antwoorden.filter(a => a.goed).length;
+  $('eindscore').textContent = punten;
+  $('eindtekst').textContent = `punten · ${g} van ${antwoorden.length} in één keer goed · niveau ${niveau()}`;
+  const per = {};
+  antwoorden.forEach(a => { const t = a.v.thema; per[t] = per[t] || [0, 0]; per[t][1]++; if (a.goed) per[t][0]++; });
+  $('perthema').innerHTML = '';
+  Object.entries(per).forEach(([t, [ok, n]]) => {
+    const d = document.createElement('div'); d.className = 'bar';
+    d.innerHTML = `<span></span><span class="track"><span style="width:${ok / n * 100}%"></span></span><span class="pct">${ok}/${n}</span>`;
+    d.firstChild.textContent = DATA.themas[t]; $('perthema').appendChild(d);
+  });
+  const fl = $('foutlijst'); fl.innerHTML = '';
+  const fouten = antwoorden.filter(a => !a.goed);
+  $('foutblok').hidden = !fouten.length;
+  fouten.forEach(({v}) => { const li = document.createElement('li'); li.innerHTML = '<b></b><span></span>'; li.firstChild.textContent = v.opties[0]; li.lastChild.textContent = v.uitleg; fl.appendChild(li); });
+}
+$('go').onclick = start;
+$('volgende').onclick = volgende;
+$('stop').onclick = () => { antwoorden.length ? eind() : ($('spel').hidden = true, $('start').hidden = false, tekenStart()); };
+$('opnieuw').onclick = () => { tekenStart(); start(); };
+$('terug').onclick = () => { $('eind').hidden = true; $('start').hidden = false; tekenStart(); };
+document.addEventListener('keydown', e => {
+  if ($('spel').hidden) return;
+  if (!beantwoord && /^[1-4]$/.test(e.key)) { const b = $('opties').children[+e.key - 1]; if (b) b.click(); }
+  else if (beantwoord && e.key === 'Enter' && document.activeElement !== $('volgende')) volgende();
+});
+toonStats(); tekenStart();
+</script>

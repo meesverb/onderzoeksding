@@ -220,3 +220,19 @@ Die stof komt uit eerdere blokken of valt buiten de leerdoelen.
 
 ---
 Gegenereerd met `anki-check/bouw_import.py` (alle beslissingen per kaart staan daar in).
+
+## Uitbreiding: speelsere kaarten (`GZC3_extra_import.txt`)
+
+Importeer dit bestand **na** `GZC3_check_import.txt`, op dezelfde manier (bestaande notities: Bijwerken). Verwacht: 253 nieuw, 25 bijgewerkt.
+
+| Tag | Aantal | Wat |
+|---|---|---|
+| `vorm::casus` | 66 | „Wie ben ik?”: een patiëntbeschrijving, jij noemt de diagnose |
+| `vorm::schema` | 68 | Zelfgetekende schema's (14 stuks) met één vak weggelaten |
+| `vorm::vergelijking` | 119 | Vergelijkingstabellen (14 stuks) met één cel weggelaten |
+| `vorm::ezelsbrug` | 25 | Bestaande kaarten met een geheugensteun op de achterkant |
+
+De schema's staan als SVG in de kaart zelf, dus ze werken ook offline. De losse bestanden staan in `anki-check/schemas/`.
+Let op: de ezelsbruggenkaarten worden volledig overschreven. Heb je die 25 kaarten zelf al aangepast, dan zijn die wijzigingen weg.
+
+De quiz staat in `anki-check/quiz/` (`index.html` is los te openen; wordt gebouwd door `bouw_extra.py`).
