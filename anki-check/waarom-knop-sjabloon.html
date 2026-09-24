@@ -1,0 +1,48 @@
+<!--
+  "Waarom?"-knop voor Anki op je telefoon (AnkiDroid / AnkiMobile) én desktop.
+  Plak alles hieronder ONDERAAN de achterkant-sjabloon van het notitietype "Basic":
+  Anki desktop → Bladeren → een kaart kiezen → Kaarten… → "Sjabloon achterkant" → onderaan plakken → Opslaan.
+  Het sjabloon synchroniseert daarna vanzelf naar je telefoon.
+  De knop kopieert vraag + antwoord als kant-en-klare prompt en opent Claude; daar plak je hem (lang drukken → Plakken).
+-->
+<div id="w-vraag" hidden>{{Front}}</div>
+<div id="w-antwoord" hidden>{{Back}}</div>
+<div id="w-tags" hidden>{{Tags}}</div>
+<div style="text-align:center;margin-top:22px">
+  <a id="w-knop" href="https://claude.ai/new" target="_blank"
+     style="display:inline-block;padding:9px 16px;border-radius:10px;border:1.5px solid #7a5bb5;color:#7a5bb5;text-decoration:none;font-size:15px;font-family:sans-serif">🤔 Waarom? Vraag Claude</a>
+  <div id="w-melding" style="font-size:13px;opacity:.75;margin-top:6px;font-family:sans-serif"></div>
+</div>
+<script>
+(function () {
+  var knop = document.getElementById('w-knop');
+  if (!knop) return;
+  function tekst(id) {
+    var el = document.getElementById(id);
+    if (!el) return '';
+    var kloon = el.cloneNode(true);
+    kloon.querySelectorAll('br').forEach(function (b) { b.replaceWith('\n'); });
+    kloon.querySelectorAll('td,th').forEach(function (c) { c.append(' | '); });
+    kloon.querySelectorAll('tr,div,p,li').forEach(function (r) { r.append('\n'); });
+    kloon.querySelectorAll('text').forEach(function (t) { t.append(' | '); });
+    return kloon.textContent.replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
+  }
+  function kopieer(s) {
+    try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(s).catch(oud); return; } } catch (e) {}
+    oud();
+    function oud() {
+      var t = document.createElement('textarea'); t.value = s; document.body.appendChild(t);
+      t.select(); try { document.execCommand('copy'); } catch (e) {} t.remove();
+    }
+  }
+  knop.addEventListener('click', function () {
+    var prompt = 'Ik leer voor het blok Gezonde en Zieke Cellen III (geneeskunde, bachelor jaar 3). '
+      + 'Hieronder staat een flashcard. Leg uit WAAROM het antwoord klopt: het onderliggende mechanisme of de redenering, '
+      + 'zodat ik het begrijp in plaats van stamp. Maximaal ongeveer 150 woorden, in het Nederlands. '
+      + 'Geef een ezelsbrug als er een goede bestaat, en zeg het als de kaart iets onjuists of verouderds bevat.'
+      + '\n\nVRAAG:\n' + tekst('w-vraag') + '\n\nANTWOORD:\n' + tekst('w-antwoord') + '\n\nTAGS: ' + tekst('w-tags');
+    kopieer(prompt);
+    document.getElementById('w-melding').textContent = 'Gekopieerd — plak het in Claude en verstuur.';
+  });
+})();
+</script>

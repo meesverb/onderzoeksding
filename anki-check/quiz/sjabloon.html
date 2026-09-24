@@ -72,6 +72,13 @@ button{font:inherit}
 .fouten li{border-left:3px solid var(--bad);padding:4px 0 4px 12px;font-size:.92rem}
 .fouten li b{display:block}
 .note{font-size:.85rem;color:var(--muted)}
+.waarom{display:flex;flex-direction:column;gap:10px;border-top:1px dashed var(--line);padding-top:14px}
+.waarom .antwoord{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:.95rem;overflow-wrap:anywhere}
+.waarom .antwoord p{margin:0 0 8px}.waarom .antwoord p:last-child{margin:0}
+.waarom .vraagje{font-size:.85rem;color:var(--muted);margin:0 0 4px}
+.waarom form{display:flex;gap:8px;flex-wrap:wrap}
+.waarom input{flex:1 1 220px;min-width:0;font:inherit;padding:10px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink)}
+.btn.klein{padding:8px 14px;font-size:.9rem}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 @keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.25)}100%{transform:scale(1)}}
 .pop{animation:pop .35s ease}
@@ -119,6 +126,11 @@ button{font:inherit}
     <div class="opties" id="opties"></div>
     <div class="combo" id="combo" aria-live="polite"></div>
     <div class="uitleg" id="uitleg" hidden></div>
+    <div class="waarom" id="waarom" hidden>
+      <div class="row"><button class="btn ghost klein" id="waarom-knop" type="button">🤔 Waarom? Vraag het Claude</button><button class="btn ghost klein" id="waarom-stop" type="button" hidden>Stop</button><span class="note" id="waarom-status" aria-live="polite"></span></div>
+      <div id="waarom-log"></div>
+      <form id="waarom-form"><input id="waarom-vraag" autocomplete="off" placeholder="Eigen vraag, bv. waarom is het MCV hier normaal?"><button class="btn klein" type="submit">Vraag</button></form>
+    </div>
     <div class="row"><button class="btn" id="volgende" hidden>Volgende ↵</button><button class="btn ghost" id="stop">Stoppen</button></div>
   </section>
 
@@ -203,6 +215,7 @@ function toon(){
   $('teller').textContent = `Vraag ${idx + 1} van ${ronde.length} · ${DATA.themas[v.thema]}`;
   $('soort').textContent = herkansing ? 'Herkansing' : v.soort;
   $('vraag').textContent = v.vraag;
+  resetWaarom();
   $('uitleg').hidden = true; $('volgende').hidden = true; $('combo').textContent = '';
   const box = $('opties'); box.innerHTML = '';
   shuffle(v.opties.map((t, i) => ({t, goed: i === 0}))).forEach((o, i) => {
@@ -240,6 +253,7 @@ function kies(b){
   $('reeks').textContent = reeks; $('punten').textContent = punten;
   const s = $('reeks').parentElement; s.classList.remove('pop'); void s.offsetWidth; if (goed) s.classList.add('pop');
   toonStats();
+  if (sample) $('waarom').hidden = false;
   $('volgende').hidden = false; $('volgende').focus();
 }
 function volgende(){ idx++; idx < ronde.length ? toon() : eind(); }
@@ -267,9 +281,53 @@ $('stop').onclick = () => { antwoorden.length ? eind() : ($('spel').hidden = tru
 $('opnieuw').onclick = () => { tekenStart(); start(); };
 $('terug').onclick = () => { $('eind').hidden = true; $('start').hidden = false; tekenStart(); };
 document.addEventListener('keydown', e => {
-  if ($('spel').hidden) return;
+  if ($('spel').hidden || e.target.tagName === 'INPUT') return;
   if (!beantwoord && /^[1-4]$/.test(e.key)) { const b = $('opties').children[+e.key - 1]; if (b) b.click(); }
   else if (beantwoord && e.key === 'Enter' && document.activeElement !== $('volgende')) volgende();
 });
+// ---- Waarom? (vraagt Claude via de sample-capability; verborgen als die niet beschikbaar is)
+let sample = null, beurten = [], ctl = null, bezig = false;
+(async () => { try { sample = (await window.claude?.use?.('sample')) ?? null; } catch { sample = null; } if (sample && beantwoord && !$('spel').hidden) $('waarom').hidden = false; })();
+function opmaak(tekst){
+  const e = tekst.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');
+  return e.split(/\n{2,}/).map(p => `<p>${p.replace(/\n/g,'<br>')}</p>`).join('');
+}
+function context(){
+  const {v} = ronde[idx];
+  const gekozen = [...$('opties').children].find(o => o.classList.contains('fout'));
+  return `Je bent een geduldige docent geneeskunde. Een student (bachelor jaar 3, blok Gezonde en Zieke Cellen III: hematologie, oncologie, public health, palliatieve zorg) oefent met deze meerkeuzevraag.\n\nVRAAG: ${v.vraag}\nOPTIES: ${v.opties.join(' | ')}\nJUIST ANTWOORD: ${v.opties[0]}\n${gekozen ? 'DE STUDENT KOOS: ' + gekozen.textContent.slice(1).trim() + '\n' : 'De student had het goed.\n'}UITLEG UIT HET DECK: ${v.uitleg}\n\nAntwoord in het Nederlands, kort (maximaal ongeveer 150 woorden), in gewone alinea's zonder kopjes. Leg het mechanisme uit (het waarom), zodat de student het begrijpt in plaats van stampt. Geef een ezelsbrug als er een goede bestaat. Zeg het eerlijk als de vraag of het antwoord onjuist of verouderd lijkt.`;
+}
+async function vraagClaude(vraag, eerste){
+  if (!sample || bezig) return;
+  if (eerste) beurten = [{role:'user', content: context() + '\n\nVRAAG VAN DE STUDENT: ' + vraag}];
+  else beurten.push({role:'user', content: vraag});
+  const blok = document.createElement('div'); blok.className = 'antwoord';
+  blok.innerHTML = '<p class="vraagje"></p><div></div>';
+  blok.firstChild.textContent = eerste ? 'Waarom?' : vraag;
+  const uit = blok.lastChild; uit.textContent = 'Claude denkt na…';
+  $('waarom-log').appendChild(blok);
+  bezig = true; ctl = new AbortController();
+  $('waarom-stop').hidden = false; $('waarom-knop').disabled = true; $('waarom-status').textContent = '';
+  try {
+    const {text} = await sample(beurten, {signal: ctl.signal, cache: eerste ? true : false, onText: ({text}) => { uit.innerHTML = opmaak(text); }});
+    uit.innerHTML = opmaak(text); beurten.push({role:'assistant', content: text});
+  } catch (e) {
+    uit.innerHTML = e.text ? opmaak(e.text) : ''; beurten.pop();
+    const c = e.code;
+    if (['not_granted','sampling_disabled','not_declared','capability_disabled','capability_removed'].includes(c)) { $('waarom').hidden = true; sample = null; }
+    else if (c === 'rate_limited') $('waarom-status').textContent = 'Even te veel vragen tegelijk of je gebruikslimiet is bereikt. Probeer het later opnieuw.';
+    else if (c === 'session_expired') $('waarom-status').textContent = 'Log opnieuw in bij Claude en probeer het nog eens.';
+    else if (c === 'refused') $('waarom-status').textContent = 'Claude wilde hier geen antwoord op geven. Stel de vraag anders.';
+    else if (c !== 'cancelled') $('waarom-status').textContent = 'Het antwoord kwam niet door. Probeer het opnieuw.';
+    if (!uit.innerHTML) blok.remove();
+  } finally {
+    bezig = false; $('waarom-stop').hidden = true; $('waarom-knop').disabled = false;
+  }
+}
+function resetWaarom(){ ctl?.abort(); beurten = []; $('waarom-log').innerHTML = ''; $('waarom-status').textContent = ''; $('waarom').hidden = true; $('waarom-vraag').value = ''; }
+$('waarom-knop').onclick = () => vraagClaude('Waarom is dit het juiste antwoord, en waarom kloppen de andere opties niet?', !beurten.length);
+$('waarom-stop').onclick = () => ctl?.abort();
+$('waarom-form').onsubmit = e => { e.preventDefault(); const q = $('waarom-vraag').value.trim(); if (!q) return; $('waarom-vraag').value = ''; vraagClaude(q, !beurten.length); };
+
 toonStats(); tekenStart();
 </script>
