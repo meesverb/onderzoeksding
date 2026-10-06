@@ -89,6 +89,7 @@ TREFWOORDEN = {
            ('HC17', r'schildkl|thyre|struma|calciton|men2|\bret\b|bethesda|nodus|papillair|medullair|anaplast|h.rthle'),
            ('HC16', r'patholog|histolog|dysplas|p16|e6|e7|marge|perineura|infiltrat|groeipatroon|arrosie|keratin|desmosom|plaveiselcelcarcinoom zien'),
            ('HC19', r'speeksel|parotis|pleiomorf|warthin|frey|nasofar|larynx|laryng|farynx|stemband|heesheid|glottis|supraglott|hypofar|sinonasa|paraganglio'),
+           ('HC14', r'risicofactor|symptom|diagnost|zwelling|\bdd\b|echo|punctie|scopie|otalgie|tnm|level|lymfeklierstation|draine|tweede (primaire )?tumor|field|incidentie|leukoplak|erytroplak|hpv|roken|alcohol|subsite|anatom'),
            ('HC15', r'behandel|radiother|bestral|halsklierdissectie|chemoradiat|cetuximab|fluor|laryngectomie|reconstruct')],
     'B1': [('PH8', r'uwv|verzekeringsarts|wia|iva|wga|ziektewet|risque|poortwachter'),
            ('PH7', r'bedrijfsarts|arbeid|werkgever|verzuim|beroepsziek|inzetbaar|belasting-belastbaar|biopsychosoc'),
@@ -151,7 +152,7 @@ def level_van(xp: int) -> tuple[int, str, int, int]:
 
 
 def thema_van(tags: list[str]) -> str | None:
-    for t in tags:
+    for t in sorted(tags, key=lambda t: not t.startswith('GZC3::B::')):  # B-tag wint als beide er zijn (bv. Lalonde)
         m = re.match(r'GZC3::[AB]::([TB]\d)', t)
         if m:
             return m.group(1)
