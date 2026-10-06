@@ -10,31 +10,40 @@
 4. **Add-ons installeren** (*Extra → Add-ons → Installeren uit bestand*): `gzc3_campagne.ankiaddon` en `vraag_claude_waarom.ankiaddon`. Herstart Anki.
 5. **FSRS aanzetten**: deckopties van *GZC III - Compleet* → FSRS aan, gewenste retentie 0,90.
 6. In het hoofdscherm, onder je decks, staat nu **Campagne GZC III**. Klik op:
-   - **„… opgeschorte kaarten vrijgeven en alles in campagnevolgorde zetten”** (eenmalig). Je had T2, T3, T4 en de ziektebeelden opgeschort; dat hoeft niet meer, de volgorde regelt het.
+   - **„▶ Campagne starten”** (eenmalig). Alle nieuwe kaarten komen op volgorde van de colleges, en de kaarten van colleges die je nog niet hebt gedaan, gaan op slot. Je eerdere opschorting per thema vervalt daarmee.
    - **„Zet vandaag N nieuwe kaarten klaar”** (elke dag opnieuw).
+7. Na elk college: **vink het af** in de campagne. Dan speel je de kaarten van dat college vrij (🔓) en krijg je +50 XP.
 
 ## Het plan
 
-De groep is vandaag aan thema 3 begonnen. Je doet T3 dus eerst, zodat je bij de werkcolleges meekunt, en haalt daarna T1 en T2 in.
+Twee sporen. **Hoofdspoor:** van het begin inhalen (T1 → T2), want T2 en de leukemie-casus van T3 bouwen op T1 voort. **Bijspoor:** de live colleges van de groep (nu T3), zodat je bij het werkcollege voorbereid bent.
 
-| Dagen | Thema | Colleges (slides doornemen) |
+| Dag | Hoofdspoor | Bijspoor (live) |
 |---|---|---|
-| di 6 – wo 7 okt | T3 Kind, AYA, geriatrie | HC 11 Kinderoncologie (vandaag gehad), e-module AYA, HC 12 AYA, HC 13 Geriatrie, HC AI |
-| do 8 – vr 9 | T1 Benigne hematologie (inhalen) | HC 1-2 Hemato-erytropoëse, HC 3 Anemie, HC 4 Stolling |
-| za 10 – di 13 | T2 Maligne hematologie (inhalen) | HC 5 t/m HC 10 |
-| wo 14 – vr 16 | T4 Hoofd-hals, schildklier, oog | HC 14 t/m HC 19, bijlage radiotherapie |
-| za 17 – zo 18 | B1 Public health | 8 colleges |
-| ma 19 | B2 Revalidatie, psychosociaal | HC 28, HC 29, 2 bijlagen |
-| di 20 | B3 Pijn en palliatief | HC 30, HC 31 |
-| wo 21 – do 22 | Inhaaldagen | wat nog openstaat |
-| vr 23 – wo 28 | Eindbaas | elke dag 1 oud tentamen + herhalen + quiz |
+| di 6 okt | HC 1-2 Hemato-erytropoëse | HC 11 Kinderoncologie |
+| wo 7 | HC 3 Anemie, HC 5 Intro hematologische maligniteiten (kapstok) | |
+| do 8 | HC 4 Stolling | E-module AYA |
+| vr 9 | HC 6 MPN en CML | HC 12 AYA |
+| za 10 | HC 7 Lymfoom en CLL | |
+| zo 11 | HC 8 Myeloom | HC 13 Geriatrie |
+| ma 12 | HC 9 AML en MDS | HC AI |
+| di 13 | HC 10 Pathologie maligne hematologie | |
+| wo 14 – vr 16 | T4: HC 14 t/m 19, bijlage radiotherapie | |
+| za 17 – zo 18 | B1 Public health (8 colleges) | |
+| ma 19 | B2: HC 28, HC 29, 2 bijlagen | |
+| di 20 | B3: HC 30, HC 31 | |
+| wo 21 – do 22 | Inhalen | |
+| vr 23 – wo 28 | Eindbaas: elke dag 1 oud tentamen + herhalen + quiz | |
 | **do 29 okt** | **Tentamen** | |
+
+Volgt de groep een andere volgorde? Stuur het rooster, dan schuif ik het bijspoor mee.
 
 Elke dag: ±50 nieuwe kaarten (de campagne rekent het precies uit) plus je herhalingen. Reken op 1 à 1,5 uur Anki en 1,5 à 2 uur colleges per dag.
 Volgt de groep een andere volgorde dan dit plan? Stuur het rooster, dan pas ik de data aan.
 
 ## Hoe de campagne werkt
 
+- **Slot per college:** de kaarten zijn voorlopig op trefwoord aan colleges gekoppeld. Zodra je de slides aanlevert, koppel ik ze precies (tag `college::HC3`). Loop je vast, dan zet je het slot uit onder „Alle colleges”.
 - **Dagquest:** Brons = alle herhalingen weg; Zilver = je nieuwe kaarten van vandaag; Goud = de colleges van vandaag én je achterstand afgevinkt. In de laatste week: Zilver = 150 herhalingen, Goud = het oude tentamen van die dag.
 - **XP en levels:** 1 XP per fout antwoord, 2 per goed antwoord, +3 voor elke nieuwe kaart, +50 per college, +75 per e-module, bijlage of oud tentamen. Vijftien levels, van Nieuweling tot Tentamenbeest.
 - **Reeks:** elke dag met minstens 30 herhalingen houdt je reeks in leven.

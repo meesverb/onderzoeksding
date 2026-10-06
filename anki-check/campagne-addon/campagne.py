@@ -58,11 +58,10 @@ EXTRA = {  # overige toetsstof en oude tentamens
     'OT5': (None, 'Oud tentamen: oefentoets 8 mei 2019'),
     'OT6': (None, 'Oud tentamen: tentamen 10 mei'),
 }
-PLAN = [  # (datum, thema van de dag, colleges en extra's). T3 eerst: daar zit de groep nu; dan T1/T2 inhalen.
-    ('2026-10-06', 'T3', ['HC11', 'AYA']), ('2026-10-07', 'T3', ['HC12', 'HC13', 'HCAI']),
-    ('2026-10-08', 'T1', ['HC1', 'HC2']), ('2026-10-09', 'T1', ['HC3', 'HC4']),
-    ('2026-10-10', 'T2', ['HC5']), ('2026-10-11', 'T2', ['HC6', 'HC7']), ('2026-10-12', 'T2', ['HC8', 'HC9']),
-    ('2026-10-13', 'T2', ['HC10']),
+PLAN = [  # (datum, hoofdspoor-thema, items). Hoofdspoor: T1 → T2 inhalen. Bijspoor: live colleges van de groep (T3).
+    ('2026-10-06', 'T1', ['HC1', 'HC2', 'HC11']), ('2026-10-07', 'T1', ['HC3', 'HC5']), ('2026-10-08', 'T1', ['HC4', 'AYA']),
+    ('2026-10-09', 'T2', ['HC6', 'HC12']), ('2026-10-10', 'T2', ['HC7']), ('2026-10-11', 'T2', ['HC8', 'HC13']),
+    ('2026-10-12', 'T2', ['HC9', 'HCAI']), ('2026-10-13', 'T2', ['HC10']),
     ('2026-10-14', 'T4', ['HC14', 'HC15']), ('2026-10-15', 'T4', ['HC16', 'HC17', 'RT']), ('2026-10-16', 'T4', ['HC18', 'HC19']),
     ('2026-10-17', 'B1', ['PH1', 'PH2', 'PH3', 'PH4']), ('2026-10-18', 'B1', ['PH5', 'PH6', 'PH7', 'PH8']),
     ('2026-10-19', 'B2', ['HC28', 'HC29', 'JP', 'HW']), ('2026-10-20', 'B3', ['HC30', 'HC31']),
@@ -70,7 +69,66 @@ PLAN = [  # (datum, thema van de dag, colleges en extra's). T3 eerst: daar zit d
     ('2026-10-23', None, ['OT1']), ('2026-10-24', None, ['OT2']), ('2026-10-25', None, ['OT3']),
     ('2026-10-26', None, ['OT4']), ('2026-10-27', None, ['OT5']), ('2026-10-28', None, ['OT6']),
 ]
-CAMPAGNE_VOLGORDE = ['T3', 'T1', 'T2', 'T4', 'B1', 'B2', 'B3']  # volgorde van nieuwe kaarten
+CAMPAGNE_VOLGORDE = ['T1', 'T2', 'T3', 'T4', 'B1', 'B2', 'B3']  # volgorde van de eindbazen
+COLLEGE_VOLGORDE = [k for _, _, items in PLAN for k in items if k in COLLEGES]  # volgorde van nieuwe kaarten
+
+# Welke kaart hoort bij welk college. Een tag college::HC3 op de notitie wint altijd; anders deze trefwoorden
+# (eerste treffer telt), anders het eerste college van het thema. Wordt nauwkeuriger zodra de slides er zijn.
+TREFWOORDEN = {
+    'T1': [('HC4', r'stoll|hemofil|willebrand|trombocyt|trombo|plaatj|hemosta|aptt|\bpt\b|inr|fibrin|antistol|heparine|vka|doac|dis\b|itp|ttp|glanzmann|soulier|virchow|factor (v|x|ix|xi|xii|xiii|vii)'),
+           ('HC3', r'anemie|anaemie|thalass|sikkel|hemoly|b12|folium|mcv|mchc|ferritin|sferocyt|g6pd|aplast|hemoglobinopath|retic|coombs|antiglobuline|hemochromat|brissot'),
+           ('HC2', r'erytro|erythro|\bepo\b|ijzer|hepcidin|ferroport|transferr|\bhif\b|zuurstof|2,3-dpg|erythroferron|reticulocyt')],
+    'T2': [('HC8', r'myeloom|mgus|waldenstr|amylo|m-prote|m-comp|plasmac|bence|crab|lichte keten|immunoglobul|hypercalc|smoulder'),
+           ('HC9', r'\baml\b|\bmds\b|myelodysplas|acute (myelo|leuk)|\ball\b|leukostase|7\+3|auer|blast|promyelo|apl\b|tumorlysis|febriele|neutropen|flt3|npm1|azacitidine|venetoclax'),
+           ('HC6', r'\bcml\b|polycyt|\bpv\b|\bet\b|trombocytose|myelofibrose|mpn|jak2|bcr-abl|philadelphia|imatinib|tki|calr|ruxolitinib'),
+           ('HC10', r'reed-sternberg|lacunaire|popcorn|lymfo-epitheliale|starry|epidermotrop|histolog|morfolog'),
+           ('HC7', r'lymfoom|hodgkin|\bcll\b|burkitt|malt|mantel|hairy|mycosis|s.zary|richter|folliculair|dlbcl|grootcellig|\bipi\b|flipi|ann arbor|lymfocytose|lymfadenopath|t-cel')],
+    'T3': [('HC12', r'\baya|jongvolwassen|adolescent|fertiliteit'),
+           ('HC13', r'geriatr|ouderen|oudere|cga|\bg8\b|kwetsba|karnofsky')],
+    'T4': [('HC18', r'oog|retinoblast|uvea|choro|orbita|ooglid|traanklier|leukocorie|salmon|chalazion'),
+           ('HC17', r'schildkl|thyre|struma|calciton|men2|\bret\b|bethesda|nodus|papillair|medullair|anaplast|h.rthle'),
+           ('HC16', r'patholog|histolog|dysplas|p16|e6|e7|marge|perineura|infiltrat|groeipatroon|arrosie|keratin|desmosom|plaveiselcelcarcinoom zien'),
+           ('HC19', r'speeksel|parotis|pleiomorf|warthin|frey|nasofar|larynx|laryng|farynx|stemband|heesheid|glottis|supraglott|hypofar|sinonasa|paraganglio'),
+           ('HC15', r'behandel|radiother|bestral|halsklierdissectie|chemoradiat|cetuximab|fluor|laryngectomie|reconstruct')],
+    'B1': [('PH8', r'uwv|verzekeringsarts|wia|iva|wga|ziektewet|risque|poortwachter'),
+           ('PH7', r'bedrijfsarts|arbeid|werkgever|verzuim|beroepsziek|inzetbaar|belasting-belastbaar|biopsychosoc'),
+           ('PH6', r'migra|etnic|cultu|diversit|healthy migrant|salmon effect|convergentie|niet-weten|tolk'),
+           ('PH5', r'huisarts|poortwachter|voorafkans|chronische aard|vermijdbaar'),
+           ('PH2', r'bevolkingsonderzoek|screening|sensitiv|specific|voorspellende|overdiagnost|lead time|wilson|wbo'),
+           ('PH4', r'verzekeraar|naturapolis|restitutie|eigen risico|eigen bijdrage|dbc|dot\b'),
+           ('PH3', r'zvw|wlz|wmo|wpg|jeugdwet|wgbo|wkkgz|wet big|financier|echelon|evidence|zorginstituut')],
+    'B2': [('HC29', r'coping|psychosoc|existenti|trauma|distress|lastmeter|depress|angst|empathie|2legs|positieve gezondheid|naasten|mantelzorg|levensfase')],
+    'B3': [('HC31', r'pijn|opio|morfine|ladder|neuropath|nocicept|chordotom|plexus|zadelblok|intrathec|allodyn|nmda|doorbraak|loeser|unmasking')],
+}
+EERSTE_COLLEGE = {'T1': 'HC1', 'T2': 'HC5', 'T3': 'HC11', 'T4': 'HC14', 'B1': 'PH1', 'B2': 'HC28', 'B3': 'HC30'}
+ZIEKTE_COLLEGE = {'anemie': 'HC3', 'ALL': 'HC9', 'AML': 'HC9', 'MDS': 'HC9', 'CML': 'HC6', 'PV': 'HC6', 'ET': 'HC6',
+                  'myelofibrose': 'HC6', 'multipel-myeloom': 'HC8', 'MGUS': 'HC8', 'AL-amyloidose': 'HC8', 'waldenstrom': 'HC8'}
+
+
+def college_van(tags: list[str], tekst: str) -> str | None:
+    for t in tags:
+        if t.startswith('college::') and t[9:] in COLLEGES:
+            return t[9:]
+    th = thema_van(tags)
+    if not th:
+        return None
+    for t in tags:
+        if t.startswith('GZC3::ZIEKTE::'):
+            z = t.split('::')[2]
+            if z in ZIEKTE_COLLEGE:
+                return ZIEKTE_COLLEGE[z]
+    tekst = tekst.lower()
+    for col_id, patroon in TREFWOORDEN.get(th, []):
+        if re.search(patroon, tekst):
+            return col_id
+    return EERSTE_COLLEGE[th]
+
+
+def platte_tekst(flds: str) -> str:
+    flds = re.sub(r'<svg.*?</svg>', ' ', flds, flags=re.S)
+    return html.unescape(re.sub(r'<[^>]+>', ' ', flds.replace('\x1f', ' ')))
+
+
 TITELS = ['Nieuweling', 'Pipetteur', 'Uitstrijkjesmaker', 'Bloedbeeldlezer', 'Stollingsdetective',
           'IJzerjager', 'Lymfoomspeurder', 'Myeloomtemmer', 'Blastenbestrijder', 'Kinderoncoloog i.o.',
           'Halsklierkenner', 'Schildklierfluisteraar', 'Poortwachter', 'Palliatief expert', 'Tentamenbeest']
@@ -123,12 +181,20 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
     examen = dt.date.fromisoformat(cfg['examen'])
     deadline = dt.date.fromisoformat(cfg['leerdeadline'])
 
-    kaarten = col.db.all(f'select c.id, n.tags, c.queue, c.ivl, c.type from cards c join notes n on c.nid = n.id '
+    kaarten = col.db.all(f'select c.id, n.tags, c.queue, c.ivl, c.type, n.flds from cards c join notes n on c.nid = n.id '
                          f'where (c.did in ({ids}) or c.odid in ({ids}))')
     per = {k: Counter() for k in THEMAS}
     totaal = Counter()
-    for cid, tags, queue, ivl, ctype in kaarten:
+    per_college = defaultdict(Counter)
+    for cid, tags, queue, ivl, ctype, flds in kaarten:
         th = thema_van(tags.split())
+        if ctype == 0:
+            cl = college_van(tags.split(), platte_tekst(flds))
+            if cl:
+                per_college[cl]['nieuw'] += 1
+                per_college[cl]['open'] += queue != -1
+        if ctype == 0 and queue != -1:
+            totaal['beschikbaar'] += 1
         rij = [totaal] + ([per[th]] if th else [])
         for c in rij:
             c['n'] += 1
@@ -147,7 +213,7 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
     xp_kaarten, eerste = 0, {}
     per_dag, goed_dag, nieuw_dag = Counter(), Counter(), Counter()
     uren = set()
-    thema_van_cid = {cid: thema_van(tags.split()) for cid, tags, *_ in kaarten}
+    thema_van_cid = {k[0]: thema_van(k[1].split()) for k in kaarten}
     ret = defaultdict(lambda: [0, 0])
     for rid, cid, ease, rtype in log:
         d = dag(rid)
@@ -191,7 +257,8 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
     if fase == 1:
         quests = [
             ('Brons', 'Alle herhalingen van vandaag weg', due == 0, f'nog {due}' if due else 'klaar'),
-            ('Zilver', f'{doel_nieuw} nieuwe kaarten', nieuw_vandaag >= doel_nieuw, f'{nieuw_vandaag}/{doel_nieuw}'),
+            ('Zilver', f'{doel_nieuw} nieuwe kaarten', nieuw_vandaag >= doel_nieuw,
+             f'{nieuw_vandaag}/{doel_nieuw}' + (' · 🔒 kijk een college' if staat.get('slot') and totaal['beschikbaar'] < doel_nieuw - nieuw_vandaag else '')),
             ('Goud', 'Colleges van vandaag en achterstand afgevinkt',
              not achterstand and all(k in afgevinkt for k in items_vandaag),
              f'{sum(k in afgevinkt for k in items_vandaag)}/{len(items_vandaag)}' + (f' · {len(achterstand)} achter' if achterstand else '')),
@@ -242,7 +309,7 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
                 drempel=drempel, quests=quests, herhalingen_vandaag=per_dag[0], nieuw_vandaag=nieuw_vandaag, doel_nieuw=doel_nieuw,
                 due=due, totaal=totaal, bazen=bazen, badges=badges, tempo=tempo, klaar_op=klaar_op,
                 plan_vandaag=plan_vandaag, achterstand=achterstand, afgevinkt=afgevinkt,
-                volgorde=staat.get('volgorde'), limiet_vandaag=staat.get('limiet') == vandaag.isoformat())
+                volgorde=staat.get('volgorde'), slot=staat.get('slot', False), per_college=per_college, limiet_vandaag=staat.get('limiet') == vandaag.isoformat())
 
 
 def snel(col, cfg: dict, staat: dict) -> dict:
@@ -253,28 +320,53 @@ def snel(col, cfg: dict, staat: dict) -> dict:
 
 
 # ------------------------------------------------------------------ acties
-def campagnevolgorde(col, cfg: dict) -> int:
-    """Geeft opgeschorte kaarten vrij en zet alle nieuwe kaarten in de volgorde van de campagne:
-    per thema (CAMPAGNE_VOLGORDE), binnen een thema de gewone kaarten vóór casus/schema/tabel."""
-    dids = deck_ids(col, cfg['deck'])
-    ids = ','.join(map(str, dids))
-    opgeschort = col.db.list(f'select id from cards where (did in ({ids}) or odid in ({ids})) and queue = -1')
-    if opgeschort:
-        col.sched.unsuspend_cards(opgeschort)
-    rijen = col.db.all(f'select c.id, n.tags, c.due from cards c join notes n on c.nid = n.id '
-                       f'where (c.did in ({ids}) or c.odid in ({ids})) and c.type = 0 and c.queue != -1')
-    volgorde = CAMPAGNE_VOLGORDE
+def _nieuwe_kaarten(col, cfg):
+    ids = ','.join(map(str, deck_ids(col, cfg['deck'])))
+    return col.db.all(f'select c.id, n.tags, n.flds, c.due, c.queue from cards c join notes n on c.nid = n.id '
+                      f'where (c.did in ({ids}) or c.odid in ({ids})) and c.type = 0')
+
+
+def campagne_starten(col, cfg: dict, afgevinkt: dict) -> int:
+    """Zet alle nieuwe kaarten op volgorde van de colleges in het plan (basiskaarten vóór casus/schema/tabel)
+    en vergrendelt de kaarten van colleges die je nog niet hebt afgevinkt."""
+    rijen = _nieuwe_kaarten(col, cfg)
 
     def sleutel(r):
         tags = r[1].split()
-        th = thema_van(tags)
+        cl = college_van(tags, platte_tekst(r[2]))
         extra = any(t.startswith('vorm::') and t != 'vorm::ezelsbrug' for t in tags)
-        return (volgorde.index(th) if th in volgorde else len(volgorde), extra, r[2])
+        return (COLLEGE_VOLGORDE.index(cl) if cl in COLLEGE_VOLGORDE else len(COLLEGE_VOLGORDE), extra, r[3])
 
     cids = [r[0] for r in sorted(rijen, key=sleutel)]
     if cids:
         col.sched.reposition_new_cards(cids, starting_from=0, step_size=1, randomize=False, shift_existing=False)
+    vergrendel(col, cfg, afgevinkt)
     return len(cids)
+
+
+def vergrendel(col, cfg: dict, afgevinkt: dict) -> int:
+    """Nieuwe kaarten van niet-afgevinkte colleges opschorten, die van afgevinkte vrijgeven.
+    Kaarten die je al geleerd hebt, worden nooit aangeraakt. Geeft het aantal vrijgespeelde kaarten terug."""
+    dicht, open_ = [], []
+    for cid, tags, flds, _due, queue in _nieuwe_kaarten(col, cfg):
+        cl = college_van(tags.split(), platte_tekst(flds))
+        moet_dicht = cl is not None and cl not in afgevinkt
+        if moet_dicht and queue != -1:
+            dicht.append(cid)
+        elif not moet_dicht and queue == -1:
+            open_.append(cid)
+    if dicht:
+        col.sched.suspend_cards(dicht)
+    if open_:
+        col.sched.unsuspend_cards(open_)
+    return len(open_)
+
+
+def alles_vrijgeven(col, cfg: dict) -> int:
+    ids = [r[0] for r in _nieuwe_kaarten(col, cfg) if r[4] == -1]
+    if ids:
+        col.sched.unsuspend_cards(ids)
+    return len(ids)
 
 
 def zet_limiet(col, cfg: dict, n: int) -> None:
@@ -345,10 +437,13 @@ def _e(s) -> str:
     return html.escape(str(s))
 
 
-def _vink(key: str, tekst: str, af: bool, xp: int) -> str:
+def _vink(key: str, tekst: str, af: bool, xp: int, kaarten: Counter | None = None, slot: bool = False) -> str:
+    extra = ''
+    if kaarten and kaarten['nieuw']:
+        extra = (f' · 🔓 {kaarten["nieuw"]} kaarten' if af or not slot else f' · 🔒 {kaarten["nieuw"]} kaarten')
     return (f'<label class="vink{" gedaan" if af else ""}"><input type="checkbox" {"checked" if af else ""} '
             f'onclick="pycmd(\'gzc3:vink:{key}\');return false;"><span>{_e(tekst)} '
-            f'<span class="klein">+{xp} XP</span></span></label>')
+            f'<span class="klein">+{xp} XP{extra}</span></span></label>')
 
 
 def weergave(s: dict) -> str:
@@ -370,10 +465,10 @@ def weergave(s: dict) -> str:
     if th_vandaag:
         naam, baas, icoon = THEMAS[th_vandaag]
         vandaag_html = f'<div class="sub">Vandaag in de campagne: {icoon} <b>{_e(naam)}</b> — versla {_e(baas)}</div>'
-    lijst = ''.join(_vink(k, (COLLEGES.get(k) or EXTRA[k])[1], k in s['afgevinkt'], XP_COLLEGE if k in COLLEGES else XP_EXTRA) for k in items)
+    lijst = ''.join(_vink(k, (COLLEGES.get(k) or EXTRA[k])[1], k in s['afgevinkt'], XP_COLLEGE if k in COLLEGES else XP_EXTRA, s['per_college'].get(k), s['slot']) for k in items)
     if s['achterstand']:
         lijst += '<div class="label" style="margin-top:8px">Inhalen</div>' + ''.join(
-            _vink(k, (COLLEGES.get(k) or EXTRA[k])[1], False, XP_COLLEGE if k in COLLEGES else XP_EXTRA) for k in s['achterstand'][:6])
+            _vink(k, (COLLEGES.get(k) or EXTRA[k])[1], False, XP_COLLEGE if k in COLLEGES else XP_EXTRA, s['per_college'].get(k), s['slot']) for k in s['achterstand'][:6])
         if len(s['achterstand']) > 6:
             lijst += f'<div class="klein">en nog {len(s["achterstand"]) - 6} — zie alle colleges hieronder</div>'
     if not lijst:
@@ -382,11 +477,8 @@ def weergave(s: dict) -> str:
     knoppen = []
     if s['fase'] == 1 and s['doel_nieuw'] and not s['limiet_vandaag']:
         knoppen.append(f'<button onclick="pycmd(\'gzc3:limiet\')">Zet vandaag {s["doel_nieuw"]} nieuwe kaarten klaar</button>')
-    if s['totaal']['opgeschort'] or (not s['volgorde'] and s['totaal']['nieuw']):
-        tekst = (f'{s["totaal"]["opgeschort"]} opgeschorte kaarten vrijgeven en alles in campagnevolgorde zetten'
-                 if s['totaal']['opgeschort'] else 'Nieuwe kaarten in campagnevolgorde zetten')
-        knoppen.append(f'<button class="licht" onclick="pycmd(\'gzc3:volgorde\')">{tekst}</button>')
-
+    if not s['slot']:
+        knoppen.append('<button class="licht" onclick="pycmd(\'gzc3:start\')">▶ Campagne starten: kaarten vrijspelen per college</button>')
     t = s['totaal']
     if s['fase'] == 1 and t['nieuw'] and not s['tempo']:
         prognose = (f'<span class="chip nok">start</span> Nog {t["nieuw"]} kaarten te gaan in {(s["deadline"] - s["vandaag"]).days + 1} dagen: '
@@ -420,10 +512,12 @@ def weergave(s: dict) -> str:
         naam = THEMAS[k][0]
         rij = [(c, v[1]) for c, v in {**COLLEGES, **EXTRA}.items() if v[0] == k]
         groepen += f'<div class="groep"><b>{k} · {_e(naam)}</b>' + ''.join(
-            _vink(c, tekst, c in s['afgevinkt'], XP_COLLEGE if c in COLLEGES else XP_EXTRA) for c, tekst in rij) + '</div>'
+            _vink(c, tekst, c in s['afgevinkt'], XP_COLLEGE if c in COLLEGES else XP_EXTRA, s['per_college'].get(c), s['slot']) for c, tekst in rij) + '</div>'
     groepen += '<div class="groep"><b>Oude tentamens</b>' + ''.join(
         _vink(c, v[1], c in s['afgevinkt'], XP_EXTRA) for c, v in EXTRA.items() if v[0] is None) + '</div>'
     n_col = sum(1 for k in COLLEGES if k in s['afgevinkt'])
+    vrij_knop = ('<div class="knoppen"><button class="licht" onclick="pycmd(\'gzc3:vrij\')">Slot uitzetten: alle kaarten vrijgeven</button></div>'
+                 if s['slot'] else '')
 
     return f"""<style>{CSS}</style><div id="gzc3">
 <div class="kop"><div><h2>Campagne GZC III</h2><div class="sub">{_e(fase)}</div>{vandaag_html}</div><div class="aftel">{aftel}</div></div>
@@ -434,11 +528,12 @@ def weergave(s: dict) -> str:
  <div class="blok"><div class="label">Dagquest</div>{quests}
   <div class="klein" style="margin-top:4px">Vandaag {s['herhalingen_vandaag']} herhalingen, {s['nieuw_vandaag']} nieuw</div></div>
 </div>
-<div class="blok" style="margin-top:12px"><div class="label">Vandaag op het programma</div>{lijst}
+<div class="blok" style="margin-top:12px"><div class="label">Vandaag op het programma{' · vink een college af om de kaarten vrij te spelen' if s['slot'] else ''}</div>{lijst}
  <div class="knoppen">{''.join(knoppen)}</div></div>
 <div style="margin-top:12px" class="sub">{prognose}</div>
 <div class="label" style="margin-top:14px">Eindbazen · gezien {t['gezien']}/{t['n']} · verankerd {t['verankerd']} (interval ≥ {VERANKERD_IVL} dagen)</div>
 <div class="bazen">{bazen}</div>
 <div class="label" style="margin-top:14px">Badges · {behaald}/{len(s['badges'])}</div><div class="badges">{badges}</div>
-<details><summary>Alle colleges en extra's ({n_col}/{len(COLLEGES)} colleges)</summary>{groepen}</details>
+<details><summary>Alle colleges en extra's ({n_col}/{len(COLLEGES)} colleges)</summary>{groepen}
+{vrij_knop}</details>
 </div>"""

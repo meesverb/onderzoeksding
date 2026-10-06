@@ -49,28 +49,41 @@ def bericht(handled, message, context):
     if actie == 'vink':
         af = dict(st.get('afgevinkt', {}))
         key = rest[0]
-        if key in af:
-            del af[key]
-        else:
+        aan = key not in af
+        if aan:
             af[key] = campagne.dt.date.today().isoformat()
-            tooltip(f'+{campagne.XP_COLLEGE if key in campagne.COLLEGES else campagne.XP_EXTRA} XP')
+        else:
+            del af[key]
         st['afgevinkt'] = af
         bewaar(st)
+        melding = f'+{campagne.XP_COLLEGE if key in campagne.COLLEGES else campagne.XP_EXTRA} XP' if aan else ''
+        if st.get('slot'):
+            n = campagne.vergrendel(mw.col, cfg(), af)
+            if n:
+                melding += f'<br>🔓 {n} kaarten vrijgespeeld!'
+        if melding:
+            tooltip(melding, period=3000)
     elif actie == 'limiet':
         s = campagne.bereken(mw.col, cfg(), st)
         campagne.zet_limiet(mw.col, cfg(), s['doel_nieuw'])
         st['limiet'] = s['vandaag'].isoformat()
         bewaar(st)
         tooltip(f'Vandaag staan er {s["doel_nieuw"]} nieuwe kaarten voor je klaar.')
-    elif actie == 'volgorde':
-        if askUser('Alle opgeschorte GZC III-kaarten vrijgeven en alle nieuwe kaarten op volgorde van de campagne zetten?\n\n'
-                   'Opschorten per thema is dan niet meer nodig: de volgorde zorgt dat je elk thema op het juiste moment krijgt.\n\n'
-                   'Per thema in de volgorde van het plan (T3 → T1 → T2 → T4 → B1 → B2 → B3), en binnen een thema eerst de gewone kaarten, '
-                   'daarna de casus-, schema- en tabelkaarten. Kaarten die je al geleerd hebt, veranderen niet.'):
-            n = campagne.campagnevolgorde(mw.col, cfg())
+    elif actie == 'start':
+        if askUser('Campagne starten?\n\n'
+                   'Alle nieuwe GZC III-kaarten komen op volgorde van de colleges in het plan. Kaarten van colleges die je '
+                   'nog niet hebt afgevinkt, gaan op slot (opgeschort). Vink je een college af, dan speel je die kaarten vrij.\n\n'
+                   'Kaarten die je al geleerd hebt, veranderen niet. Je kunt het slot altijd weer uitzetten onder "Alle colleges".'):
+            st['slot'] = True
+            n = campagne.campagne_starten(mw.col, cfg(), st.get('afgevinkt', {}))
             st['volgorde'] = campagne.dt.date.today().isoformat()
             bewaar(st)
-            tooltip(f'{n} nieuwe kaarten op campagnevolgorde gezet.')
+            tooltip(f'Campagne gestart: {n} nieuwe kaarten op volgorde gezet.')
+    elif actie == 'vrij':
+        st['slot'] = False
+        bewaar(st)
+        n = campagne.alles_vrijgeven(mw.col, cfg())
+        tooltip(f'Slot uit: {n} kaarten vrijgegeven.')
     mw.deckBrowser.refresh()
     return (True, None)
 
