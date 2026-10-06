@@ -2854,6 +2854,331 @@
     "Foliumzuur hoort bij de behandeling"
    ],
    "uitleg": "Sikkelcelziekte is kwalitatief: MCV normaal."
+  },
+  {
+   "id": "kHC10",
+   "thema": "T1",
+   "soort": "Controlevraag HC 1",
+   "vraag": "Wat onderscheidt een long-term van een short-term hematopoëtische stamcel?",
+   "opties": [
+    "De LT-HSC kan zichzelf levenslang vernieuwen; de ST-HSC maar beperkt",
+    "De LT-HSC deelt continu; de ST-HSC is slapend",
+    "De LT-HSC circuleert in het bloed; de ST-HSC zit in het beenmerg",
+    "De LT-HSC is al toegewijd aan één cellijn"
+   ],
+   "uitleg": "LT-HSC staan aan de top, slapen meestal en houden de stamcelpool levenslang in stand. ST-HSC leveren de productie op korte termijn."
+  },
+  {
+   "id": "kHC11",
+   "thema": "T1",
+   "soort": "Controlevraag HC 1",
+   "vraag": "Wat levert een asymmetrische deling van een stamcel op?",
+   "opties": [
+    "Eén stamcel en één voorlopercel",
+    "Twee stamcellen",
+    "Twee voorlopercellen",
+    "Een stamcel en een rijpe bloedcel"
+   ],
+   "uitleg": "Zo blijft de pool even groot terwijl er toch aanmaak is. Een symmetrische deling vergroot of verkleint de pool."
+  },
+  {
+   "id": "kHC12",
+   "thema": "T1",
+   "soort": "Controlevraag HC 1",
+   "vraag": "Een jongen van 11 heeft Hb 3,0, trombocyten 26 en leukocyten 1,2. Er zijn geen blasten en de infectiediagnostiek is negatief. Welk onderzoek laat het best zien of het merg leeg is?",
+   "opties": [
+    "Beenmergbiopt (cellulariteit)",
+    "Beenmergaspiraat",
+    "Flowcytometrie van het bloed",
+    "Reticulocytengetal"
+   ],
+   "uitleg": "Alleen het biopt laat de architectuur en cellulariteit zien. Hier was het hypoplastisch: (verworven) aplastische anemie."
+  },
+  {
+   "id": "kHC13",
+   "thema": "T1",
+   "soort": "Controlevraag HC 1",
+   "vraag": "Een meisje van 14 maanden heeft cellulitis, vaak otitis, spruw en een navelstomp die lang niet droog werd. Neutrofielen <0,5 × 10⁹/l. In welk gen verwacht je een mutatie?",
+   "opties": [
+    "ELANE",
+    "RUNX1",
+    "JAK2",
+    "HFE"
+   ],
+   "uitleg": "Ernstige congenitale neutropenie: ELANE codeert neutrofielen-elastase."
+  },
+  {
+   "id": "kHC14",
+   "thema": "T1",
+   "soort": "Controlevraag HC 1",
+   "vraag": "Waarom is een familiaire RUNX1-mutatie meer dan alleen een trombopenie?",
+   "opties": [
+    "Het is een erfelijk stamceldefect met een verhoogd risico op MDS en AML na extra mutaties",
+    "Het geeft op termijn altijd ook hemofilie",
+    "Het gaat vanzelf over na de puberteit",
+    "Het veroorzaakt ijzerstapeling"
+   ],
+   "uitleg": "RUNX1 is een transcriptiefactor. Een kiembaanmutatie geeft een kwaliteitsstoornis (dysplasie). Een second en third hit geven dan MDS of AML."
+  },
+  {
+   "id": "kHC20",
+   "thema": "T1",
+   "soort": "Controlevraag HC 2",
+   "vraag": "Welk hormoon reguleert de ijzerhuishouding, en hoe?",
+   "opties": [
+    "Hepcidine: het blokkeert ferroportine, waardoor de opname daalt en macrofagen minder ijzer afgeven",
+    "EPO: het verhoogt de ijzeropname via DMT1",
+    "Transferrine: het zorgt voor uitscheiding via de nier",
+    "Ferritine: het stimuleert de afgifte uit de lever"
+   ],
+   "uitleg": "Hepcidine uit de lever is de \"insuline voor ijzer\". De uitscheiding wordt niet gereguleerd."
+  },
+  {
+   "id": "kHC21",
+   "thema": "T1",
+   "soort": "Controlevraag HC 2",
+   "vraag": "Man, 20 jaar: Hb 14,1 mmol/l, Ht 0,66, geen JAK2-mutatie, EPO 14 IU/l (ref. 4-29). Wat is de beste interpretatie?",
+   "opties": [
+    "Het EPO is inadequaat normaal: denk aan een defecte zuurstofsensor (bv. VHL/Chuvash)",
+    "Het EPO is normaal, dus er is niets aan de hand",
+    "Het lage EPO bewijst polycythaemia vera",
+    "Het hoge EPO wijst op een EPO-producerende tumor"
+   ],
+   "uitleg": "Bij zo'n hoog Hb hoort het EPO onderdrukt te zijn. Homozygote VHL-mutatie: HIF wordt niet afgebroken."
+  },
+  {
+   "id": "kHC22",
+   "thema": "T1",
+   "soort": "Controlevraag HC 2",
+   "vraag": "Hoe wordt de uitscheiding van ijzer geregeld?",
+   "opties": [
+    "Niet: ijzer gaat alleen passief verloren (afschilferende cellen, bloedverlies)",
+    "Via hepcidine in de nier",
+    "Via de gal, gestuurd door ferritine",
+    "Via het zweet, gestuurd door EPO"
+   ],
+   "uitleg": "Daarom gebeurt alle regulatie aan de opnamekant, en stapelt een overschot zich op."
+  },
+  {
+   "id": "kHC23",
+   "thema": "T1",
+   "soort": "Controlevraag HC 2",
+   "vraag": "In welke situatie is hepcidine juist laag?",
+   "opties": [
+    "Bij ineffectieve erytropoëse bij thalassemie (veel erythroferrone)",
+    "Bij actieve reumatoïde artritis (IL-6)",
+    "Bij ijzerstapeling door veel transfusies",
+    "Bij een acute infectie"
+   ],
+   "uitleg": "Erythroferrone uit het actieve merg onderdrukt hepcidine. Daardoor stapelt ijzer zich ook zonder transfusies op."
+  },
+  {
+   "id": "kHC24",
+   "thema": "T1",
+   "soort": "Controlevraag HC 2",
+   "vraag": "Waarom geeft ischemie-reperfusie weefselschade?",
+   "opties": [
+    "Tijdens de ischemie hoopt hypoxanthine zich op en wordt xanthine-dehydrogenase omgezet in xanthine-oxidase. Bij reperfusie ontstaan dan superoxide en H2O2, en met ijzer hydroxylradicalen",
+    "Door een tekort aan EPO na de ischemie",
+    "Door de afbraak van hemoglobine tot bilirubine",
+    "Doordat transferrine verzadigd raakt"
+   ],
+   "uitleg": "Een klassiek voorbeeld van oxidatieve stress. Fe²⁺ katalyseert de vorming van •OH (Haber-Weiss/Fenton)."
+  },
+  {
+   "id": "kHC30",
+   "thema": "T1",
+   "soort": "Controlevraag HC 3",
+   "vraag": "Vrouw, 55 jaar, moe, bleek-geel, tintelingen in beide benen; gebruikt pantoprazol en metformine. Hb 4,9, MCV 112, reticulocyten 12, LDH 673, haptoglobine <0,1. Wat is het meest waarschijnlijk?",
+   "opties": [
+    "Vitamine B12-deficiëntie (met intramedullaire hemolyse)",
+    "Auto-immuun hemolytische anemie",
+    "Myelodysplastisch syndroom",
+    "IJzergebreksanemie"
+   ],
+   "uitleg": "Macrocytair, lage reticulocyten en toch hemolyseparameters: ineffectieve erytropoëse. PPI en metformine verminderen de B12-opname; de neuropathie past erbij."
+  },
+  {
+   "id": "kHC31",
+   "thema": "T1",
+   "soort": "Controlevraag HC 3",
+   "vraag": "Welke combinatie past bij hemolyse?",
+   "opties": [
+    "LDH ↑, bilirubine ↑, haptoglobine ↓, reticulocyten ↑",
+    "LDH ↓, haptoglobine ↑, reticulocyten ↓",
+    "Ferritine ↓, transferrine ↑, reticulocyten ↓",
+    "MCV ↑, reticulocyten ↓, LDH normaal"
+   ],
+   "uitleg": "Afbraak (LDH, bilirubine), verbruik van haptoglobine en een reagerend beenmerg (reticulocyten)."
+  },
+  {
+   "id": "kHC32",
+   "thema": "T1",
+   "soort": "Controlevraag HC 3",
+   "vraag": "Bij een normocytaire anemie met een verhoogd MCHC en kogelcellen in de uitstrijk denk je aan:",
+   "opties": [
+    "Hereditaire sferocytose",
+    "Bèta-thalassemie minor",
+    "Vitamine B12-deficiëntie",
+    "Anemie bij chronische ziekte"
+   ],
+   "uitleg": "Een verhoogd MCHC is zeldzaam en daardoor typisch voor sferocytose (membraandefect, osmotische fragiliteit)."
+  },
+  {
+   "id": "kHC33",
+   "thema": "T1",
+   "soort": "Controlevraag HC 3",
+   "vraag": "Vrouw, 27 jaar: buikpijn, verwardheid, blauwe plekken. Hb 3,4, trombocyten 7, reticulocyten 250, LDH 3200, fragmentocyten. Wat is de eerste behandeling?",
+   "opties": [
+    "Plasmaferese, met caplacizumab en prednison",
+    "Trombocytentransfusie",
+    "Splenectomie",
+    "Intraveneus ijzer"
+   ],
+   "uitleg": "TTP: auto-antistoffen tegen ADAMTS13. Een spoedsituatie."
+  },
+  {
+   "id": "kHC34",
+   "thema": "T1",
+   "soort": "Controlevraag HC 3",
+   "vraag": "Waarom zijn leeftijd en geslacht zo belangrijk bij een microcytaire anemie met een laag ferritine?",
+   "opties": [
+    "Bij een man of een postmenopauzale vrouw moet je een gastro-intestinale bloeding of maligniteit uitsluiten (scopie)",
+    "Omdat mannen meer ijzer opnemen dan vrouwen",
+    "Omdat thalassemie alleen bij vrouwen voorkomt",
+    "Omdat ferritine bij ouderen onbetrouwbaar is"
+   ],
+   "uitleg": "Bij een vrouw van 26 is menstrueel bloedverlies de meest waarschijnlijke oorzaak; bij een man van 67 is het occult GI-bloedverlies."
+  },
+  {
+   "id": "kHC40",
+   "thema": "T1",
+   "soort": "Controlevraag HC 4",
+   "vraag": "Man, 18 jaar: pijnlijke dikke knie na licht trauma; zijn oom had \"een bloedziekte\". PT 14 s (12-15), aPTT 52 s (34-40), FVIII 13%. Wat is de diagnose?",
+   "opties": [
+    "Lichte hemofilie A",
+    "Ernstige hemofilie A",
+    "Ziekte van Von Willebrand type 3",
+    "Vitamine K-deficiëntie"
+   ],
+   "uitleg": "aPTT verlengd en PT normaal; FVIII van 5-40% = licht. X-gebonden: de oom via de moeder."
+  },
+  {
+   "id": "kHC41",
+   "thema": "T1",
+   "soort": "Controlevraag HC 4",
+   "vraag": "Hoe werkt emicizumab?",
+   "opties": [
+    "Het is een bispecifiek antilichaam dat FIXa en FX aan elkaar koppelt en zo FVIIIa nabootst",
+    "Het verlaagt de aanmaak van antitrombine via RNA-interferentie",
+    "Het is een gezuiverd FVIII-concentraat met een langere halfwaardetijd",
+    "Het blokkeert TFPI"
+   ],
+   "uitleg": "Subcutaan, werkt ook bij remmers, alleen bij hemofilie A. Fitusiran (siRNA tegen antitrombine) en anti-TFPI zijn rebalancers."
+  },
+  {
+   "id": "kHC42",
+   "thema": "T1",
+   "soort": "Controlevraag HC 4",
+   "vraag": "Welke routinetest voorspelt het tromboserisico?",
+   "opties": [
+    "Geen: PT, aPTT, PFA en bloedingstijd zeggen niets over trombose",
+    "De aPTT",
+    "De PT/INR",
+    "De PFA"
+   ],
+   "uitleg": "Deze testen meten alleen (een deel van) de bloedingsneiging."
+  },
+  {
+   "id": "kHC43",
+   "thema": "T1",
+   "soort": "Controlevraag HC 4",
+   "vraag": "Een IC-patiënt bloedt uit de insteekopeningen. PT +8 s, aPTT +18 s, trombocyten 75, fibrinogeen 0,9 g/l, D-dimeer +++. Wat is er aan de hand?",
+   "opties": [
+    "Diffuse intravasale stolling (DIS)",
+    "Hemofilie A",
+    "Immuun-trombocytopenie (ITP)",
+    "Een overdosis heparine"
+   ],
+   "uitleg": "Een verbruikscoagulopathie: factoren, plaatjes en fibrinogeen raken op, en de fibrinolyse geeft veel D-dimeer."
+  },
+  {
+   "id": "kHC44",
+   "thema": "T1",
+   "soort": "Controlevraag HC 4",
+   "vraag": "Waarvoor is de PFA volgens het college eigenlijk alleen bruikbaar?",
+   "opties": [
+    "Om de ziekte van Von Willebrand uit te sluiten",
+    "Om hemofilie aan te tonen",
+    "Om het gebruik van DOAC's te controleren",
+    "Om trombose te voorspellen"
+   ],
+   "uitleg": "De PFA is een globale, weinig specifieke test van de primaire hemostase."
+  },
+  {
+   "id": "kHC50",
+   "thema": "T2",
+   "soort": "Controlevraag HC 5",
+   "vraag": "Wat is het kernverschil tussen acute leukemie, MDS en MPN?",
+   "opties": [
+    "AL: een uitrijpingsstop · MDS: dysplastische uitrijping met apoptose · MPN: te veel aanmaak met normale uitrijping",
+    "AL: te veel aanmaak · MDS: een uitrijpingsstop · MPN: dysplasie",
+    "Alle drie zijn lymfatisch; ze verschillen alleen in het aantal blasten",
+    "AL: normale uitrijping · MDS: te veel aanmaak · MPN: een uitrijpingsstop"
+   ],
+   "uitleg": "Dat bepaalt het bloedbeeld: blasten en cytopenie (AL), cytopenie met dysplasie (MDS), te veel rijpe cellen (MPN)."
+  },
+  {
+   "id": "kHC51",
+   "thema": "T2",
+   "soort": "Controlevraag HC 5",
+   "vraag": "Vanaf hoeveel blasten in het beenmerg spreek je van acute leukemie?",
+   "opties": [
+    "≥20%",
+    "≥5%",
+    "≥10%",
+    "≥50%"
+   ],
+   "uitleg": "Onder de 20% met dysplasie spreek je van MDS (met blastenexces). Bepaalde genetische afwijkingen definiëren AML ook bij <20%."
+  },
+  {
+   "id": "kHC52",
+   "thema": "T2",
+   "soort": "Controlevraag HC 5",
+   "vraag": "Hoe leidt de translocatie t(14;18) tot een lymfoom?",
+   "opties": [
+    "BCL2 komt onder de IgH-promotor: de cel maakt te veel van het anti-apoptotische eiwit en gaat niet meer dood",
+    "MYC wordt geactiveerd, waardoor de cel sneller deelt",
+    "Er ontstaat een BCR-ABL-fusiekinase",
+    "PD-L1 wordt geamplificeerd"
+   ],
+   "uitleg": "Klassiek bij het folliculair lymfoom. MYC hoort bij t(8;14) (Burkitt), BCR-ABL bij t(9;22) (CML)."
+  },
+  {
+   "id": "kHC53",
+   "thema": "T2",
+   "soort": "Controlevraag HC 5",
+   "vraag": "Waarom heb je voor klassieke karyotypering delende cellen nodig?",
+   "opties": [
+    "Chromosomen zijn alleen zichtbaar in de metafase van de celdeling",
+    "Flowcytometrie werkt alleen op delende cellen",
+    "Niet-delende cellen bevatten geen DNA",
+    "Alleen delende cellen hebben translocaties"
+   ],
+   "uitleg": "FISH en moleculaire technieken werken ook op niet-delende cellen."
+  },
+  {
+   "id": "kHC54",
+   "thema": "T2",
+   "soort": "Controlevraag HC 5",
+   "vraag": "Wat is het belangrijkste verschil tussen een autologe en een allogene stamceltransplantatie?",
+   "opties": [
+    "Allogeen geeft een nieuw immuunsysteem met een graft-versus-leukemie-effect (en risico op GVHD); autoloog is alleen een rescue na hoge-dosis chemotherapie",
+    "Autoloog geeft meer GVHD dan allogeen",
+    "Bij allogeen worden de eigen ingevroren stamcellen teruggegeven",
+    "Bij autoloog worden donor-T-cellen gegeven"
+   ],
+   "uitleg": "Donor-T-cellen ruimen de (maligne) hematopoëse van de patiënt op, maar kunnen ook normale weefsels aanvallen (huid, darm, lever)."
   }
  ]
 }

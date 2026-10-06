@@ -1,13 +1,31 @@
-"""Campagne GZC III — rekenwerk en weergave. Gebruikt alleen `anki` en de standaardbibliotheek,
-zodat het buiten Anki te testen is. De koppeling met de Anki-interface staat in __init__.py.
+"""Campagne GZC III — rekenwerk en acties. Gebruikt alleen `anki` en de standaardbibliotheek,
+zodat het buiten Anki te testen is. De weergave staat in scherm.py, de koppeling met Anki in __init__.py.
 """
 from __future__ import annotations
 
 import datetime as dt
+import hashlib
 import html
+import json
 import math
+import pathlib
 import re
 from collections import Counter, defaultdict
+
+DATA = pathlib.Path(__file__).resolve().parent / 'data'
+
+
+def _laad(naam: str, standaard):
+    try:
+        return json.loads((DATA / naam).read_text(encoding='utf-8'))
+    except Exception:
+        return standaard
+
+
+COLLEGEDATA = _laad('colleges.json', {})  # kapstok, controlevragen en verzamelcel per college
+KOPPELING = _laad('koppeling.json', {})  # guid → college, met de hand ingedeeld op basis van de slides
+BRON_TAG = 'bron::slides-HC1-5'
+HERKANSING = 'GZC III - Herkansing'
 
 # ------------------------------------------------------------------ inhoud van de campagne
 THEMAS = {
@@ -29,8 +47,8 @@ ZIEKTE_THEMA = {  # ziektebeeldenset heeft geen thematag
     'orbita': 'T4', 'traanklier': 'T4', 'ooglid': 'T4',
 }
 COLLEGES = {  # 32 hoorcolleges uit het blokboek
-    'HC1': ('T1', 'HC 1 Hemato-erytropoëse (1)'), 'HC2': ('T1', 'HC 2 Hemato-erytropoëse (2)'),
-    'HC3': ('T1', 'HC 3 Anemie'), 'HC4': ('T1', 'HC 4 Stollingsstoornissen'),
+    'HC1': ('T1', 'HC 1 Hematopoëse'), 'HC2': ('T1', 'HC 2 Erytropoëse en zuurstofvoorziening'),
+    'HC3': ('T1', 'HC 3 Anemie'), 'HC4': ('T1', 'HC 4 Stolling'),
     'HC5': ('T2', 'HC 5 Introductie hematologische maligniteiten'), 'HC6': ('T2', 'HC 6 MPN en CML'),
     'HC7': ('T2', 'HC 7 Maligne lymfoom en CLL'), 'HC8': ('T2', 'HC 8 Multipel myeloom'),
     'HC9': ('T2', 'HC 9 AML en MDS'), 'HC10': ('T2', 'HC 10 Pathologie maligne hematologie'),
@@ -72,8 +90,8 @@ PLAN = [  # (datum, hoofdspoor-thema, items). Hoofdspoor: T1 → T2 inhalen. Bij
 CAMPAGNE_VOLGORDE = ['T1', 'T2', 'T3', 'T4', 'B1', 'B2', 'B3']  # volgorde van de eindbazen
 COLLEGE_VOLGORDE = [k for _, _, items in PLAN for k in items if k in COLLEGES]  # volgorde van nieuwe kaarten
 
-# Welke kaart hoort bij welk college. Een tag college::HC3 op de notitie wint altijd; anders deze trefwoorden
-# (eerste treffer telt), anders het eerste college van het thema. Wordt nauwkeuriger zodra de slides er zijn.
+# Welke kaart hoort bij welk college. Een tag college::HC3 op de notitie wint altijd (de add-on zet die tags voor alle
+# T1/T2-kaarten op basis van de slides); anders deze trefwoorden (eerste treffer telt), anders het eerste college van het thema.
 TREFWOORDEN = {
     'T1': [('HC4', r'stoll|hemofil|willebrand|trombocyt|trombo|plaatj|hemosta|aptt|\bpt\b|inr|fibrin|antistol|heparine|vka|doac|dis\b|itp|ttp|glanzmann|soulier|virchow|factor (v|x|ix|xi|xii|xiii|vii)'),
            ('HC3', r'anemie|anaemie|thalass|sikkel|hemoly|b12|folium|mcv|mchc|ferritin|sferocyt|g6pd|aplast|hemoglobinopath|retic|coombs|antiglobuline|hemochromat|brissot'),
@@ -108,8 +126,10 @@ ZIEKTE_COLLEGE = {'anemie': 'HC3', 'ALL': 'HC9', 'AML': 'HC9', 'MDS': 'HC9', 'CM
 
 def college_van(tags: list[str], tekst: str) -> str | None:
     for t in tags:
-        if t.startswith('college::') and t[9:] in COLLEGES:
-            return t[9:]
+        if t.lower().startswith('college::'):
+            k = t[9:].upper()
+            if k in COLLEGES:
+                return k
     th = thema_van(tags)
     if not th:
         return None
@@ -130,12 +150,25 @@ def platte_tekst(flds: str) -> str:
     return html.unescape(re.sub(r'<[^>]+>', ' ', flds.replace('\x1f', ' ')))
 
 
+_COLLEGE_CACHE: dict[int, tuple[int, str | None]] = {}  # nid → (mod, college): de regexen hoeven maar één keer
+
+
+def college_van_notitie(nid: int, mod: int, tags: str, flds: str) -> str | None:
+    hit = _COLLEGE_CACHE.get(nid)
+    if hit and hit[0] == mod:
+        return hit[1]
+    cl = college_van(tags.split(), platte_tekst(flds))
+    _COLLEGE_CACHE[nid] = (mod, cl)
+    return cl
+
+
 TITELS = ['Nieuweling', 'Pipetteur', 'Uitstrijkjesmaker', 'Bloedbeeldlezer', 'Stollingsdetective',
           'IJzerjager', 'Lymfoomspeurder', 'Myeloomtemmer', 'Blastenbestrijder', 'Kinderoncoloog i.o.',
           'Halsklierkenner', 'Schildklierfluisteraar', 'Poortwachter', 'Palliatief expert', 'Tentamenbeest']
 
-XP_COLLEGE, XP_EXTRA = 50, 75
+XP_COLLEGE, XP_EXTRA, XP_QUIZVRAAG, XP_KRITIEK = 50, 75, 10, 10
 VERANKERD_IVL = 7  # dagen
+COMBO_PAUZE_MS = 30 * 60 * 1000  # langer dan een half uur niets gedaan: nieuwe sessie, combo begint opnieuw
 
 
 def xp_drempel(n: int) -> int:
@@ -149,6 +182,15 @@ def level_van(xp: int) -> tuple[int, str, int, int]:
         n += 1
     titel = TITELS[min(n, len(TITELS)) - 1] + (f' ★{n - len(TITELS)}' if n > len(TITELS) else '')
     return n, titel, xp_drempel(n), xp_drempel(n + 1)
+
+
+def kritiek(rid: int) -> bool:
+    """Ongeveer 1 op de 20 goede antwoorden is een kritieke treffer. Vast per revlog-id, dus altijd hetzelfde uitgerekend."""
+    return (rid * 2654435761) % 4294967296 % 20 == 0
+
+
+def combo_bonus(combo: int) -> int:
+    return 2 if combo >= 25 else (1 if combo >= 10 else 0)
 
 
 def thema_van(tags: list[str]) -> str | None:
@@ -166,6 +208,30 @@ def thema_van(tags: list[str]) -> str | None:
     return None
 
 
+def label(k: str) -> str:
+    return (COLLEGES.get(k) or EXTRA.get(k) or (None, k))[1]
+
+
+def kort(k: str) -> str:
+    """'HC3' → '3', 'PH2' → 'P2', 'HCAI' → 'AI'."""
+    if k.startswith('HC'):
+        return k[2:]
+    if k.startswith('PH'):
+        return 'P' + k[2:]
+    return k
+
+
+def sterren(pc: Counter, af: bool) -> int:
+    """★ college afgevinkt · ★★ alle kaarten gezien · ★★★ 70% verankerd. Zonder kaarten: drie sterren bij afvinken."""
+    if not pc or not pc['n']:
+        return 3 if af else 0
+    return int(af) + int(pc['nieuw'] == 0) + int(pc['verankerd'] / pc['n'] >= 0.7)
+
+
+def cel_behaald(pc: Counter, af: bool) -> bool:
+    return (pc['nieuw'] == 0) if pc and pc['n'] else af
+
+
 # ------------------------------------------------------------------ status
 def deck_ids(col, decknaam: str) -> list[int]:
     did = col.decks.id_for_name(decknaam)
@@ -181,22 +247,21 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
     vandaag = dt.date.fromtimestamp(cutoff - 86400)
     examen = dt.date.fromisoformat(cfg['examen'])
     deadline = dt.date.fromisoformat(cfg['leerdeadline'])
+    afgevinkt = staat.get('afgevinkt', {})
 
-    kaarten = col.db.all(f'select c.id, n.tags, c.queue, c.ivl, c.type, n.flds from cards c join notes n on c.nid = n.id '
+    kaarten = col.db.all(f'select c.id, c.nid, n.mod, n.tags, c.queue, c.ivl, c.type, n.flds from cards c join notes n on c.nid = n.id '
                          f'where (c.did in ({ids}) or c.odid in ({ids}))')
     per = {k: Counter() for k in THEMAS}
     totaal = Counter()
     per_college = defaultdict(Counter)
-    for cid, tags, queue, ivl, ctype, flds in kaarten:
+    thema_van_cid, college_van_cid = {}, {}
+    for cid, nid, mod, tags, queue, ivl, ctype, flds in kaarten:
         th = thema_van(tags.split())
-        if ctype == 0:
-            cl = college_van(tags.split(), platte_tekst(flds))
-            if cl:
-                per_college[cl]['nieuw'] += 1
-                per_college[cl]['open'] += queue != -1
+        cl = college_van_notitie(nid, mod, tags, flds) if th else None
+        thema_van_cid[cid], college_van_cid[cid] = th, cl
         if ctype == 0 and queue != -1:
             totaal['beschikbaar'] += 1
-        rij = [totaal] + ([per[th]] if th else [])
+        rij = [totaal] + ([per[th]] if th else []) + ([per_college[cl]] if cl else [])
         for c in rij:
             c['n'] += 1
             if ctype != 0:
@@ -205,6 +270,7 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
                 c['verankerd'] += 1
             if ctype == 0:
                 c['nieuw'] += 1
+                c['open'] += queue != -1
             if queue == -1:
                 c['opgeschort'] += 1
 
@@ -214,8 +280,8 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
     xp_kaarten, eerste = 0, {}
     per_dag, goed_dag, nieuw_dag = Counter(), Counter(), Counter()
     uren = set()
-    thema_van_cid = {k[0]: thema_van(k[1].split()) for k in kaarten}
-    ret = defaultdict(lambda: [0, 0])
+    ret, ret_college = defaultdict(lambda: [0, 0]), defaultdict(lambda: [0, 0])
+    combo, record, vorige, xp_combo, kritieken = 0, 0, None, 0, 0
     for rid, cid, ease, rtype in log:
         d = dag(rid)
         xp_kaarten += 1 if ease == 1 else 2
@@ -227,12 +293,28 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
         if ease > 1:
             goed_dag[d] += 1
         uren.add(dt.datetime.fromtimestamp(rid / 1000).hour)
-        if rtype == 1 and d < 14 and thema_van_cid.get(cid):
-            ret[thema_van_cid[cid]][1] += 1
-            ret[thema_van_cid[cid]][0] += ease > 1
+        if rtype == 1 and d < 14:
+            for sleutel, bak in ((thema_van_cid.get(cid), ret), (college_van_cid.get(cid), ret_college)):
+                if sleutel:
+                    bak[sleutel][1] += 1
+                    bak[sleutel][0] += ease > 1
+        if vorige is not None and rid - vorige > COMBO_PAUZE_MS:
+            combo = 0
+        if ease == 1:
+            combo = 0
+        else:
+            combo += 1
+            xp_combo += combo_bonus(combo)
+            if kritiek(rid):
+                kritieken += 1
+        record, vorige = max(record, combo), rid
+    nu_ms = int(dt.datetime.now().timestamp() * 1000)
+    combo_nu = combo if vorige is not None and nu_ms - vorige <= COMBO_PAUZE_MS else 0
 
-    afgevinkt = staat.get('afgevinkt', {})
-    xp = xp_kaarten + sum(XP_COLLEGE if k in COLLEGES else XP_EXTRA for k in afgevinkt)
+    quiz = staat.get('quiz', {})
+    xp_vinken = sum(XP_COLLEGE if k in COLLEGES else XP_EXTRA for k in afgevinkt)
+    xp_quiz = XP_QUIZVRAAG * sum(quiz.values())
+    xp = xp_kaarten + xp_combo + XP_KRITIEK * kritieken + xp_vinken + xp_quiz
     lvl, titel, lo, hi = level_van(xp)
 
     drempel = cfg['reeks_drempel']
@@ -240,10 +322,10 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
     reeks, d = 0, (0 if 0 in actief else 1)
     while d in actief:
         reeks, d = reeks + 1, d + 1
-    record, huidig = 0, 0
+    record_reeks, huidig = 0, 0
     for d in range(max(per_dag, default=0), -1, -1):
         huidig = huidig + 1 if d in actief else 0
-        record = max(record, huidig)
+        record_reeks = max(record_reeks, huidig)
 
     due = len(col.find_cards(f'deck:"{cfg["deck"]}" is:due'))
     nieuw_vandaag = nieuw_dag[0]
@@ -289,15 +371,34 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
                           hp=max(0, hp), status=status, retentie=round(100 * r[0] / r[1]) if r and r[1] >= 20 else None,
                           vandaag=k == plan_vandaag[0]))
 
+    colleges = {}
+    for k in COLLEGES:
+        pc, af = per_college.get(k, Counter()), k in afgevinkt
+        r = ret_college.get(k)
+        colleges[k] = dict(sterren=sterren(pc, af), cel=cel_behaald(pc, af), af=af, quiz=quiz.get(k),
+                           retentie=round(100 * r[0] / r[1]) if r and r[1] >= 10 else None)
+    album = []
+    for k in COLLEGE_VOLGORDE + [k for k in COLLEGES if k not in COLLEGE_VOLGORDE]:
+        cel = COLLEGEDATA.get(k, {}).get('cel')
+        if cel:
+            album.append(dict(id=k, emoji=cel[0], naam=cel[1], feit=cel[2], behaald=colleges[k]['cel']))
+    n_cellen = sum(a['behaald'] for a in album)
+    werkdruk = werkdruk_week(col, ids)
+
     badges = [
         ('🩸', 'Eerste bloed', '25 nieuwe kaarten geleerd', len(eerste) >= 25),
         ('💯', 'Honderdklapper', '100 herhalingen op één dag', max(per_dag.values(), default=0) >= 100),
         ('🏃', 'Marathon', '300 herhalingen op één dag', max(per_dag.values(), default=0) >= 300),
-        ('🔥', 'Week in vuur', '7 dagen op rij geleerd', record >= 7),
+        ('🔥', 'Week in vuur', '7 dagen op rij geleerd', record_reeks >= 7),
         ('🎯', 'Scherpschutter', 'Een dag met 50+ herhalingen en 90% goed',
          any(n >= 50 and goed_dag[d] / n >= 0.9 for d, n in per_dag.items())),
+        ('⚡', 'Combokoning', 'Een combo van 50 goede antwoorden op rij', record >= 50),
+        ('💥', 'Kritiek!', '10 kritieke treffers', kritieken >= 10),
         ('🌅', 'Vroege vogel', 'Herhaald vóór 8:00', any(h < 8 and h >= 4 for h in uren)),
         ('🦉', 'Nachtuil', 'Herhaald na 23:00', any(h >= 23 or h < 4 for h in uren)),
+        ('🚪', 'Poortwachter', 'Vijf controlequizzen foutloos (5/5)', sum(v >= 5 for v in quiz.values()) >= 5),
+        ('🧫', 'Verzamelaar', '10 cellen in je album', n_cellen >= 10),
+        ('👑', 'Meester', 'Een college met ★★★ (70% verankerd)', any(c['sterren'] == 3 and per_college.get(k, Counter())['n'] for k, c in colleges.items())),
         ('🗺️', 'Halverwege', 'De helft van alle kaarten gezien', totaal['n'] and totaal['gezien'] / totaal['n'] >= 0.5),
         ('👁️', 'Alles gezien', 'Elke kaart minstens één keer geleerd', totaal['n'] and totaal['nieuw'] == 0),
         ('🎓', 'Collegetijger', 'Alle 32 hoorcolleges afgevinkt', all(k in afgevinkt for k in COLLEGES)),
@@ -306,24 +407,54 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
     ]
 
     return dict(vandaag=vandaag, examen=examen, deadline=deadline, dagen_examen=(examen - vandaag).days, fase=fase,
-                xp=xp, level=lvl, titel=titel, xp_lo=lo, xp_hi=hi, reeks=reeks, record=record, reeks_vandaag=per_dag[0] >= drempel,
+                xp=xp, level=lvl, titel=titel, xp_lo=lo, xp_hi=hi, reeks=reeks, record=record_reeks, reeks_vandaag=per_dag[0] >= drempel,
                 drempel=drempel, quests=quests, herhalingen_vandaag=per_dag[0], nieuw_vandaag=nieuw_vandaag, doel_nieuw=doel_nieuw,
                 due=due, totaal=totaal, bazen=bazen, badges=badges, tempo=tempo, klaar_op=klaar_op,
                 plan_vandaag=plan_vandaag, achterstand=achterstand, afgevinkt=afgevinkt,
-                volgorde=staat.get('volgorde'), slot=staat.get('slot', False), per_college=per_college, limiet_vandaag=staat.get('limiet') == vandaag.isoformat())
+                volgorde=staat.get('volgorde'), slot=staat.get('slot', False), per_college=per_college, colleges=colleges,
+                album=album, n_cellen=n_cellen, werkdruk=werkdruk, combo=combo_nu, combo_record=record, kritieken=kritieken,
+                xp_combo=xp_combo, quiz=quiz, limiet_vandaag=staat.get('limiet') == vandaag.isoformat(),
+                fout_recent=len(col.find_cards(f'deck:"{cfg["deck"]}" rated:{cfg.get("herkansing_dagen", 2)}:1')))
+
+
+def werkdruk_week(col, ids: str) -> list[int]:
+    """Aantal herhalingen per dag voor vandaag (incl. achterstand en leerstappen) en de 6 dagen daarna."""
+    vandaag = col.sched.today
+    dues = col.db.list(f'select case when odid != 0 then odue else due end from cards '
+                       f'where (did in ({ids}) or odid in ({ids})) and queue in (2, 3)')
+    leren = col.db.scalar(f'select count() from cards where (did in ({ids}) or odid in ({ids})) and queue = 1') or 0
+    week = [0] * 7
+    for d in dues:
+        i = max(0, d - vandaag)
+        if i < 7:
+            week[i] += 1
+    week[0] += leren
+    return week
 
 
 def snel(col, cfg: dict, staat: dict) -> dict:
-    """Goedkope versie voor na elk antwoord: XP, level, quests van vandaag."""
+    """Voor na elk antwoord: wat de meldingen en het HUD nodig hebben."""
     s = bereken(col, cfg, staat)
     return dict(level=s['level'], titel=s['titel'], quests=[q[2] for q in s['quests']], n=s['herhalingen_vandaag'],
-                doel=s['doel_nieuw'], nieuw=s['nieuw_vandaag'], due=s['due']) if s else {}
+                doel=s['doel_nieuw'], nieuw=s['nieuw_vandaag'], due=s['due'], combo=s['combo'], xp=s['xp'],
+                bazen={b['id']: b for b in s['bazen']}, colleges=s['colleges']) if s else {}
+
+
+def antwoord_xp(col, card_id: int, ease: int, combo: int) -> dict:
+    """Wat het antwoord dat net is gegeven opleverde, voor de zwevende +XP in het HUD."""
+    rid, aantal = col.db.first('select max(id), count() from revlog where cid = ? and type < 4 and ease > 0', card_id) or (None, 0)
+    if rid is None:
+        return dict(xp=0, kritiek=False, nieuw=False)
+    nieuw = aantal == 1
+    krit = ease > 1 and kritiek(rid)
+    xp = (1 if ease == 1 else 2) + (3 if nieuw else 0) + (XP_KRITIEK if krit else 0) + (combo_bonus(combo) if ease > 1 else 0)
+    return dict(xp=xp, kritiek=krit, nieuw=nieuw)
 
 
 # ------------------------------------------------------------------ acties
 def _nieuwe_kaarten(col, cfg):
     ids = ','.join(map(str, deck_ids(col, cfg['deck'])))
-    return col.db.all(f'select c.id, n.tags, n.flds, c.due, c.queue from cards c join notes n on c.nid = n.id '
+    return col.db.all(f'select c.id, n.id, n.mod, n.tags, n.flds, c.due, c.queue from cards c join notes n on c.nid = n.id '
                       f'where (c.did in ({ids}) or c.odid in ({ids})) and c.type = 0')
 
 
@@ -333,10 +464,11 @@ def campagne_starten(col, cfg: dict, afgevinkt: dict) -> int:
     rijen = _nieuwe_kaarten(col, cfg)
 
     def sleutel(r):
-        tags = r[1].split()
-        cl = college_van(tags, platte_tekst(r[2]))
-        extra = any(t.startswith('vorm::') and t != 'vorm::ezelsbrug' for t in tags)
-        return (COLLEGE_VOLGORDE.index(cl) if cl in COLLEGE_VOLGORDE else len(COLLEGE_VOLGORDE), extra, r[3])
+        cid, nid, mod, tags, flds, due, _q = r
+        cl = college_van_notitie(nid, mod, tags, flds)
+        extra = any(t.startswith('vorm::') and t != 'vorm::ezelsbrug' for t in tags.split())
+        prio = 'prio::tentamen' not in tags.split()
+        return (COLLEGE_VOLGORDE.index(cl) if cl in COLLEGE_VOLGORDE else len(COLLEGE_VOLGORDE), extra, prio, due)
 
     cids = [r[0] for r in sorted(rijen, key=sleutel)]
     if cids:
@@ -349,8 +481,8 @@ def vergrendel(col, cfg: dict, afgevinkt: dict) -> int:
     """Nieuwe kaarten van niet-afgevinkte colleges opschorten, die van afgevinkte vrijgeven.
     Kaarten die je al geleerd hebt, worden nooit aangeraakt. Geeft het aantal vrijgespeelde kaarten terug."""
     dicht, open_ = [], []
-    for cid, tags, flds, _due, queue in _nieuwe_kaarten(col, cfg):
-        cl = college_van(tags.split(), platte_tekst(flds))
+    for cid, nid, mod, tags, flds, _due, queue in _nieuwe_kaarten(col, cfg):
+        cl = college_van_notitie(nid, mod, tags, flds)
         moet_dicht = cl is not None and cl not in afgevinkt
         if moet_dicht and queue != -1:
             dicht.append(cid)
@@ -364,7 +496,7 @@ def vergrendel(col, cfg: dict, afgevinkt: dict) -> int:
 
 
 def alles_vrijgeven(col, cfg: dict) -> int:
-    ids = [r[0] for r in _nieuwe_kaarten(col, cfg) if r[4] == -1]
+    ids = [r[0] for r in _nieuwe_kaarten(col, cfg) if r[6] == -1]
     if ids:
         col.sched.unsuspend_cards(ids)
     return len(ids)
@@ -376,165 +508,82 @@ def zet_limiet(col, cfg: dict, n: int) -> None:
     col.decks.save(deck)
 
 
-# ------------------------------------------------------------------ weergave
-CSS = """
-#gzc3{--bg:#fbf9fd;--kaart:#ffffff;--ink:#221a2e;--zacht:#6b6278;--lijn:#e4dcec;--hema:#5b3f8c;--hema-z:#ece5f6;
---eos:#d9577a;--eos-z:#fbe6ec;--goed:#1f8a4c;--goed-z:#e2f4e9;--brons:#a8642a;--zilver:#7d8794;--goud:#c49a1a;
-max-width:760px;margin:18px auto 8px;padding:16px;border-radius:16px;background:var(--bg);color:var(--ink);
-border:1px solid var(--lijn);text-align:left;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;font-size:14px;line-height:1.45}
-:root.night-mode #gzc3{--bg:#1b1622;--kaart:#241d2e;--ink:#efe9f6;--zacht:#a79cb6;--lijn:#3a3047;--hema:#b69ae6;--hema-z:#2f2642;
---eos:#f08aa6;--eos-z:#3a2230;--goed:#5fd08f;--goed-z:#193426;--brons:#d89a62;--zilver:#b6bfca;--goud:#e8c454}
-#gzc3 *{box-sizing:border-box}
-#gzc3 .kop{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
-#gzc3 h2{margin:0;font-size:20px;letter-spacing:-.01em}
-#gzc3 .sub{color:var(--zacht);font-size:13px}
-#gzc3 .aftel{text-align:right}
-#gzc3 .aftel b{font-size:28px;color:var(--eos);font-variant-numeric:tabular-nums;line-height:1}
-#gzc3 .rij{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px}
-#gzc3 .blok{background:var(--kaart);border:1px solid var(--lijn);border-radius:12px;padding:12px}
-#gzc3 .label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--zacht);font-weight:600;margin-bottom:6px}
-#gzc3 .lvl{display:flex;align-items:baseline;gap:8px}
-#gzc3 .lvl b{font-size:26px;color:var(--hema)}
-#gzc3 .balk{height:8px;border-radius:99px;background:var(--lijn);overflow:hidden;margin-top:6px}
-#gzc3 .balk span{display:block;height:100%;background:var(--hema)}
-#gzc3 .quest{display:grid;grid-template-columns:62px 1fr auto;gap:8px;align-items:center;padding:5px 0;border-top:1px dashed var(--lijn)}
-#gzc3 .quest:first-of-type{border-top:0}
-#gzc3 .medaille{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;border-radius:99px;padding:2px 8px;text-align:center;border:1.5px solid}
-#gzc3 .Brons{color:var(--brons)}#gzc3 .Zilver{color:var(--zilver)}#gzc3 .Goud{color:var(--goud)}
-#gzc3 .quest.af .medaille{background:currentColor}#gzc3 .quest.af .medaille i{color:var(--kaart)}
-#gzc3 .medaille i{font-style:normal}
-#gzc3 .quest .st{font-variant-numeric:tabular-nums;color:var(--zacht);font-size:13px}
-#gzc3 .quest.af .st{color:var(--goed);font-weight:600}
-#gzc3 .bazen{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-top:8px}
-#gzc3 .baas{background:var(--kaart);border:1px solid var(--lijn);border-radius:12px;padding:10px;position:relative}
-#gzc3 .baas.vandaag{border-color:var(--eos);box-shadow:0 0 0 2px var(--eos-z)}
-#gzc3 .baas.verslagen{background:var(--goed-z)}
-#gzc3 .baas.slot{opacity:.7}
-#gzc3 .baas .ic{font-size:22px}
-#gzc3 .baas .nm{font-weight:600;font-size:13px}
-#gzc3 .baas .th{font-size:12px;color:var(--zacht)}
-#gzc3 .hp{height:7px;border-radius:99px;background:var(--lijn);overflow:hidden;margin:6px 0 3px}
-#gzc3 .hp span{display:block;height:100%;background:var(--eos)}
-#gzc3 .baas.verslagen .hp span{background:var(--goed)}
-#gzc3 .klein{font-size:12px;color:var(--zacht);font-variant-numeric:tabular-nums}
-#gzc3 .tag{position:absolute;top:8px;right:8px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--eos)}
-#gzc3 .vink{display:flex;gap:8px;align-items:flex-start;padding:4px 0;cursor:pointer}
-#gzc3 .vink input{margin-top:3px;accent-color:var(--hema)}
-#gzc3 .vink.gedaan span{color:var(--zacht);text-decoration:line-through}
-#gzc3 .knoppen{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-#gzc3 button{font:inherit;font-size:13px;font-weight:600;border-radius:9px;padding:7px 12px;cursor:pointer;border:1.5px solid var(--hema);background:var(--hema);color:var(--kaart)}
-#gzc3 button.licht{background:transparent;color:var(--hema)}
-#gzc3 .badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-#gzc3 .badge{display:inline-flex;gap:5px;align-items:center;border-radius:99px;padding:3px 10px;border:1px solid var(--lijn);font-size:12px;background:var(--kaart)}
-#gzc3 .badge.nee{opacity:.42;filter:grayscale(1)}
-#gzc3 .chip{display:inline-block;border-radius:99px;padding:2px 9px;font-size:12px;font-weight:600}
-#gzc3 .chip.ok{background:var(--goed-z);color:var(--goed)}#gzc3 .chip.nok{background:var(--eos-z);color:var(--eos)}
-#gzc3 details{margin-top:12px}#gzc3 summary{cursor:pointer;color:var(--hema);font-weight:600}
-#gzc3 .groep{margin-top:8px}#gzc3 .groep b{font-size:12px;color:var(--zacht)}
-"""
-
-
-def _e(s) -> str:
-    return html.escape(str(s))
-
-
-def _vink(key: str, tekst: str, af: bool, xp: int, kaarten: Counter | None = None, slot: bool = False) -> str:
-    extra = ''
-    if kaarten and kaarten['nieuw']:
-        extra = (f' · 🔓 {kaarten["nieuw"]} kaarten' if af or not slot else f' · 🔒 {kaarten["nieuw"]} kaarten')
-    return (f'<label class="vink{" gedaan" if af else ""}"><input type="checkbox" {"checked" if af else ""} '
-            f'onclick="pycmd(\'gzc3:vink:{key}\');return false;"><span>{_e(tekst)} '
-            f'<span class="klein">+{xp} XP{extra}</span></span></label>')
-
-
-def weergave(s: dict) -> str:
-    if not s:
+def koppeling_versie() -> str:
+    try:
+        return hashlib.md5((DATA / 'koppeling.json').read_bytes()).hexdigest()[:10]
+    except OSError:
         return ''
-    dagen = s['dagen_examen']
-    aftel = (f'<b>{dagen}</b><div class="sub">dagen tot het tentamen<br>{s["examen"].strftime("%d-%m")}</div>' if dagen > 0
-             else '<b>🎯</b><div class="sub">tentamendag — succes!</div>')
-    fase = ('Fase 1 · Veldtocht: nieuwe stof tot ' + s['deadline'].strftime('%d-%m')) if s['fase'] == 1 else 'Fase 2 · Eindbaas: herhalen en oude tentamens'
-    pct = 0 if s['xp_hi'] == s['xp_lo'] else round(100 * (s['xp'] - s['xp_lo']) / (s['xp_hi'] - s['xp_lo']))
-    reeks = f'🔥 {s["reeks"]} {"dag" if s["reeks"] == 1 else "dagen"} op rij' + ('' if s['reeks_vandaag'] else f' · vandaag nog {s["drempel"]} herhalingen voor je reeks')
 
-    quests = ''.join(
-        f'<div class="quest{" af" if af else ""}"><span class="medaille {m}"><i>{m}</i></span><span>{_e(t)}</span><span class="st">{"✓ " if af else ""}{_e(st)}</span></div>'
-        for m, t, af, st in s['quests'])
 
-    th_vandaag, items = s['plan_vandaag']
-    vandaag_html = ''
-    if th_vandaag:
-        naam, baas, icoon = THEMAS[th_vandaag]
-        vandaag_html = f'<div class="sub">Vandaag in de campagne: {icoon} <b>{_e(naam)}</b> — versla {_e(baas)}</div>'
-    lijst = ''.join(_vink(k, (COLLEGES.get(k) or EXTRA[k])[1], k in s['afgevinkt'], XP_COLLEGE if k in COLLEGES else XP_EXTRA, s['per_college'].get(k), s['slot']) for k in items)
-    if s['achterstand']:
-        lijst += '<div class="label" style="margin-top:8px">Inhalen</div>' + ''.join(
-            _vink(k, (COLLEGES.get(k) or EXTRA[k])[1], False, XP_COLLEGE if k in COLLEGES else XP_EXTRA, s['per_college'].get(k), s['slot']) for k in s['achterstand'][:6])
-        if len(s['achterstand']) > 6:
-            lijst += f'<div class="klein">en nog {len(s["achterstand"]) - 6} — zie alle colleges hieronder</div>'
-    if not lijst:
-        lijst = '<div class="klein">Geen colleges gepland: inhaal- of herhaaldag.</div>'
+def koppel(col, koppeling: dict[str, str] | None = None) -> int:
+    """Zet de tag college::HCx op de notities uit de koppeling (en haalt een afwijkende college-tag weg).
+    Geeft het aantal notities terug dat een (andere) tag kreeg."""
+    koppeling = KOPPELING if koppeling is None else koppeling
+    erbij, eraf = defaultdict(list), defaultdict(list)
+    for nid, guid, tags in col.db.all('select id, guid, tags from notes'):
+        doel = koppeling.get(guid)
+        if not doel:
+            continue
+        huidig = [t for t in tags.split() if t.lower().startswith('college::')]
+        if [t.lower() for t in huidig] == [f'college::{doel}'.lower()]:
+            continue
+        for t in huidig:
+            eraf[t].append(nid)
+        erbij[f'college::{doel}'].append(nid)
+    for t, nids in eraf.items():
+        col.tags.bulk_remove(nids, t)
+    for t, nids in erbij.items():
+        col.tags.bulk_add(nids, t)
+    _COLLEGE_CACHE.clear()
+    return sum(len(v) for v in erbij.values())
 
-    knoppen = []
-    if s['fase'] == 1 and s['doel_nieuw'] and not s['limiet_vandaag']:
-        knoppen.append(f'<button onclick="pycmd(\'gzc3:limiet\')">Zet vandaag {s["doel_nieuw"]} nieuwe kaarten klaar</button>')
-    if not s['slot']:
-        knoppen.append('<button class="licht" onclick="pycmd(\'gzc3:start\')">▶ Campagne starten: kaarten vrijspelen per college</button>')
-    t = s['totaal']
-    if s['fase'] == 1 and t['nieuw'] and not s['tempo']:
-        prognose = (f'<span class="chip nok">start</span> Nog {t["nieuw"]} kaarten te gaan in {(s["deadline"] - s["vandaag"]).days + 1} dagen: '
-                    f'{s["doel_nieuw"]} nieuwe kaarten per dag houdt je op schema.')
-    elif s['fase'] == 1 and t['nieuw']:
-        op_tijd = s['klaar_op'] and s['klaar_op'] <= s['deadline']
-        prognose = (f'<span class="chip {"ok" if op_tijd else "nok"}">{"op schema" if op_tijd else "achter op schema"}</span> '
-                    f'Tempo laatste dagen: {s["tempo"]:.0f} nieuwe kaarten/dag'
-                    + (f' → alles gezien op {s["klaar_op"].strftime("%d-%m")}' if s['klaar_op'] else ' → begin vandaag')
-                    + f'. Nodig: {s["doel_nieuw"]}/dag.')
-    elif t['nieuw'] == 0:
-        prognose = '<span class="chip ok">alles gezien</span> Nu gaat het om verankeren: elke dag je herhalingen weg.'
-    else:
-        prognose = f'<span class="chip nok">{t["nieuw"]} kaarten nog nooit gezien</span> Doe die eerst, met voorrang voor <code>tag:prio::tentamen</code>.'
 
-    bazen = ''.join(
-        f'<div class="baas {b["status"]}{" vandaag" if b["vandaag"] else ""}" title="{_e(b["naam"])}">'
-        + ('<span class="tag">vandaag</span>' if b['vandaag'] else '')
-        + f'<div class="ic">{b["icoon"] if b["status"] != "verslagen" else "🏆"}</div><div class="nm">{_e(b["baas"])}</div>'
-        f'<div class="th">{b["id"]} · {_e(b["naam"])}</div><div class="hp"><span style="width:{b["hp"]}%"></span></div>'
-        f'<div class="klein">{"verslagen" if b["status"] == "verslagen" else str(b["hp"]) + " HP"} · gezien {b["gezien"]}/{b["n"]} · verankerd {b["verankerd"]}'
-        + (f' · {b["retentie"]}% goed' if b['retentie'] is not None else '')
-        + (f' · 🔒 {b["opgeschort"]} opgeschort' if b['opgeschort'] else '') + '</div></div>'
-        for b in s['bazen'])
+def herkansing(col, cfg: dict, college: str | None = None) -> tuple[int, int]:
+    """Gefilterd deck met de kaarten die je de laatste dagen fout had (optioneel van één college).
+    Geeft (deck-id, aantal kaarten) terug; (0, 0) als er niets te herkansen valt."""
+    zoek = f'deck:"{cfg["deck"]}" rated:{cfg.get("herkansing_dagen", 2)}:1' + (f' tag:college::{college}' if college else '')
+    n = len(col.find_cards(zoek))
+    if not n:
+        return 0, 0
+    fd = col.sched.get_or_create_filtered_deck(deck_id=col.decks.id_for_name(HERKANSING) or 0)
+    fd.name = HERKANSING
+    del fd.config.search_terms[1:]
+    if not fd.config.search_terms:
+        fd.config.search_terms.add()
+    term = fd.config.search_terms[0]
+    term.search, term.limit, term.order = zoek, 300, 1  # 1 = willekeurig
+    fd.config.reschedule = True
+    return col.sched.add_or_update_filtered_deck(fd).id, n
 
-    badges = ''.join(f'<span class="badge{"" if ok else " nee"}" title="{_e(uitleg)}">{ic} {_e(nm)}</span>' for ic, nm, uitleg, ok in s['badges'])
-    behaald = sum(1 for *_, ok in s['badges'] if ok)
 
-    groepen = ''
-    for k in CAMPAGNE_VOLGORDE:
-        naam = THEMAS[k][0]
-        rij = [(c, v[1]) for c, v in {**COLLEGES, **EXTRA}.items() if v[0] == k]
-        groepen += f'<div class="groep"><b>{k} · {_e(naam)}</b>' + ''.join(
-            _vink(c, tekst, c in s['afgevinkt'], XP_COLLEGE if c in COLLEGES else XP_EXTRA, s['per_college'].get(c), s['slot']) for c, tekst in rij) + '</div>'
-    groepen += '<div class="groep"><b>Oude tentamens</b>' + ''.join(
-        _vink(c, v[1], c in s['afgevinkt'], XP_EXTRA) for c, v in EXTRA.items() if v[0] is None) + '</div>'
-    n_col = sum(1 for k in COLLEGES if k in s['afgevinkt'])
-    vrij_knop = ('<div class="knoppen"><button class="licht" onclick="pycmd(\'gzc3:vrij\')">Slot uitzetten: alle kaarten vrijgeven</button></div>'
-                 if s['slot'] else '')
-
-    return f"""<style>{CSS}</style><div id="gzc3">
-<div class="kop"><div><h2>Campagne GZC III</h2><div class="sub">{_e(fase)}</div>{vandaag_html}</div><div class="aftel">{aftel}</div></div>
-<div class="rij">
- <div class="blok"><div class="label">Niveau</div><div class="lvl"><b>{s['level']}</b><span>{_e(s['titel'])}</span></div>
-  <div class="balk"><span style="width:{pct}%"></span></div><div class="klein">{s['xp']} XP · nog {s['xp_hi'] - s['xp']} tot level {s['level'] + 1}</div>
-  <div class="klein" style="margin-top:6px">{_e(reeks)} · record {s['record']}</div></div>
- <div class="blok"><div class="label">Dagquest</div>{quests}
-  <div class="klein" style="margin-top:4px">Vandaag {s['herhalingen_vandaag']} herhalingen, {s['nieuw_vandaag']} nieuw</div></div>
-</div>
-<div class="blok" style="margin-top:12px"><div class="label">Vandaag op het programma{' · vink een college af om de kaarten vrij te spelen' if s['slot'] else ''}</div>{lijst}
- <div class="knoppen">{''.join(knoppen)}</div></div>
-<div style="margin-top:12px" class="sub">{prognose}</div>
-<div class="label" style="margin-top:14px">Eindbazen · gezien {t['gezien']}/{t['n']} · verankerd {t['verankerd']} (interval ≥ {VERANKERD_IVL} dagen)</div>
-<div class="bazen">{bazen}</div>
-<div class="label" style="margin-top:14px">Badges · {behaald}/{len(s['badges'])}</div><div class="badges">{badges}</div>
-<details><summary>Alle colleges en extra's ({n_col}/{len(COLLEGES)} colleges)</summary>{groepen}
-{vrij_knop}</details>
-</div>"""
+def installatie(col, cfg: dict, staat: dict) -> list[dict]:
+    """De eenmalige stappen uit STARTEN.md, met wat er al gedaan is. Volgorde telt: elke stap bouwt op de vorige."""
+    heeft = lambda zoek: bool(col.find_notes(zoek))
+    check = heeft('tag:check::behouden')
+    extra = heeft('tag:vorm::casus OR tag:vorm::schema')
+    colleges = heeft(f'tag:{BRON_TAG}')
+    n_weg = len(col.find_notes('tag:check::dubbel OR tag:check::verwijderen'))
+    did = col.decks.id_for_name(cfg['deck'])
+    try:
+        fsrs = bool(did) and col.decks.get_deck_configs_for_update(did).fsrs
+    except Exception:
+        fsrs = False
+    stappen = [
+        dict(id='check', label='Import 1: de gecontroleerde kaarten', klaar=check, knop='Importeren',
+             uitleg='GZC3_check_import.txt — verbeterde, gesplitste en nieuwe kaarten. Er wordt eerst een back-up gemaakt.'),
+        dict(id='extra', label='Import 2: casussen, schema\'s, tabellen en ezelsbruggen', klaar=extra, knop='Importeren', na='check',
+             uitleg='GZC3_extra_import.txt'),
+        dict(id='colleges', label='Import 3: kaarten uit de slides van HC 1-5', klaar=colleges, knop='Importeren', na='extra',
+             uitleg='GZC3_colleges_import.txt — 181 nieuwe kaarten en de MCV-grenzen uit het college (82-98 fl).'),
+        dict(id='opruimen', label='Dubbele en overbodige kaarten verwijderen', klaar=check and n_weg == 0,
+             knop=f'{n_weg} kaarten verwijderen' if n_weg else 'Verwijderen', na='check',
+             uitleg='Notities met de tag check::dubbel of check::verwijderen. Te herstellen met Bewerken → Ongedaan maken.'),
+        dict(id='fsrs', label='FSRS aanzetten', klaar=fsrs, knop='Deckopties openen',
+             uitleg='Onderaan de deckopties: FSRS aan, gewenste retentie 0,90, Opslaan.'),
+        dict(id='campagne', label='Campagne starten', klaar=bool(staat.get('slot')), knop='Starten', na='check',
+             uitleg='Nieuwe kaarten op volgorde van de colleges, en kaarten van colleges die je nog niet hebt gedaan op slot.'),
+    ]
+    klaar = {s['id']: s['klaar'] for s in stappen}
+    for s in stappen:
+        s['kan'] = not s['klaar'] and klaar.get(s.get('na'), True)
+    return stappen

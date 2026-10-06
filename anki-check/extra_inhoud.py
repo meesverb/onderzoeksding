@@ -215,9 +215,9 @@ SCHEMAS = [
 
     dict(id='anemie', thema='T1', titel='Anemie: eerst het MCV', w=640, h=360, boxes=[
         ('mcv', 220, 15, 200, 44, 'Anemie → MCV?', None),
-        ('micro', 10, 110, 200, 90, 'MCV < 80: microcytair\nIJzergebrek, thalassemie,\n(ACD), sideroblastair', 'Altijd een hemoglobinesynthesestoornis: heem (ijzer, lood, sideroblastair) of globine (thalassemie). Eerst ferritine bepalen.'),
-        ('normo', 220, 110, 200, 60, 'MCV 80-100:\nnormocytair → reticulocyten?', None),
-        ('macro', 430, 110, 200, 90, 'MCV > 100: macrocytair\nB12/folaat, alcohol, lever,\nhypothyreoïdie, MDS', 'Megaloblastair (B12/folaat) of niet-megaloblastair (alcohol, lever, hypothyreoïdie, MDS, medicatie).'),
+        ('micro', 10, 110, 200, 90, 'MCV < 82: microcytair\nIJzergebrek, thalassemie,\n(ACD), sideroblastair', 'Altijd een hemoglobinesynthesestoornis: heem (ijzer, lood, sideroblastair) of globine (thalassemie). Eerst ferritine bepalen.'),
+        ('normo', 220, 110, 200, 60, 'MCV 82-98:\nnormocytair → reticulocyten?', None),
+        ('macro', 430, 110, 200, 90, 'MCV > 98: macrocytair\nB12/folaat, alcohol, lever,\nhypothyreoïdie, MDS', 'Megaloblastair (B12/folaat) of niet-megaloblastair (alcohol, lever, hypothyreoïdie, MDS, medicatie).'),
         ('laag', 120, 250, 190, 80, 'Reticulocyten laag:\naanmaak (ACD, nier,\nbeenmerg)', 'Het merg reageert niet: anemie bij chronische ziekte, nierinsufficiëntie (EPO-tekort) of beenmergprobleem.'),
         ('hoog', 330, 250, 190, 80, 'Reticulocyten hoog:\nhemolyse of\nbloedverlies', 'Het merg reageert goed: het probleem zit in de periferie. Bij hemolyse: LDH ↑, haptoglobine ↓, indirect bilirubine ↑, DAT.'),
     ], arrows=[('mcv', 'micro', '->'), ('mcv', 'normo', '->'), ('mcv', 'macro', '->'), ('normo', 'laag', '->'), ('normo', 'hoog', '->')]),

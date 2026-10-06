@@ -1,0 +1,449 @@
+# Koppeling van bestaande kaarten aan colleges
+
+Met de hand ingedeeld op basis van de slides van HC 1-5 (T1) en de onderwerpen van HC 5-10 (T2).
+De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een niet? Pas dan `KOPPELING_T1/T2` in `bouw_colleges.py` aan.
+
+## HC1 (18 kaarten)
+
+- Wat zijn oorzaken van trombocytopenie, geordend naar mechanisme?
+- Wat zijn oorzaken van trombocytose?
+- Wat zijn oorzaken van leukocytose?
+- Hoe onderzoek je de hematopoiese bij een patiënt?
+- Wat zijn oorzaken van leukocytopenie?
+- Beschrijf het ziektebeeld van aplastische anemie
+- Beschrijf de normale hematopoiese
+- Waar vindt hematopoiese plaats, en hoe verandert dat met de leeftijd?
+- Welke groeifactoren sturen de hematopoiese en op welke lijn werken ze?
+- Wat is het verschil tussen een beenmergaspiraat en een beenmergbiopt?
+- Wat is de levensduur van de verschillende bloedcellen?
+- Hoe wordt de trombopoëse gereguleerd via de lever?
+- Wat zegt de TPO-spiegel over de oorzaak van een trombocytopenie?
+- Hoe verandert de hematopoiese bij veroudering?
+- Welke immunoglobulineklassen zijn er en hoe zijn ze opgebouwd?
+- Waar rijpen B- en T-cellen?
+- 🕵️ Wie ben ik? Man, 22 jaar, moe, bloedend tandvlees en infecties. Pancytopenie met laag reticulocytengetal. Beenmergbiopt: leeg en vervet, 
+- Wat is de DD van een pancytopenie?
+
+## HC2 (39 kaarten)
+
+- Wat zijn de belangrijkste oorzaken van polycythemie?
+- Beschrijf de regelkring van de erythropoiese
+- Welke interventiemogelijkheden zijn er om de erythropoiese te beïnvloeden?
+- Door welke oorzaken kan een gestoorde ijzerabsorptie ontstaan?
+- Welk onderzoek zet je in om de onderliggende oorzaak van ijzergebrek te achterhalen?
+- Waarom kan ascorbinezuur nuttig zijn bij oraal ijzer?
+- Welke organen horen thuis in de regelkring van de erythropoiese?
+- Welke aanpassingen treden op bij chronische hemolyse?
+- Welke aanpassingen treden op bij ijzergebrek?
+- Wat kunnen oorzaken zijn van te weinig of te veel ijzer?
+- Wat zijn de gevolgen van ijzerstapeling voor het lichaam?
+- Geef een voorbeeld van een ziekte met extreme oxidatieve stress en het gevolg
+- Wat is de pathofysiologie van anemie bij chronische ziekte?
+- Welke stadia doorloopt de erytropoëse?
+- Uit welke ketens bestaan HbA1, HbF en HbA2?
+- Hoe wordt de EPO-productie moleculair gereguleerd via HIF?
+- Wat is Chuvash-polycytemie?
+- Welke factoren verschuiven de zuurstofdissociatiecurve naar rechts (meer O2-afgifte)?
+- Wat is de functie van hepcidine?
+- Hoe verloopt de ijzeropname in de enterocyt?
+- Wat is het verschil tussen ferritine en hemosiderine?
+- Wat is het verschil tussen transferrine en lactoferrine?
+- Wat is erythroferrone en wat doet het?
+- Waarom ontstaat ijzerstapeling bij thalassemie en sikkelcelziekte, ondanks de anemie?
+- Hoe wordt de ijzerbalans binnen de cel geregeld?
+- Waarom is vrij ijzer toxisch?
+- Wat is de rol van glutathion in de erytrocyt, en wat gaat er mis bij G6PD-deficiëntie?
+- Wat is hereditaire hemochromatose en hoe stel je de diagnose?
+- Wat is de trias van Brissot bij ijzerstapeling?
+- 🕵️ Wie ben ik? Man, 50 jaar, moe, pijnlijke handgewrichten en verhoogde leverenzymen. Transferrinesaturatie 78%, ferritine 1500 µg/l.
+- 🧩 Schema Regelkring van de erytropoëse Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Regelkring van de erytropoëse Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Regelkring van de erytropoëse Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Regelkring van de erytropoëse Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Regelkring van de erytropoëse Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Hepcidine: de „insuline voor ijzer” Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Hepcidine: de „insuline voor ijzer” Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Hepcidine: de „insuline voor ijzer” Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Hepcidine: de „insuline voor ijzer” Wat hoort op de plek van het ? [schema]
+
+## HC3 (57 kaarten)
+
+- Naar welke drie ontstaansmechanismen deel je anemie in?
+- Hoe classificeer je anemie morfologisch met het MCV?
+- Noem per morfologische groep de meest voorkomende representant
+- Wat zegt het reticulocytengetal bij anemie?
+- Wat betekent een verlaagd MCHC?
+- Welke vorm van bloedarmoede ontstaat bij langdurig ijzergebrek?
+- Welke therapie start je bij ijzergebreksanemie?
+- Geef een overzicht van de belangrijkste groepen oorzaken van anemie met voorbeelden
+- Welk mechanisme ligt ten grondslag aan een microcytaire hypochrome anemie?
+- Wat zijn de meest voorkomende oorzaken van ijzergebreksanemie bij kinderen, premenopauzale vrouwen en volwassen mannen?
+- Welke diagnostische onderzoeken zijn noodzakelijk bij ijzergebrek bij een man van 65?
+- Hoe onderscheid je ijzergebreksanemie, anemie bij chronische ziekte en heterozygote bèta-thalassemie?
+- Welke laboratoriumtesten kunnen hemolyse aantonen?
+- Hoe worden hemolytische anemieën geclassificeerd?
+- Wanneer kan splenectomie zinvol zijn bij hemolytische anemie?
+- Beschrijf de belangrijkste oorzaken van megaloblastaire anemie
+- Wat is bèta-thalassemie en hoe presenteert de heterozygote vorm (minor)?
+- Hoe presenteert bèta-thalassemie major (homozygoot)?
+- Wat is de oorzaak en het mechanisme van sikkelcelziekte?
+- Wat zijn de belangrijkste complicaties en de behandeling van sikkelcelziekte?
+- Hoe ontstaat anemie bij chronische nierinsufficiëntie en hoe behandel je die?
+- Geef een overzicht van de behandeling per hoofdoorzaak van anemie
+- Waarom geeft bèta-thalassemie wél en alfa-thalassemie géén afwijkende Hb-elektroforese?
+- Wat zijn de WHO-afkapwaarden voor anemie in mmol/l?
+- Uit welke drie bestanddelen bestaat de erytrocyt, en welke aangeboren stoornissen horen daarbij?
+- Wat zijn kogelcellen (sferocyten) en welk labkenmerk hoort erbij?
+- Wat toont de directe antiglobulinetest (Coombs/DAT) aan?
+- Wat is het verschil tussen een kwalitatieve en een kwantitatieve hemoglobinopathie?
+- Normocytaire anemie — oorzaken?
+- Macrocytaire anemie — oorzaken?
+- Macrocytaire anemie — diagnostiek en behandeling?
+- Casus 1.1: hoe interpreteer je het lab van de 65-jarige man (Hb 4,6, MCV 68, MCHC laag, reticulocyten laag)?
+- Wat is trombotische trombocytopenische purpura (TTP)?
+- Wat is sideroblastaire anemie?
+- 🕵️ Wie ben ik? Man, 65 jaar, moe en kortademig bij traplopen. Hb 4,6 mmol/l, MCV 68 fl, MCHC laag, reticulocyten laag, ferritine sterk verla
+- 🕵️ Wie ben ik? Vrouw, 58 jaar, met actieve reumatoïde artritis. Hb 6,8 mmol/l, MCV 84 fl, ferritine 450 µg/l, transferrine laag, transferrin
+- 🕵️ Wie ben ik? Vrouw, 25 jaar, van Italiaanse afkomst, klachtenvrij. Hb 6,9 mmol/l, MCV 62 fl, erytrocyten 6,1 × 10¹²/l, ferritine normaal, 
+- 🕵️ Wie ben ik? Vrouw, 62 jaar, met vitiligo, tintelende voeten en een gladde rode tong. Hb 5,9 mmol/l, MCV 118 fl, hypergesegmenteerde neutr
+- 🕵️ Wie ben ik? Jongen, 12 jaar, wisselende geelzucht, vergrote milt en galstenen. Reticulocyten verhoogd, MCHC verhoogd, sferocyten in de ui
+- 🕵️ Wie ben ik? Man, 30 jaar, mediterrane afkomst, krijgt een dag na een maaltijd met tuinbonen donkere urine en geelzucht. Uitstrijk: bite c
+- 🕵️ Wie ben ik? Vrouw, 70 jaar, bekend met CLL, snel toenemend moe. Hb 5,5 mmol/l, reticulocyten hoog, LDH hoog, haptoglobine onmeetbaar, dir
+- 🕵️ Wie ben ik? Jongen, 8 jaar, Surinaamse afkomst, heeft bij koorts hevige pijn in armen en benen. Hb 5,5 mmol/l, MCV normaal, reticulocyten
+- 🕵️ Wie ben ik? Man, 83 jaar, moe. Hb 6,2 mmol/l, MCV 112 fl, weinig reticulocyten, vitamine B12 en foliumzuur normaal. Uitstrijk: pseudo-Pel
+- 🕵️ Wie ben ik? Vrouw, 35 jaar, verward en koortsig. Trombocyten 12 × 10⁹/l, Hb laag met fragmentocyten, LDH sterk verhoogd, creatinine verho
+- 🧩 Schema Anemie: eerst het MCV Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Anemie: eerst het MCV Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Anemie: eerst het MCV Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Anemie: eerst het MCV Wat hoort op de plek van het ? [schema]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Ferritine bij IJzergebrek [tabel]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Ferritine bij Chronische ziekte [tabel]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Ferritine bij Bèta-thal minor [tabel]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Transferrine/TIBC bij IJzergebrek [tabel]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Transferrine/TIBC bij Chronische ziekte [tabel]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Transferrine/TIBC bij Bèta-thal minor [tabel]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Typisch bij IJzergebrek [tabel]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Typisch bij Chronische ziekte [tabel]
+- 📊 Vergelijk Microcytaire anemie onderscheiden Vul in: Typisch bij Bèta-thal minor [tabel]
+
+## HC4 (70 kaarten)
+
+- Wat is het verschil tussen primaire en secundaire hemostase?
+- PT verlengd, aPTT normaal — welke oorzaken?
+- aPTT verlengd, PT normaal — welke oorzaken?
+- PT én aPTT verlengd — welke oorzaken?
+- Wat is het nut van een mengproef bij verlengde stollingstijd?
+- Wanneer zijn speciale stollingstesten geïndiceerd?
+- Wat zijn de klinische verschillen tussen stoornissen in de primaire en secundaire hemostase?
+- Geef de DD bij een stoornis in de primaire hemostase
+- Geef de DD bij een stoornis in de secundaire hemostase
+- Wat betekent een directe nabloeding na kiesextractie voor de DD?
+- Waarom is de familieanamnese belangrijk bij verhoogde bloedingsneiging?
+- Wat zijn de meest voorkomende erfelijke ziektes met verhoogde bloedingsneiging en hun overerving?
+- Wat zijn de verschillen in klinisch beeld tussen hemofilie en de ziekte van Von Willebrand?
+- Met welk aanvullend onderzoek onderscheid je hemofilie A van de ziekte van Von Willebrand?
+- Hoe behandel je de ziekte van Von Willebrand, ernstige hemofilie A en lichte hemofilie A?
+- Beschrijf de stappen van de primaire hemostase
+- Beschrijf de stollingscascade
+- Welke stollingsfactoren zijn vitamine K-afhankelijk?
+- Welke natuurlijke remmers van de stolling zijn er?
+- Hoe verloopt de fibrinolyse?
+- Wat is de trias van Virchow?
+- Welke vormen van erfelijke en verworven trombofilie zijn er?
+- Wat is het aangrijpingspunt van de verschillende antistollingsmiddelen?
+- Wat zijn de antidota van de antistollingsmiddelen?
+- Welke vragen stel je bij de anamnese van een patiënt met verhoogde bloedingsneiging?
+- Welk laboratoriumonderzoek vraag je in eerste instantie aan bij verhoogde bloedingsneiging?
+- Wat is idiopathische trombocytopenische purpura (ITP)?
+- Wat is diffuse intravasale stolling (DIS) en hoe herken je het?
+- Welke glycoproteïnen op de trombocyt zijn belangrijk en waarvoor?
+- Welke twee positieve feedbackloops versterken de trombocytenactivatie?
+- Wat is het ezelsbruggetje voor de basisroute van de stollingscascade?
+- Waarom geeft de ziekte van Von Willebrand ook een verlaagd factor VIII?
+- Waarvoor dient de trombinetijd (TT)?
+- Wat is de Platelet Function Analyser (PFA) en wat is de waarde ervan?
+- Hoe wordt de ernst van hemofilie geclassificeerd?
+- Wat zijn de belangrijkste feiten over de verdeling en overerving van hemofilie?
+- Wat is een target joint bij hemofilie?
+- Waarom werkt desmopressine wel bij hemofilie A maar niet bij hemofilie B?
+- Wat zijn inhibitors bij hemofilie en hoe worden ze behandeld?
+- Welke vaatwandaandoening kan een bloedingsneiging verklaren bij normale stollingstesten?
+- Wat is het defect bij de ziekte van Glanzmann en bij het Bernard-Soulier-syndroom?
+- Welke stollingsstoornis geeft een ernstige bloeding (bv. navelstomp of intracranieel bij een neonaat) met een normale PT en aPTT?
+- 🕵️ Wie ben ik? Man, 24 jaar, van jongs af aan neusbloedingen en snel blauwe plekken. Na een kiesextractie direct 40 minuten nabloeden. Moede
+- 🕵️ Wie ben ik? Jongen, 3 jaar, krijgt na een val een dikke, warme knie en later een grote spierbloeding in de kuit. aPTT verlengd, PT normaa
+- 🕵️ Wie ben ik? Vrouw, 30 jaar, sinds een week petechiën op de benen en bloedend tandvlees. Trombocyten 8 × 10⁹/l, overig bloedbeeld en stoll
+- 🕵️ Wie ben ik? Man, 40 jaar, bloedt uit infuusplekken en tandvlees. Trombocyten laag, PT en aPTT verlengd, fibrinogeen laag, D-dimeer sterk 
+- 🧩 Schema Stollingscascade Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Stollingscascade Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Stollingscascade Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Stollingscascade Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Stollingscascade Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Stollingscascade Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Stollingscascade Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Stollingscascade Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Primaire hemostase: van vaatwand tot plaatjesplug Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Primaire hemostase: van vaatwand tot plaatjesplug Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Primaire hemostase: van vaatwand tot plaatjesplug Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Primaire hemostase: van vaatwand tot plaatjesplug Wat hoort op de plek van het ? [schema]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Tekort bij Hemofilie A [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Tekort bij Hemofilie B [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Tekort bij Von Willebrand [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Overerving bij Hemofilie A [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Overerving bij Hemofilie B [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Overerving bij Von Willebrand [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Bloedingen bij Hemofilie A [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Bloedingen bij Hemofilie B [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Bloedingen bij Von Willebrand [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Behandeling bij Hemofilie A [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Behandeling bij Hemofilie B [tabel]
+- 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Behandeling bij Von Willebrand [tabel]
+
+## HC5 (19 kaarten)
+
+- Hoe worden hematologische maligniteiten ingedeeld naar cell of origin?
+- Wat is de rol van flowcytometrie bij hematologische maligniteiten?
+- Hoe onderscheid je reactieve afwijkingen in het bloedbeeld van een maligniteit?
+- Welke behandelmodaliteiten worden ingezet bij hematologische maligniteiten?
+- Beschrijf de principes van de verschillende vormen van stamceltransplantatie
+- Wat wordt bedoeld met klonale ontwikkeling bij hematologische maligniteiten?
+- Wat is het verschil tussen driver- en passenger-mutaties?
+- Op welke pijlers berust de WHO-classificatie van hematologische maligniteiten?
+- Welke technieken worden gebruikt voor genetische diagnostiek bij hematologische maligniteiten?
+- Welke vormen van immunotherapie worden gebruikt bij hematologische maligniteiten?
+- Wat is graft-versus-hostziekte?
+- Hoe verloopt een autologe stamceltransplantatie in de praktijk?
+- 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
+
+## HC6 (39 kaarten)
+
+- Hoe onderscheid je polycythaemia vera van secundaire polycythemie?
+- Wat zijn de gevolgen van een onbehandelde polycythemie?
+- Wat is het verschil tussen CML en CLL?
+- Waar zit de mutatie bij JAK2 V617F en wat is het gevolg?
+- CML — presentatie?
+- CML — oorzaak en pathogenese?
+- CML — aanvullend onderzoek?
+- CML — behandeling?
+- CML — incidentie en prognose?
+- Polycythaemia vera — presentatie?
+- Polycythaemia vera — oorzaak en diagnostiek?
+- Polycythaemia vera — behandeling?
+- Polycythaemia vera — incidentie en prognose?
+- Essentiële trombocytose — presentatie en diagnostiek?
+- Essentiële trombocytose — behandeling en prognose?
+- Myelofibrose — presentatie?
+- Myelofibrose — oorzaak en diagnostiek?
+- Myelofibrose — behandeling en prognose?
+- 🕵️ Wie ben ik? Man, 50 jaar, moe en een vol gevoel in de buik. Milt 10 cm onder de ribbenboog. Leukocyten 180 × 10⁹/l met alle granulocytair
+- 🕵️ Wie ben ik? Man, 60 jaar, rood gelaat, hoofdpijn en jeuk na het douchen. Hb 11,5 mmol/l, hematocriet 0,56, EPO verlaagd, JAK2 V617F posit
+- 🕵️ Wie ben ik? Vrouw, 52 jaar, brandende pijnaanvallen in voeten en handen. Trombocyten 900 × 10⁹/l, overige lijnen normaal, CALR-mutatie aa
+- 🕵️ Wie ben ik? Vrouw, 68 jaar, vermagerd met nachtzweten. Enorme milt. Anemie met traandruppelcellen en een leuko-erytroblastair bloedbeeld.
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Mutatie bij CML [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Mutatie bij PV [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Mutatie bij ET [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Mutatie bij Myelofibrose [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Bloedbeeld bij CML [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Bloedbeeld bij PV [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Bloedbeeld bij ET [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Bloedbeeld bij Myelofibrose [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Typisch klinisch bij CML [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Typisch klinisch bij PV [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Typisch klinisch bij ET [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Typisch klinisch bij Myelofibrose [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Behandeling bij CML [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Behandeling bij PV [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Behandeling bij ET [tabel]
+- 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Behandeling bij Myelofibrose [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij CML [tabel]
+
+## HC7 (80 kaarten)
+
+- Wat is de rol van PET-CT bij lymfatische maligniteiten?
+- Wat is de incidentie en leeftijdsverdeling van het Hodgkinlymfoom?
+- Wat zijn de belangrijkste klinische kenmerken bij presentatie van een Hodgkinlymfoom?
+- Hoe verloopt de diagnostiek van het Hodgkinlymfoom?
+- Wat is het natuurlijk beloop en verspreidingspatroon van het Hodgkinlymfoom?
+- Wat is de mogelijke rol van EBV in de pathogenese van het Hodgkinlymfoom?
+- Uit welk deel van de lymfopoiese ontstaat het Hodgkinlymfoom?
+- Wat is de rol van PD1/PD-L1 bij het Hodgkinlymfoom?
+- Wat kenmerkt het nodulair lymfocyten-predominante Hodgkinlymfoom (NLPHL)?
+- Waarom vindt stadiëringsonderzoek plaats en welke stadia-indeling wordt gebruikt?
+- Casus 2.1: Van welk stadium is sprake in de casus (mediastinum, hals bdz, milt, retroperitoneaal, B-symptomen)?
+- Hoe wordt een gelokaliseerd Hodgkinlymfoom behandeld?
+- Hoe wordt een uitgebreid stadium Hodgkinlymfoom behandeld?
+- Wat zijn de behandelopties als er geen complete remissie is?
+- Wat zijn nieuwe therapeutische opties bij Hodgkin?
+- Hoe is de prognose van het Hodgkinlymfoom en waardoor wordt deze beïnvloed?
+- Wat is de late toxiciteit van behandeling met chemo- en/of radiotherapie bij Hodgkin?
+- Casus 2.1: Waarom wordt in de casus bleomycine weggelaten na 2 kuren?
+- Bespreek incidentie, lokalisatie, uitbreiding en leeftijdsverdeling van non-Hodgkinlymfomen
+- Hoe is de verdeling van de verschillende soorten non-Hodgkinlymfomen?
+- Welke onderzoeken zijn minimaal nodig voor diagnose en stadiëring van NHL, en wat is het verschil met Hodgkin?
+- Geef voorbeelden en kenmerken van indolent B-cel non-Hodgkinlymfoom
+- Geef voorbeelden en kenmerken van agressief B-cel non-Hodgkinlymfoom
+- Welke vijf factoren vormen de IPI (agressief non-Hodgkinlymfoom)?
+- Welke vijf factoren vormen de FLIPI (folliculair lymfoom)?
+- Wat betekent transformatie van een folliculair lymfoom, en hoe herken je het?
+- Wat is de herkomst en het klinisch beeld van chronische lymfatische leukemie?
+- Hoe wordt de diagnose CLL gesteld?
+- Wat is het immunofenotype van CLL?
+- Wat bepaalt beloop en prognose bij CLL?
+- Wat zijn indicaties om te starten met behandeling van CLL?
+- Wat is het verschil tussen CLL en monoklonale B-cellymfocytose (MBL)?
+- Waarom wordt TP53/del(17p) bepaald vóór de start van behandeling bij CLL?
+- Wat zijn de huidige behandelopties bij CLL?
+- Waarom wordt het MALT-lymfoom als aparte entiteit gezien?
+- Wat zijn vaak voorkomende lokalisaties van een MALT-lymfoom en de bijbehorende prikkel?
+- Wat zijn B-symptomen en waarom zijn ze van belang?
+- Vergelijk Hodgkin- en non-Hodgkinlymfoom op hoofdlijnen
+- Wat kenmerkt hairy cell leukemie?
+- Wat kenmerkt het mantelcellymfoom?
+- Welke drie vormen van het Burkitt-lymfoom zijn er?
+- Welke T-cellymfomen moet je kennen?
+- Wat is de relatie tussen immuundeficiëntie en maligne lymfomen?
+- Wat is de Richter-transformatie?
+- CLL — incidentie en prognose?
+- Hoe wordt het nodulair lymfocyten-predominant Hodgkinlymfoom (NLPHL) behandeld, en waarom werkt rituximab daar wél?
+- Folliculair lymfoom — presentatie en oorzaak?
+- Folliculair lymfoom — aanvullend onderzoek?
+- Folliculair lymfoom — behandeling?
+- Folliculair lymfoom — incidentie en prognose?
+- Diffuus grootcellig B-cellymfoom — presentatie?
+- Diffuus grootcellig B-cellymfoom — aanvullend onderzoek?
+- Diffuus grootcellig B-cellymfoom — behandeling?
+- Diffuus grootcellig B-cellymfoom — incidentie en prognose?
+- Wat is de DD van pijnloze vergrote lymfeklieren?
+- Wanneer doe je een biopsie van een vergrote lymfeklier?
+- Welke factoren zijn ongunstig bij een Hodgkinlymfoom in vroeg stadium?
+- Casus 2.2: wat is de FLIPI-score van de 56-jarige man met een folliculair lymfoom in alle klierstations en het beenmerg (lab normaal)?
+- Welke infecties zijn geassocieerd met lymfomen?
+- 🕵️ Wie ben ik? Man, 68 jaar, moe, vergrote halsklieren. Lymfocyten 55 × 10⁹/l, monotone kleine lymfocyten met gumprechtse schollen. CD5+, CD
+- 🕵️ Wie ben ik? Vrouw, 30 jaar, nachtzweten, koorts en 7 kg afgevallen. Pijnloze halsklieren die pijn doen na alcohol. Thorax: breed mediasti
+- 🕵️ Wie ben ik? Man, 35 jaar, één langzaam groeiende halsklier, verder klachtenvrij. Biopt: popcorncellen die CD20+ zijn en CD30− en CD15−.
+- 🕵️ Wie ben ik? Man, 56 jaar, al een jaar pijnloze klieren in hals, oksels en liezen, voelt zich goed. Biopt: follikelvormige groei, CD10+ BC
+- 🕵️ Wie ben ik? Vrouw, 65 jaar, halszwelling die in enkele weken hard groeit, met koorts en nachtzweten. LDH sterk verhoogd. Biopt: diffuse v
+- 🕵️ Wie ben ik? Jongen, 10 jaar, snel groeiende buikmassa bij de overgang van dunne naar dikke darm, met invaginatie. Biopt: starry sky-beeld
+- 🕵️ Wie ben ik? Vrouw, 60 jaar, al lang maagklachten, H. pylori positief. Maagbiopt: kleine lymfocyten die de klierbuizen infiltreren (lymfo-
+- 🕵️ Wie ben ik? Man, 62 jaar, gegeneraliseerde lymfadenopathie, splenomegalie en beenmergbetrokkenheid. B-cellen CD5+, CD23−, cycline D1+, t(
+- 🕵️ Wie ben ik? Man, 50 jaar, enorme milt zonder vergrote klieren, pancytopenie. Beenmergaspiraat: dry tap. Cellen met haarachtige uitlopers,
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Markers bij Klassiek Hodgkin [tabel]
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Markers bij NLPHL [tabel]
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Markers bij Non-Hodgkin [tabel]
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Verspreiding bij Klassiek Hodgkin [tabel]
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Verspreiding bij NLPHL [tabel]
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Verspreiding bij Non-Hodgkin [tabel]
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Leeftijd bij Klassiek Hodgkin [tabel]
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Leeftijd bij NLPHL [tabel]
+- 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Leeftijd bij Non-Hodgkin [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Burkitt-lymfoom [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Folliculair lymfoom [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Mantelcellymfoom [tabel]
+
+## HC8 (43 kaarten)
+
+- Beschrijf de basisstructuur van een immunoglobulinemolecuul
+- Wat is een M-component en bij welke aandoeningen kan die voorkomen?
+- Welke verschillende M-proteïnes zijn er?
+- Wat is Bence Jones-eiwit?
+- Wat is amyloïdose?
+- Geef een beschrijving van MGUS
+- Wat is de rol van vitamine D en PTH in het calciummetabolisme?
+- Wat zijn de symptomen van hypercalciëmie?
+- Hoe behandel je hypercalciëmie?
+- Wat zijn de CRAB-criteria bij multipel myeloom?
+- Wat is de pathogenese van nierinsufficiëntie bij multipel myeloom?
+- Bespreek de verschillende stappen van de behandeling van multipel myeloom
+- Wat is het doel van de behandeling van multipel myeloom?
+- Welke prognostische factoren kent u voor multipel myeloom?
+- Wat is de definitie van de ziekte van Waldenström?
+- Wat zijn de 3 belangrijkste klinische verschijnselen van M. Waldenström?
+- Waarin verschilt de ziekte van Waldenström van multipel myeloom?
+- Wat is een plasmacelleukemie en een plasmocytoom?
+- Morbus Waldenström — behandeling en prognose?
+- Multipel myeloom — met welke klachten presenteert het zich?
+- Multipel myeloom — oorzaak en pathogenese?
+- Multipel myeloom — aanvullend onderzoek?
+- Multipel myeloom — incidentie en prognose?
+- Wat zijn de belangrijkste oorzaken van hypercalciëmie?
+- Via welke mechanismen veroorzaakt een maligniteit hypercalciëmie?
+- Wat zijn oorzaken van een verhoogd totaal eiwit in het bloed?
+- 🕵️ Wie ben ik? Man, 60 jaar, heftige rugpijn, verward en polyurie. Hb 6, creatinine 300, calcium 3,0. IgG-kappa M-proteïne 70 g/l, lytische 
+- 🕵️ Wie ben ik? Man, 72 jaar, klachtenvrij. Bij routinelab een IgG-kappa M-proteïne van 12 g/l. Beenmerg 5% plasmacellen, geen CRAB.
+- 🕵️ Wie ben ik? Man, 68 jaar, hoofdpijn, wazig zien en neusbloedingen. IgM-M-proteïne 40 g/l, lymfadenopathie en splenomegalie, geen botlaesi
+- 🕵️ Wie ben ik? Man, 65 jaar, nefrotisch syndroom, een vergrote tong en hartfalen. Vrije lambda-lichte ketens verhoogd. Vetbiopt: appelgroene
+- 🧩 Schema Het plasmacelspectrum Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Het plasmacelspectrum Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Het plasmacelspectrum Wat hoort op de plek van het ? [schema]
+- 🧩 Schema Het plasmacelspectrum Wat hoort op de plek van het ? [schema]
+- 📊 Vergelijk M-proteïneziekten Vul in: M-proteïne bij MGUS [tabel]
+- 📊 Vergelijk M-proteïneziekten Vul in: M-proteïne bij Multipel myeloom [tabel]
+- 📊 Vergelijk M-proteïneziekten Vul in: M-proteïne bij Waldenström [tabel]
+- 📊 Vergelijk M-proteïneziekten Vul in: Beenmerg bij MGUS [tabel]
+- 📊 Vergelijk M-proteïneziekten Vul in: Beenmerg bij Multipel myeloom [tabel]
+- 📊 Vergelijk M-proteïneziekten Vul in: Beenmerg bij Waldenström [tabel]
+- 📊 Vergelijk M-proteïneziekten Vul in: Kliniek bij MGUS [tabel]
+- 📊 Vergelijk M-proteïneziekten Vul in: Kliniek bij Multipel myeloom [tabel]
+- 📊 Vergelijk M-proteïneziekten Vul in: Kliniek bij Waldenström [tabel]
+
+## HC9 (39 kaarten)
+
+- Welke veranderingen in het bloedbeeld wijzen op een acute leukemie?
+- Beschrijf het klinisch beeld van AML en waardoor het wordt bepaald
+- Waarin verschilt AML van ALL?
+- Hoe wordt de diagnose AML gesteld?
+- Bespreek de principes van de behandeling van acute leukemie
+- Wat zijn nieuwe behandelopties bij AML op basis van genetische ontdekkingen?
+- Door welke factoren wordt de prognose van AML beïnvloed?
+- Casus 3.2: Wat is de betekenis van de translocatie t(8;21) in de casus?
+- Beschrijf het klinisch beeld en de prognose van het myelodysplastisch syndroom
+- Waarin onderscheidt MDS zich van acute leukemie?
+- Wat is het tumorlysissyndroom en hoe voorkom je het?
+- Wat is febriele neutropenie en wat is het beleid?
+- Wat is leukostase en wanneer treedt het op?
+- Wat is een Auerse staaf en waarom is die belangrijk?
+- Wat houdt het 7+3-schema bij AML in?
+- Wat zijn de morfologische kenmerken van dysplasie bij MDS?
+- Waardoor wordt de prognose van MDS bepaald?
+- ALL — presentatie?
+- ALL — behandeling?
+- AML — oorzaak en definitie?
+- AML — incidentie en prognose?
+- MDS — oorzaak en pathogenese?
+- MDS — behandeling?
+- Wat zijn risicofactoren voor het ontstaan van AML?
+- 🕵️ Wie ben ik? Man, 40 jaar, 2 weken ernstig moe, neusbloeding en petechiën. Hb 4,8, leukocyten 2,2, trombocyten 4. Uitstrijk 20% blasten, C
+- 🕵️ Wie ben ik? Man, 55 jaar, AML met leukocyten 180 × 10⁹/l, wordt benauwd, verward en ziet wazig.
+- 🕵️ Wie ben ik? Jongen, 10 jaar, met Burkitt-lymfoom, een dag na start van chemotherapie: kalium 6,8, fosfaat hoog, calcium laag, urinezuur h
+- 🕵️ Wie ben ik? Vrouw, 45 jaar, 10 dagen na een AML-kuur: temperatuur 38,6 °C, neutrofielen 0,1 × 10⁹/l, verder geen focus.
+- 📊 Vergelijk ALL vs. AML Vul in: Wie bij ALL [tabel]
+- 📊 Vergelijk ALL vs. AML Vul in: Wie bij AML [tabel]
+- 📊 Vergelijk ALL vs. AML Vul in: Kenmerk bij ALL [tabel]
+- 📊 Vergelijk ALL vs. AML Vul in: Kenmerk bij AML [tabel]
+- 📊 Vergelijk ALL vs. AML Vul in: Extramedullair bij ALL [tabel]
+- 📊 Vergelijk ALL vs. AML Vul in: Extramedullair bij AML [tabel]
+- 📊 Vergelijk ALL vs. AML Vul in: Prognose kind bij ALL [tabel]
+- 📊 Vergelijk ALL vs. AML Vul in: Prognose kind bij AML [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Acute promyelocytenleukemie [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Kinder-ALL (gunstig) [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij AML (gunstig) [tabel]
+
+## HC10 (7 kaarten)
+
+- Wat zijn de morfologische kenmerken van het klassieke Hodgkinlymfoom?
+- Wat is de rol van de andere immuuncellen in de lymfeklier bij Hodgkin?
+- Welke markers brengt het klassieke Hodgkinlymfoom tot expressie?
+- Welke varianten van de Reed-Sternbergcel zijn er?
+- Wat zijn lymfo-epitheliale laesies?
+- Wat kenmerkt mycosis fungoides en het Sézary-syndroom?
+- 🕵️ Wie ben ik? Man, 55 jaar, al jaren eczeemplekken in het zwembroekgebied die tijdelijk op steroïdzalf reageren, nu verheven plaques. Biopt
+
+## HC11 (1 kaarten)
+
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Ewing-sarcoom [tabel]

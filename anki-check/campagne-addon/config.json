@@ -4,5 +4,7 @@
   "leerdeadline": "2026-10-22",
   "reeks_drempel": 30,
   "eindfase_herhalingen": 150,
-  "meldingen": true
+  "meldingen": true,
+  "hud": true,
+  "herkansing_dagen": 2
 }
