@@ -24,7 +24,8 @@ def _laad(naam: str, standaard):
 
 COLLEGEDATA = _laad('colleges.json', {})  # kapstok, controlevragen en verzamelcel per college
 KOPPELING = _laad('koppeling.json', {})  # guid → college, met de hand ingedeeld op basis van de slides
-BRON_TAG = 'bron::slides-HC1-5'
+EXTRA_TAGS = _laad('extra_tags.json', {})  # guid → tags, bv. prio::tentamen voor wat de docent in het transcript benadrukt
+IMPORT_MARKER = COLLEGEDATA.get('_meta', {}).get('marker')  # notitie die alleen in de nieuwste collegeimport zit
 HERKANSING = 'GZC III - Herkansing'
 
 # ------------------------------------------------------------------ inhoud van de campagne
@@ -515,12 +516,19 @@ def koppeling_versie() -> str:
         return ''
 
 
-def koppel(col, koppeling: dict[str, str] | None = None) -> int:
-    """Zet de tag college::HCx op de notities uit de koppeling (en haalt een afwijkende college-tag weg).
-    Geeft het aantal notities terug dat een (andere) tag kreeg."""
+def koppel(col, koppeling: dict[str, str] | None = None, extra_tags: dict[str, list[str]] | None = None) -> int:
+    """Zet de tag college::HCx op de notities uit de koppeling (en haalt een afwijkende college-tag weg), en voegt
+    de extra tags toe (nadruk van de docent). Geeft het aantal notities terug dat een tag kreeg."""
     koppeling = KOPPELING if koppeling is None else koppeling
+    extra_tags = EXTRA_TAGS if extra_tags is None else extra_tags
     erbij, eraf = defaultdict(list), defaultdict(list)
+    gewijzigd = set()
     for nid, guid, tags in col.db.all('select id, guid, tags from notes'):
+        lager = {t.lower() for t in tags.split()}
+        for t in extra_tags.get(guid, ()):
+            if t.lower() not in lager:
+                erbij[t].append(nid)
+                gewijzigd.add(nid)
         doel = koppeling.get(guid)
         if not doel:
             continue
@@ -530,12 +538,13 @@ def koppel(col, koppeling: dict[str, str] | None = None) -> int:
         for t in huidig:
             eraf[t].append(nid)
         erbij[f'college::{doel}'].append(nid)
+        gewijzigd.add(nid)
     for t, nids in eraf.items():
         col.tags.bulk_remove(nids, t)
     for t, nids in erbij.items():
         col.tags.bulk_add(nids, t)
     _COLLEGE_CACHE.clear()
-    return sum(len(v) for v in erbij.values())
+    return len(gewijzigd)
 
 
 def herkansing(col, cfg: dict, college: str | None = None) -> tuple[int, int]:
@@ -561,7 +570,7 @@ def installatie(col, cfg: dict, staat: dict) -> list[dict]:
     heeft = lambda zoek: bool(col.find_notes(zoek))
     check = heeft('tag:check::behouden')
     extra = heeft('tag:vorm::casus OR tag:vorm::schema')
-    colleges = heeft(f'tag:{BRON_TAG}')
+    colleges = bool(IMPORT_MARKER) and bool(col.db.scalar('select count() from notes where guid = ?', IMPORT_MARKER))
     n_weg = len(col.find_notes('tag:check::dubbel OR tag:check::verwijderen'))
     did = col.decks.id_for_name(cfg['deck'])
     try:
@@ -573,8 +582,8 @@ def installatie(col, cfg: dict, staat: dict) -> list[dict]:
              uitleg='GZC3_check_import.txt — verbeterde, gesplitste en nieuwe kaarten. Er wordt eerst een back-up gemaakt.'),
         dict(id='extra', label='Import 2: casussen, schema\'s, tabellen en ezelsbruggen', klaar=extra, knop='Importeren', na='check',
              uitleg='GZC3_extra_import.txt'),
-        dict(id='colleges', label='Import 3: kaarten uit de slides van HC 1-5', klaar=colleges, knop='Importeren', na='extra',
-             uitleg='GZC3_colleges_import.txt — 181 nieuwe kaarten en de MCV-grenzen uit het college (82-98 fl).'),
+        dict(id='colleges', label='Import 3: kaarten uit de colleges (slides en transcripten)', klaar=colleges, knop='Importeren', na='extra',
+             uitleg='GZC3_colleges_import.txt — nieuwe kaarten per college en correcties. Komt er een nieuwere versie, dan verschijnt deze stap opnieuw.'),
         dict(id='opruimen', label='Dubbele en overbodige kaarten verwijderen', klaar=check and n_weg == 0,
              knop=f'{n_weg} kaarten verwijderen' if n_weg else 'Verwijderen', na='check',
              uitleg='Notities met de tag check::dubbel of check::verwijderen. Te herstellen met Bewerken → Ongedaan maken.'),

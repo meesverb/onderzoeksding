@@ -107,6 +107,9 @@ body.gz{margin:0;background:var(--bg)}
 .gz .venster ul{margin:4px 0 8px;padding-left:20px}
 .gz .venster li{margin:2px 0}
 .gz .valkuil{background:var(--eos-z);border-radius:10px;padding:8px 12px;margin-top:8px}
+.gz .tip{background:var(--goud-z);border-radius:10px;padding:8px 12px;margin-top:8px}
+.gz .citaten{margin-top:10px}
+.gz .citaten blockquote{margin:6px 0;padding:6px 12px;border-left:3px solid var(--lijn);font-style:italic}
 .gz .vraag{background:var(--kaart);border:1px solid var(--lijn);border-radius:12px;padding:12px;margin-top:10px}
 .gz .opties{display:grid;gap:6px;margin-top:8px}
 .gz .optie{text-align:left;font-weight:500;background:var(--bg);color:var(--ink);border:1.5px solid var(--lijn)}
@@ -359,6 +362,12 @@ def dialoog(s: dict, k: str) -> str:
         for kop, punten in data['kapstok']:
             delen.append(f'<h3>{_e(kop)}</h3><ul>' + ''.join(f'<li>{_e(p)}</li>' for p in punten) + '</ul>')
         delen.append('<div class="valkuil"><b>⚠️ Valkuilen</b><ul>' + ''.join(f'<li>{_e(v)}</li>' for v in data['valkuilen']) + '</ul></div>')
+        if data.get('tentamentips'):
+            delen.append('<div class="tip"><b>🎯 Wat de docent zei over het tentamen</b><ul>'
+                         + ''.join(f'<li>„{_e(t["citaat"])}” <span class="sub">— {_e(t["betekenis"])}</span></li>' for t in data['tentamentips']) + '</ul></div>')
+        if data.get('citaten'):
+            delen.append('<div class="citaten"><b>🎙️ Uit het college</b>'
+                         + ''.join(f'<blockquote>„{_e(t["citaat"])}”<span class="sub"> · {_e(t["onderwerp"])}</span></blockquote>' for t in data['citaten']) + '</div>')
     else:
         delen.append('<div class="kern">Voor dit college zijn de slides nog niet verwerkt. Zet ze in de Drive-map, dan komt hier de kapstok met controlevragen.</div>')
 

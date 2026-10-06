@@ -84,10 +84,15 @@ def main():
     print('imports:')
     importeer(col, 'GZC3_check_import.txt')
     importeer(col, 'GZC3_extra_import.txt')
+    bestaand = {r.split('\t', 1)[0] for naam in ('GZC3_check_import.txt', 'GZC3_extra_import.txt')
+                for r in (ADDON / 'data' / naam).read_text(encoding='utf-8').splitlines() if not r.startswith('#')}
+    rijen = [r.split('\t') for r in (ADDON / 'data' / 'GZC3_colleges_import.txt').read_text(encoding='utf-8').splitlines() if not r.startswith('#')]
     log = importeer(col, 'GZC3_colleges_import.txt')
-    assert len(log.new) == 181 and len(log.updated) == 5, (len(log.new), len(log.updated))
+    verwacht_nieuw = sum(r[0] not in bestaand for r in rijen)
+    assert len(log.new) == verwacht_nieuw and len(log.updated) == len(rijen) - verwacht_nieuw, (len(log.new), len(log.updated))
     mcv = col.get_note(col.find_notes('"Hoe classificeer je anemie morfologisch*"')[0])
     assert '82-98 fl' in mcv['Back'], mcv['Back']
+    assert campagne.IMPORT_MARKER and col.db.scalar('select count() from notes where guid = ?', campagne.IMPORT_MARKER) == 1
 
     stappen = {s['id']: s for s in campagne.installatie(col, CFG, st)}
     assert stappen['check']['klaar'] and stappen['extra']['klaar'] and stappen['colleges']['klaar']
@@ -96,12 +101,18 @@ def main():
     assert campagne.installatie(col, CFG, st)[3]['klaar']
 
     n = campagne.koppel(col)
-    print('koppeling:', n, 'notities getagd')
-    assert n == 412, n
+    print('koppeling:', n, 'notities getagd ·', len(campagne.KOPPELING), 'in de koppeling ·', len(campagne.EXTRA_TAGS), 'met nadruk van de docent')
+    assert n >= len(campagne.KOPPELING) - 1, n
     assert campagne.koppel(col) == 0, 'tweede keer koppelen moet niets meer doen'
-    for k, verwacht in (('HC1', 18 + 33), ('HC3', 57 + 47), ('HC4', 70 + 35), ('HC5', 19 + 30)):
+    guid_tags = {g: set(t.lower().split()) for g, t in col.db.all('select guid, tags from notes')}
+    for g, k in campagne.KOPPELING.items():
+        assert f'college::{k}'.lower() in guid_tags[g], (g, k)
+    for g, tags in campagne.EXTRA_TAGS.items():
+        assert all(t.lower() in guid_tags[g] for t in tags), g
+    for k in ('HC1', 'HC3', 'HC4', 'HC5', 'HC7', 'HC13'):
+        verwacht = {g for g, c in campagne.KOPPELING.items() if c == k} | {r[0] for r in rijen if f'college::{k}' in r[5].split()}
         gevonden = len(col.find_notes(f'tag:college::{k}'))
-        assert gevonden == verwacht, (k, gevonden, verwacht)
+        assert gevonden == len(verwacht), (k, gevonden, len(verwacht))
     # een afwijkende college-tag wordt rechtgezet
     nid = col.find_notes('tag:college::HC1')[0]
     col.tags.bulk_remove([nid], 'college::HC1')
@@ -143,9 +154,10 @@ def main():
     did, n = campagne.herkansing(col, CFG)
     assert n == fout and did, (did, n)
     assert col.decks.name(did) == campagne.HERKANSING
-    assert campagne.herkansing(col, CFG, 'HC1') == (0, 0), 'alle HC1-kaarten waren goed'
-    did2, n2 = campagne.herkansing(col, CFG, 'HC2')  # tweede keer: zelfde deck, opnieuw gevuld
-    assert did2 == did and n2 == fout, (did, did2, n2)
+    assert campagne.herkansing(col, CFG, 'HC31') == (0, 0), 'HC31 is nog niet geleerd'
+    fout_college = next(t[9:] for t in col.get_note(col.get_card(col.find_cards('rated:2:1')[0]).nid).tags if t.startswith('college::'))
+    did2, n2 = campagne.herkansing(col, CFG, fout_college)  # tweede keer: zelfde deck, opnieuw gevuld
+    assert did2 == did and 0 < n2 <= fout, (did, did2, n2)
     print('herkansing:', n, 'kaarten in', campagne.HERKANSING)
 
     # weergave

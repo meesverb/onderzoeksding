@@ -64,10 +64,10 @@ def toon(deck_browser, content):
         c, st = cfg(), staat()
         s = campagne.bereken(mw.col, c, st)
         stappen = None
-        if not st.get('installatie_klaar'):
+        if st.get('installatie_klaar') != campagne.IMPORT_MARKER:  # opnieuw kijken zodra er een nieuwere collegeimport is
             stappen = campagne.installatie(mw.col, c, st)
             if all(x['klaar'] for x in stappen):
-                st['installatie_klaar'] = True
+                st['installatie_klaar'] = campagne.IMPORT_MARKER
                 bewaar(st)
         content.stats += scherm.weergave(s, stappen)
     except Exception as e:  # het hoofdscherm mag nooit stukgaan door deze add-on

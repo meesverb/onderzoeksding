@@ -11,7 +11,7 @@ Uitvoer: GZC3_colleges_import.txt          nieuwe kaarten HC 1-5 + bijgewerkte M
 Kaarten van T1 en T2 zijn met de hand ingedeeld op basis van de slides (zie KOPPELING_T1/T2 hieronder).
 De nummers verwijzen naar de volgorde van de T1- en T2-notities in de twee importbestanden (zonder dubbel/verwijderen).
 """
-import csv, hashlib, html, json, pathlib, random, re, shutil, sys
+import copy, csv, hashlib, html, json, pathlib, random, re, shutil, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
@@ -22,7 +22,65 @@ from bouw_import import NOTETYPE, DECK  # noqa: E402
 
 esc = html.escape
 ADDON_DATA = ROOT / 'campagne-addon' / 'data'
-BRON_TAG = 'bron::slides-HC1-5'
+VERWERKING = ROOT / 'verwerking'  # gecontroleerde resultaten van de transcript- en collegeworkflows (zie verwerking/README.md)
+THEMA_NIEUW = {'HC6': 'T2', 'HC7': 'T2', 'HC8': 'T2', 'HC9': 'T2', 'HC10': 'T2', 'HC11': 'T3', 'HC12': 'T3', 'HC13': 'T3', 'HCAI': 'T3'}
+NADRUK_TAGS = ['prio::tentamen', 'nadruk::docent']
+
+
+def bron_tag(hc, bron):
+    if bron == 'transcript':
+        return 'bron::transcript'
+    return 'bron::slides-HC1-5' if hc in ('HC1', 'HC2', 'HC3', 'HC4', 'HC5') else 'bron::slides-HC6-13'
+
+
+def samenvoegen():
+    """Colleges uit colleges_inhoud.py plus de gecontroleerde workflowresultaten in verwerking/HCx.json.
+    Geeft (colleges, prio, correcties, koppeling_extra) terug."""
+    colleges = copy.deepcopy(CI.COLLEGES)
+    prio, correcties, koppeling_extra = {}, {}, {}
+    for p in sorted(VERWERKING.glob('HC*.json')):
+        hc, v = p.stem, json.loads(p.read_text(encoding='utf-8'))
+        if 'kapstok' in v:  # een volledig nieuw verwerkt college
+            for q in v['vragen']:
+                assert len(q['fout']) == 3, (hc, q['vraag'])
+            assert len(v['vragen']) == 5, (hc, len(v['vragen']))
+            tabellen = []
+            for t in v['tabellen']:
+                rijen = [(r['rij'], r['cellen']) for r in t['rijen']]
+                assert all(len(c) == len(t['kolommen']) for _, c in rijen), (hc, t['id'])
+                tabellen.append(dict(id=t['id'], titel=t['titel'], kolommen=t['kolommen'], rijen=rijen))
+            colleges[hc] = dict(
+                thema=THEMA_NIEUW[hc], titel=v['titel'], docent=v['docent'], bron=v['bron'], kern=v['kern'],
+                kapstok=[(k['kop'], k['punten']) for k in v['kapstok']], valkuilen=v['valkuilen'],
+                vragen=[(q['vraag'], q['juist'], q['fout'], q['uitleg']) for q in v['vragen']],
+                cel=CI.CELLEN_OVERIG[hc], kaarten=[(k['voor'], k['achter'], k['prio'], 'slides') for k in v['kaarten']],
+                casus=[(c['vignet'], c['diagnose'], c['waarom']) for c in v['casus']], tabellen=tabellen, schemas=[],
+                tentamentips=v['tentamentips'], citaten=v.get('docentcitaten', []))
+        else:  # aanvulling op een al verwerkt college uit de transcripten
+            c = colleges[hc]
+            c['kaarten'] = list(c['kaarten']) + [(k['voor'], k['achter'], k['prio'], 'transcript') for k in v['nieuwe_kaarten']]
+            kapstok = [(kop_, list(punten)) for kop_, punten in c['kapstok']]
+            for a in v['kapstok_aanvullingen']:
+                doel = next((punten for kop_, punten in kapstok if kop_.lower() == a['kop'].lower()), None)
+                if doel is None:
+                    kapstok.append((a['kop'], [a['punt']]))
+                else:
+                    doel.append(a['punt'])
+            c['kapstok'] = kapstok
+            c['valkuilen'] = list(c['valkuilen']) + v['valkuilen']
+            c['tentamentips'], c['citaten'] = v['tentamentips'], v['docentcitaten']
+            c['bron'] = c['bron'] + ' + transcript'
+        for x in v['prio_guids']:
+            prio[x['guid']] = x['waarom']
+        for x in v['correcties']:
+            correcties[x['guid']] = x
+        for x in v.get('koppeling', []):
+            koppeling_extra[x['guid']] = x['college']
+    colleges = dict(sorted(colleges.items(), key=lambda kv: (len(kv[0]), kv[0])))  # HC1 … HC9, HC13
+    return colleges, prio, correcties, koppeling_extra
+
+
+COLLEGES, PRIO, CORRECTIES, KOPPELING_EXTRA = samenvoegen()
 
 # ------------------------------------------------------------------ koppeling bestaande kaarten
 def reeks(*delen):
@@ -53,8 +111,7 @@ KOPPELING_T2 = {
     'HC10': reeks(12, 14, 15, 90, 94, 96, 162),
     'HC11': reeks(227),
 }
-# ruimte voor HC-specifieke uitzonderingen die de nummering niet volgen
-COLLEGE_LABEL = {k: f'HC {k[2:]}' for k in CI.COLLEGES}
+COLLEGE_LABEL = {k: f'HC {k[2:]}' for k in COLLEGES}
 
 
 def lees(p):
@@ -128,7 +185,7 @@ def tekst(s):
 
 
 def kop(hc, soort=''):
-    c = CI.COLLEGES[hc]
+    c = COLLEGES[hc]
     return f'<div style="font-size:0.8em;color:#6b7686">{soort}{COLLEGE_LABEL[hc]} · {esc(c["titel"])}</div>'
 
 
@@ -137,12 +194,15 @@ def nieuwe_rijen():
 
     def add(g, voor, achter, tags, soort):
         tel[soort] = tel.get(soort, 0) + 1
-        rijen.append([g, NOTETYPE, DECK, voor, achter, ' '.join(tags)])
+        rijen.append([g, NOTETYPE, DECK, voor, achter, ' '.join(dict.fromkeys(tags))])
 
-    for hc, c in CI.COLLEGES.items():
-        basis = [THEMA_TAG[c['thema']], f'college::{hc}', 'check::nieuw', BRON_TAG]
-        for voor, achter, prio in c['kaarten']:
-            add(guid('kaart', hc, voor), kop(hc, '📚 ') + esc(voor), tekst(achter), basis + (['prio::tentamen'] if prio else []), 'basis')
+    for hc, c in COLLEGES.items():
+        basis = [THEMA_TAG[c['thema']], f'college::{hc}', 'check::nieuw', bron_tag(hc, 'slides')]
+        for voor, achter, prio, *bron in c['kaarten']:
+            bron = bron[0] if bron else 'slides'
+            tags = [THEMA_TAG[c['thema']], f'college::{hc}', 'check::nieuw', bron_tag(hc, bron)] + (['prio::tentamen'] if prio else [])
+            add(guid('kaart', hc, voor), kop(hc, '🎙️ ' if bron == 'transcript' else '📚 ') + esc(voor), tekst(achter), tags,
+                'transcript' if bron == 'transcript' else 'basis')
         for vignet, diagnose, waarom in c['casus']:
             add(guid('casus', hc, diagnose), f'<div style="font-size:0.8em;color:#6b7686">🕵️ Wie ben ik? · {COLLEGE_LABEL[hc]}</div>{esc(vignet)}',
                 f'<b>{esc(diagnose)}</b><br>{esc(waarom)}', basis + ['vorm::casus', 'prio::tentamen'], 'casus')
@@ -200,6 +260,12 @@ def kapstok_md(hc, c):
         regels.append('')
     regels.append('### Valkuilen')
     regels += [f'- ⚠️ {v}' for v in c['valkuilen']]
+    if c.get('tentamentips'):
+        regels += ['', '### 🎯 Wat de docent zei over het tentamen']
+        regels += [f'- „{t["citaat"]}” — {t["betekenis"]}' for t in c['tentamentips']]
+    if c.get('citaten'):
+        regels += ['', '### 🎙️ Uit het college']
+        regels += [f'- „{t["citaat"]}” ({t["onderwerp"]})' for t in c['citaten']]
     regels += ['', '## 5 controlevragen', '']
     for i, (v, juist, fout, uitleg) in enumerate(c['vragen'], 1):
         opties = [juist] + fout
@@ -214,15 +280,32 @@ def kapstok_md(hc, c):
     return '\n'.join(regels)
 
 
-def campagnedata():
-    colleges = {}
-    for hc, c in CI.COLLEGES.items():
-        colleges[hc] = dict(titel=c['titel'], docent=c['docent'], bron=c['bron'], kern=c['kern'], kapstok=c['kapstok'],
-                            valkuilen=c['valkuilen'], cel=c['cel'],
-                            vragen=[dict(vraag=v, opties=[j] + f, uitleg=u) for v, j, f, u in c['vragen']])
+def campagnedata(marker):
+    colleges = {'_meta': dict(marker=marker)}
     for hc, cel in CI.CELLEN_OVERIG.items():
         colleges[hc] = dict(cel=cel)
+    for hc, c in COLLEGES.items():
+        colleges[hc] = dict(titel=c['titel'], docent=c['docent'], bron=c['bron'], kern=c['kern'], kapstok=c['kapstok'],
+                            valkuilen=c['valkuilen'], cel=c['cel'], tentamentips=c.get('tentamentips', []), citaten=c.get('citaten', []),
+                            vragen=[dict(vraag=v, opties=[j] + f, uitleg=u) for v, j, f, u in c['vragen']])
     return colleges
+
+
+def pas_correcties_toe(nieuw, bijgewerkt, notes):
+    """Correcties uit de controle: nieuwe kaarten direct aanpassen, bestaande kaarten als bijgewerkte regel meesturen.
+    Een ezelsbrug of afbeelding op de oude achterkant blijft staan."""
+    per_guid = {r[0]: r for r in nieuw + bijgewerkt}
+    extra, overgeslagen = [], []
+    for g, c in CORRECTIES.items():
+        if g in per_guid:
+            per_guid[g][4] = tekst(c['voorstel'])
+        elif g in notes:
+            oud = notes[g]
+            behoud = ''.join(re.findall(r'<img[^>]*>', oud[4])) + ''.join(re.findall(r'<br><br><span style="background:#fff3c4.*?</span>', oud[4], flags=re.S))
+            extra.append(oud[:4] + [tekst(c['voorstel']) + behoud, oud[5]])
+        else:
+            overgeslagen.append(c)
+    return extra, overgeslagen
 
 
 def koppeling_md(notes, koppeling):
@@ -232,7 +315,7 @@ def koppeling_md(notes, koppeling):
     regels = ['# Koppeling van bestaande kaarten aan colleges', '',
               'Met de hand ingedeeld op basis van de slides van HC 1-5 (T1) en de onderwerpen van HC 5-10 (T2).',
               'De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een niet? Pas dan `KOPPELING_T1/T2` in `bouw_colleges.py` aan.', '']
-    volgorde = ['HC1', 'HC2', 'HC3', 'HC4', 'HC5', 'HC6', 'HC7', 'HC8', 'HC9', 'HC10', 'HC11']
+    volgorde = ['HC1', 'HC2', 'HC3', 'HC4', 'HC5', 'HC6', 'HC7', 'HC8', 'HC9', 'HC10', 'HC11', 'HC12', 'HC13', 'HCAI']
     for col in volgorde:
         if col not in per:
             continue
@@ -245,7 +328,7 @@ def koppeling_md(notes, koppeling):
 def quiz_bijwerken():
     data = json.loads((ROOT / 'quiz' / 'vragen.json').read_text())
     data['vragen'] = [q for q in data['vragen'] if not q['id'].startswith('k')]
-    for hc, c in CI.COLLEGES.items():
+    for hc, c in COLLEGES.items():
         for i, (v, j, f, u) in enumerate(c['vragen']):
             data['vragen'].append(dict(id=f'k{hc}{i}', thema=c['thema'], soort=f'Controlevraag {COLLEGE_LABEL[hc]}', vraag=v, opties=[j] + f, uitleg=u))
     (ROOT / 'quiz' / 'vragen.json').write_text(json.dumps(data, ensure_ascii=False, indent=1))
@@ -258,11 +341,22 @@ def quiz_bijwerken():
 def main():
     notes, volgorde = huidige_stand()
     koppeling = maak_koppeling(notes, volgorde)
+    weg = {g for g, r in notes.items() if {'check::dubbel', 'check::verwijderen'} & set(r[5].split())}
+    for g, col in KOPPELING_EXTRA.items():  # verbeteringen uit de collegecontrole (o.a. de T3-kaarten)
+        if g in notes and g not in weg:
+            koppeling[g] = col
     nieuw, tel = nieuwe_rijen()
     bijgewerkt = bijgewerkte_rijen(notes)
     gids = [r[0] for r in nieuw]
     assert len(gids) == len(set(gids)), 'dubbele GUID'
     assert not set(gids) & set(notes), 'GUID botst met bestaande notitie'
+    gecorrigeerd, overgeslagen = pas_correcties_toe(nieuw, bijgewerkt, notes)
+    bijgewerkt += gecorrigeerd
+    # nadruk van de docent: nieuwe kaarten krijgen de tags meteen, bestaande via de add-on
+    for r in nieuw + bijgewerkt:
+        if r[0] in PRIO:
+            r[5] = ' '.join(dict.fromkeys(r[5].split() + NADRUK_TAGS))
+    extra_tags = {g: NADRUK_TAGS for g in PRIO if g in notes and g not in weg}
 
     uit = ROOT / 'GZC3_colleges_import.txt'
     with open(uit, 'w', newline='', encoding='utf-8') as fh:
@@ -270,13 +364,15 @@ def main():
         csv.writer(fh, delimiter='\t', lineterminator='\n').writerows(bijgewerkt + nieuw)
 
     (ROOT / 'kapstokken').mkdir(exist_ok=True)
-    for hc, c in CI.COLLEGES.items():
+    for hc, c in COLLEGES.items():
         (ROOT / 'kapstokken' / f'{hc}.md').write_text(kapstok_md(hc, c))
     (ROOT / 'koppeling.md').write_text(koppeling_md(notes, koppeling))
 
     ADDON_DATA.mkdir(exist_ok=True)
     (ADDON_DATA / 'koppeling.json').write_text(json.dumps(koppeling, ensure_ascii=False, sort_keys=True))
-    (ADDON_DATA / 'colleges.json').write_text(json.dumps(campagnedata(), ensure_ascii=False))
+    (ADDON_DATA / 'extra_tags.json').write_text(json.dumps(extra_tags, ensure_ascii=False, sort_keys=True))
+    marker = gids[-1]  # de add-on ziet aan deze notitie of de nieuwste versie van de collegeimport al binnen is
+    (ADDON_DATA / 'colleges.json').write_text(json.dumps(campagnedata(marker), ensure_ascii=False))
     for naam in ('GZC3_check_import.txt', 'GZC3_extra_import.txt', 'GZC3_colleges_import.txt'):
         shutil.copy(ROOT / naam, ADDON_DATA / naam)
     nq = quiz_bijwerken()
@@ -284,9 +380,14 @@ def main():
     per = {}
     for col in koppeling.values():
         per[col] = per.get(col, 0) + 1
-    print('nieuw:', tel, 'totaal', len(nieuw), '| bijgewerkt:', len(bijgewerkt), '| quizvragen:', nq)
+    print('nieuw:', tel, 'totaal', len(nieuw), '| bijgewerkt:', len(bijgewerkt), f'(waarvan {len(gecorrigeerd)} correcties)',
+          '| nadruk op bestaande kaarten:', len(extra_tags), '| quizvragen:', nq, '| versie', marker)
+    if overgeslagen:
+        print('correcties zonder kaart (kapstok/vraag, met de hand verwerken):')
+        for c in overgeslagen:
+            print('  -', c['guid'], '|', c['huidig'][:90], '→', c['voorstel'][:120])
     print('koppeling:', dict(sorted(per.items(), key=lambda kv: (len(kv[0]), kv[0]))))
-    print('per college nieuw:', {hc: sum(1 for r in nieuw if f'college::{hc}' in r[5]) for hc in CI.COLLEGES})
+    print('per college nieuw:', {hc: sum(1 for r in nieuw if f'college::{hc}' in r[5]) for hc in COLLEGES})
 
 
 if __name__ == '__main__':
