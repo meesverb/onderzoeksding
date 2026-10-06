@@ -48,6 +48,7 @@ def maak_collectie():
     conf = col.decks.config_dict_for_deck_id(did)
     conf['new']['perDay'] = 9999
     col.decks.update_config(conf)
+    col.decks.select(did)
     return col
 
 

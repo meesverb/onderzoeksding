@@ -406,7 +406,7 @@ css.textContent = `
 #gzc3hud .hp i{display:block;height:100%;background:#d9577a;transition:width .6s}
 #gzc3hud .z{color:#8a8098;font-size:11px}
 #gzc3hud .combo{font-weight:700;color:#c49a1a}
-.gzc3pop{position:fixed;right:24px;top:58px;z-index:10000;pointer-events:none;font:700 15px -apple-system,"Segoe UI",Roboto,sans-serif;color:#5b3f8c;
+.gzc3pop{position:fixed;right:24px;top:100px;z-index:10000;pointer-events:none;font:700 15px -apple-system,"Segoe UI",Roboto,sans-serif;color:#5b3f8c;
  animation:gzc3op 1.6s ease-out forwards;text-shadow:0 1px 0 rgba(255,255,255,.7)}
 .night-mode .gzc3pop,.nightMode .gzc3pop{color:#b69ae6;text-shadow:none}
 .gzc3pop.krit{font-size:20px;color:#c49a1a}
@@ -427,6 +427,7 @@ window.gzc3hud = function(d){
 window.gzc3pop = function(tekst, soort, vertraging){
   setTimeout(function(){
     var p = document.createElement('div'); p.className = 'gzc3pop ' + (soort || ''); p.textContent = tekst;
+    p.style.top = (100 + 30 * document.querySelectorAll('.gzc3pop').length) + 'px';
     document.body.appendChild(p); setTimeout(function(){ p.remove(); }, 1700);
   }, vertraging || 0);
 };
