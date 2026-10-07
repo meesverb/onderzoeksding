@@ -25,6 +25,7 @@ ADDON_DATA = ROOT / 'campagne-addon' / 'data'
 VERWERKING = ROOT / 'verwerking'  # gecontroleerde resultaten van de transcript- en collegeworkflows (zie verwerking/README.md)
 THEMA_NIEUW = {'HC6': 'T2', 'HC7': 'T2', 'HC8': 'T2', 'HC9': 'T2', 'HC10': 'T2', 'HC11': 'T3', 'HC12': 'T3', 'HC13': 'T3', 'HCAI': 'T3'}
 NADRUK_TAGS = ['prio::tentamen', 'nadruk::docent']
+TRANSCRIPT_BESCHIKBAAR = {'HC2', 'HC3', 'HC5', 'HC7', 'HC13'}  # plus IC 1, IC 2 en IC 3; niet voor HC 1, HC 4/IC 4 en HC 6
 
 
 def bron_tag(hc, bron):
@@ -49,8 +50,9 @@ def samenvoegen():
                 rijen = [(r['rij'], r['cellen']) for r in t['rijen']]
                 assert all(len(c) == len(t['kolommen']) for _, c in rijen), (hc, t['id'])
                 tabellen.append(dict(id=t['id'], titel=t['titel'], kolommen=t['kolommen'], rijen=rijen))
+            bron = f'HC {hc[2:]} (slides' + (' + transcript)' if hc in TRANSCRIPT_BESCHIKBAAR else ')')
             colleges[hc] = dict(
-                thema=THEMA_NIEUW[hc], titel=v['titel'], docent=v['docent'], bron=v['bron'], kern=v['kern'],
+                thema=THEMA_NIEUW[hc], titel=v['titel'], docent=v['docent'], bron=bron, kern=v['kern'],
                 kapstok=[(k['kop'], k['punten']) for k in v['kapstok']], valkuilen=v['valkuilen'],
                 vragen=[(q['vraag'], q['juist'], q['fout'], q['uitleg']) for q in v['vragen']],
                 cel=CI.CELLEN_OVERIG[hc], kaarten=[(k['voor'], k['achter'], k['prio'], 'slides') for k in v['kaarten']],

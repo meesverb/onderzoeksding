@@ -3179,6 +3179,71 @@
     "Bij autoloog worden donor-T-cellen gegeven"
    ],
    "uitleg": "Donor-T-cellen ruimen de (maligne) hematopoëse van de patiënt op, maar kunnen ook normale weefsels aanvallen (huid, darm, lever)."
+  },
+  {
+   "id": "kHC60",
+   "thema": "T2",
+   "soort": "Controlevraag HC 6",
+   "vraag": "Man, 63 jaar, heeft hoofdpijn, een rood gelaat en jeuk na het douchen. Hb 11,6 mmol/l, Ht 0,58, leukocyten 13 × 10⁹/l, trombocyten 520 × 10⁹/l, milt net palpabel. Welke combinatie van bevindingen bevestigt het meest waarschijnlijke beeld?",
+   "opties": [
+    "Een verlaagd EPO en een JAK2 V617F-mutatie",
+    "Een verhoogd EPO en een lage zuurstofsaturatie",
+    "Een CALR-mutatie met een normaal EPO",
+    "BCR-ABL in de PCR met basofilie in de uitstrijk"
+   ],
+   "uitleg": "Erytrocytose met leuko- en trombocytose, splenomegalie en jeuk na het douchen past bij PV. Door JAK2 is de aanmaak autonoom, waardoor de nier de EPO-productie onderdrukt. Een hoog EPO wijst op een secundaire erytrocytose. CALR- en MPL-mutaties komen bij PV niet voor, en BCR-ABL hoort bij CML."
+  },
+  {
+   "id": "kHC61",
+   "thema": "T2",
+   "soort": "Controlevraag HC 6",
+   "vraag": "Man, 63 jaar, heeft een JAK2-positieve polycythaemia vera. Hij heeft nooit een trombose gehad; leukocyten 13 × 10⁹/l. Wat is het beste beleid?",
+   "opties": [
+    "Aderlaten tot Ht <0,45 en acetylsalicylzuur, aangevuld met cytoreductie (bijvoorbeeld hydroxycarbamide) omdat hij hoog risico heeft",
+    "Alleen aderlaten en acetylsalicylzuur, omdat hij nog nooit een trombose heeft gehad",
+    "Imatinib tot een majeure moleculaire respons",
+    "Direct een allogene stamceltransplantatie"
+   ],
+   "uitleg": "Risicofactoren bij PV zijn een leeftijd boven 60 jaar, een eerdere trombo-embolie en leukocyten >15 × 10⁹/l. Eén factor is genoeg voor hoog risico, en dan komt er cytoreductie bij. De leeftijd alleen maakt deze man dus hoog risico. Het doel van de behandeling is trombose voorkomen."
+  },
+  {
+   "id": "kHC62",
+   "thema": "T2",
+   "soort": "Controlevraag HC 6",
+   "vraag": "Man, 55 jaar, is moe en heeft een vol gevoel in de buik. Hb 6,9 mmol/l, leukocyten 111 × 10⁹/l met basofielen 8,4, eosinofielen 4,4, myelocyten 11,9, promyelocyten 7,4 en blasten 1,0 × 10⁹/l; trombocyten 342 × 10⁹/l. Welk onderzoek bevestigt de waarschijnlijke diagnose?",
+   "opties": [
+    "Het aantonen van BCR-ABL (t(9;22)) met PCR, FISH of karyotypering",
+    "Mutatieanalyse op JAK2 V617F",
+    "Flowcytometrie op CD5 en CD23",
+    "Een beenmergbiopt met reticulinekleuring op fibrose"
+   ],
+   "uitleg": "Een 'bont' bloedbeeld met alle granulocytaire rijpingsstadia, basofilie en eosinofilie, plus een vol gevoel door een grote milt, past bij CML. De diagnose rust op het aantonen van BCR-ABL. CD5/CD23 hoort bij CLL; JAK2 en fibrose horen bij de BCR-ABL-negatieve MPN's."
+  },
+  {
+   "id": "kHC63",
+   "thema": "T2",
+   "soort": "Controlevraag HC 6",
+   "vraag": "Waarom leiden mutaties in CALR en MPL vooral tot essentiële trombocytose en myelofibrose, en niet tot polycythaemia vera?",
+   "opties": [
+    "Ze zetten de trombopoëtinereceptor (MPL) continu aan, die via JAK2 vooral de megakaryocytaire lijn aanstuurt",
+    "Ze blokkeren de EPO-receptor, waardoor de erytropoëse juist geremd wordt",
+    "Ze komen alleen voor in rijpe trombocyten en niet in de stamcel",
+    "Ze remmen de JAK-STAT-route, waardoor alleen de megakaryocyten overblijven"
+   ],
+   "uitleg": "MPL is de TPO-receptor; gemuteerd calreticuline bindt MPL en activeert hem. Het signaal loopt via JAK2-STAT naar de megakaryocyten: te veel plaatjes (ET) of fibroserende megakaryocyten (MF). De erytrocytose van PV loopt via de EPO-receptor en JAK2."
+  },
+  {
+   "id": "kHC64",
+   "thema": "T2",
+   "soort": "Controlevraag HC 6",
+   "vraag": "Vrouw, 72 jaar, heeft al 12 jaar PV. Ze hoeft niet meer aderlaten en wordt nu juist anemisch. Ze valt af, zweet 's nachts en haar milt groeit. In de uitstrijk zie je traandruppelcellen, erytroblasten en myelocyten, zonder blastenexces. Wat is het meest waarschijnlijk?",
+   "opties": [
+    "Overgang naar post-PV myelofibrose",
+    "IJzergebreksanemie door de jarenlange aderlatingen",
+    "Transformatie naar acute myeloïde leukemie",
+    "Hypersplenisme door portale hypertensie bij levercirrose"
+   ],
+   "uitleg": "Een deel van de PV- en ET-patiënten gaat over in MF. Door de fibrose ontstaat extramedullaire hematopoëse (groeiende milt) met een leuko-erytroblastair beeld en traandruppelcellen. Daarnaast anemie en constitutionele klachten. Zonder blastenexces is AML niet waarschijnlijk."
   }
  ]
 }

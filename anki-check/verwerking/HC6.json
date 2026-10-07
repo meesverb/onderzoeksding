@@ -1,0 +1,552 @@
+{
+ "titel": "CML en myeloproliferatieve neoplasmata",
+ "docent": "Anke Janssen, hematoloog UMCU",
+ "bron": "HC 6 (slides, inclusief figuren; geen HC 6-transcript in Drive) + blokboek",
+ "kern": "CML en de MPN's (PV, ET en MF) zijn zeldzame stamcelziekten. Ze zijn kwaadaardig maar verlopen vaak chronisch, en er worden te veel cellen aangemaakt die (vrijwel) normaal uitrijpen. Wie de moleculaire afwijking kent (BCR-ABL bij CML; JAK2, CALR of MPL bij de MPN's), begrijpt de kliniek én de doelgerichte therapie (TKI's, JAK-remmers). Bij PV en ET draait de behandeling om het voorkomen van trombose, bij MF om milt en klachten, met allogene SCT als enige genezing.",
+ "kapstok": [
+  {
+   "kop": "Zeldzaam, kwaadaardig én chronisch",
+   "punten": [
+    "Prevalentie: CML 3/10.000, PV en ET elk 1-5/10.000, primaire MF 1-9/100.000.",
+    "Ziekten van de hematopoëtische stamcel: te veel aanmaak met (vrijwel) normale uitrijping.",
+    "Herken ze in bloedbeeld en uitstrijk ('zoek de verschillen') en heb oog voor de patiënt met een chronische ziekte."
+   ]
+  },
+  {
+   "kop": "CML: BCR-ABL en kliniek",
+   "punten": [
+    "t(9;22) → Philadelphiachromosoom → BCR-ABL: een ongeremd tyrosinekinase, onafhankelijk van regulatie door cytokines.",
+    "Genetisch instabiel: extra mutaties → acceleratie- of blastenfase (blastencrise).",
+    "Klachten: moe, bleek, kortademig, gewichtsverlies, zweten, blauwe plekken en bloedingen, botpijn, vol gevoel of pijn door een grote milt.",
+    "Lab: leukocytose met linksverschuiving en een 'bont' bloedbeeld (alle rijpingsstadia, basofilie en eosinofilie). Bevestiging: BCR-ABL aantonen."
+   ]
+  },
+  {
+   "kop": "CML: TKI's en vier soorten patiënten",
+   "punten": [
+    "1e generatie: imatinib · 2e: dasatinib, nilotinib · 3e: ponatinib, asciminib.",
+    "10-jaarsoverleving van 11-18% (busulfan, hydroxyurea) naar 83% (imatinib).",
+    "Respons meten: cytogenetica/FISH (CCyR) en RT-PCR (MMR = 3 log, CMR circa 5-6 log).",
+    "Groep I geneest · II chronische medicatie (bijwerkingen, controles, kans op progressie) · III acceleratie- of blastenfase (extra mutaties) · IV 'muterende BCR-ABL'."
+   ]
+  },
+  {
+   "kop": "Polycythaemia vera",
+   "punten": [
+    "DD bij Hb 12 mmol/l en Ht 0,6: PV, chronische hypoxie, EPO-producerende tumor, medicatie.",
+    "JAK2 bij circa 95%: aanmaak onafhankelijk van EPO, dus EPO laag; vaak ook leukocytose en trombocytose.",
+    "Rood gelaat, hoofdpijn, visusstoornissen, jeuk na het douchen, splenomegalie, erythromelalgie, trombose (ook op ongebruikelijke plaatsen).",
+    "Doel: trombose voorkomen. Aderlaten (Ht <0,45), acetylsalicylzuur, vasculaire risicofactoren. Hoog risico (>60 jaar, eerdere trombose of leukocyten >15) → cytoreductie: 1e lijn hydroxycarbamide of peginterferon, 2e lijn ruxolitinib of busulfan.",
+    "Prognose 10-16 jaar; overlijden door trombose, post-PV MF of AML."
+   ]
+  },
+  {
+   "kop": "Essentiële trombocytose",
+   "punten": [
+    "DD bij trombocyten 950: reactief (infectie, auto-immuunziekte, ijzergebrek, splenectomie), ET of PV.",
+    "JAK2 circa 60%, CALR circa 25%, MPL (de TPO-receptor) enkele procenten, de rest triple-negatief.",
+    "Moeheid, constitutionele klachten, erythromelalgie, splenomegalie.",
+    "Acetylsalicylzuur; zo nodig cytoreductie met interferon, hydroxycarbamide of anagrelide.",
+    "Prognose 10-20 jaar; overlijden door trombose, post-ET MF of AML."
+   ]
+  },
+  {
+   "kop": "Myelofibrose",
+   "punten": [
+    "Primair of na PV/ET; JAK2, CALR of MPL.",
+    "Megakaryocyten → cytokines → fibrose → extramedullaire hematopoëse (splenomegalie), anemie, leuko-erytroblastose met traandruppelcellen, constitutionele klachten (>50%).",
+    "DIPSS: leeftijd >65, constitutionele klachten, Hb <6,2 mmol/l, leukocyten >25, blasten in het bloed >1%. Mediane overleving van 'niet bereikt' tot 2,3 jaar.",
+    "Transfusies, hydroxyurea, ruxolitinib (kleinere milt, minder klachten). Bij falen: 2e-generatie JAK-remmer, studie, allo-SCT (jong) of best supportive care (oud)."
+   ]
+  },
+  {
+   "kop": "Leven met MPN",
+   "punten": [
+    "De kwaliteit van leven is even laag als bij andere patiënten met kanker, in alle subtypen en stadia.",
+    "Vooral vermoeidheid en cognitieve klachten; de ziekte wordt vaak niet begrepen."
+   ]
+  }
+ ],
+ "valkuilen": [
+  "Een hoog Hb of Ht is niet automatisch PV. Denk eerst aan hypoxie, een EPO-producerende tumor of medicatie. Het EPO is het scharnierpunt: laag bij PV, hoog(-normaal) bij een secundaire erytrocytose.",
+  "Een hoog trombocytengetal is meestal reactief (ijzergebrek, infectie, ontsteking, splenectomie). ET stel je pas vast na uitsluiting daarvan, gesteund door JAK2, CALR of MPL.",
+  "JAK2 is niet specifiek voor PV: de mutatie zit ook bij circa 60% van de ET en circa de helft van de MF. CALR en MPL komen bij PV juist niet voor.",
+  "De streefwaarde bij PV is volgens het college Ht <0,45, zonder apart doel voor vrouwen. Het doel is trombose voorkomen, niet genezen.",
+  "Ruxolitinib bij MF maakt de milt kleiner en vermindert de klachten, maar geneest niet. Alleen een allogene SCT is curatief.",
+  "Een linksverschuiving is niet automatisch een infectie. Basofilie, eosinofilie, veel myelocyten en promyelocyten en een grote milt zonder infectiefocus wijzen op CML; bevestig met BCR-ABL."
+ ],
+ "vragen": [
+  {
+   "vraag": "Man, 63 jaar, heeft hoofdpijn, een rood gelaat en jeuk na het douchen. Hb 11,6 mmol/l, Ht 0,58, leukocyten 13 × 10⁹/l, trombocyten 520 × 10⁹/l, milt net palpabel. Welke combinatie van bevindingen bevestigt het meest waarschijnlijke beeld?",
+   "juist": "Een verlaagd EPO en een JAK2 V617F-mutatie",
+   "fout": [
+    "Een verhoogd EPO en een lage zuurstofsaturatie",
+    "Een CALR-mutatie met een normaal EPO",
+    "BCR-ABL in de PCR met basofilie in de uitstrijk"
+   ],
+   "uitleg": "Erytrocytose met leuko- en trombocytose, splenomegalie en jeuk na het douchen past bij PV. Door JAK2 is de aanmaak autonoom, waardoor de nier de EPO-productie onderdrukt. Een hoog EPO wijst op een secundaire erytrocytose. CALR- en MPL-mutaties komen bij PV niet voor, en BCR-ABL hoort bij CML."
+  },
+  {
+   "vraag": "Man, 63 jaar, heeft een JAK2-positieve polycythaemia vera. Hij heeft nooit een trombose gehad; leukocyten 13 × 10⁹/l. Wat is het beste beleid?",
+   "juist": "Aderlaten tot Ht <0,45 en acetylsalicylzuur, aangevuld met cytoreductie (bijvoorbeeld hydroxycarbamide) omdat hij hoog risico heeft",
+   "fout": [
+    "Alleen aderlaten en acetylsalicylzuur, omdat hij nog nooit een trombose heeft gehad",
+    "Imatinib tot een majeure moleculaire respons",
+    "Direct een allogene stamceltransplantatie"
+   ],
+   "uitleg": "Risicofactoren bij PV zijn een leeftijd boven 60 jaar, een eerdere trombo-embolie en leukocyten >15 × 10⁹/l. Eén factor is genoeg voor hoog risico, en dan komt er cytoreductie bij. De leeftijd alleen maakt deze man dus hoog risico. Het doel van de behandeling is trombose voorkomen."
+  },
+  {
+   "vraag": "Man, 55 jaar, is moe en heeft een vol gevoel in de buik. Hb 6,9 mmol/l, leukocyten 111 × 10⁹/l met basofielen 8,4, eosinofielen 4,4, myelocyten 11,9, promyelocyten 7,4 en blasten 1,0 × 10⁹/l; trombocyten 342 × 10⁹/l. Welk onderzoek bevestigt de waarschijnlijke diagnose?",
+   "juist": "Het aantonen van BCR-ABL (t(9;22)) met PCR, FISH of karyotypering",
+   "fout": [
+    "Mutatieanalyse op JAK2 V617F",
+    "Flowcytometrie op CD5 en CD23",
+    "Een beenmergbiopt met reticulinekleuring op fibrose"
+   ],
+   "uitleg": "Een 'bont' bloedbeeld met alle granulocytaire rijpingsstadia, basofilie en eosinofilie, plus een vol gevoel door een grote milt, past bij CML. De diagnose rust op het aantonen van BCR-ABL. CD5/CD23 hoort bij CLL; JAK2 en fibrose horen bij de BCR-ABL-negatieve MPN's."
+  },
+  {
+   "vraag": "Waarom leiden mutaties in CALR en MPL vooral tot essentiële trombocytose en myelofibrose, en niet tot polycythaemia vera?",
+   "juist": "Ze zetten de trombopoëtinereceptor (MPL) continu aan, die via JAK2 vooral de megakaryocytaire lijn aanstuurt",
+   "fout": [
+    "Ze blokkeren de EPO-receptor, waardoor de erytropoëse juist geremd wordt",
+    "Ze komen alleen voor in rijpe trombocyten en niet in de stamcel",
+    "Ze remmen de JAK-STAT-route, waardoor alleen de megakaryocyten overblijven"
+   ],
+   "uitleg": "MPL is de TPO-receptor; gemuteerd calreticuline bindt MPL en activeert hem. Het signaal loopt via JAK2-STAT naar de megakaryocyten: te veel plaatjes (ET) of fibroserende megakaryocyten (MF). De erytrocytose van PV loopt via de EPO-receptor en JAK2."
+  },
+  {
+   "vraag": "Vrouw, 72 jaar, heeft al 12 jaar PV. Ze hoeft niet meer aderlaten en wordt nu juist anemisch. Ze valt af, zweet 's nachts en haar milt groeit. In de uitstrijk zie je traandruppelcellen, erytroblasten en myelocyten, zonder blastenexces. Wat is het meest waarschijnlijk?",
+   "juist": "Overgang naar post-PV myelofibrose",
+   "fout": [
+    "IJzergebreksanemie door de jarenlange aderlatingen",
+    "Transformatie naar acute myeloïde leukemie",
+    "Hypersplenisme door portale hypertensie bij levercirrose"
+   ],
+   "uitleg": "Een deel van de PV- en ET-patiënten gaat over in MF. Door de fibrose ontstaat extramedullaire hematopoëse (groeiende milt) met een leuko-erytroblastair beeld en traandruppelcellen. Daarnaast anemie en constitutionele klachten. Zonder blastenexces is AML niet waarschijnlijk."
+  }
+ ],
+ "kaarten": [
+  {
+   "voor": "Hoe vaak komen CML en de klassieke MPN's voor (prevalentie)?",
+   "achter": "Zeldzaam:\nCML: circa 3 per 10.000\nPV: 1-5 per 10.000\nET: 1-5 per 10.000\nPrimaire myelofibrose: 1-9 per 100.000\nKwaadaardig, maar tegelijk een chronische ziekte.",
+   "prio": false,
+   "citaat": "Prevalentie • CML: 3/10.000 mensen • Polycythemia vera: 1-5/10.000 mensen • Essentiele trombocytose: 1-5/10.000 mensen • Primaire myelofibrose: 1-9/100.000 mensen. CML en MPN zijn kwaadaardige ziekten; maar tegelijk ook een chronische ziekte"
+  },
+  {
+   "voor": "Wat doen ABL1 en BCR normaal, en wat doet het BCR-ABL-fusie-eiwit?",
+   "achter": "ABL1: proto-oncogen (tyrosinekinase), betrokken bij celdeling en differentiatie.\nBCR: reguleert de signaaltransductie en remt celgroei.\nBCR-ABL: een constitutief actief tyrosinekinase → ongeremde celgroei, onafhankelijk van regulatie door cytokines.",
+   "prio": true,
+   "citaat": "ABL1 = proto-oncogen betrokken bij celdeling en differentiatie. BCR = regulatie van signaaltransductie; remt celgroei. BCR:ABL = ongeremde celgroei, onafhankelijk van regulatie cytokines."
+  },
+  {
+   "voor": "Hoe onderscheid je CML van een reactieve leukocytose met linksverschuiving?",
+   "achter": "CML: een 'bont' bloedbeeld met alle rijpingsstadia (promyelocyten, myelocyten, metamyelocyten, enkele blasten), basofilie en eosinofilie, en een grote milt zonder infectie. BCR-ABL is aantoonbaar.\nReactief: linksverschuiving vooral tot staafkernigen, toxische granulatie, geen basofilie, en een infectie- of ontstekingsfocus. Het beeld herstelt als de oorzaak is behandeld.",
+   "prio": true,
+   "citaat": "Lab: • Leucocytose met linksverschuiving en “bont” bloedbeeld • T9;22; BCR-ABL; Philadelphia chromosoom (labslide: basofiele 8.44, eosinofiele 4.44, promyelocyten 7.44, myelocyten 11.88) — blokboek: 'Onderscheid van reactieve afwijkingen in bloedbeeld door bijvoorbeeld infecties'"
+  },
+  {
+   "voor": "Hoe is de overleving bij CML veranderd door de behandeling?",
+   "achter": "Busulfan of hydroxyurea (1983-1994): 10-jaarsoverleving 11-18%.\nImatinib (2002-2012): 5-jaarsoverleving 90%, 10-jaarsoverleving 83%.\nHet schoolvoorbeeld van een medicijn dat is ontwikkeld vanuit de moleculaire afwijking.",
+   "prio": false,
+   "citaat": "CML behandeling in de tijd sterk verbeterd (grafiek: Busulfan 1983-1994 10-year survival 11%; Hydroxyurea 10 yr surv. 18%; Imatinib 2002-2012 5-year survival 90%, 10-year survival 83%)"
+  },
+  {
+   "voor": "Waarom zijn er tweede- en derdegeneratie-TKI's bij CML?",
+   "achter": "Bij een deel van de patiënten ontstaat resistentie door mutaties in het kinasedomein van BCR-ABL (een 'muterende BCR-ABL'), waardoor imatinib slechter bindt. Ook intolerantie speelt mee.\n2e generatie (dasatinib, nilotinib): krachtiger en werkzaam bij veel resistentiemutaties.\n3e generatie: ponatinib werkt ook bij de T315I-mutatie; asciminib bindt op een andere plek (allosterisch).\nDe mutatieanalyse helpt bij de keuze.",
+   "prio": false,
+   "citaat": "1e generatie TKI: • Imatinib 2e generatie TKI: • Dasatinib • Nilotinib 3e generatie TKI: • Ponatinib • Asciminib … Groep IV: de mensen met een ‘muterende BCR-ABL’"
+  },
+  {
+   "voor": "In welke vier groepen deelt het college patiënten met CML in?",
+   "achter": "I: patiënten die genezen (kunnen na een diepe, stabiele respons stoppen met de TKI)\nII: patiënten die chronisch medicatie gebruiken: klachten en bijwerkingen, labcontroles, kans op progressie\nIII: CML in acceleratie- of blastenfase, vaak met extra mutaties\nIV: patiënten met een 'muterende BCR-ABL' (TKI-resistentie)",
+   "prio": true,
+   "citaat": "De ene CML patiënt is de andere niet. Groep I: ‘de patiënten die genezen’ Groep II: de mensen die chronisch medicatie moet gebruiken ▪ Klachten / bijwerkingen ▪ Lab controles ▪ Kans op progressie Groep III: de patiënten met een CML in accelaratie / blastenfase -> vaak extra mutaties Groep IV: de mensen met een ‘muterende BCR-ABL’"
+  },
+  {
+   "voor": "Hoe volg je de respons op een TKI bij CML?",
+   "achter": "Door de hoeveelheid BCR-ABL te meten:\nCytogenetica of FISH: complete cytogenetische respons (CCyR), circa 1-2 log reductie.\nRT-PCR: majeure moleculaire respons (MMR) = 3 log reductie; complete moleculaire respons (CMR) = circa 5-6 log reductie.\nRT-PCR is het gevoeligst en is de standaard voor controles.",
+   "prio": false,
+   "citaat": "Figuur 'De ene CML patiënt is de andere niet': Cytogenetics/FISH → CCyR (1-2 log reduction); RT-PCR → MMR (3 log reduction), CMR (~5-6 log reduction)"
+  },
+  {
+   "voor": "Welke cellijn is vooral aangedaan bij PV, ET en myelofibrose?",
+   "achter": "PV: vooral de erytroïde lijn (te veel rode bloedcellen); vaak zijn ook leukocyten en trombocyten verhoogd.\nET: de megakaryocyten → te veel bloedplaatjes.\nMF: afwijkende megakaryocyten maken cytokines die het beenmerg laten verbindweefselen. Gevolg: falende aanmaak (cytopenie) en extramedullaire hematopoëse.\nBij alle drie zit de mutatie in de hematopoëtische stamcel.",
+   "prio": true,
+   "citaat": "PV: polycythemia vera → teveel rode bloedcellen ET: essentiele trombocytose → teveel bloedplaatjes MF: myelofibrose → fibrose in het beenmerg (blokboek tabel 2: 'Aangedane cellijn')"
+  },
+  {
+   "voor": "Waarom is het EPO verlaagd bij polycythaemia vera?",
+   "achter": "Door JAK2 V617F prolifereren de erytroïde voorlopers onafhankelijk van EPO. Door de grote rodecelmassa krijgt de nier ruim zuurstof, en daarom remt de nier de EPO-productie (negatieve terugkoppeling).\nBij een secundaire erytrocytose is EPO juist de aanjager en dus hoog(-normaal).",
+   "prio": true,
+   "citaat": "Rol JAK2 mutatie in polycythemia vera (figuur: EPOR met JAK2 V617F → STAT → transcriptie; 'PV, ET & PMF')"
+  },
+  {
+   "voor": "Hoe veroorzaken CALR- en MPL-mutaties een MPN, en waarom geven ze ET of MF en geen PV?",
+   "achter": "MPL is de trombopoëtine(TPO)-receptor. Een MPL-mutatie zet de receptor continu aan, en gemuteerd calreticuline (CALR) bindt MPL en activeert hem. Beide sturen zo de JAK2-STAT-route aan.\nMPL stuurt vooral de megakaryocytaire lijn aan → trombocytose (ET) of MF. De erytrocytose van PV loopt via de EPO-receptor en JAK2.",
+   "prio": true,
+   "citaat": "Rol JAK2, MPL, CALR mutatie in essentiële trombocytose … Mutatie in JAK2, Calreticuline, MPL (TPO receptor) (figuur: MPL- en CALR-mutaties bij de MPL-receptor → 'ET & PMF'; JAK2 V617F → 'PV, ET & PMF')"
+  },
+  {
+   "voor": "Hoe vaak komen de drivermutaties voor bij PV, ET en primaire myelofibrose?",
+   "achter": "PV: JAK2 circa 95%, geen CALR of MPL\nET: JAK2 circa 60%, CALR circa 25%, MPL enkele procenten, circa 10-15% triple-negatief\nPMF: JAK2 circa 50-55%, CALR circa 35%, MPL circa 5%, enkele procenten triple-negatief\n(Afgelezen van de taartdiagrammen op de slide.)",
+   "prio": false,
+   "citaat": "Driver Mutaties in MPN (myeloproliferatieve neoplasmata) — taartdiagrammen PV (n = 382), ET (n = 311), PMF (n = 203): JAK2 mutant, MPL mutant, CALR mutant, JAK2/MPL/CALR wild type"
+  },
+  {
+   "voor": "Bij welke trombose moet je aan een onderliggende MPN denken?",
+   "achter": "Bij een trombose op een ongebruikelijke plaats, vooral in de buik (levervenen of Budd-Chiari, vena porta, vena mesenterica), of bij een cerebrale sinustrombose, zeker bij een jong persoon.\nBepaal dan JAK2 (en zo nodig CALR of MPL). Een MPN kan zich zo presenteren voordat het bloedbeeld duidelijk afwijkt.",
+   "prio": false,
+   "citaat": "Trombo-embolische complicaties (arterieel, veneus, ongebruikelijke plaatsen)"
+  },
+  {
+   "voor": "Wat is erythromelalgie, en wat helpt ertegen?",
+   "achter": "Aanvallen van brandende pijn, roodheid en warmte van handen en voeten, door plaatjesaggregatie in de microcirculatie. Typisch voor ET, maar komt ook voor bij PV.\nReageert meestal snel op acetylsalicylzuur.",
+   "prio": false,
+   "citaat": "Erythromelalgie (PV-klachten) en Erytromelalgie (ET-klachten); behandeling: trombocytenaggregatieremmers: ascal"
+  },
+  {
+   "voor": "Wanneer heeft een PV-patiënt een hoog risico op trombose, en wat verandert dat aan de behandeling?",
+   "achter": "Hoog risico bij ≥1 risicofactor: leeftijd >60 jaar, een eerdere trombo-embolische complicatie, of leukocytose >15 × 10⁹/l. Standaard risico: geen van deze factoren.\nHoog risico → naast aderlaten en acetylsalicylzuur ook cytoreductie.",
+   "prio": true,
+   "citaat": "Risico score PV: risico op krijgen VTE. Hoog risico: aanwezigheid van 1 of meerdere risicofactoren. Standaard risico: geen hoog risico factoren. Risico factoren: Leeftijd > 60 jaar; Eerdere trombo-embolische complicatie; Leukocytose > 15 x 10⁹/L … Cytoreductie (hoog risico)"
+  },
+  {
+   "voor": "Hoe leiden de processen in het beenmerg bij myelofibrose tot de kliniek?",
+   "achter": "Extramedullaire hematopoëse → splenomegalie (complicatie: portale hypertensie)\nIneffectieve hematopoëse → cytopenieën\nInflammatie (cytokines) → constitutionele klachten\nIn het merg: fibrose, osteosclerose en neoangiogenese, en stamcellen die naar het bloed worden gemobiliseerd. Andere complicaties: trombo-embolie en infecties.",
+   "prio": true,
+   "citaat": "Myelofibrose; pathofysiologie (figuur Mughal et al.: EMH → splenomegaly → portal hypertension; inefficient hematopoiesis → cytopenias; inflammation → constitutional symptoms; complications thromboembolism, infection; osteosclerosis, neoangiogenesis, stem cell mobilization)"
+  },
+  {
+   "voor": "Waardoor ontstaan bij myelofibrose traandruppelcellen en een leuko-erytroblastair bloedbeeld?",
+   "achter": "Traandruppelcellen (dacryocyten): erytrocyten vervormen als ze uit het fibrotische merg (en de milt) worden geperst.\nLeuko-erytroblastair: door de fibrose en de extramedullaire hematopoëse in de milt komen jonge vormen in het bloed (erytroblasten, myelocyten).",
+   "prio": false,
+   "citaat": "anemie, leuco-erytroblastose (jonge vormen in bloed, tear drop cellen) … Extramedullaire hematopoese: met name in milt, splenomegalie"
+  },
+  {
+   "voor": "Welke factoren zitten in de DIPSS bij myelofibrose, en wat zegt de score?",
+   "achter": "Leeftijd >65 jaar, constitutionele klachten, Hb <6,2 mmol/l (telt dubbel), leukocyten >25 × 10⁹/l en blasten in het bloed >1%.\nHoe hoger de score, hoe korter de mediane overleving: van 'niet bereikt' (laag risico) via 9,8 en 4,8 jaar tot 2,3 jaar (hoog risico).\n(Op de slide telt ook leeftijd 2 punten; in de originele DIPSS is dat 1 punt.)",
+   "prio": false,
+   "citaat": "DIPSS: Age > 65 years 2; Constitional symptoms 1; Hb < 6,2 mmol/L 2; Leucocytes > 25 x 109/L 1; Blasts PBL> 1% 1. Points/Risk/OS (Y): 0 Low n.r.; 1-2 Int-1 9.8; 3-4 Int-2 4.8; 5-6 High 2.3"
+  },
+  {
+   "voor": "Wat doet ruxolitinib bij myelofibrose, en wat niet?",
+   "achter": "Wel: als JAK1/2-remmer dempt het de overactieve JAK-STAT-signalering, ook bij een CALR- of MPL-mutatie (die signaleren via JAK2). Bij veel patiënten worden de milt kleiner en de constitutionele klachten minder.\nNiet: het ruimt de kloon niet op en geneest dus niet. Bijwerkingen zijn onder meer anemie en trombopenie.",
+   "prio": true,
+   "citaat": "Ruxolitinib…..JAK inhibitor. Veel patiënten hebben minder klachten met RUX (Verstovsek, NEJM 2012: afname miltvolume en totale symptoomscore)"
+  },
+  {
+   "voor": "Wat zijn de opties als JAK-remmers bij myelofibrose niet (meer) werken?",
+   "achter": "Een tweedegeneratie-JAK-remmer of deelname aan een studie. Bij jonge patiënten een allogene stamceltransplantatie; bij ouderen vaak best supportive care (sombere prognose).\nOok met ruxolitinib heeft een deel van de patiënten een aanzienlijke kans om binnen 5 jaar te overlijden.",
+   "prio": false,
+   "citaat": "Sinds introductie JAK-remmer ruxolitinib veel betere behandeling klachten en splenomegalie -> maar voor deel van mensen aanzienlijke kans te overlijden binnen 5 jaar. Wat als JAK remmers niet werken of je ongevoelig raakt - 2e generatie JAK remmers - Studie - Jong: allogene stamceltransplantatie - Oud: vaak best supportive care (sombere prognose)"
+  },
+  {
+   "voor": "Wat is de impact van een MPN op de kwaliteit van leven?",
+   "achter": "Vergelijkbaar met die bij andere patiënten met kanker, ondanks de vaak lange levensverwachting.\nPatiënten hebben vooral meer last van vermoeidheid en van problemen met het cognitief functioneren.\nDe kwaliteit van leven is verlaagd in alle subtypen (PV, ET, MF) en in alle stadia. De ziekte wordt vaak niet begrepen: 'meer dan alleen een afwijkend bloedbeeld'.",
+   "prio": true,
+   "citaat": "MPN is een unieke vorm van kanker (vaak lange levensverwachting), maar impact QoL is vergelijkbaar met andere patiënten met kanker • Patiënten met MPN hebben meer last van “vermoeidheid” en “cognitief functioneren” • Verlaagde QoL is zichtbaar in alle MPN subtypes en bij alle stadia van MPN"
+  }
+ ],
+ "casus": [
+  {
+   "vignet": "Man, 58 jaar, rookt al 40 jaar en heeft COPD. Hb 11,2 mmol/l, Ht 0,56, leukocyten en trombocyten normaal, geen splenomegalie. EPO verhoogd, JAK2 negatief.",
+   "diagnose": "Secundaire erytrocytose door chronische hypoxie",
+   "waarom": "Een geïsoleerde erytrocytose met een hoog EPO, zonder splenomegalie en zonder JAK2: de nier reageert normaal op de hypoxie. Behandel de oorzaak (stoppen met roken); dit is geen PV."
+  },
+  {
+   "vignet": "Vrouw, 42 jaar, heeft al maanden hevig menstrueel bloedverlies. Trombocyten 650 × 10⁹/l, Hb 6,1 mmol/l, MCV 72 fl, ferritine 5 µg/l, geen splenomegalie.",
+   "diagnose": "Reactieve trombocytose bij ijzergebreksanemie",
+   "waarom": "Trombocytose met een microcytaire anemie en een laag ferritine is reactief. Geef eerst ijzer en pak het bloedverlies aan. Blijft de trombocytose na correctie bestaan, zoek dan naar ET (JAK2, CALR, MPL)."
+  },
+  {
+   "vignet": "Vrouw, 74 jaar, heeft al 14 jaar ET met een CALR-mutatie en gebruikt acetylsalicylzuur. Nu is ze moe, valt ze af en zweet ze 's nachts. De trombocyten dalen van 800 naar 250 × 10⁹/l, Hb 5,8 mmol/l, en de milt is fors vergroot. In de uitstrijk traandruppelcellen en erytroblasten.",
+   "diagnose": "Post-ET myelofibrose",
+   "waarom": "Een deel van de ET- en PV-patiënten gaat over in MF. Fibrose → extramedullaire hematopoëse (grote milt), anemie en een leuko-erytroblastair bloedbeeld met traandruppelcellen, plus constitutionele klachten. Prognose volgens DIPSS; ruxolitinib tegen milt en klachten."
+  }
+ ],
+ "tabellen": [
+  {
+   "id": "mpnmiddelen",
+   "titel": "Middelen bij CML en MPN (HC 6)",
+   "kolommen": [
+    "Werking",
+    "Inzet"
+   ],
+   "rijen": [
+    {
+     "rij": "TKI's (imatinib e.v.)",
+     "cellen": [
+      "Remmen het BCR-ABL-tyrosinekinase",
+      "CML"
+     ]
+    },
+    {
+     "rij": "Aderlaten",
+     "cellen": [
+      "Verlaagt de rodecelmassa (Ht <0,45)",
+      "PV"
+     ]
+    },
+    {
+     "rij": "Acetylsalicylzuur",
+     "cellen": [
+      "Plaatjesaggregatieremmer",
+      "PV en ET"
+     ]
+    },
+    {
+     "rij": "Hydroxycarbamide (Hydrea)",
+     "cellen": [
+      "Chemo (cytoreductie)",
+      "PV hoog risico 1e lijn; ET; MF"
+     ]
+    },
+    {
+     "rij": "Peginterferon-α",
+     "cellen": [
+      "Immuunmodulerend (cytoreductie)",
+      "PV hoog risico 1e lijn; ET"
+     ]
+    },
+    {
+     "rij": "Anagrelide",
+     "cellen": [
+      "Remt de rijping van megakaryocyten",
+      "ET"
+     ]
+    },
+    {
+     "rij": "Busulfan",
+     "cellen": [
+      "Chemo (alkylerend)",
+      "PV 2e lijn"
+     ]
+    },
+    {
+     "rij": "Ruxolitinib",
+     "cellen": [
+      "JAK1/2-remmer ('targeted')",
+      "MF; PV 2e lijn"
+     ]
+    }
+   ]
+  }
+ ],
+ "tentamentips": [
+  {
+   "citaat": "Doel college • Goed je tentamen kunnen maken … • Voorbeelden van begrijpen van de kliniek en het ontwikkelen van medicatie door het snappen van de moleculaire afwijkingen",
+   "betekenis": "Ken per ziekte de moleculaire afwijking (BCR-ABL; JAK2, CALR, MPL) en leid daaruit de kliniek en de doelgerichte therapie af (TKI, JAK-remmer). Redeneervragen gaan over het verband tussen mutatie, ziekte en medicijn."
+  },
+  {
+   "citaat": "Zoek de verschillen…",
+   "betekenis": "Steeds terugkerende slides: het normale bloedbeeld naast CML (bont, veel leukocyten), PV (dicht gepakte erytrocyten), ET (veel plaatjes) en MF (traandruppels, erytroblasten, fibrose in het biopt). Je moet het bloedbeeld kunnen herkennen. CML-uitstrijken komen volgens het blokboek ook terug in practicum 1."
+  },
+  {
+   "citaat": "Wat is je differentiaal diagnose?",
+   "betekenis": "Gevraagd bij een Hb van 12 mmol/l met Ht 0,6 en bij trombocyten van 950. Ken de DD van erytrocytose (PV, chronische hypoxie, EPO-producerende tumor, medicatie) en van trombocytose (reactief door infectie, auto-immuunziekte, ijzergebrek of splenectomie; ET; PV)."
+  },
+  {
+   "citaat": "PV behandeling: doel trombotische complicaties voorkomen!",
+   "betekenis": "Met uitroepteken benadrukt. Elke behandelkeuze bij PV (aderlaten tot Ht <0,45, acetylsalicylzuur, risicofactoren, cytoreductie bij hoog risico) staat in dienst van het voorkomen van trombose."
+  },
+  {
+   "citaat": "De ene CML patiënt is de andere niet",
+   "betekenis": "Ken de vier groepen: genezen, chronische medicatie, acceleratie- of blastenfase, en muterende BCR-ABL. Weet ook waarom er TKI's van meerdere generaties zijn."
+  },
+  {
+   "citaat": "Kent de definities van de ziektebeelden ET, PVen myelofibrose, de verschillen in kliniek, de risico’s van deze aandoeningen en de behandeling, waaronder nieuwe ontwikkelingen zoals JAK2 remmers, blastaire transformatie en overgang ET en PV naar myelofibrose. (blokboek)",
+   "betekenis": "Kernleerdoel. Kun je blokboektabel 2 (aangedane cellijn, oorzaak, symptomen, behandeling en progressie voor ET, PV en MF) uit je hoofd invullen?"
+  },
+  {
+   "citaat": "Oog voor patiënten met chronische ziektes",
+   "betekenis": "Expliciet collegedoel. Het college eindigt met data over kwaliteit van leven: de impact van een MPN is vergelijkbaar met die van andere kankers, met vooral vermoeidheid en cognitieve klachten."
+  }
+ ],
+ "prio_guids": [
+  {
+   "guid": "d-%s/WnO+s",
+   "waarom": "Leerdoel: CML als stamcelziekte met proliferatie bij vrijwel normale uitrijping, BCR-ABL en genetische instabiliteit"
+  },
+  {
+   "guid": "gNh8/$:vxF",
+   "waarom": "Leeropdracht 11: symptomen van CML; de klachtenlijst staat uitgebreid op de slide"
+  },
+  {
+   "guid": "OOHMOh*{=@",
+   "waarom": "TKI-behandeling is hét voorbeeld van 'medicatie door het snappen van de moleculaire afwijking'"
+  },
+  {
+   "guid": "x@dyiU<lA#",
+   "waarom": "Prognose en overgang naar blastencrise zijn een expliciet leerdoel"
+  },
+  {
+   "guid": "KgpealOSj[",
+   "waarom": "Leeropdracht 11a in het blokboek: het verschil tussen CML en CLL"
+  },
+  {
+   "guid": "K6cWlwa`v<",
+   "waarom": "Het CML-bloedbeeld herkennen is een toepassingsdoel en een 'zoek de verschillen'-slide"
+  },
+  {
+   "guid": "ltV$QYX7-z",
+   "waarom": "Leeropdracht 8a en de DD-slide bij Hb 12 / Ht 0,6"
+  },
+  {
+   "guid": "J!(;]luG~?",
+   "waarom": "Leeropdracht 8b: gevolgen van onbehandelde polycytemie (trombose)"
+  },
+  {
+   "guid": "kvG!I2Q[3+",
+   "waarom": "Leerdoel: MPN als stamcelziekte met JAK2-mutatie"
+  },
+  {
+   "guid": "EZ!yU3G|W<",
+   "waarom": "Definitie en diagnostiek van PV (leerdoel definities ET, PV, MF)"
+  },
+  {
+   "guid": "A?S5KXt~q8",
+   "waarom": "PV-klachten staan uitgebreid op de slides; verschillen in kliniek zijn een leerdoel"
+  },
+  {
+   "guid": "GO/iUVIImX",
+   "waarom": "Benadrukt op de slide: 'PV behandeling: doel trombotische complicaties voorkomen!'"
+  },
+  {
+   "guid": "AUXgtB_[:]",
+   "waarom": "Leerdoel: overgang van PV naar myelofibrose en blastaire transformatie"
+  },
+  {
+   "guid": "i=0/E[?<mM",
+   "waarom": "Definitie en kliniek van ET (blokboektabel 2)"
+  },
+  {
+   "guid": "yCw,dOf$3l",
+   "waarom": "Behandeling en progressie van ET (blokboektabel 2)"
+  },
+  {
+   "guid": "mH2%mS14gu",
+   "waarom": "Kliniek van MF (blokboektabel 2)"
+  },
+  {
+   "guid": "F,&44b-;Zs",
+   "waarom": "Pathofysiologie van MF (fibrose door megakaryocyten) en overgang vanuit PV/ET"
+  },
+  {
+   "guid": "yh!9>|]N1l",
+   "waarom": "Leerdoel: nieuwe ontwikkelingen zoals JAK2-remmers"
+  }
+ ],
+ "correcties": [
+  {
+   "guid": "GO/iUVIImX",
+   "huidig": "Aderlaten tot een Ht onder 0,45 bij mannen en 0,42 bij vrouwen, laagdosis acetylsalicylzuur, aandacht voor cardiovasculaire risicofactoren, en cytoreductie met hydroxycarbamide of interferon. Doelgerichte optie: ruxolitinib (JAK2-remmer)",
+   "voorstel": "Doel: trombotische complicaties voorkomen.\nAderlaten (start 250-500 ml) tot Ht <0,45 (landelijke richtlijn PV 2019).\nAcetylsalicylzuur of carbasalaatcalcium, en behandeling van vasculaire risicofactoren (hypertensie, hypercholesterolemie, diabetes, overgewicht, roken).\nBij hoog risico cytoreductie: 1e lijn hydroxycarbamide of peginterferon-α; 2e lijn ruxolitinib (JAK-remmer) of busulfan.",
+   "citaat": "PV behandeling: doel trombotische complicaties voorkomen! Aderlatingen (start 250-500ml, doel Hct <0,45) Acetylsalicylzuur / carbasalaatcalcium. Controle (behandeling) vasculaire risicofactoren: hypertensie, hypercholesterolemie, diabetes, overgewicht en rookgedrag. Cytoreductie (hoog risico): 1e lijn: Hydrea ‘chemo’, Gepegyleerd interferon α 2a (Pegasys®) ‘immuun modulerend’ 2e lijn: Ruxolitinib ‘targeted’, Busulfan ‘chemo’. Landelijke richtlijn PV 2019"
+  },
+  {
+   "guid": "x@dyiU<lA#",
+   "huidig": "Circa 1-2 per 100.000, mediane leeftijd rond 50 jaar, vaker mannen. Met TKI's is de levensverwachting vrijwel normaal, maar zonder curatie: de zieke stamcel blijft op laag niveau aanwezig. Onbehandeld (of bij resistentie) overgang via acceleratiefase naar blastencrise (acute leukemie); onder TKI is dat zeldzaam geworden.",
+   "voorstel": "Incidentie circa 1-2 per 100.000 per jaar, mediane leeftijd rond 50 jaar, vaker mannen.\nPrognose met TKI's meestal goed: een deel geneest (kan na een diepe, stabiele moleculaire respons stoppen met de TKI), een deel blijft chronisch medicatie gebruiken.\nMaar een deel is resistent voor TKI's of presenteert zich al agressief (acceleratie- of blastenfase). Onbehandeld of bij resistentie volgt overgang via de acceleratiefase naar een blastencrise (acute leukemie).",
+   "citaat": "Prognose: • Vaak goed (deel geneest, deel chronische medicatie)…maar • Ook deel resistent voor TKI of al ‘agressieve presentatie’ … Groep I: ‘de patiënten die genezen’"
+  },
+  {
+   "guid": "OOHMOh*{=@",
+   "huidig": "Tyrosinekinaseremmers: imatinib (1e generatie; blokkeert de ATP-bindingsplaats van het BCR-ABL-kinase), daarnaast nilotinib en dasatinib, die ook bij resistentiemutaties werken. In principe levenslang; bij zeer diepe remissie lukt staken soms. Allogene SCT alleen bij blastencrise of TKI-resistentie.",
+   "voorstel": "Tyrosinekinaseremmers (TKI's) die het BCR-ABL-kinase blokkeren:\n1e generatie: imatinib (bezet de ATP-bindingsplaats)\n2e generatie: dasatinib, nilotinib\n3e generatie: ponatinib, asciminib\nIn principe langdurig of levenslang; bij een blijvend diepe moleculaire respons lukt staken soms. Allogene SCT alleen bij blastencrise of resistentie voor TKI's.",
+   "citaat": "Behandeling: • Tyrosine kinase remmers (‘imatinib’) … 1e generatie TKI: • Imatinib 2e generatie TKI: • Dasatinib • Nilotinib 3e generatie TKI: • Ponatinib • Asciminib"
+  },
+  {
+   "guid": "yCw,dOf$3l",
+   "huidig": "Laagdosis acetylsalicylzuur en bij hoog risico cytoreductie met hydroxycarbamide of interferon. Risico op zowel trombose als bloedingen — dat laatste door een verworven Von Willebrand-defect bij zeer hoge aantallen. Goede prognose met 10-20 jaar stabiele ziekte; kan overgaan in myelofibrose of AML",
+   "voorstel": "Laagdosis acetylsalicylzuur; zo nodig cytoreductie met hydroxycarbamide, interferon of anagrelide.\nRisico op zowel trombose als bloedingen; dat laatste door een verworven Von Willebrand-defect bij zeer hoge aantallen.\nPrognose gemiddeld 10-20 jaar (vaak oudere patiënten). Overlijden door trombo-embolische complicaties, overgang in myelofibrose of AML.",
+   "citaat": "Behandeling: • Trombocytenaggregatieremmers: ascal • eventueel cytoreductie: interferon, hydrea, anagrelide. Prognose: gemiddeld 10-20 jaar (maar vaak oudere patiënten) Overlijden aan: tromboembolische complicaties; post ET, myelofibrose; AML"
+  },
+  {
+   "guid": "yh!9>|]N1l",
+   "huidig": "Bloedtransfusies, hydroxycarbamide, en ruxolitinib (JAK2-remmer) dat de milt verkleint en de constitutionele klachten sterk vermindert. Allogene SCT is de enige curatieve optie — de fibrose is namelijk niet irreversibel. Prognose volgens IPSS/DIPSS; een CALR-mutatie geeft een betere overleving. Kan overgaan in AML",
+   "voorstel": "Bloedtransfusies, hydroxycarbamide en de JAK-remmer ruxolitinib. Ruxolitinib verkleint de milt en vermindert de constitutionele klachten sterk, maar geneest niet.\nAllogene SCT is de enige curatieve optie, alleen voor jonge en fitte patiënten.\nPrognose volgens de DIPSS; een CALR-mutatie geeft een betere overleving. Kan overgaan in AML.",
+   "citaat": "Behandeling: – bloedtransfusies – Hydroxyurea – JAK2 remmers: Ruxolitinib – allogene SCT … Prognose myelofibrose: DIPSS … Jong: allogene stamceltransplantatie"
+  },
+  {
+   "guid": "gNh8/$:vxF",
+   "huidig": "Vermoeidheid, kortademigheid, bleekheid, gewichtsverlies, nachtzweten, botpijn en vooral splenomegalie. Vaak lang symptoomarm en bij toeval ontdekt via het bloedbeeld",
+   "voorstel": "Vermoeidheid, kortademigheid, bleekheid, abnormaal gewichtsverlies, overmatig zweten, spontaan blauwe plekken en bloedingen, en botpijn (door het overactieve beenmerg). Vooral ook een gespannen gevoel of pijn in de buik door splenomegalie.\nVaak lang symptoomarm en bij toeval ontdekt via het bloedbeeld.",
+   "citaat": "Klachten: • Vermoeidheid • Kortademigheid • Bleekheid • Abnormaal gewichtsverlies • Spontaan blauwe plekken en bloedingen • Overmatige zweten • Gespannen gevoel of pijn in de buik door een vergrote milt • Pijn in de botten door overactief beenmerg"
+  },
+  {
+   "guid": "mH2%mS14gu",
+   "huidig": "Forse splenomegalie door extramedullaire hematopoëse, anemie, en in meer dan de helft constitutionele klachten: vermoeidheid, vermagering, koorts, botpijn en jeuk",
+   "voorstel": "Forse splenomegalie door extramedullaire hematopoëse, en anemie.\nBij meer dan de helft constitutionele klachten: vermoeidheid, vermagering, koorts, nachtzweten, botpijn en jeuk.",
+   "citaat": "Constitutionele symptomen: (> 50%) vermoeidheid, vermagering, koorts, nachtzweten, botpijn, jeuk"
+  },
+  {
+   "guid": "AUXgtB_[:]",
+   "huidig": "Circa 3-5 per 100.000, vooral boven de 60 jaar. Gemiddelde overleving 10-16 jaar. Overlijden meestal door trombo-embolische complicaties; overgang naar myelofibrose bij circa 30% en naar AML bij 5-10%",
+   "voorstel": "Prevalentie 1-5 per 10.000 (zeldzaam), vooral ouderen (boven de 60 jaar).\nGemiddelde overleving 10-16 jaar.\nOverlijden door trombo-embolische complicaties, overgang naar myelofibrose (post-PV MF) of AML.",
+   "citaat": "Polycythemia vera: 1-5/10.000 mensen … Prognose: gemiddeld 10-16 jaar (maar vaak oudere patiënten) Overlijden aan: tromboembolische complicaties; post PV myelofibrose; AML"
+  },
+  {
+   "guid": "F,&44b-;Zs",
+   "huidig": "Fibrosering van het beenmerg door cytokineproductie (PDGF, TNF-alfa) van afwijkende megakaryocyten. Mutaties in JAK2, CALR of MPL. Bloedbeeld: leuko-erytroblastair met traandruppelcellen (dacryocyten). Aspiratie geeft een dry tap, dus een biopt is nodig: fibrose. Kan primair zijn of volgen op PV of ET",
+   "voorstel": "Fibrosering van het beenmerg door cytokines (onder meer TGF-β en PDGF) van afwijkende megakaryocyten. Mutaties in JAK2, CALR of MPL.\nBloedbeeld: leuko-erytroblastair met traandruppelcellen (dacryocyten).\nAspiratie geeft een dry tap, dus is een biopt nodig: fibrose.\nKan primair zijn of volgen op PV of ET.",
+   "citaat": "Myelofibrose: primair of post PV /ET • Fibrosering van het beenmerg door cytokine productie door de megakaryocyten … anemie, leuco-erytroblastose (jonge vormen in bloed, tear drop cellen) • Mutaties JAK2, MPL, Calreticuline"
+  }
+ ],
+ "koppeling": [],
+ "afgewezen": [
+  {
+   "wat": "Kaart 'Wat is het Philadelphiachromosoom precies?'",
+   "reden": "Dubbeling: t(9;22), het Philadelphiachromosoom en BCR-ABL1 staan al in d-%s/WnO+s en gzc3x-7e1eb3ed5c83. Ph+ ALL hoort bij HC 9/HC 11, niet bij dit college."
+  },
+  {
+   "wat": "Casus Budd-Chiari als presentatie van een JAK2-positieve MPN",
+   "reden": "Dubbeling met de nieuwe kaart 'Bij welke trombose moet je aan een onderliggende MPN denken?'. Die kaart is algemener en blijft staan."
+  },
+  {
+   "wat": "Casus TKI-resistentie door een muterende BCR-ABL (groep IV)",
+   "reden": "Dubbeling met de kaarten over de TKI-generaties en de vier CML-groepen. Vervangen door een casus post-ET myelofibrose, zodat het leerdoel 'overgang ET naar MF' een eigen casus krijgt."
+  },
+  {
+   "wat": "prio_guids gzc3c-5ad3439df6ec en gzc3c-5621b016ae6f",
+   "reden": "Staan niet in kaarten_HC6.tsv of kaarten_HC9.tsv maar in kaarten_HC5.tsv. Het zijn HC 5-kaarten (getagd 'HC 5'); prio voor HC 6 hoort niet op andermans kaarten."
+  },
+  {
+   "wat": "'voor mannen én vrouwen' bij de Ht-streefwaarde (correctie GO/iUVIImX en valkuil)",
+   "reden": "Staat niet op de slide. De slide noemt alleen 'doel Hct <0,45' (richtlijn PV 2019). Daarom geformuleerd als 'volgens het college Ht <0,45, zonder apart doel voor vrouwen'."
+  },
+  {
+   "wat": "Regel 'Interferon of SCT: 27-61%' op de overlevingskaart",
+   "reden": "Pure trivia; de kernboodschap (busulfan/HU 11-18% → imatinib 83%) volstaat."
+  },
+  {
+   "wat": "Kern van vier zinnen",
+   "reden": "Het schema vraagt twee of drie zinnen; samengevoegd tot drie."
+  },
+  {
+   "wat": "Controlevraag 2 'Bij dezelfde man…'",
+   "reden": "Verwees naar vraag 1 en werkt niet als losse vraag (vragen kunnen geschud worden); zelfstandig gemaakt."
+  },
+  {
+   "wat": "Tabelkolom 'Soort', rij 'Aderlaten + acetylsalicylzuur', hydroxycarbamide 'PV/ET hoog risico 1e lijn' en interferon 'jong of zwanger'",
+   "reden": "De kolom bevatte werkingen, niet soorten: hernoemd naar 'Werking'. Aderlaten en ASA staan nu in aparte rijen. Voor ET noemt de slide geen lijnen ('eventueel cytoreductie'), en 'jong of zwanger' staat niet op de slide."
+  },
+  {
+   "wat": "Puntentelling per categorie in de DIPSS-kaart",
+   "reden": "Ingekort tot de factoren, 'Hb telt dubbel' en het overlevingsbereik. De afwijking van de slide (leeftijd 2 punten tegenover 1 in de originele DIPSS) blijft als korte noot staan."
+  },
+  {
+   "wat": "In correctie yh!9>|]N1l: 'bij ouderen vaak best supportive care'",
+   "reden": "Overlapt met de nieuwe kaart over opties bij falen van JAK-remmers; daar laten staan."
+  },
+  {
+   "wat": "Bestaande kaart AUXgtB_[:]: incidentie '3-5 per 100.000' en percentages MF 30% / AML 5-10%",
+   "reden": "Niet door de slides gedragen en zonder tijdshorizon; vervangen door de slidegegevens (prevalentie 1-5/10.000, overleving 10-16 jaar, doodsoorzaken)."
+  },
+  {
+   "wat": "Bestaande kaart F,&44b-;Zs: 'PDGF, TNF-alfa' als fibrogene cytokines",
+   "reden": "TNF-α is niet de belangrijkste fibrogene cytokine. In de correctie vervangen door TGF-β en PDGF (standaard leerboekkennis)."
+  }
+ ]
+}
