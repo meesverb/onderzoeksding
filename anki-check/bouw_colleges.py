@@ -26,6 +26,7 @@ VERWERKING = ROOT / 'verwerking'  # gecontroleerde resultaten van de transcript-
 THEMA_NIEUW = {'HC6': 'T2', 'HC7': 'T2', 'HC8': 'T2', 'HC9': 'T2', 'HC10': 'T2', 'HC11': 'T3', 'HC12': 'T3', 'HC13': 'T3', 'HCAI': 'T3'}
 NADRUK_TAGS = ['prio::tentamen', 'nadruk::docent']
 TRANSCRIPT_BESCHIKBAAR = {'HC2', 'HC3', 'HC5', 'HC7', 'HC13'}  # plus IC 1, IC 2 en IC 3; niet voor HC 1, HC 4/IC 4 en HC 6
+WEG_AFBEELDINGEN = ('kinderneurologie.eu',)  # webafbeeldingen die niet bij de kaart horen (VACTERL-plaatje op de MCV-kaart)
 
 
 def bron_tag(hc, bron):
@@ -307,7 +308,7 @@ def pas_correcties_toe(nieuw, bijgewerkt, notes):
             per_guid[g][4] = tekst(c['voorstel'])
         elif g in notes:
             oud = notes[g]
-            behoud = ''.join(re.findall(r'<img[^>]*>', oud[4])) + ''.join(re.findall(r'<br><br><span style="background:#fff3c4.*?</span>', oud[4], flags=re.S))
+            behoud = ''.join(i for i in re.findall(r'<img[^>]*>', oud[4]) if not any(w in i for w in WEG_AFBEELDINGEN)) +''.join(re.findall(r'<br><br><span style="background:#fff3c4.*?</span>', oud[4], flags=re.S))
             extra.append(oud[:4] + [tekst(c['voorstel']) + behoud, oud[5]])
         else:
             overgeslagen.append(c)
@@ -367,7 +368,8 @@ def main():
     uit = ROOT / 'GZC3_colleges_import.txt'
     with open(uit, 'w', newline='', encoding='utf-8') as fh:
         fh.write('#separator:tab\n#html:true\n#guid column:1\n#notetype column:2\n#deck column:3\n#tags column:6\n')
-        csv.writer(fh, delimiter='\t', lineterminator='\n').writerows(bijgewerkt + nieuw)
+        weg = re.compile(r'<img[^>]*(?:' + '|'.join(map(re.escape, WEG_AFBEELDINGEN)) + r')[^>]*>')
+        csv.writer(fh, delimiter='\t', lineterminator='\n').writerows([[weg.sub('', v) for v in r] for r in bijgewerkt + nieuw])
 
     (ROOT / 'kapstokken').mkdir(exist_ok=True)
     for hc, c in COLLEGES.items():

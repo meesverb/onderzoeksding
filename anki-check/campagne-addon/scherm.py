@@ -8,7 +8,7 @@ import html
 import json
 import random
 
-from .campagne import (COLLEGEDATA, COLLEGES, CAMPAGNE_VOLGORDE, EXTRA, THEMAS, VERANKERD_IVL, XP_COLLEGE, XP_EXTRA,
+from .campagne import (NOOD, COLLEGEDATA, COLLEGES, CAMPAGNE_VOLGORDE, EXTRA, THEMAS, VERANKERD_IVL, XP_COLLEGE, XP_EXTRA,
                        XP_QUIZVRAAG, kort, label)
 
 CSS = """
@@ -108,6 +108,9 @@ body.gz{margin:0;background:var(--bg)}
 .gz .venster li{margin:2px 0}
 .gz .valkuil{background:var(--eos-z);border-radius:10px;padding:8px 12px;margin-top:8px}
 .gz .tip{background:var(--goud-z);border-radius:10px;padding:8px 12px;margin-top:8px}
+.gz .lastig{display:flex;gap:8px;align-items:baseline;padding:4px 0;border-bottom:1px solid var(--lijn);font-size:13px}
+.gz .lastig .v{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.gz .lastig .t{font-size:12px;color:var(--zacht);white-space:nowrap}
+.gz .nood{border:2px solid var(--eos)}.gz .nood .chip{margin:2px 4px 2px 0}
 .gz .citaten{margin-top:10px}
 .gz .citaten blockquote{margin:6px 0;padding:6px 12px;border-left:3px solid var(--lijn);font-style:italic}
 .gz .vraag{background:var(--kaart);border:1px solid var(--lijn);border-radius:12px;padding:12px;margin-top:10px}
@@ -197,6 +200,42 @@ def _wereld(s: dict, th: str) -> str:
     ic = '🏆' if b and b['status'] == 'verslagen' else icoon
     return (f'<div class="wereld{klasse}"><div class="baaskop"><div class="ic">{ic}</div><div><b>{_e(baas)}</b>'
             f'<div class="klein">{th} · {_e(naam)}</div></div><div>{info}</div></div><div class="pad">{"".join(nodes)}</div></div>')
+
+
+def _lastig_en_nood(s: dict) -> str:
+    rijen = ''.join(f'<div class="lastig"><span class="v" title="{_e(r["voor"])}">{_e(r["voor"])}</span><span class="t">'
+                    f'❌ {r["fout"]}' + (f' · 🔍 {r["opgezocht"]}' if r['opgezocht'] else '') + (' · 🚩' if r['rood'] else '') + '</span></div>'
+                    for r in s['lastig'])
+    lastig = (f'<div class="blok"><div class="label">🧩 Lastige kaarten · {s["n_lastig"]}</div>'
+              + (rijen or '<div class="klein">Nog niets. Hier komen kaarten die je vaak fout hebt, opzoekt met W of een rode vlag geeft (Ctrl+1, ook op je telefoon).</div>')
+              + '<div class="klein" style="margin-top:6px">Laat Claude ze herschrijven tot kleine kaarten, contrastkaarten of ezelsbruggen.</div>'
+              + '<div class="knoppen">'
+              + (f'<button class="klein" {_cmd("gzc3:lastig")}>📋 Kopieer voor Claude</button>'
+                 f'<button class="licht klein" {_cmd("gzc3:lastiginladen")}>📥 Bestand van Claude inladen</button>'
+                 f'<button class="licht klein" {_cmd("gzc3:lastigbekijk")}>🔎 Bekijk</button>' if s['n_lastig'] else '')
+              + '</div></div>')
+    n_nood = len(NOOD.get('guids', []))
+    if not n_nood:
+        return f'<div class="rij">{lastig}</div>'
+    nd = s.get('nood')
+    achter = s['fase'] == 1 and s['totaal']['nieuw'] and (not s['klaar_op'] or s['klaar_op'] > s['deadline']) and s['dagen_examen'] <= 10
+    if nd:
+        per = nd['per']
+        chips = ''.join(f'<span class="chip {"ok" if v.get("gezien") == v.get("n") else "paars"}">{th} {v.get("gezien", 0)}/{v.get("n", 0)}</span>'
+                        for th, v in sorted(per.items()) if th != 'totaal')
+        tot = per.get('totaal', {})
+        inhoud = (f'<div class="klein">{tot.get("gezien", 0)}/{tot.get("n", 0)} essentiekaarten gezien · {tot.get("verankerd", 0)} verankerd</div>'
+                  f'<div style="margin-top:4px">{chips}</div><div class="knoppen"><button class="klein" {_cmd("gzc3:noodleren")}>▶ Noodpakket leren</button>'
+                  f'<button class="licht klein" {_cmd("gzc3:noodlezen")}>📄 Samenvattingen</button></div>')
+    else:
+        inhoud = (f'<div class="klein">Voor als je in tijdnood komt: {n_nood} essentiekaarten (vraag en antwoord in een paar woorden) en per thema '
+                  f'één samenvatting. Een apart deck, los van de campagne.</div><div class="knoppen">'
+                  f'<button class="klein" {_cmd("gzc3:nood")}>Noodpakket installeren</button>'
+                  f'<button class="licht klein" {_cmd("gzc3:noodlezen")}>📄 Samenvattingen</button></div>')
+    hint = ('<div class="valkuil klein" style="margin-top:6px"><b>Achter op schema met nog ' + str(s['dagen_examen'])
+            + ' dagen?</b> Leer dan eerst het noodpakket en daarna pas de rest.</div>') if achter else ''
+    return (f'<div class="rij">{lastig}<div class="blok{" nood" if achter else ""}"><div class="label">🚨 Noodpakket</div>'
+            f'{inhoud}{hint}</div></div>')
 
 
 def sterren_tekst(n: int) -> str:
@@ -289,6 +328,7 @@ def weergave(s: dict, stappen: list[dict] | None = None) -> str:
  <div class="blok"><div class="label">Prognose</div><div class="sub">{prognose}</div></div>
  <div class="blok"><div class="label">Herhalingen komende week</div><div class="week">{werkdruk}</div></div>
 </div>
+{_lastig_en_nood(s)}
 <div class="label" style="margin-top:16px">Wereldkaart · klik op een college voor de kapstok, de controlequiz en je kaarten · {n_col}/{len(COLLEGES)} colleges</div>
 {werelden}
 <div class="wereld"><div class="baaskop"><div class="ic">📜</div><div><b>Arena van de oude tentamens</b><div class="klein">Fase 2 · 23 t/m 28 oktober</div></div><div></div></div>
@@ -398,6 +438,28 @@ def dialoog(s: dict, k: str) -> str:
     return (f'<style>{CSS}</style><script>{DIALOOG_JS}</script>'
             f'<div class="venster gz">{"".join(delen)}</div>'
             f'<script>document.body.classList.add("gz");document.body.dataset.college={json.dumps(k)};</script>')
+
+
+def nood_dialoog(s: dict) -> str:
+    """Venster van het noodpakket: hoe je het gebruikt en de samenvatting per thema."""
+    nd = s.get('nood') if s else None
+    per = nd['per'] if nd else {}
+    delen = ['<h2>🚨 Noodpakket</h2>',
+             '<div class="kern"><b>In tijdnood</b><ol style="margin:6px 0 0 18px;padding:0">'
+             '<li>Lees per thema de samenvatting hieronder (5 minuten per thema).</li>'
+             '<li>Leer de essentiekaarten: ±60 per dag, het hele pakket in een paar dagen.</li>'
+             '<li>Maak daarna oude tentamens; zoek wat je mist op met W.</li></ol></div>']
+    delen.append('<div class="knoppen">' + (f'<button {_cmd("gzc3:noodleren")}>▶ Noodpakket leren</button>' if nd
+                                            else f'<button {_cmd("gzc3:nood")}>Noodpakket installeren</button>') + '</div>')
+    for th in CAMPAGNE_VOLGORDE:
+        punten = NOOD.get('samenvattingen', {}).get(th)
+        if not punten:
+            continue
+        naam, baas, icoon = THEMAS[th]
+        v = per.get(th, {})
+        stand = f' <span class="chip paars">{v.get("gezien", 0)}/{v.get("n", 0)} kaarten gezien</span>' if v else ''
+        delen.append(f'<h3>{icoon} {th} · {_e(naam)}{stand}</h3><ul>' + ''.join(f'<li>{_e(p)}</li>' for p in punten) + '</ul>')
+    return f'<style>{CSS}</style><div class="venster gz">{"".join(delen)}</div><script>document.body.classList.add("gz");</script>'
 
 
 # ------------------------------------------------------------------ HUD tijdens het leren

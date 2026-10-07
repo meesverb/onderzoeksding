@@ -7,11 +7,11 @@ import html
 import json
 
 import aqt
-from anki.collection import CsvMetadata, ImportCsvRequest
+from anki.collection import CsvMetadata, ImportCsvRequest, OpChanges
 from aqt import gui_hooks, mw
 from aqt.operations import CollectionOp
 from aqt.operations.note import remove_notes
-from aqt.qt import QDialog, QVBoxLayout
+from aqt.qt import QApplication, QDesktopServices, QDialog, QFileDialog, QUrl, QVBoxLayout
 from aqt.utils import askUser, showInfo, tooltip
 from aqt.webview import AnkiWebView
 
@@ -28,7 +28,8 @@ DEFAULTS = {
     'hud': True,
     'herkansing_dagen': 2,
 }
-IMPORTS = {'check': 'GZC3_check_import.txt', 'extra': 'GZC3_extra_import.txt', 'colleges': 'GZC3_colleges_import.txt'}
+IMPORTS = {'check': 'GZC3_check_import.txt', 'extra': 'GZC3_extra_import.txt', 'colleges': 'GZC3_colleges_import.txt',
+           'nood': 'GZC3_nood_import.txt'}
 _vorige = {}   # stand na het vorige antwoord, voor de meldingen
 _snel = {}     # laatste stand voor het HUD
 _sessie = {}   # tellers van de huidige leersessie
@@ -64,10 +65,10 @@ def toon(deck_browser, content):
         c, st = cfg(), staat()
         s = campagne.bereken(mw.col, c, st)
         stappen = None
-        if st.get('installatie_klaar') != campagne.IMPORT_MARKER:  # opnieuw kijken zodra er een nieuwere collegeimport is
+        if st.get('installatie_klaar') != campagne.INSTALL_MARKER:  # opnieuw kijken zodra er een nieuwere import of nieuwe afbeeldingen zijn
             stappen = campagne.installatie(mw.col, c, st)
             if all(x['klaar'] for x in stappen):
-                st['installatie_klaar'] = campagne.IMPORT_MARKER
+                st['installatie_klaar'] = campagne.INSTALL_MARKER
                 bewaar(st)
         content.stats += scherm.weergave(s, stappen)
     except Exception as e:  # het hoofdscherm mag nooit stukgaan door deze add-on
@@ -148,6 +149,37 @@ def verwerk(delen):
     elif actie == 'install':
         installeer(rest[0])
         return
+    elif actie == 'lastig':
+        rijen = campagne.lastige_kaarten(mw.col, cfg(), 40)
+        if not rijen:
+            tooltip('Nog geen lastige kaarten: die verschijnen als je kaarten fout hebt, ze opzoekt met W of een rode vlag geeft.')
+            return
+        QApplication.clipboard().setText(campagne.lastig_prompt(rijen))
+        QDesktopServices.openUrl(QUrl('https://claude.ai/new'))
+        tooltip(f'{len(rijen)} lastige kaarten gekopieerd. Plak ze in de chat (Ctrl+V). Het importbestand dat je terugkrijgt, '
+                f'laad je in met „📥 Bestand van Claude inladen”.', period=9000)
+        return
+    elif actie == 'lastiginladen':
+        pad, _ = QFileDialog.getOpenFileName(mw, 'Importbestand van Claude', '', 'Tekst (*.txt *.tsv *.csv)')
+        if pad:
+            importeer(pad)
+        return
+    elif actie == 'lastigbekijk':
+        browser = aqt.dialogs.open('Browser', mw)
+        browser.search_for(f'deck:"{cfg()["deck"]}" (prop:lapses>=1 OR tag:opgezocht OR flag:1)')
+        return
+    elif actie == 'nood':
+        importeer(campagne.DATA / IMPORTS['nood'], nood=True)
+        return
+    elif actie == 'noodleren':
+        did = mw.col.decks.id_for_name(campagne.NOOD_DECK)
+        if did:
+            mw.col.decks.select(did)
+            mw.moveToState('overview')
+        return
+    elif actie == 'noodlezen':
+        open_college('NOOD')
+        return
     ververs()
 
 
@@ -166,7 +198,9 @@ def start(st):
 # ------------------------------------------------------------------ installatiecheck
 def installeer(stap):
     if stap in IMPORTS:
-        importeer(IMPORTS[stap])
+        importeer(campagne.DATA / IMPORTS[stap])
+    elif stap == 'beelden':
+        beelden()
     elif stap == 'opruimen':
         nids = list(mw.col.find_notes('tag:check::dubbel OR tag:check::verwijderen'))
         if nids and askUser(f'{len(nids)} notities verwijderen die in de check als dubbel of overbodig zijn gemarkeerd?\n\n'
@@ -180,11 +214,14 @@ def installeer(stap):
             tooltip('Zet onderaan FSRS aan, stel de gewenste retentie in op 0,90 en klik op Opslaan.', period=8000)
 
 
-def importeer(naam):
-    pad = str(campagne.DATA / naam)
+def importeer(pad, nood=False):
+    pad = str(pad)
+    naam = pad.replace('\\', '/').rsplit('/', 1)[-1]
 
     def op(col):
         col.create_backup(backup_folder=mw.pm.backupFolder(), force=True, wait_for_completion=True)
+        if nood:
+            campagne.nood_instellen(col)
         md = col.get_csv_metadata(path=pad, delimiter=None)
         md.dupe_resolution = CsvMetadata.DupeResolution.UPDATE
         return col.import_csv(ImportCsvRequest(path=pad, metadata=md))
@@ -200,6 +237,35 @@ def importeer(naam):
         ververs()
 
     CollectionOp(parent=mw, op=op).success(klaar).run_in_background()
+
+
+def beelden():
+    """Afbeeldingen in de mediamap en op hun kaarten, plus de herkenkaarten importeren."""
+    pad = campagne.DATA / 'GZC3_beelden_import.txt'
+
+    def op(col):
+        col.create_backup(backup_folder=mw.pm.backupFolder(), force=True, wait_for_completion=True)
+        uit = {'kaarten': campagne.beelden_toepassen(col), 'nieuw': 0}
+        if pad.exists():
+            md = col.get_csv_metadata(path=str(pad), delimiter=None)
+            md.dupe_resolution = CsvMetadata.DupeResolution.UPDATE
+            uit['nieuw'] = len(col.import_csv(ImportCsvRequest(path=str(pad), metadata=md)).log.new)
+        return uit
+
+    def klaar(uit):
+        onderhoud(herorden=True)
+        tooltip(f'🖼️ Afbeeldingen op {uit["kaarten"]} kaarten gezet, {uit["nieuw"]} herkenkaarten erbij. '
+                f'Synchroniseer om ze ook op je telefoon te krijgen.', period=7000)
+        ververs()
+
+    CollectionOp(parent=mw, op=lambda col: _met_wijzigingen(op(col))).success(lambda r: klaar(r.uit)).run_in_background()
+
+
+class _met_wijzigingen:
+    """CollectionOp verwacht een resultaat met .changes."""
+    def __init__(self, uit):
+        self.uit = uit
+        self.changes = OpChanges(note=True, card=True, note_text=True, deck=True, browser_table=True, study_queues=True)
 
 
 def onderhoud(herorden=False):
@@ -226,6 +292,10 @@ class CollegeVenster(QDialog):
 
     def render(self):
         s = campagne.bereken(mw.col, cfg(), staat())
+        if self.key == 'NOOD':
+            self.setWindowTitle('Noodpakket — Campagne GZC III')
+            self.web.stdHtml(scherm.nood_dialoog(s), context=self)
+            return
         self.setWindowTitle(f'{campagne.label(self.key)} — Campagne GZC III')
         self.web.stdHtml(scherm.dialoog(s, self.key), context=self)
 

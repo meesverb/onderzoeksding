@@ -80,7 +80,8 @@ def main():
     col = maak_collectie()
     st = {}
     stappen = campagne.installatie(col, CFG, st)
-    assert [s['klaar'] for s in stappen] == [False] * 6 and stappen[0]['kan'] and not stappen[1]['kan'], stappen
+    assert [s['id'] for s in stappen] == ['check', 'extra', 'colleges'] + ['beelden'] * bool(campagne.BEELDEN.get('beelden')) + ['opruimen', 'fsrs', 'campagne']
+    assert not any(s['klaar'] for s in stappen) and stappen[0]['kan'] and not stappen[1]['kan'], stappen
     print('imports:')
     importeer(col, 'GZC3_check_import.txt')
     importeer(col, 'GZC3_extra_import.txt')
@@ -98,7 +99,39 @@ def main():
     assert stappen['check']['klaar'] and stappen['extra']['klaar'] and stappen['colleges']['klaar']
     assert not stappen['opruimen']['klaar'] and stappen['opruimen']['kan'] and '93' in stappen['opruimen']['knop'], stappen['opruimen']
     col.remove_notes(col.find_notes('tag:check::dubbel OR tag:check::verwijderen'))
-    assert campagne.installatie(col, CFG, st)[3]['klaar']
+    assert {s['id']: s for s in campagne.installatie(col, CFG, st)}['opruimen']['klaar']
+
+    # afbeeldingen: mediabestanden, achterkant van bestaande kaarten, herkenkaarten, verkeerde webafbeelding weg
+    B = campagne.BEELDEN
+    if B.get('beelden'):
+        assert campagne.beelden_stand(col) == (False, True) and stappen['beelden']['kan']
+        n = campagne.beelden_toepassen(col)
+        importeer(col, 'GZC3_beelden_import.txt')
+        assert campagne.beelden_stand(col) == (True, True), 'na toepassen moet de stap klaar zijn'
+        assert campagne.beelden_toepassen(col) == 0, 'tweede keer toepassen moet niets doen'
+        assert all(col.media.have(b['bestand']) for b in B['beelden'])
+        for b in B['beelden']:
+            for g in b['guids']:
+                nid = col.db.scalar('select id from notes where guid = ?', g)
+                assert nid and f'src="{b["bestand"]}"' in col.get_note(nid).fields[1], (g, b['bestand'])
+        for g, srcs in B['weg'].items():
+            nid = col.db.scalar('select id from notes where guid = ?', g)
+            assert not nid or not any(x in col.get_note(nid).fields[1] for x in srcs), g
+        print(f'afbeeldingen: {len(B["beelden"])} bestanden, {n} kaarten aangepast, {len(B["herken_guids"])} herkenkaarten')
+    assert 'kinderneurologie' not in col.get_note(col.find_notes('"Hoe classificeer je anemie morfologisch*"')[0]).fields[1]
+
+    # noodpakket: apart deck, telt niet mee in de campagne
+    totaal_voor = campagne.bereken(col, CFG, st)['totaal']['n']
+    assert campagne.nood_stand(col) is None
+    if campagne.NOOD.get('guids'):
+        did = campagne.nood_instellen(col)
+        importeer(col, 'GZC3_nood_import.txt')
+        nd = campagne.nood_stand(col)
+        assert nd['did'] == did and nd['per']['totaal']['n'] == len(campagne.NOOD['guids']), nd
+        assert col.decks.config_dict_for_deck_id(did)['new']['perDay'] == 60
+        assert campagne.bereken(col, CFG, st)['totaal']['n'] == totaal_voor, 'noodpakket mag niet meetellen in de campagne'
+        assert not col.find_notes(f'deck:"{campagne.NOOD_DECK}" tag:GZC3::A::*'), 'noodkaarten horen geen themataak van de campagne te hebben'
+        print('noodpakket:', {k: v['n'] for k, v in nd['per'].items()})
 
     n = campagne.koppel(col)
     print('koppeling:', n, 'notities getagd ·', len(campagne.KOPPELING), 'in de koppeling ·', len(campagne.EXTRA_TAGS), 'met nadruk van de docent')
@@ -160,8 +193,23 @@ def main():
     assert did2 == did and 0 < n2 <= fout, (did, did2, n2)
     print('herkansing:', n, 'kaarten in', campagne.HERKANSING)
 
+    # lastige kaarten: fout, opgezocht met W, rode vlag
+    g_zoek = col.db.scalar('select guid from notes where id = ?', eerste.nid)
+    col.set_config(campagne.OPGEZOCHT_KEY, {g_zoek: 2})
+    cid_vlag = col.find_cards(f'deck:"{CFG["deck"]}" -is:new')[1]
+    col.set_user_flag_for_cards(1, [cid_vlag])
+    lastig = campagne.lastige_kaarten(col, CFG)
+    gl = {r['guid']: r for r in lastig}
+    assert g_zoek in gl and gl[g_zoek]['opgezocht'] == 2, lastig[:3]
+    g_vlag = col.db.scalar('select n.guid from cards c join notes n on n.id = c.nid where c.id = ?', cid_vlag)
+    assert g_vlag in gl and gl[g_vlag]['rood'], 'rode vlag hoort lastig te maken'
+    prompt = campagne.lastig_prompt(lastig)
+    assert '#guid column:1' in prompt and g_zoek in prompt and '1706371006450' in prompt
+    print('lastige kaarten:', len(lastig))
+
     # weergave
     s = campagne.bereken(col, CFG, st)
+    assert s['n_lastig'] == len(lastig) and len(s['lastig']) <= 5
     stappen = campagne.installatie(col, CFG, st)
     st['quiz'] = {'HC1': 4}
     s = campagne.bereken(col, CFG, st)
@@ -172,6 +220,8 @@ def main():
             f'<!doctype html><html class="{"" if licht else "night-mode"}"><head><meta charset="utf-8"></head>'
             f'<body style="background:{"#f5f3f7" if licht else "#2c2c2c"};margin:0;padding:1px">'
             f'<script>function pycmd(c){{document.title=c}}</script>{pagina}</body></html>', encoding='utf-8')
+    assert 'Lastige kaarten' in pagina and (not campagne.NOOD.get('guids') or 'Noodpakket' in pagina)
+    (UIT / 'nood.html').write_text(f'<!doctype html><html><head><meta charset="utf-8"></head><body>{scherm.nood_dialoog(s)}</body></html>', encoding='utf-8')
     for k in ('HC3', 'HC9'):
         body = scherm.dialoog(s, k)
         (UIT / f'college-{k}.html').write_text(

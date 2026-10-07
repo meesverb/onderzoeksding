@@ -27,7 +27,12 @@ KOPPELING = _laad('koppeling.json', {})  # guid → college, met de hand ingedee
 EXTRA_TAGS = _laad('extra_tags.json', {})  # guid → tags, bv. prio::tentamen voor wat de docent in het transcript benadrukt
 IMPORT_MARKER = COLLEGEDATA.get('_meta', {}).get('marker')  # versie van de collegeimport
 IMPORT_GUIDS = COLLEGEDATA.get('_meta', {}).get('guids', [])  # nieuwe notities in die versie
+NOOD = _laad('nood.json', {})  # samenvatting per thema en de guids van het noodpakket
+BEELDEN = _laad('beelden.json', {})  # afbeeldingen per kaart, herkenkaarten en kapotte webafbeeldingen die weg moeten
+INSTALL_MARKER = f'{IMPORT_MARKER}-{BEELDEN.get("versie", "")}'  # nieuwe import of nieuwe afbeeldingen: check opnieuw
 HERKANSING = 'GZC III - Herkansing'
+NOOD_DECK = 'GZC III - Noodpakket'
+OPGEZOCHT_KEY = 'gzc3_opgezocht'  # guid → hoe vaak je met W (Vraag Claude waarom) iets opzocht; gevuld door de waarom-add-on
 
 # ------------------------------------------------------------------ inhoud van de campagne
 THEMAS = {
@@ -407,6 +412,7 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
         ('📜', 'Oude rot', 'Alle 6 oude tentamens gemaakt', all(f'OT{i}' in afgevinkt for i in range(1, 7))),
         ('🏆', 'Drakendoder', 'Alle zeven eindbazen verslagen', bazen and all(b['status'] == 'verslagen' for b in bazen)),
     ]
+    lastig = lastige_kaarten(col, cfg)
 
     return dict(vandaag=vandaag, examen=examen, deadline=deadline, dagen_examen=(examen - vandaag).days, fase=fase,
                 xp=xp, level=lvl, titel=titel, xp_lo=lo, xp_hi=hi, reeks=reeks, record=record_reeks, reeks_vandaag=per_dag[0] >= drempel,
@@ -416,7 +422,8 @@ def bereken(col, cfg: dict, staat: dict) -> dict | None:
                 volgorde=staat.get('volgorde'), slot=staat.get('slot', False), per_college=per_college, colleges=colleges,
                 album=album, n_cellen=n_cellen, werkdruk=werkdruk, combo=combo_nu, combo_record=record, kritieken=kritieken,
                 xp_combo=xp_combo, quiz=quiz, limiet_vandaag=staat.get('limiet') == vandaag.isoformat(),
-                fout_recent=len(col.find_cards(f'deck:"{cfg["deck"]}" rated:{cfg.get("herkansing_dagen", 2)}:1')))
+                fout_recent=len(col.find_cards(f'deck:"{cfg["deck"]}" rated:{cfg.get("herkansing_dagen", 2)}:1')),
+                nood=nood_stand(col), lastig=lastig[:5], n_lastig=len(lastig))
 
 
 def werkdruk_week(col, ids: str) -> list[int]:
@@ -589,6 +596,9 @@ def installatie(col, cfg: dict, staat: dict) -> list[dict]:
              uitleg='GZC3_extra_import.txt'),
         dict(id='colleges', label='Import 3: kaarten uit de colleges (slides en transcripten)', klaar=colleges, knop='Importeren', na='extra',
              uitleg='GZC3_colleges_import.txt — nieuwe kaarten per college en correcties. Komt er een nieuwere versie, dan verschijnt deze stap opnieuw.'),
+        dict(id='beelden', label='Afbeeldingen toevoegen', klaar=beelden_stand(col)[0], knop='Toevoegen', na='colleges',
+             uitleg=f'{len(BEELDEN.get("beelden", []))} uitgezochte afbeeldingen (uitstrijkjes, schema\'s, beeldvorming) op de '
+                    f'achterkant van hun kaarten, plus {len(BEELDEN.get("herken_guids", []))} herkenkaarten. Ze synchroniseren mee naar je telefoon.'),
         dict(id='opruimen', label='Dubbele en overbodige kaarten verwijderen', klaar=check and n_weg == 0,
              knop=f'{n_weg} kaarten verwijderen' if n_weg else 'Verwijderen', na='check',
              uitleg='Notities met de tag check::dubbel of check::verwijderen. Te herstellen met Bewerken → Ongedaan maken.'),
@@ -597,7 +607,181 @@ def installatie(col, cfg: dict, staat: dict) -> list[dict]:
         dict(id='campagne', label='Campagne starten', klaar=bool(staat.get('slot')), knop='Starten', na='check',
              uitleg='Nieuwe kaarten op volgorde van de colleges, en kaarten van colleges die je nog niet hebt gedaan op slot.'),
     ]
+    stappen = [s for s in stappen if s['id'] != 'beelden' or BEELDEN.get('beelden')]
     klaar = {s['id']: s['klaar'] for s in stappen}
     for s in stappen:
         s['kan'] = not s['klaar'] and klaar.get(s.get('na'), True)
     return stappen
+
+
+# ------------------------------------------------------------------ lastige kaarten
+VLAG_ROOD = 1  # rode vlag (Ctrl+1, of op de telefoon): "dit vind ik lastig / heb ik opgezocht"
+
+
+def _veld_tekst(veld: str) -> str:
+    return ' '.join(platte_tekst(veld).split())
+
+
+def lastige_kaarten(col, cfg: dict, limiet: int | None = None) -> list[dict]:
+    """Kaarten waar je moeite mee hebt, zwaarste eerst. Score: elke keer Opnieuw telt 1, elke terugval (lapse) nog 2
+    extra, elke keer opzoeken met W 2, een rode vlag 3. Vanaf score 3 telt een kaart als lastig."""
+    dids = deck_ids(col, cfg['deck'])
+    if not dids:
+        return []
+    ids = ','.join(map(str, dids))
+    opgezocht = col.get_config(OPGEZOCHT_KEY, {}) or {}
+    rijen = col.db.all(
+        f'select n.guid, n.flds, n.tags, c.lapses, c.flags & 7, '
+        f'(select count() from revlog r where r.cid = c.id and r.ease = 1) '
+        f'from cards c join notes n on n.id = c.nid where c.did in ({ids}) or c.odid in ({ids})')
+    uit = []
+    for guid, flds, tags, lapses, vlag, fout in rijen:
+        zocht = int(opgezocht.get(guid, 0))
+        rood = vlag == VLAG_ROOD
+        score = fout + 2 * lapses + 2 * zocht + 3 * rood
+        if score < 3:
+            continue
+        velden = flds.split('\x1f')
+        uit.append(dict(guid=guid, voor=_veld_tekst(velden[0]), achter=_veld_tekst(velden[1] if len(velden) > 1 else ''),
+                        fout=fout, lapses=lapses, opgezocht=zocht, rood=rood, score=score,
+                        college=next((t[9:] for t in tags.split() if t.lower().startswith('college::')), None)))
+    uit.sort(key=lambda r: -r['score'])
+    return uit if limiet is None else uit[:limiet]
+
+
+def lastig_prompt(rijen: list[dict]) -> str:
+    """Tekst om in een chat met Claude te plakken: maak van deze kaarten iets wat wél blijft hangen."""
+    kaarten = '\n\n'.join(
+        f'{i}. [{r["guid"]}] (❌ {r["fout"]}× fout · 🔍 {r["opgezocht"]}× opgezocht{" · 🚩 rode vlag" if r["rood"] else ""}'
+        f'{" · " + r["college"] if r["college"] else ""})\nV: {r["voor"]}\nA: {r["achter"]}'
+        for i, r in enumerate(rijen, 1))
+    return f"""Ik leer voor het blok Gezonde en Zieke Cellen III (geneeskunde bachelor 3, UMC Utrecht; tentamen 29 oktober). Hieronder staan mijn lastigste Anki-kaarten: hoe vaak ik ze fout had, hoe vaak ik ze opzocht en of ik er een rode vlag op zette.
+
+Maak per kaart iets wat beter blijft hangen:
+- te grote kaart → knip hem op in kleine kaarten (één feit per kaart, antwoord maximaal ~15 woorden);
+- haal ik twee dingen door elkaar → maak een contrastkaart ("X vs Y: wat is het verschil in …?");
+- voeg een ezelsbrug of een korte waarom-uitleg toe als die echt helpt;
+- verbeter het als er iets niet klopt, en zeg dat erbij.
+
+Lever een Anki-importbestand (platte tekst, tab-gescheiden) met precies deze kopregels:
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+Kolommen: GUID, 1706371006450 (het notitietype), GZC III - Compleet, voorkant, achterkant, tags. Geef de verbeterde versie van een bestaande kaart dezelfde GUID (dan blijft mijn leergeschiedenis bewaard) en nieuwe kaarten een nieuwe GUID die begint met gzc3l-. Tags: neem college::… over als die er staat, en zet op alles lastig::herschreven. Zet het bestand in een codeblok zodat ik het kan opslaan als lastig.txt.
+
+{kaarten}
+"""
+
+
+# ------------------------------------------------------------------ noodpakket
+def nood_stand(col) -> dict | None:
+    """Voortgang in het noodpakket per thema, of None als het (nog) niet geïmporteerd is."""
+    did = col.decks.id_for_name(NOOD_DECK)
+    if not did:
+        return None
+    ids = ','.join(map(str, deck_ids(col, NOOD_DECK)))
+    per = defaultdict(Counter)
+    for tags, ctype, ivl in col.db.all(f'select n.tags, c.type, c.ivl from cards c join notes n on n.id = c.nid '
+                                       f'where c.did in ({ids}) or c.odid in ({ids})'):
+        th = next((t[6:].upper() for t in tags.split() if t.lower().startswith('nood::')), '?')
+        for c in (per[th], per['totaal']):
+            c['n'] += 1
+            c['gezien'] += ctype != 0
+            c['verankerd'] += ctype == 2 and ivl >= VERANKERD_IVL
+    return dict(did=did, per={k: dict(v) for k, v in per.items()})
+
+
+def nood_instellen(col) -> int:
+    """Maakt het deck van het noodpakket met een eigen optiegroep (60 nieuwe kaarten per dag). Geeft het deck-id."""
+    did = col.decks.id(NOOD_DECK)
+    deck = col.decks.get(did)
+    if deck.get('conf', 1) == 1:
+        conf_id = col.decks.add_config_returning_id(NOOD_DECK)
+        conf = col.decks.get_config(conf_id)
+        conf['new']['perDay'] = 60
+        conf['rev']['perDay'] = 9999
+        col.decks.update_config(conf)
+        deck['conf'] = conf_id
+        col.decks.save(deck)
+    return did
+
+
+# ------------------------------------------------------------------ afbeeldingen
+def beeld_html(b: dict) -> str:
+    bron = ' · '.join(x for x in (b.get('auteur'), b.get('licentie'), b.get('bron')) if x)
+    return (f'<div class="gzc3-beeld" style="margin-top:12px"><img src="{html.escape(b["bestand"])}" '
+            f'style="max-width:100%;max-height:440px;border-radius:6px"><div style="font-size:13px;opacity:.8;margin-top:3px">'
+            f'{html.escape(b["bijschrift"])}</div><div style="font-size:10px;opacity:.55">{html.escape(bron)}</div></div>')
+
+
+_IMG = re.compile(r'<img\b[^>]*\bsrc="([^"]+)"[^>]*>', re.I)
+
+
+def _beelden_per_guid() -> dict[str, list[dict]]:
+    per = defaultdict(list)
+    for b in BEELDEN.get('beelden', []):
+        for g in b.get('guids', []):
+            per[g].append(b)
+    return per
+
+
+def _nieuw_achter(veld: str, guid: str, lijst: list[dict]) -> str:
+    weg = set(BEELDEN.get('weg', {}).get(guid, []))
+    if weg:
+        veld = _IMG.sub(lambda m: '' if m.group(1) in weg else m.group(0), veld)
+    for b in lijst:
+        if f'src="{b["bestand"]}"' not in veld:
+            veld += beeld_html(b)
+    return veld
+
+
+def _notities(col, guids) -> dict[str, int]:
+    guids, uit = list(guids), {}
+    for i in range(0, len(guids), 400):
+        deel = guids[i:i + 400]
+        uit.update(col.db.all(f'select guid, id from notes where guid in ({",".join("?" * len(deel))})', *deel))
+    return uit
+
+
+def beelden_stand(col) -> tuple[bool, bool]:
+    """(alles al toegepast?, zijn er kaarten om toe te passen?)"""
+    bestanden = [b['bestand'] for b in BEELDEN.get('beelden', [])]
+    if not bestanden:
+        return True, False
+    per = _beelden_per_guid()
+    doel = set(per) | set(BEELDEN.get('weg', {}))
+    nids = _notities(col, doel | set(BEELDEN.get('herken_guids', [])))
+    if not any(g in nids for g in doel):
+        return False, False
+    if any(not col.media.have(f) for f in bestanden) or not all(g in nids for g in BEELDEN.get('herken_guids', [])):
+        return False, True
+    for g in doel:
+        if g in nids:
+            velden = col.db.scalar('select flds from notes where id = ?', nids[g]).split('\x1f')
+            if len(velden) > 1 and _nieuw_achter(velden[1], g, per.get(g, [])) != velden[1]:
+                return False, True
+    return True, True
+
+
+def beelden_toepassen(col) -> int:
+    """Zet de afbeeldingen in de mediamap en op de achterkant van hun kaarten, en haalt kapotte webafbeeldingen weg.
+    Kan veilig vaker draaien. Geeft het aantal gewijzigde notities terug."""
+    for b in BEELDEN.get('beelden', []):
+        if not col.media.have(b['bestand']):
+            col.media.write_data(b['bestand'], (DATA / 'beelden' / b['bestand']).read_bytes())
+    per = _beelden_per_guid()
+    doel = set(per) | set(BEELDEN.get('weg', {}))
+    n = 0
+    for guid, nid in _notities(col, doel).items():
+        note = col.get_note(nid)
+        if len(note.fields) < 2:
+            continue
+        nieuw = _nieuw_achter(note.fields[1], guid, per.get(guid, []))
+        if nieuw != note.fields[1]:
+            note.fields[1] = nieuw
+            col.update_note(note)
+            n += 1
+    return n

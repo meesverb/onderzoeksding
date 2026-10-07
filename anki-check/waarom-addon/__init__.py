@@ -3,6 +3,9 @@
 Zet de vraag en het antwoord van de huidige kaart in een kant-en-klare prompt, kopieert die naar
 het klembord en opent Claude: in Claude Desktop met de prompt al ingevuld, anders in de browser
 (dan alleen nog Ctrl+V en Enter).
+
+Elke keer opzoeken wordt bijgehouden: de kaart krijgt de tag `opgezocht` en een teller in de collectie
+(sleutel gzc3_opgezocht, synchroniseert mee). De campagne-add-on gebruikt dat voor "Lastige kaarten".
 """
 import html
 import re
@@ -16,6 +19,7 @@ from aqt.utils import tooltip
 DEFAULTS = {
     "sneltoets": "w",
     "openen_in": "auto",  # auto | desktop | web
+    "bijhouden": True,
     "prompt": (
         "Ik leer voor het blok Gezonde en Zieke Cellen III (geneeskunde, bachelor jaar 3). "
         "Hieronder staat een flashcard. Leg uit WAAROM het antwoord klopt: het onderliggende mechanisme "
@@ -57,12 +61,29 @@ def heeft_desktop():
     return False
 
 
+OPGEZOCHT_KEY = "gzc3_opgezocht"
+
+
+def registreer(note):
+    """Onthoud dat je deze kaart opzocht: teller per GUID in de collectieconfig, plus de tag `opgezocht`."""
+    try:
+        teller = dict(mw.col.get_config(OPGEZOCHT_KEY, {}) or {})
+        teller[note.guid] = teller.get(note.guid, 0) + 1
+        mw.col.set_config(OPGEZOCHT_KEY, teller)
+        if "opgezocht" not in (t.lower() for t in note.tags):
+            mw.col.tags.bulk_add([note.id], "opgezocht")
+        return teller[note.guid]
+    except Exception:
+        return 0
+
+
 def vraag_waarom():
     card = mw.reviewer.card if mw.reviewer else None
     if not card:
         tooltip("Geen kaart open.")
         return
     note = card.note()
+    keer = registreer(note) if cfg().get("bijhouden", True) else 0
     velden = list(note.values())
     vraag = naar_tekst(velden[0]) if velden else ""
     antwoord = naar_tekst("\n".join(velden[1:])) if len(velden) > 1 else naar_tekst(card.answer())
@@ -74,10 +95,10 @@ def vraag_waarom():
     if wijze == "auto":
         wijze = "web" if heeft_desktop() is False else "desktop"
     if wijze == "desktop" and QDesktopServices.openUrl(QUrl("claude://claude.ai/new?q=" + quote(prompt))):
-        tooltip("Geopend in Claude — druk op Enter.", period=2500)
+        tooltip("Geopend in Claude — druk op Enter." + (f" (🔍 {keer}× opgezocht)" if keer else ""), period=2500)
         return
     QDesktopServices.openUrl(QUrl("https://claude.ai/new"))
-    tooltip("Prompt gekopieerd — plak met Ctrl+V (Cmd+V) en druk op Enter.", period=3500)
+    tooltip("Prompt gekopieerd — plak met Ctrl+V (Cmd+V) en druk op Enter." + (f" (🔍 {keer}× opgezocht)" if keer else ""), period=3500)
 
 
 def sneltoetsen(state, shortcuts):
