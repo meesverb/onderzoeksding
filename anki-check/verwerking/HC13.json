@@ -1,0 +1,799 @@
+{
+ "titel": "Geriatrische oncologie",
+ "docent": "Prof. dr. Marielle Emmelot-Vonk, klinisch geriater UMC Utrecht",
+ "bron": "HC 13 + transcript",
+ "kern": "De meeste patiënten met kanker zijn ouder dan 65, maar 'de oudere patiënt bestaat niet': de kalenderleeftijd is een slechte voorspeller en behandelaars overschatten de performance status. Selecteer daarom op kwetsbaarheid: screen met de G8 (≤14 is afwijkend), breng bij een afwijkende score met een CGA de somatische, psychische, functionele, sociale en existentiële as in kaart en zet gerichte interventies in. Kies multidisciplinair en samen met de patiënt tussen een standaard, aangepaste of sterk gelimiteerde (palliatieve) behandeling, met diens wensen en doelen als uitgangspunt.",
+ "kapstok": [
+  {
+   "kop": "Ouderen en kanker",
+   "punten": [
+    "Bijna 60% van de maligniteiten wordt vastgesteld bij 65-plussers, ruim 30% bij 75-plussers; 70% van de kankersterfte valt bij mensen van 65 jaar of ouder.",
+    "Het aantal stijgt, vooral bij de oudste ouderen, door vergrijzing, een toenemende incidentie en betere behandeling (mensen worden oud mét kanker).",
+    "Ouderen krijgen vaker kanker door opstapeling van DNA-schade, minder goed DNA-herstel, een minder goed werkend afweersysteem en langere blootstelling aan carcinogenen."
+   ]
+  },
+  {
+   "kop": "Waarom de behandeling complex is",
+   "punten": [
+    "Het biologisch gedrag van de tumor verandert: sommige tumoren worden agressiever, andere juist minder.",
+    "Zeer heterogene populatie: 'de oudere patiënt bestaat niet'.",
+    "Andere afwegingen: de meeste ouderen stellen zelfstandigheid boven levensduur (Fried 2012), maar niet iedereen. Dat achterhaal je alleen in een goed gesprek."
+   ]
+  },
+  {
+   "kop": "Gevolgen van veroudering",
+   "punten": [
+    "Fysiologisch: vanaf ongeveer 30 jaar gaan alle organen geleidelijk achteruit; bij een stressor blijkt de reservecapaciteit verdwenen.",
+    "Somatisch: comorbiditeit bij 70-80% (hart- en vaatziekten, COPD, eerdere tumoren, diabetes) en polyfarmacie.",
+    "Psychisch: bij dementie wordt vaker afgezien van diagnostiek en behandeling, maar het effect op chemotoxiciteit en overleving is nauwelijks onderzocht. Depressie verhoogt aantoonbaar de chemotoxiciteit en de mortaliteit.",
+    "Functioneel: ADL/IADL, mobiliteit, visus/gehoor, voeding en incontinentie. Beperkingen en ondervoeding bij >50%, met meer chemotoxiciteit en een kortere overleving.",
+    "Sociaal: zelfs 70% van de 85-plussers woont zelfstandig, tweederde alleen; mantelzorg en netwerk bepalen mee de uitkomst."
+   ]
+  },
+  {
+   "kop": "Kwetsbaarheid en veerkracht",
+   "punten": [
+    "Gezondheidsraad: een opeenstapeling van lichamelijke, psychische en/of sociale tekorten, waardoor de kans op negatieve uitkomsten bij een stressor toeneemt.",
+    "Negatieve uitkomsten: complicaties, langere opname, functieverlies, mortaliteit.",
+    "Een kwetsbare oudere valt na een stressor dieper terug en herstelt in maanden, soms onvolledig. Veerkracht (resilience) bepaalt mee hoe goed iemand herstelt."
+   ]
+  },
+  {
+   "kop": "Fit of kwetsbaar?",
+   "punten": [
+    "De kalenderleeftijd is een slechte voorspeller.",
+    "De performance score (ECOG/Karnofsky) is gevalideerd bij jongeren. Bij ouderen overschatten behandelaars hem: 10-40% met een normale score heeft afwijkingen bij het CGA.",
+    "CGA: somatische, psychische, functionele en sociale as, plus de nieuwe existentiële as (wat wil de patiënt wel en niet?).",
+    "Hoe meer geriatrische problemen, hoe meer toxiciteit; vanaf ongeveer drie wordt de kans op toxiciteit en op het niet afmaken van de behandeling groot.",
+    "Het CGA spoort onbekende problemen op, is prognostisch, verandert de keuze bij 1/3 (van hen 2/3 minder en 1/3 meer intensief) en verbetert de tolerantie van chemotherapie.",
+    "SIOG/NCCN/EORTC adviseren een CGA bij iedereen van 70 jaar of ouder. Dat is te tijdrovend, dus eerst de G8 (max 17, ≤14 afwijkend)."
+   ]
+  },
+  {
+   "kop": "Van assessment naar beleid",
+   "punten": [
+    "Drie stappen: G8 → CGA → interventies. GAP70+ (Mohile 2021): CGA-gestuurde interventies verminderen de ernstige toxiciteit.",
+    "Drie groepen: niet kwetsbaar → standaard; kwetsbaar → aangepast (via gedeelde besluitvorming); maximaal kwetsbaar → sterk gelimiteerd of palliatief.",
+    "MDO met oncoloog, chirurg, radiotherapeut, klinisch geriater en liefst de huisarts; daarna gedeelde besluitvorming met patiënt en familie.",
+    "In de praktijk bespreekt het MDO vooral ziektekenmerken en weinig patiëntkenmerken (Festen 2021).",
+    "Ouderen zijn ondervertegenwoordigd in trials en de deelnemers zijn niet representatief. Gevolg: over- én onderbehandeling en verschillen tussen ziekenhuizen."
+   ]
+  },
+  {
+   "kop": "Behandelmodaliteiten",
+   "punten": [
+    "Chemotherapie: de farmacodynamiek is gelijk (een fitte oudere heeft evenveel baat), maar de therapeutische breedte is smal en de farmacokinetiek geeft hogere en langere spiegels.",
+    "Absorptie ↓, metabolisme ↓ (lever), excretie ↓ (nier); vet 15 → 30%, intracellulair water 40 → 30%.",
+    "Chirurgie: meer morbiditeit en mortaliteit, vooral door comorbiditeit en functionaliteit (niet door leeftijd). Daarom vooraf voeding, conditie en comorbiditeit optimaliseren.",
+    "Radiotherapie: geen bewijs voor slechtere tolerantie of een andere gevoeligheid; bijwerkingen en de praktische belasting (veel fracties) wegen wel zwaarder.",
+    "Immunotherapie: nog weinig over bekend bij ouderen. Vaak wordt een combinatie van modaliteiten gegeven."
+   ]
+  },
+  {
+   "kop": "Casus en take-home",
+   "punten": [
+    "Vrouw van 80 met een progressief ossaal gemetastaseerd mammacarcinoom: somatisch, functioneel en sociaal redelijk fit, maar dement. Aangepaste behandeling met orale capecitabine: 6 maanden goede kwaliteit van leven, daarna progressie en palliatief beleid.",
+    "Take-home: selecteer op kwetsbaarheid (CGA), niet op leeftijd; houd rekening met wensen en doelen; werk multidisciplinair."
+   ]
+  }
+ ],
+ "valkuilen": [
+  "Een goede performance score of een kwieke indruk bewijst geen fitheid: behandelaars overschatten de performance status. Is de G8 ≤14, dan volgt een CGA.",
+  "Ouderen verdragen chemotherapie slechter, maar niet omdat die minder werkt: de farmacodynamiek is gelijk. De extra toxiciteit komt door de farmacokinetiek, comorbiditeit en geriatrische problemen.",
+  "Verwar dementie en depressie niet: voor depressie is een negatief effect op chemotoxiciteit en overleving aangetoond, voor cognitieve stoornissen ontbreekt dat bewijs grotendeels.",
+  "Bij de G8 is een lage score slecht: ≤14 is afwijkend (CGA), >14 is niet kwetsbaar. De G8 is een screener en vervangt het CGA niet.",
+  "Kwetsbaar betekent niet automatisch 'niet behandelen': de middengroep krijgt een aangepaste behandeling, gekozen samen met de patiënt. Alleen de maximaal kwetsbare oudere krijgt een sterk gelimiteerde of palliatieve behandeling.",
+  "Bij chirurgie bepalen comorbiditeit en functionaliteit het risico, niet de leeftijd. Voor radiotherapie is er geen bewijs dat ouderen die slechter verdragen (het transcript zegt hier het omgekeerde, waarschijnlijk een spraakherkenningsfout: volg de slide)."
+ ],
+ "vragen": [
+  {
+   "vraag": "Vrouw, 76 jaar, na resectie van een stadium III-coloncarcinoom. Adjuvante chemotherapie wordt overwogen. De oncoloog schat haar performance status op ECOG 0. De G8-score is 13. Wat is de meest aangewezen volgende stap?",
+   "juist": "Een comprehensive geriatric assessment (CGA) laten verrichten vóór het behandelbesluit",
+   "fout": [
+    "Standaard adjuvante chemotherapie starten, want de performance status is goed",
+    "Afzien van chemotherapie, want boven de 75 jaar weegt de toxiciteit niet op tegen de winst",
+    "Chemotherapie starten met een standaard dosisreductie van 25% vanwege de leeftijd"
+   ],
+   "uitleg": "Een G8 van 14 of lager is afwijkend: de patiënte is mogelijk kwetsbaar, dus eerst een CGA. Behandelaars overschatten de performance status (10-40% met een normale score heeft afwijkingen bij het CGA), en leeftijd alleen is een slechte voorspeller."
+  },
+  {
+   "vraag": "Welke uitspraak over chemotherapie bij ouderen is juist?",
+   "juist": "Een fitte oudere heeft evenveel baat als een jongere, maar door de veranderde farmacokinetiek is de kans op toxiciteit groter",
+   "fout": [
+    "Chemotherapie is bij ouderen minder effectief door farmacodynamische veranderingen",
+    "Door de afgenomen nierfunctie zijn de piekspiegels bij ouderen lager",
+    "Door het hogere vetpercentage bereiken wateroplosbare middelen een lagere concentratie"
+   ],
+   "uitleg": "De farmacodynamiek is vergelijkbaar. Minder leverdoorbloeding en een lagere nierfunctie geven hogere en langer aanhoudende spiegels, en door minder lichaamswater stijgt de concentratie van wateroplosbare middelen. Bij een smalle therapeutische breedte betekent dat meer toxiciteit."
+  },
+  {
+   "vraag": "Een 79-jarige man met een gemetastaseerd colorectaal carcinoom ondergaat een CGA. Welke bevinding heeft volgens het college het duidelijkst een aangetoond negatief effect op chemotoxiciteit én overleving?",
+   "juist": "Depressieve klachten",
+   "fout": [
+    "Een milde cognitieve stoornis",
+    "Zijn kalenderleeftijd van 79 jaar",
+    "Het feit dat hij zelfstandig woont"
+   ],
+   "uitleg": "Voor depressieve klachten is een negatief effect op chemotoxiciteit en overleving aangetoond. Naar cognitieve stoornissen is weinig onderzoek gedaan, omdat patiënten met dementie vaak worden uitgesloten van studies. Kalenderleeftijd is een slechte voorspeller, en zelfstandig wonen is op zich geen risicofactor."
+  },
+  {
+   "vraag": "In de collegecasus (vrouw van 80, progressief gemetastaseerd mammacarcinoom na drie lijnen hormoontherapie, weinig comorbiditeit, goede voedingstoestand, dementie, betrokken dochters en thuiszorg) werd gekozen voor orale capecitabine. Wat was de belangrijkste reden om af te zien van standaard intraveneuze chemotherapie?",
+   "juist": "Door haar dementie zou zij ernstige bijwerkingen niet goed begrijpen en niet tijdig hulp kunnen inschakelen",
+   "fout": [
+    "Op 80-jarige leeftijd is intraveneuze chemotherapie gecontra-indiceerd",
+    "Haar uitgebreide comorbiditeit maakte intraveneuze chemotherapie onmogelijk",
+    "Capecitabine is bij hormoonresistent mammacarcinoom effectiever dan intraveneuze chemotherapie"
+   ],
+   "uitleg": "Somatisch, functioneel en sociaal was zij redelijk fit; de cognitie was het probleem. Een oraal middel met weinig bijwerkingen, waarbij de thuiszorg haar aan de inname herinnert, paste bij haar kwetsbaarheid en haar wens om nog door te gaan."
+  },
+  {
+   "vraag": "Wat is het effect van een CGA op de therapiekeuze bij oudere patiënten met kanker?",
+   "juist": "Bij ongeveer een derde verandert de keuze; van hen krijgt tweederde een minder intensieve en een derde een intensievere behandeling",
+   "fout": [
+    "Bij ongeveer een derde verandert de keuze, vrijwel altijd naar een minder intensieve behandeling",
+    "De keuze verandert zelden, maar het CGA voorspelt wel de overleving",
+    "Bij ongeveer tweederde verandert de keuze; van hen krijgt de helft een intensievere behandeling"
+   ],
+   "uitleg": "Het CGA voorkomt dus zowel overbehandeling als onderbehandeling. Daarnaast spoort het onbekende problemen op, heeft het prognostische waarde en verbetert het de tolerantie van chemotherapie."
+  }
+ ],
+ "kaarten": [
+  {
+   "voor": "Welk deel van de kankerdiagnoses en van de kankersterfte betreft ouderen?",
+   "achter": "Bijna 60% van de maligniteiten wordt vastgesteld bij 65-plussers, ruim 30% bij 75-plussers.\n70% van de patiënten die aan kanker overlijden, is 65 jaar of ouder.",
+   "prio": true,
+   "citaat": "Bijna 60% van de maligniteiten wordt vastgesteld bij patiënten ouder dan 65 jaar. Meer dan 30% hiervan wordt vastgesteld bij patiënten van 75 jaar en ouder. 70% van de patiënten die overlijden t.g.v. kanker is 65 jaar of ouder (slide)"
+  },
+  {
+   "voor": "Waarom neemt het aantal ouderen met kanker toe?",
+   "achter": "Door vergrijzing, een toenemende incidentie van kanker en nieuwe behandelmogelijkheden: kanker wordt vaker onderdrukt of gestabiliseerd, zodat mensen mét kanker oud worden.\nDe toename is het grootst bij de oudste ouderen.",
+   "prio": false,
+   "citaat": "Het aantal oudere patiënten met kanker neemt alleen maar toe, vooral onder de oudste oudere: toenemende incidentie van kanker, vergrijzing, nieuwe behandelingsmogelijkheden (slide); 'dat je met je kanker oud kunt worden' (transcript)"
+  },
+  {
+   "voor": "Waarom is de behandeling van kanker bij ouderen niet eenduidig? Noem de drie redenen uit het college.",
+   "achter": "1) Het biologisch gedrag van de tumor verandert met de leeftijd: sommige tumoren worden agressiever, andere juist minder.\n2) Ouderen vormen een zeer heterogene populatie: 'de oudere patiënt bestaat niet'.\n3) Ouderen maken andere afwegingen over de voor- en nadelen van behandeling dan jongeren.",
+   "prio": true,
+   "citaat": "Behandeling van oudere met kanker niet eenduidig en complex: 1. Biologisch gedrag tumor 2. Heterogene populatie 3. Ouderen maken andere afwegingen over voor- en nadelen van behandeling dan jongeren (slide); 'de oudere patiënt bestaat niet, maar het is een zeer heterogene populatie' (transcript)"
+  },
+  {
+   "voor": "Wat vindt de meerderheid van de ouderen het belangrijkst bij een behandelkeuze?",
+   "achter": "Behoud van zelfstandigheid. De meesten leven liever korter met behoud van onafhankelijkheid dan langer met een lage kwaliteit van leven.\nDat geldt niet voor iedereen: wat de individuele patiënt wil, achterhaal je alleen met een goed gesprek.",
+   "prio": true,
+   "citaat": "De meerderheid van de ouderen zegt dat het behouden van hun zelfstandigheid het allerbelangrijkste voor hen is ... Maar dat geldt niet voor iedereen ... wat ouderen willen, kom je alleen te weten door een goed gesprek te voeren (transcript; slide 'Wat willen ouderen zelf?', Fried JAMA 2012)"
+  },
+  {
+   "voor": "Wat wordt bedoeld met de afgenomen reservecapaciteit van ouderen?",
+   "achter": "Vanaf ongeveer 30 jaar gaan alle orgaansystemen geleidelijk achteruit (hersenen, longen, spieren, botten). In rust is er genoeg reserve om normaal te functioneren.\nBij een stressor, zoals ziekte of een zware behandeling, blijkt de extra capaciteit verdwenen en decompenseert de oudere snel.",
+   "prio": false,
+   "citaat": "Deze veranderingen beginnen zich vanaf 30-jarige leeftijd voor te doen ... Als u extra capaciteit vraagt, bijvoorbeeld als u een grote behandeling nodig heeft, zien we dat de extra reservecapaciteit vaak verdwenen is (transcript)"
+  },
+  {
+   "voor": "Hoe vaak hebben oudere patiënten met kanker comorbiditeit, en wat is het gevolg?",
+   "achter": "70-80% heeft bijkomende chronische ziekten, vooral hart- en vaatziekten, COPD, eerdere tumoren en diabetes.\nComorbiditeit verhoogt de kans op complicaties van de behandeling (chemotoxiciteit, complicaties na een operatie) en de mortaliteit. Voorbeeld: cardiotoxische chemotherapie na een doorgemaakt hartinfarct.",
+   "prio": true,
+   "citaat": "70-80% van de oudere patiënten met kanker hebben bijkomende chronische ziekten, vooral cardiovasculaire ziekten, COPD, eerdere tumoren, DM. Deze comorbiditeiten hebben een negatief effect op de complicaties tijdens de behandeling (chemotoxiciteit, complicaties na operatie) en de mortaliteit (slide)"
+  },
+  {
+   "voor": "Welke problemen geeft polyfarmacie bij de oudere patiënt met kanker?",
+   "achter": "Meer kans op bijwerkingen en interacties, meer kans op fouten, verminderde therapietrouw en meer ziekenhuisopnames.",
+   "prio": false,
+   "citaat": "Problemen polyfarmacie: meer kans op bijwerkingen, meer kans op fouten, verminderde therapietrouw, meer ziekenhuisopnames (slide); 'hoe meer medicijnen u gebruikt, hoe meer interactie er is' (transcript)"
+  },
+  {
+   "voor": "Wat weten we over dementie bij de oudere patiënt met kanker?",
+   "achter": "Bij dementie wordt in de praktijk vaker afgezien van diagnostiek en behandeling.\nEr is weinig onderzoek naar het effect van cognitieve stoornissen op chemotoxiciteit en overleving: deze patiënten kunnen vaak geen informed consent geven en worden daarom meestal uitgesloten van studies.",
+   "prio": false,
+   "citaat": "Bij patiënten met dementie wordt vaker afgezien van diagnostiek en behandeling. Er is nog weinig onderzoek gedaan naar de invloed van cognitieve stoornissen op chemotoxiciteit en overleving (slide); 'Mensen met dementie worden daarom vaak uitgesloten van wetenschappelijk onderzoek' (transcript)"
+  },
+  {
+   "voor": "Welke psychische factor heeft aantoonbaar een negatief effect op chemotoxiciteit en overleving bij ouderen met kanker?",
+   "achter": "Depressieve klachten: deze patiënten verdragen chemotherapie slechter en hebben een hogere mortaliteit (een ongunstige prognostische factor).",
+   "prio": true,
+   "citaat": "Depressieve klachten hebben wel een negatief effect op chemotoxiciteit en overleving (slide); 'Dat is dus een ongunstige prognostische factor' (transcript)"
+  },
+  {
+   "voor": "Hoe vaak komen functionele beperkingen en ondervoeding voor bij ouderen met kanker, en wat is hun prognostische betekenis?",
+   "achter": "Bij meer dan 50%.\nZe zijn geassocieerd met een kortere overleving en een hoger risico op chemotoxiciteit: deze patiënten doorstaan de behandeling slechter.",
+   "prio": true,
+   "citaat": "Functionele beperkingen en ondervoeding komen veel voor bij ouderen met kanker (>50%). Functionele beperkingen en ondervoeding zijn geassocieerd met een verminderde overleving en een verhoogd risico op chemotoxiciteit (slide)"
+  },
+  {
+   "voor": "Wat is het verschil tussen ADL en IADL, en welke gaat bij veroudering het eerst verloren?",
+   "achter": "ADL: basale zelfzorg, zoals wassen, aankleden en eten.\nIADL: complexere zelfstandige taken, zoals boodschappen doen, koken, financiën beheren en telefoneren.\nDe IADL gaan het eerst verloren, de ADL pas later.",
+   "prio": false,
+   "citaat": "De ADL betekent dat u uzelf kunt wassen, aankleden ... IADL betekent naar de winkel gaan om boodschappen te doen, koken, het beheren van financiën of zelfs het plegen van telefoongesprekken. ... eerst de IADL ... dan ADL (transcript)"
+  },
+  {
+   "voor": "Hoe wonen ouderen, en waarom is dat relevant voor de behandeling van kanker?",
+   "achter": "Veel ouderen wonen zelfstandig, zelfs 70% van de 85-plussers; tweederde woont alleen.\nZe zijn afhankelijk van mantelzorg (vervoer, hulp bij ziekte en bijwerkingen), en steeds meer ouderen hebben geen netwerk. Sociale ondersteuning bepaalt mee de uitkomst van het behandeltraject.",
+   "prio": false,
+   "citaat": "Veel ouderen wonen zelfstandig: 65 jaar en ouder 93%, 75 jaar en ouder 86%, 85 jaar en ouder 70%. Tweederde woont alleen. De invloed van sociale ondersteuning is belangrijk voor de uitkomsten van het behandeltraject (slide, bron CBS); 'er zijn steeds meer ouderen die geen netwerk hebben' (transcript)"
+  },
+  {
+   "voor": "Hoe definieert de Gezondheidsraad kwetsbaarheid (frailty), en wat zijn de negatieve gezondheidsuitkomsten?",
+   "achter": "Een opeenstapeling van lichamelijke, psychische en/of sociale tekorten in het functioneren, waardoor de kans op negatieve gezondheidsuitkomsten bij een acute of chronische stressor toeneemt.\nUitkomsten: meer complicaties van de behandeling, een langere opnameduur, functieverlies en een hogere mortaliteit.",
+   "prio": true,
+   "citaat": "Een opeenstapeling van lichamelijke, psychische en/of sociale tekorten in het functioneren, waardoor de kans vergroot wordt op negatieve gezondheidsuitkomsten bij een acute of chronische stressor/event. Negatieve gezondheidsuitkomsten: verhoogd risico op complicaties van de behandeling, langere opnameduur, functieverlies, verhoogde mortaliteit (slide)"
+  },
+  {
+   "voor": "Hoe verschilt het beloop na een stressor (zoals kankerbehandeling) tussen een fitte en een kwetsbare oudere?",
+   "achter": "Fit: een beperkte, tijdelijke achteruitgang en snel herstel tot het oude niveau.\nKwetsbaar: een veel diepere terugval (tot afhankelijkheid) en een herstel dat maanden kan duren en soms onvolledig blijft. Een volgende stressor kan dan tot blijvende afhankelijkheid leiden.\nDaarnaast bepaalt de veerkracht (resilience) mee hoe goed iemand herstelt.",
+   "prio": false,
+   "citaat": "Kwetsbaarheid en functieverlies; Frailty en resilience (slides); 'het herstel, ook al is de ziekte behandeld, duurt veel langer. Het zijn geen paar dagen of weken, maar soms maanden' en 'niet alleen je kwetsbaarheid, maar ook je veerkracht is een rol spelende factor' (transcript)"
+  },
+  {
+   "voor": "Hoe vaak verandert een CGA de therapiekeuze bij een oudere met kanker, en in welke richting?",
+   "achter": "In ongeveer 1/3 van de gevallen. Van die patiënten krijgt 2/3 een minder intensieve en 1/3 juist een intensievere behandeling.",
+   "prio": true,
+   "citaat": "beïnvloedt de therapiekeuze in 1/3 van de gevallen: 2/3 minder intensieve behandeling, 1/3 meer intensieve behandeling (slide; Hamaker 2014, Kalsi 2015)"
+  },
+  {
+   "voor": "Wat is het verband tussen het aantal geriatrische problemen en de toxiciteit van de behandeling?",
+   "achter": "Hoe meer geriatrische problemen het CGA vindt, hoe groter de kans op toxiciteit. Bij weinig problemen valt de chemotoxiciteit mee. Vanaf ongeveer drie problemen wordt de kans op toxiciteit én op het niet afmaken van de behandeling groot (Hamaker 2014).",
+   "prio": true,
+   "citaat": "Het aantal geriatrische problemen is voorspellend voor de toxiciteit van de behandeling (slide, Hamaker Breast 2014); 'als u drie of meer van die ouderdomsproblemen heeft, zien we dat de kans op problemen erg groot wordt' (transcript)"
+  },
+  {
+   "voor": "Wat adviseren internationale richtlijnen over het CGA, en waarom gebeurt dat in de praktijk niet bij iedereen?",
+   "achter": "SIOG, NCCN en EORTC adviseren een CGA bij élke patiënt met kanker van 70 jaar of ouder.\nMaar een CGA is tijdrovend (minstens een uur), er is te weinig geriatrische capaciteit, en voor de fitte oudere is het overbodig.\nDaarom eerst screenen; alleen bij een afwijkende screening volgt een CGA.",
+   "prio": true,
+   "citaat": "SIOG, NCCN en EORTC adviseert bij élke patiënt ≥ 70 jaar een CGA. Echter: CGA is tijdrovend voor patiënt en arts; onvoldoende capaciteit binnen de geriatrie; voor de fitte oudere is het CGA onnodig en overbodig. Benadering in 2 stappen: 1. Screening 2. CGA (slides)"
+  },
+  {
+   "voor": "Wat is de G8, en hoe interpreteer je de score?",
+   "achter": "Een screeningslijst van 8 vragen voor oudere patiënten met kanker: voedingsinname en gewichtsverlies, BMI, mobiliteit, cognitie en stemming, het aantal medicijnen, de eigen inschatting van de gezondheid, en leeftijd.\nMaximaal 17 punten. ≤14 is afwijkend (mogelijk kwetsbaar) → CGA. >14 is niet kwetsbaar → behandelen zoals een jongere patiënt.",
+   "prio": true,
+   "citaat": "G8: totaalscore = 17; score ≤14 = kwetsbaar; score >14 is niet kwetsbaar (slide, Bellera Ann Oncol 2012); 'bestaat uit 8 verschillende vragen ... voedingsstatus ... cognitie en stemming ... medicatie ... hoe mensen hun eigen gezondheid beoordelen ... Er is geen reden om deze mensen anders te behandelen dan jongeren' (transcript)"
+  },
+  {
+   "voor": "Waarom is de voedingstoestand zo belangrijk bij een oudere die een kankerbehandeling ondergaat?",
+   "achter": "Bij gewichtsverlies verlies je niet alleen vet maar ook spiermassa (volgens de docent ongeveer een derde van elke verloren kilo). Spiermassa is nodig om goed te functioneren en voorspelt hoe iemand de behandeling doorkomt.\nDaarom gaan meerdere vragen van de G8 over voeding.",
+   "prio": false,
+   "citaat": "Een deel van deze vragen gaat over iemands eetconditie ... elke kilo is ongeveer tweederde vetmassa, maar eenderde is spiermassa ... verliezen ze niet alleen veel vetmassa, maar ook veel spiermassa ... Daarom is de spiermassa zo voorspellend voor hoe u uw behandeling doorkomt (transcript)"
+  },
+  {
+   "voor": "Wat is de driestappenbenadering bij de oudere patiënt met kanker, en wat liet de GAP70+-studie zien?",
+   "achter": "1) Screening met de G8 (≤14 is afwijkend)\n2) CGA bij een afwijkende screening\n3) Interventies gericht op de gevonden problemen (bv. voeding, conditie, comorbiditeit en medicatie)\nGAP70+ (Mohile, Lancet 2021): CGA-gestuurde interventies verminderden de ernstige toxiciteit van de kankerbehandeling.",
+   "prio": true,
+   "citaat": "Behandeling van ouderen met kanker, benadering in 3 stappen: 1. Screening: G8 ≤14 2. CGA 3. Inzet van interventies. GAP 70+ studie: evaluatie van CGA op toxiciteit van kankerbehandeling (slides, Mohile Lancet 2021)"
+  },
+  {
+   "voor": "Hoe komt het behandelbesluit tot stand bij een kwetsbare oudere met kanker?",
+   "achter": "Bespreking in een multidisciplinair overleg met de oncoloog, chirurg, radiotherapeut, klinisch geriater en bij voorkeur de huisarts.\nDaarna een gesprek over gedeelde besluitvorming (shared decision making) met de patiënt en de mantelzorger of familie, met aandacht voor de wensen en doelen van de patiënt en de voor- en nadelen van elke optie.",
+   "prio": true,
+   "citaat": "Multidisciplinair overleg behandelteam: oncoloog, chirurg, radiotherapeut, klinisch geriater, bij voorkeur ook huisarts. Gevolgd door een shared decision making gesprek met de patiënt en de mantelzorger/familie. Hierbij moet er aandacht zijn voor de wensen en de doelen van de patiënt (slide)"
+  },
+  {
+   "voor": "Wat bleek uit onderzoek naar de besluitvorming over oudere patiënten in oncologische MDO's?",
+   "achter": "Het MDO gaat vooral over ziektekenmerken (tumortype, lokalisatie, uitbreiding). Patiëntkenmerken zoals kwetsbaarheid, functioneren en wensen komen weinig aan bod (Festen 2021).",
+   "prio": false,
+   "citaat": "Multidisciplinaire oncologische besluitvorming: vooral aandacht voor ziektekarakteristieken (slide, Festen Eur J Surg Oncol 2021); 'dat het voornamelijk om ziektekenmerken gaat en dat er weinig te zien is wat betreft patiëntkenmerken' (transcript)"
+  },
+  {
+   "voor": "Waarom zijn ouderen ondervertegenwoordigd in klinische studies, en wat is het gevolg?",
+   "achter": "Ze voldoen vaak niet aan de inclusiecriteria, de groep is te heterogeen om te vergelijken, en de ouderen die wel meedoen, zijn niet representatief voor de oudere populatie.\nGevolg: het bewijs voor de beste behandeling ontbreekt. Er is zowel over- als onderbehandeling, en ziekenhuizen verschillen sterk in hoe vaak ze 70-plussers behandelen.",
+   "prio": true,
+   "citaat": "Ouderen zijn ondervertegenwoordigd in klinische studies: voldoen niet aan inclusiecriteria; groep is te verschillend om te vergelijken; de oudere patiënten die in studies zijn geïncludeerd zijn niet representatief. GEVOLG: OVER- EN ONDERBEHANDELING (slide); 'Dus het hangt ervan af naar welk ziekenhuis u wordt verwezen' (transcript)"
+  },
+  {
+   "voor": "Wat liet de vergelijking van een trialpopulatie met patiënten uit de praktijk (colorectaal carcinoom) zien?",
+   "achter": "Patiënten in de praktijk die niet aan de inclusiecriteria voldeden, hadden een veel hogere mortaliteit dan de studiepopulatie. Wie wel aan de criteria voldeed, deed het ongeveer zoals in de studie.\nStudieresultaten zijn dus niet zomaar toepasbaar op de (oudere) patiënt in de praktijk.",
+   "prio": false,
+   "citaat": "Studie populatie vs real life (CRC), Mol Acta Oncologica 2013 (slide); 'de meeste mensen voldeden niet aan de inclusiecriteria ... de mortaliteit in deze groep [is] veel hoger ... we zien in de praktijk dat studies niet toepasbaar zijn op de werkelijke populatie' (transcript)"
+  },
+  {
+   "voor": "Werkt chemotherapie minder goed bij ouderen?",
+   "achter": "Nee. Farmacodynamisch heeft een fitte oudere evenveel baat bij systemische behandeling als een jonge patiënt (Hurria 2011).\nHet probleem is de toxiciteit: de effectiviteit van klassieke chemotherapie stijgt met de dosis en de therapeutische breedte is smal, terwijl ouderen door de veranderde farmacokinetiek hogere en langer aanhoudende spiegels krijgen.",
+   "prio": true,
+   "citaat": "De effectiviteit van de klassieke chemotherapie neemt in het algemeen met oplopende dosis toe. De meeste chemotherapieën hebben een smalle therapeutische breedte. Een fitte oudere heeft evenveel baat bij systemische behandeling als jonge kankerpatiënt (slide, Hurria 2011)"
+  },
+  {
+   "voor": "Hoe veranderen de absorptie, het metabolisme en de excretie van geneesmiddelen bij ouderen?",
+   "achter": "Absorptie ↓: atrofie van de mucosa, minder gastro-intestinale motiliteit en minder splanchnische doorbloeding.\nMetabolisme ↓: een kleinere lever met minder doorbloeding → vertraagde afbraak en langere blootstelling.\nExcretie ↓: afgenomen nierfunctie → hogere piekspiegels en vertraagde uitscheiding.",
+   "prio": true,
+   "citaat": "Absorptie: atrofie van de mucosa en verminderde gastro-intestinale motiliteit, verminderde bloedflow splanchicus -> verminderde absorptie. Metabolisme: verminderde doorbloeding lever en grootte van de lever -> vertraagd metabolisatie -> verlengde blootstelling. Excretie: afname nierfunctie -> verhoogde pieklevels en vertraagde uitscheiding (slide)"
+  },
+  {
+   "voor": "Wat geldt voor chirurgie bij ouderen met kanker?",
+   "achter": "Ouderen hebben meer morbiditeit en mortaliteit na een grote operatie, maar dat wordt vooral bepaald door hun comorbiditeit en functionaliteit, niet door hun leeftijd.\nDat valt te verbeteren door vóór de operatie de voedingstoestand, de conditie en de comorbiditeit te optimaliseren.",
+   "prio": true,
+   "citaat": "Ouderen hebben een verhoogde morbiditeit en mortaliteit na een grote operatie. Dit wordt echter vooral bepaald door hun comorbiditeit en hun functionaliteit (en niet zozeer door hun leeftijd). Mogelijkheden om dit te verbeteren: optimalisatie voedingstoestand, conditie/functionaliteit en comorbiditeit voor OK (slide)"
+  },
+  {
+   "voor": "Wat geldt voor radiotherapie bij ouderen met kanker?",
+   "achter": "Er is geen bewijs dat ouderen radiotherapie slechter verdragen of dat hun tumoren er (on)gevoeliger voor zijn.\nWel hebben bijwerkingen grotere gevolgen (bv. gewichtsverlies bij bestraling van hoofd en hals), en er zijn praktische belemmeringen: tot wel 30 fracties betekent tot 30 keer naar het ziekenhuis.",
+   "prio": false,
+   "citaat": "Er is geen bewijs dat ouderen minder goed radiotherapie verdragen, of dat tumoren bij ouderen (on)gevoeliger zijn voor radiotherapie. Bijwerkingen kunnen wel grotere consequenties hebben bij ouderen. Soms praktische belemmeringen voor RT (slide). Het transcript lijkt hier het omgekeerde te zeggen (waarschijnlijk een spraakherkenningsfout); volg de slide. 'Hoe komen ze 30 keer in het ziekenhuis?' (transcript)"
+  },
+  {
+   "voor": "Waarom maakt dementie het besluit over chemotherapie lastig, ook bij een verder fitte oudere?",
+   "achter": "De patiënt begrijpt en onthoudt de informatie slecht en zal bij ernstige bijwerkingen niet goed begrijpen wat er gebeurt. Er is kans op verwardheid en op het niet tijdig inschakelen van hulp.\nIn de collegecasus leidde dat tot een aangepaste behandeling: orale capecitabine met weinig bijwerkingen, waarbij de thuiszorg aan de inname herinnert.",
+   "prio": true,
+   "citaat": "Als ik zelf zeg waarom ik mijn twijfels heb, is dat voornamelijk omdat haar cognitie een probleem is ... als ze erg ziek wordt van de chemotherapie en u begrijpt niet wat er gebeurt vanwege uw dementie, dan is dat erg moeilijk ... Zal ze op tijd hulp kunnen krijgen? (transcript); Aangepaste behandeling: capecitabine, weinig bijwerkingen, oraal ingenomen (slide)"
+  },
+  {
+   "voor": "Welke drie zaken verbeteren volgens de take-home message de resultaten van een geriatrisch-oncologische behandeling?",
+   "achter": "1) Selectie voor behandeling op basis van kwetsbaarheid (via een CGA), niet op leeftijd\n2) Rekening houden met de behandelwensen en -doelen van de patiënt\n3) Multidisciplinaire behandelteams",
+   "prio": true,
+   "citaat": "Take home message: 1. Selectie voor behandeling baseren op kwetsbaarheid (middels een CGA), niet op leeftijd 2. Hou rekening met de behandelwensen/doelen van de patiënt 3. Noodzaak van multidisciplinaire behandelteams (slide)"
+  }
+ ],
+ "casus": [
+  {
+   "vignet": "Vrouw, 80 jaar, sinds 2 jaar bekend met een ossaal gemetastaseerd mammacarcinoom. Na drie lijnen hormonale therapie is er progressie: nieuwe botmetastasen, verdenking op levermetastasen en een sterk gestegen CA 15-3. CGA: weinig comorbiditeit, goede voedingstoestand, loopt langzaam maar stabiel, lichte urine-incontinentie. Sinds een jaar dementie: zij begrijpt de informatie, maar is die na 10 minuten vergeten. Geen stemmingsproblemen. Weduwe, woont zelfstandig met thuiszorg en twee betrokken dochters.",
+   "diagnose": "Kwetsbare oudere (middengroep) → aangepaste behandeling: orale capecitabine",
+   "waarom": "Somatisch, functioneel en sociaal is zij redelijk fit, maar door de dementie zou ze ernstige bijwerkingen niet herkennen en niet tijdig hulp halen. Een oraal middel met weinig bijwerkingen, waarbij de thuiszorg aan de inname herinnert, gaf 6 maanden een goede kwaliteit van leven; daarna progressie en palliatief beleid."
+  },
+  {
+   "vignet": "Man, 77 jaar, na resectie van een stadium III-coloncarcinoom. Hij fietst dagelijks, doet zelf de boodschappen en de administratie, gebruikt alleen een statine, is niet afgevallen en woont samen met zijn partner. G8: 16.",
+   "diagnose": "Fitte (niet-kwetsbare) oudere → standaardbehandeling, zoals bij een jongere patiënt",
+   "waarom": "Met een G8 >14 is geen CGA nodig. Kalenderleeftijd is een slechte voorspeller en een fitte oudere heeft evenveel baat bij chemotherapie. Minder behandelen alleen vanwege zijn leeftijd zou onderbehandeling zijn."
+  },
+  {
+   "vignet": "Vrouw, 74 jaar, longcarcinoom. Volgens de oncoloog is haar performance status ECOG 0. G8: 12. Geriatrische anamnese: 5 kg afgevallen in 3 maanden, somber sinds het overlijden van haar partner, gebruikt 7 medicijnen, woont alleen zonder mantelzorger.",
+   "diagnose": "Verborgen kwetsbaarheid ondanks een normale performance score → CGA, interventies en een behandelbesluit via MDO en gedeelde besluitvorming",
+   "waarom": "Behandelaars overschatten de performance status (10-40% met een normale score heeft afwijkingen bij het CGA). Depressieve klachten en ondervoeding zijn geassocieerd met meer chemotoxiciteit en een slechtere overleving; polyfarmacie geeft meer bijwerkingen en interacties, en zonder mantelzorger is ondersteuning nodig. Gerichte interventies op deze problemen verminderen de toxiciteit."
+  },
+  {
+   "vignet": "Man, 88 jaar, woont in een verpleeghuis met gevorderde dementie, is volledig ADL-afhankelijk, heeft hartfalen en COPD en is 10% in gewicht afgevallen. Nu blijkt hij een gemetastaseerd pancreascarcinoom te hebben.",
+   "diagnose": "Maximaal kwetsbare oudere → sterk gelimiteerde behandeling: een palliatieve, symptoomgerichte benadering",
+   "waarom": "Er zijn tekorten op alle assen. Levensverlengende behandeling geeft een grote kans op complicaties, functieverlies en sterfte. Het doel wordt symptoomcontrole en een zo goed mogelijke kwaliteit van leven in de laatste levensfase."
+  }
+ ],
+ "tabellen": [
+  {
+   "id": "modaliteit",
+   "titel": "Behandelmodaliteiten bij ouderen (HC 13)",
+   "kolommen": [
+    "Kernbevinding",
+    "Aandachtspunt"
+   ],
+   "rijen": [
+    {
+     "rij": "Chemotherapie",
+     "cellen": [
+      "Fitte oudere: evenveel baat als een jongere",
+      "Meer toxiciteit door farmacokinetiek; smalle therapeutische breedte"
+     ]
+    },
+    {
+     "rij": "Chirurgie",
+     "cellen": [
+      "Meer morbiditeit en mortaliteit, vooral door comorbiditeit en functionaliteit",
+      "Vooraf voeding, conditie en comorbiditeit optimaliseren"
+     ]
+    },
+    {
+     "rij": "Radiotherapie",
+     "cellen": [
+      "Geen bewijs voor slechtere tolerantie of andere gevoeligheid",
+      "Bijwerkingen wegen zwaarder; praktische belasting (veel fracties)"
+     ]
+    }
+   ]
+  }
+ ],
+ "tentamentips": [
+  {
+   "citaat": "Take home message: 1. Selectie voor behandeling baseren op kwetsbaarheid (middels een CGA), niet op leeftijd 2. Hou rekening met de behandelwensen/doelen van de patiënt 3. Noodzaak van multidisciplinaire behandelteams (laatste slide)",
+   "betekenis": "De drie kernboodschappen van het college. Een casus- of open vraag over geriatrische oncologie komt hier vrijwel zeker op uit. De docent deed overigens geen expliciete uitspraken over het tentamen."
+  },
+  {
+   "citaat": "Dit alles maakt de diagnostiek, behandeling en begeleiding van oudere kanker patiënten ingewikkeld, hetgeen leidt tot onder- en overbehandeling. Het verrichten van een uitgebreid geriatrische assessment kan helpen om betere keuze te maken met betrekking tot de juiste behandeling bij ouderen. (blokboek, HC 13)",
+   "betekenis": "Het blokboek geeft voor dit college geen aparte leerdoelen, alleen deze beschrijving. Kun je uitleggen waarom ouderen gevoeliger zijn voor bijwerkingen (fysieke, cognitieve en sociale beperkingen, comorbiditeit), waarom dat tot over- en onderbehandeling leidt en hoe een CGA helpt, dan dek je het blokboek."
+  },
+  {
+   "citaat": "Dus de kalenderleeftijd, de werkelijke leeftijd, is eigenlijk een zeer slechte voorspeller.",
+   "betekenis": "Een antwoordoptie die behandeling geschikt of ongeschikt noemt puur op grond van leeftijd, is fout."
+  },
+  {
+   "citaat": "Als ze 14 of lager scoren, moet u erover nadenken. Dan heeft u meer onderzoek nodig om te zien welke problemen er zijn.",
+   "betekenis": "Ken de afkapwaarde van de G8 (≤14 afwijkend, maximaal 17) en weet dat de vervolgstap een CGA is."
+  },
+  {
+   "citaat": "Als u drie of meer van die ouderdomsproblemen heeft, zien we dat de kans op problemen erg groot wordt.",
+   "betekenis": "Het aantal geriatrische problemen voorspelt de toxiciteit en de kans dat de behandeling niet wordt afgemaakt."
+  },
+  {
+   "citaat": "Als u alle informatie heeft, wat zou u dan nu doen? (de docent legt de openingscasus aan het eind opnieuw voor)",
+   "betekenis": "De docent denkt in casussen. Loop de assen van het CGA langs (somatisch, psychisch, functioneel, sociaal, existentieel) en kom tot een standaard, aangepaste of palliatieve behandeling die past bij de wensen van de patiënt."
+  },
+  {
+   "citaat": "Bereid je voor op het hoorcollege Geriatrische Oncologie door het lezen van volgend artikel: Functional versus chronological age: geriatric assessments to guide decision making in older patients with cancer. Soto-Perez-de-Celis et al., Lancet Oncol 2018 (blokboek, zelfstudie 9)",
+   "betekenis": "Het voorbereidingsartikel wordt op meerdere slides aangehaald (gevolgen van veroudering in vier domeinen, voorspellen van chemotoxiciteit). Behandel het als achtergrondstof; het blokboek noemt het niet expliciet als tentamenstof."
+  }
+ ],
+ "prio_guids": [
+  {
+   "guid": "Liuj|4Vn{v",
+   "waarom": "Kern van de take-home message: selecteer op kwetsbaarheid, niet op leeftijd; 'kalenderleeftijd = slechte voorspeller'."
+  },
+  {
+   "guid": "k)s;u8II+{",
+   "waarom": "Het CGA is het centrale instrument van het college en het blokboek."
+  },
+  {
+   "guid": "tfwO+>3.:L",
+   "waarom": "Het blokboek noemt onder- en overbehandeling en het CGA als oplossing expliciet."
+  },
+  {
+   "guid": "k2I4z<z7Cq",
+   "waarom": "De docent benadrukt dat behandelaars de performance status overschatten en dat screening (G8) de eerste stap is."
+  },
+  {
+   "guid": "h+*qIIk`r@",
+   "waarom": "De drie groepen (standaard, aangepast, sterk gelimiteerd) vormen de kern van de besluitvorming en komen terug in de casus."
+  },
+  {
+   "guid": "nQ><m?M8Ee",
+   "waarom": "Volgens het blokboek zijn ouderen gevoeliger voor bijwerkingen; een kernpunt van het college."
+  }
+ ],
+ "correcties": [
+  {
+   "guid": "k)s;u8II+{",
+   "huidig": "Comorbiditeit en polyfarmacie, functionele status (ADL en IADL), mobiliteit en valrisico, cognitie, stemming, voedingstoestand, en sociale steun. Screening vooraf vaak met de G8",
+   "voorstel": "Een structurele methode om complexe problemen in kaart te brengen, langs vier assen plus een nieuwe:\nSomatisch: comorbiditeit, polyfarmacie\nPsychisch: cognitie, stemming\nFunctioneel: ADL/IADL, mobiliteit, visus/gehoor, voedingstoestand, incontinentie\nSociaal: woonsituatie, netwerk en mantelzorg\nExistentieel (nieuw): wat vindt de patiënt belangrijk, wat wil hij wel en niet\nVooraf wordt meestal gescreend met de G8.",
+   "citaat": "CGA: structurele methode om complexe problemen in kaart te brengen. 4 assen: somatisch, psychisch, functioneel, sociaal. Nieuwe as: existentiële as (slide); functionele factoren: zelfzorg (ADL/IADL), mobiliteit/fysiek functioneren, visus/gehoor, voedingstoestand, incontinentie (slide); 'hoe leven patiënten? Wat vinden zij belangrijk? Wat willen ze? Wat willen ze niet?' (transcript)"
+  },
+  {
+   "guid": "nQ><m?M8Ee",
+   "huidig": "Verminderde orgaanreserve (nier- en leverfunctie, beenmergreserve, hartfunctie) verandert farmacokinetiek en -dynamiek, comorbiditeit en polyfarmacie geven interacties, en er is minder marge om een complicatie op te vangen. Daarbij zijn ouderen ondervertegenwoordigd in trials, dus de evidence is zwak",
+   "voorstel": "1) Veranderde farmacokinetiek (minder lever- en nierfunctie, meer vet en minder water) → hogere en langer aanhoudende spiegels, bij een smalle therapeutische breedte\n2) Comorbiditeit (70-80%) en polyfarmacie\n3) Geriatrische problemen: functionele beperkingen, ondervoeding, depressie, weinig sociale steun\n4) Afgenomen reservecapaciteit, waardoor een complicatie minder goed wordt opgevangen",
+   "citaat": "Farmacokinetiek: absorptie, metabolisme en excretie verminderd -> verlengde blootstelling (slide); 70-80% heeft comorbiditeit met negatief effect op chemotoxiciteit (slide); functionele beperkingen, ondervoeding en depressieve klachten geassocieerd met chemotoxiciteit (slides); 'Hoewel chemotherapie net zo effectief kan zijn bij ouderen als bij jongeren, kan het meer bijwerkingen en meer problemen veroorzaken' (transcript); blokboek: 'gevoeliger voor de bijwerkingen ... doordat zij vaak fysieke, cognitieve en sociale beperkingen hebben'"
+  },
+  {
+   "guid": "I0IvSHgigG",
+   "huidig": "Bij elke celdeling ontstaat schade. Het lichaam reageert met celcyclusarrest (senescentie) of apoptose. Bij ouderen raakt het regeneratievermogen uitgeput en reageert het immuunsysteem minder adequaat op nieuwe antigenen. Bovendien hebben senescente cellen paracriene effecten die carcinogenese juist kunnen bevorderen",
+   "voorstel": "1) Opstapeling van DNA-schade: meer celdelingen achter de rug, dus meer kopieerfouten\n2) Minder goed DNA-herstel: cellen met fouten blijven ongeremd delen\n3) Een minder goed werkend afweersysteem: kankercellen worden minder opgeruimd\n4) Langere blootstelling aan carcinogenen (uv-straling, roken, stoffen in het milieu)\nDaarnaast kunnen senescente cellen via paracriene signalen carcinogenese bevorderen.",
+   "citaat": "Waarom hebben ouderen meer kanker? Opstapeling van DNA-schade; minder goed celherstel; minder goede functie afweersysteem; langere blootstelling aan risicofactoren zoals uv-straling, roken of bepaalde stoffen in de omgeving (slide)"
+  },
+  {
+   "guid": "k2I4z<z7Cq",
+   "huidig": "Die schaal overschat de fitheid van oudere patiënten. Daarom wordt bij patiënten boven de 70 eerst gescreend met de G8 (8 vragen, speciaal voor de oudere kankerpatiënt) en bij een score van 14 of lager een volledig CGA gedaan. Bij screening is hier juist een hoge sensitiviteit gewenst — anders dan bij bevolkingsonderzoek, waar specificiteit voorop staat",
+   "voorstel": "De Karnofsky- en ECOG-performance score zijn gevalideerd bij jongere patiënten met kanker. Bij ouderen overschatten behandelaars de performance status: 10-40% van de ouderen met een normale score heeft afwijkingen bij het CGA.\nDaarom bij 70-plussers eerst screenen met de G8 en bij een afwijkende score een CGA.",
+   "citaat": "Performance score (ECOG of Karnofsky): gevalideerd instrument bij de jongere kankerpatiënt. Behandelaars overschatten performance status: 10-40% van de patiënten met normale performance score heeft afwijkingen bij het CGA (slide)"
+  },
+  {
+   "guid": "tfwO+>3.:L",
+   "huidig": "Het voorspelt toxiciteit en complicaties beter dan leeftijd alleen, en helpt zowel onderbehandeling (fitte oudere krijgt onterecht minder) als overbehandeling (kwetsbare oudere krijgt te intensieve therapie) te voorkomen. Het legt ook behandelbare problemen bloot en ondersteunt gedeelde besluitvorming",
+   "voorstel": "1) Het spoort vooraf onbekende geriatrische problemen op die een interventie nodig hebben\n2) Het geeft prognostische informatie: het voorspelt toxiciteit en complicaties beter dan leeftijd alleen\n3) Het verandert de therapiekeuze en voorkomt zo zowel onderbehandeling (fitte oudere krijgt onterecht minder) als overbehandeling (kwetsbare oudere krijgt te intensieve therapie)\n4) Het leidt tot een betere tolerantie van chemotherapie\nDaarnaast ondersteunt het de gedeelde besluitvorming.",
+   "citaat": "CGA bij oncologie patiënt: 1. identificeert vooraf onbekende geriatrische problemen die interventie behoeven 2. heeft belangrijke prognostische informatie 3. beïnvloedt de therapiekeuze in 1/3 van de gevallen 4. leidt tot betere tolerantie chemotherapie (slide; Hamaker 2014, Kalsi 2015)"
+  },
+  {
+   "guid": "h+*qIIk`r@",
+   "huidig": "Niet kwetsbaar: standaardbehandeling Kwetsbaar: aangepaste behandeling Maximaal kwetsbaar: sterk gelimiteerde behandeling of palliatief beleid",
+   "voorstel": "Niet kwetsbaar (fit): standaardbehandeling, zoals bij een jongere patiënt\nKwetsbaar (middengroep): aangepaste behandeling, gekozen via gedeelde besluitvorming op basis van de wensen van de patiënt en de beschikbare opties\nMaximaal kwetsbaar: sterk gelimiteerde behandeling, palliatief en gericht op symptoomcontrole en kwaliteit van leven",
+   "citaat": "3 groepen ouderen: niet kwetsbaar → standaardbehandeling; aangepaste behandeling; maximaal kwetsbaar → sterk gelimiteerde behandeling (slide); 'de groep die ertussenin zit ... afhankelijk van de behandelwensen en voorkeuren van de patiënt, en de beschikbare behandelopties, samen met een gedeeld besluitvormingsgesprek beslissen' en 'met een palliatieve benadering behandelen' (transcript)"
+  }
+ ],
+ "koppeling": [
+  {
+   "guid": "kw@W78Q&QU",
+   "college": "HC11"
+  },
+  {
+   "guid": "oXt+4X,*A8",
+   "college": "HC11"
+  },
+  {
+   "guid": "CiYdLLo&Bu",
+   "college": "HC11"
+  },
+  {
+   "guid": "vm~$JXAy_;",
+   "college": "HC11"
+  },
+  {
+   "guid": "o}S`GA-DNe",
+   "college": "HC11"
+  },
+  {
+   "guid": "MT<{&[tR/e",
+   "college": "HC11"
+  },
+  {
+   "guid": "bRcU)](n7<",
+   "college": "HC11"
+  },
+  {
+   "guid": "KG55vUXE,X",
+   "college": "HC11"
+  },
+  {
+   "guid": "ld^`:.dSN#",
+   "college": "HC11"
+  },
+  {
+   "guid": "o+jR{,FkBi",
+   "college": "HC11"
+  },
+  {
+   "guid": "c-Y2TYLx.w",
+   "college": "HC11"
+  },
+  {
+   "guid": "kRck7|Y|t%",
+   "college": "HC11"
+  },
+  {
+   "guid": "B;6]|%yNXx",
+   "college": "HC11"
+  },
+  {
+   "guid": "QDt3?Ek~t&",
+   "college": "HC11"
+  },
+  {
+   "guid": "mHEgp#niA=",
+   "college": "HC11"
+  },
+  {
+   "guid": "y5k!#E1;F`",
+   "college": "HC11"
+  },
+  {
+   "guid": "C%hA5?n=):",
+   "college": "HC11"
+  },
+  {
+   "guid": "d>~sAHh43O",
+   "college": "HC11"
+  },
+  {
+   "guid": "gMc49wWcZd",
+   "college": "HC11"
+  },
+  {
+   "guid": "s+;w6d|>YR",
+   "college": "HC11"
+  },
+  {
+   "guid": "q5a13^o88u",
+   "college": "HC11"
+  },
+  {
+   "guid": "BYfHu|+JO<",
+   "college": "HC11"
+  },
+  {
+   "guid": "Oi&X^]@~/f",
+   "college": "HC11"
+  },
+  {
+   "guid": "r#rVLQ}CF-",
+   "college": "HC11"
+  },
+  {
+   "guid": "t_#_$*[TTk",
+   "college": "HC11"
+  },
+  {
+   "guid": "l@mKf+nk73",
+   "college": "HC11"
+  },
+  {
+   "guid": "v&HP;>Fjgp",
+   "college": "HC11"
+  },
+  {
+   "guid": "w6cL|U+WF;",
+   "college": "HC11"
+  },
+  {
+   "guid": "kvb-6IEK;h",
+   "college": "HC11"
+  },
+  {
+   "guid": "QKYpLQF*Md",
+   "college": "HC11"
+  },
+  {
+   "guid": "p=5t>GUa^z",
+   "college": "HC11"
+  },
+  {
+   "guid": "yNEa:[Kw-H",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-7f93dfa9e7d7",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-e6df915fa160",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-87dc2558bb2d",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-2fe81f47225e",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-112507338eb1",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-95eb6a6ae7aa",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-bfc27a403724",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-7f7b35829243",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-7fbfc2dc2883",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-0c1833712a64",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-e2e6a51fdef4",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-cfea994c184f",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-0633c7fd7cf3",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-748adfb06979",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-aee762b3096c",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-122b9880fb39",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-b6e133280e35",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-642a79ae872b",
+   "college": "HC11"
+  },
+  {
+   "guid": "gzc3x-a18e3a66a28b",
+   "college": "HC11"
+  },
+  {
+   "guid": "Hp6T&;i=Vf",
+   "college": "HC12"
+  },
+  {
+   "guid": "p@Rw!vQ%fv",
+   "college": "HC11"
+  },
+  {
+   "guid": "r{Q#9UnhFv",
+   "college": "HC11"
+  },
+  {
+   "guid": "jsk4v}kRMs",
+   "college": "HC12"
+  },
+  {
+   "guid": "g^xhj{D,I1",
+   "college": "HC12"
+  },
+  {
+   "guid": "N!SY+n*[kK",
+   "college": "HC12"
+  },
+  {
+   "guid": "ps*7k8{R/)",
+   "college": "HC12"
+  },
+  {
+   "guid": "Liuj|4Vn{v",
+   "college": "HC13"
+  },
+  {
+   "guid": "k)s;u8II+{",
+   "college": "HC13"
+  },
+  {
+   "guid": "tfwO+>3.:L",
+   "college": "HC13"
+  },
+  {
+   "guid": "nQ><m?M8Ee",
+   "college": "HC13"
+  },
+  {
+   "guid": "I0IvSHgigG",
+   "college": "HC13"
+  },
+  {
+   "guid": "k2I4z<z7Cq",
+   "college": "HC13"
+  },
+  {
+   "guid": "h+*qIIk`r@",
+   "college": "HC13"
+  },
+  {
+   "guid": "vuP6aY2M@W",
+   "college": "HC13"
+  }
+ ],
+ "afgewezen": [
+  {
+   "wat": "Kaart 'Welke scores voorspellen het risico op chemotoxiciteit bij ouderen?' (CARG/CRASH)",
+   "reden": "De docent sloeg deze slide over en de scores en hun items staan niet in de slidetekst of het transcript. Bovendien noemde de kaart items als gehoor en vallen voor beide scores, terwijl die alleen in de CARG-score zitten. Twijfel over juistheid, dus geschrapt."
+  },
+  {
+   "wat": "Kaart 'Waarom krijgt een patiënte met een ossaal gemetastaseerd mammacarcinoom intraveneuze bisfosfonaten?'",
+   "reden": "Een zijpad uit de casus en geen onderwerp van dit college of het blokboek. De behandeling van botmetastasen, met bisfosfonaten, staat al op een bestaande B3-kaart (gzc3chk-3435350f7104)."
+  },
+  {
+   "wat": "GAP70+-details in de kaart over de driestappenbenadering (n=718, gemiddeld 78 jaar, circa 50% versus 71% ernstige toxiciteit)",
+   "reden": "Trivia, en de percentages staan niet in de slidetekst of het transcript. Behouden: CGA-gestuurde interventies verminderen de ernstige toxiciteit."
+  },
+  {
+   "wat": "Tweede helft van de kaart 'Hoe vaak verandert een CGA de therapiekeuze' (onbekende problemen opsporen, prognostische informatie, betere tolerantie)",
+   "reden": "Dubbel met bestaande kaart tfwO+>3.:L, die nu via een correctie de vier punten van de slide bevat. De kaart houdt alleen de getallen (1/3; 2/3 minder en 1/3 meer intensief)."
+  },
+  {
+   "wat": "Opsomming van de functionele items (ADL/IADL, mobiliteit, visus/gehoor, voeding, incontinentie) in de kaart over functionele factoren",
+   "reden": "Dubbel met de gecorrigeerde CGA-kaart k)s;u8II+{. De kaart is herschreven tot het eigen leerpunt: komt voor bij >50% en is geassocieerd met kortere overleving en meer chemotoxiciteit."
+  },
+  {
+   "wat": "Laatste regel van de depressiekaart ('Voor cognitieve stoornissen is dit bewijs er (nog) niet')",
+   "reden": "Dubbel met de dementiekaart in dezelfde set. Eén leerpunt per kaart."
+  },
+  {
+   "wat": "Percentages 93% (65+) en 86% (75+) zelfstandig wonend in de sociale kaart",
+   "reden": "Trivia. Behouden: zelfs 70% van de 85-plussers woont zelfstandig en tweederde woont alleen."
+  },
+  {
+   "wat": "Openingszin ('Niet doordat de behandeling minder werkt...') en de regel over trials in het correctievoorstel voor nQ><m?M8Ee",
+   "reden": "Dubbel met de nieuwe kaart 'Werkt chemotherapie minder goed bij ouderen?' en met de kaart over ondervertegenwoordiging in trials. De regel over trials beantwoordt bovendien de vraag niet."
+  },
+  {
+   "wat": "G8-details (8 vragen, max 17, ≤14) en de opmerking over hoge sensitiviteit in het correctievoorstel voor k2I4z<z7Cq",
+   "reden": "De G8-details zijn dubbel met de G8-kaart. Sensitiviteit komt niet uit dit college en is een ander leerpunt dan de vraag waarom de performance score tekortschiet."
+  },
+  {
+   "wat": "'(≤14 → CGA)' in het correctievoorstel voor k)s;u8II+{",
+   "reden": "Dubbel met de G8-kaart en de driestappenkaart. Alleen de verwijzing naar screening met de G8 blijft staan."
+  },
+  {
+   "wat": "Kern in vier zinnen, met 'een performance score voorspelt slecht wie een behandeling verdraagt'",
+   "reden": "Het schema vraagt twee à drie zinnen. Volgens de slide is de performance score gevalideerd bij jongeren en ligt het probleem bij ouderen in overschatting door behandelaars. Daarom herschreven naar 'behandelaars overschatten de performance status'."
+  },
+  {
+   "wat": "'herstelt in maanden, vaak onvolledig' (kapstok en kaart over fit versus kwetsbaar)",
+   "reden": "Het transcript zegt dat herstel soms maanden duurt en soms niet lukt; 'vaak' is te sterk. Aangepast naar 'soms onvolledig'."
+  },
+  {
+   "wat": "In casus 3: 'polyfarmacie voorspelt chemotoxiciteit en een slechtere overleving'",
+   "reden": "Niet wat het college zegt. Volgens de slide geeft polyfarmacie meer bijwerkingen, fouten, minder therapietrouw en meer opnames. De link met chemotoxiciteit en overleving geldt voor depressie, functionele beperkingen en ondervoeding. Gecorrigeerd."
+  },
+  {
+   "wat": "Voorkant 'Wat liet de vergelijking ... zien (Mol 2013)?' en 'Waarom wegen de voedingsvragen in de G8 zo zwaar?'",
+   "reden": "Een voorkant die op een auteursnaam leunt, is trivia. Bij de voedingskaart beweert de docent niets over het gewicht in de score; ze legt uit waarom voeding belangrijk is. Beide voorkanten herschreven naar het eigenlijke leerpunt."
+  },
+  {
+   "wat": "Koppeling: geen wijzigingen",
+   "reden": "Alle 66 T3-GUID's staan er precies één keer in. De twee verschuivingen van HC12 naar HC11 (p@Rw!vQ%fv late effecten bij kinderen; r{Q#9UnhFv NHL/Hodgkin op kinderleeftijd) kloppen met de doelstellingen voor kinderoncologie in het blokboek. Geen enkele T3-kaart gaat over AI."
+  }
+ ]
+}

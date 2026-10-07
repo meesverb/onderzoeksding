@@ -1,0 +1,728 @@
+{
+ "titel": "Maligne lymfoom en CLL",
+ "docent": "Rogier Mous, hematoloog",
+ "bron": "HC 7 + transcript",
+ "kern": "Bij een lymfoom vraag je eerst: agressief of indolent? Agressieve lymfomen (Hodgkin, DLBCL, Burkitt) groeien snel en geven veel klachten, maar zijn met chemo(immuno)therapie te genezen; indolente (folliculair lymfoom, CLL) zijn niet te genezen en behandel je pas bij klachten. De behandelkeuze rust op diagnose, stadium, risicofactoren, geneesbaarheid en fitheid, en doelgerichte en immunotherapie (brentuximab, nivolumab, CAR-T, BTK- en BCL2-remmers) vult de chemotherapie aan of vervangt haar, zoals bij CLL.",
+ "kapstok": [
+  {
+   "kop": "Benadering bij verdenking lymfoom",
+   "punten": [
+    "Anamnese: B-symptomen (koorts, nachtzweten waarvoor je het beddengoed moet verschonen, gewichtsverlies) en vermoeidheid. Bij de huisarts is een bult in de hals meestal onschuldig.",
+    "LO: alle klierstations (hals, rond de clavicula, oksels, liezen) en de milt. Bij een hoge verdenking ook de mammae en de testes.",
+    "Lab: bloedbeeld met leukodiff en LDH (de belangrijkste tumormarker in de hematologie).",
+    "Diagnose: excisie van een klier of een (echogeleid) dikke-naaldbiopt, nooit cytologie, want de architectuur is nodig.",
+    "Stadiëring: CT hals-thorax-abdomen en PET-CT (FDG; niet zinvol bij CLL). Een beenmergbiopt is bij lymfoom zelden nog nodig."
+   ]
+  },
+  {
+   "kop": "Indeling: agressief versus indolent",
+   "punten": [
+    "Lymfatische maligniteiten (lymfomen, CLL, MM) ontstaan aan de rijpe kant van de ontwikkeling; de meeste zijn B-cel.",
+    "Agressief (Hodgkin, DLBCL, Burkitt): jong én oud, snelle groei, veel klachten, onbehandeld dodelijk, wél te genezen.",
+    "Indolent (FL, CLL, marginale zone): ouderen, langzame groei, weinig klachten, lage sterfte, níet te genezen.",
+    "Herkennen: 29 jaar + halsklier + B-symptomen = Hodgkin. 84 jaar + halsklier + lymfocytose + geen klachten = CLL."
+   ]
+  },
+  {
+   "kop": "Behandelkeuze",
+   "punten": [
+    "De vijf factoren: diagnose, stadium, risicofactoren, genezing mogelijk?, fitheid/leeftijd.",
+    "Ann Arbor: I één station · II ≥2 aan één kant van het diafragma · III beide kanten · IV buiten de klierstations. A zonder, B met B-symptomen.",
+    "Hodgkin volgens de slide: early = I-II, niet bulky, zonder B-symptomen. Advanced = bulky, III-IV of B-symptomen.",
+    "IPI: leeftijd >60, stadium III-IV, >1 extranodale site, LDH ↑, ECOG ≥2. Steeds belangrijker: genetica (karyotype, FISH, PCR/NGS).",
+    "Kans op curatie: chemo(immuno)therapie 60-95%. Bij een recidief: CAR-T 40-50%, antistoffen 30%, small molecules 0%."
+   ]
+  },
+  {
+   "kop": "Hodgkinlymfoom",
+   "punten": [
+    "Een B-celmaligniteit met weinig B-celmarkers. De Reed-Sternbergcellen zijn CD30+.",
+    "Bimodaal: kinderen en jongvolwassenen, en een tweede piek boven de 60 (volgens de docent de hoogste).",
+    "EBV is een risicofactor: na Pfeiffer is het risico 2-5× zo hoog en EBV is aantoonbaar in 40% van de biopten. Maar 90% van de volwassenen heeft EBV gehad.",
+    "Chemotherapie geneest 90-95%. Regel vooraf fertiliteitsbehoud en beperk de late toxiciteit (secundaire maligniteiten)."
+   ]
+  },
+  {
+   "kop": "Hodgkin als chemo faalt (circa 5%)",
+   "punten": [
+    "Brentuximab vedotin: anti-CD30 + toxine, het paard van Troje → tubulineremming. Circa 30% krijgt een langdurige remissie.",
+    "Er zijn weinig tumorcellen in een groot T/B-celinfiltraat, en dat infiltraat wordt via PD-1/PD-L1 geremd.",
+    "Nivolumab (anti-PD-1): bijna iedereen reageert, maar de meesten worden niet schoon. Het geeft tijd, geen genezing.",
+    "Toxiciteit van checkpointremmers = auto-immuniteit: colitis, thyreoïditis (hypothyreoïdie), artritis, pneumonitis."
+   ]
+  },
+  {
+   "kop": "Non-Hodgkinlymfoom",
+   "punten": [
+    "Bijna alle NHL zijn CD20+. CD20 is een calciumkanaal op vrijwel alle rijpingsstadia van de B-cel (ook gezonde), maar niet op de jongste voorlopers en niet op plasmacellen.",
+    "Agressief: R-CHOP (met een antracycline: haaruitval, cardiotoxisch) → 60-80% genezing bij DLBCL.",
+    "Indolent: R-CVP (zonder antracycline) → langdurige remissie, geen genezing. 80% van de FL-patiënten heeft een normale levensverwachting.",
+    "CAR-T (meestal anti-CD19): leukaferese → viraal construct → kweek → lymfodepletie → infusie. Na 10 jaar is 40-50% ziektevrij. Toxiciteit: CRS en neurotoxiciteit.",
+    "Nieuw: bispecifieke antistoffen, allogene (off-the-shelf) CAR-T en in vivo CAR-T."
+   ]
+  },
+  {
+   "kop": "CLL",
+   "punten": [
+    "Een leukemie (bloed, beenmerg) die zich gedraagt als een lymfoom (klieren, milt). Vaak een toevalsbevinding (lymfocytose); de patiënt is gemiddeld 70.",
+    "Laaggradig en niet te genezen: alleen behandelen bij klachten (anemie, grote klieren, B-symptomen).",
+    "Diagnose op bloed: uitstrijk (gumprechtse schollen) + flowcytometrie: CD5+, CD19+, CD23+, zwak CD20. Geen biopt nodig.",
+    "Vaak chemoresistent, onder meer door een TP53-defect → doelgerichte therapie: ibrutinib (BTK, BCR-signalering) en venetoclax (BCL2; bij del(13q14) gaan miR-15/16 verloren).",
+    "Venetoclax → tumorlysissyndroom, dus de dosis wekelijks ophogen. Venetoclax + obinutuzumab (± ibrutinib) is beter dan chemo-immunotherapie."
+   ]
+  }
+ ],
+ "valkuilen": [
+  "Op de slide staat vermoeidheid tussen de B-symptomen. Voor de B in het Ann Arbor-stadium tellen formeel alleen koorts, nachtzweten en >10% gewichtsverlies. Nachtzweten alleen is al genoeg voor B.",
+  "Het aantal klierstations bepaalt het stadium niet: vier klieren boven het diafragma blijft stadium II. Pas ziekte aan béide kanten van het diafragma is stadium III.",
+  "Indolent betekent niet onschuldig maar ongeneeslijk; agressief betekent juist vaak te genezen. FL en CLL behandel je pas bij klachten, een agressief lymfoom in principe curatief.",
+  "CLL is de uitzondering in de diagnostiek: geen klierbiopt, geen beenmerg en geen PET-CT, maar flowcytometrie op bloed. Bij een vermoed lymfoom stel je de diagnose juist nooit met alleen cytologie: je hebt een (excisie)biopt nodig.",
+  "Respons is geen genezing: nivolumab en de small molecules (ibrutinib, venetoclax) geven veel respons, maar genezen (vrijwel) niemand. Chemo(immuno)therapie blijft de behandeling met de grootste kans op genezing.",
+  "EBV is bij Hodgkin een risicofactor, geen voorwaarde: maar 40% van de biopten is EBV-positief, terwijl 90% van de volwassenen EBV heeft gehad."
+ ],
+ "vragen": [
+  {
+   "vraag": "Een 43-jarige vrouw heeft nachtzweten en is moe. De PET-CT toont een Hodgkinlymfoom in vier klierstations in de hals en het mediastinum, allemaal boven het diafragma. Welk Ann Arbor-stadium heeft zij?",
+   "juist": "II-B",
+   "fout": [
+    "I-B",
+    "III-B",
+    "II-A"
+   ],
+   "uitleg": "Twee of meer stations aan één kant van het diafragma = stadium II. Het aantal maakt niet uit; voor III moet er ziekte aan beide kanten zijn. Nachtzweten is een B-symptoom, dus alle A-opties vallen af."
+  },
+  {
+   "vraag": "Bij een nierfunctiecontrole blijkt een 84-jarige man een leukocytose met lymfocytose te hebben. Hij heeft een kleine halsklier en voelt zich uitstekend. Wat is de meest waarschijnlijke diagnose, en wat is de juiste vervolgstap?",
+   "juist": "CLL; immunofenotypering van het bloed, en zonder klachten (nog) niet behandelen",
+   "fout": [
+    "Folliculair lymfoom; excisiebiopt van de halsklier en starten met R-CVP",
+    "CLL; PET-CT voor de stadiëring en direct starten met chemotherapie",
+    "Hodgkinlymfoom; excisiebiopt en PET-CT"
+   ],
+   "uitleg": "Oud, klachtenvrij en een lymfocytose: klassiek CLL (folliculair lymfoom geeft geen lymfocytose). De diagnose stel je met flowcytometrie op bloed (CD5+, CD19+, CD23+, zwak CD20). CLL is niet te genezen, dus je behandelt pas bij klachten. Een PET-CT heeft bij CLL geen zin."
+  },
+  {
+   "vraag": "Een 82-jarige man met CLL is gestart met venetoclax. Op de polikliniek heeft hij een creatinine van 300 µmol/l en een verhoogd kalium. Wat is de meest waarschijnlijke verklaring, en hoe wordt dit tegenwoordig voorkomen?",
+   "juist": "Een tumorlysissyndroom; de dosis venetoclax wordt wekelijks geleidelijk opgehoogd",
+   "fout": [
+    "Een glomerulonefritis door venetoclax; venetoclax combineren met prednison",
+    "Een postrenale obstructie door CLL-klieren; vooraf een CT-abdomen maken",
+    "Nefrotoxiciteit van de anti-CD20-antistof; overstappen op een BTK-remmer"
+   ],
+   "uitleg": "Venetoclax remt BCL2, waardoor CLL-cellen massaal in apoptose gaan. Daarbij komen kalium, fosfaat en urinezuur vrij → nierfalen en ritmestoornissen. Daarom bouw je de dosis per week op (met hydratie). De docent: 'dit moet u echt weten'."
+  },
+  {
+   "vraag": "Een 25-jarige man heeft een Hodgkinlymfoom dat terugkwam na chemotherapie en brentuximab vedotin. Hij wordt nu behandeld met nivolumab en krijgt heftige, waterdunne diarree. Wat is het meest waarschijnlijk?",
+   "juist": "Een immuun-gemedieerde colitis",
+   "fout": [
+    "Een salmonella-infectie",
+    "Progressie van het Hodgkinlymfoom in de darm",
+    "Overloopdiarree bij obstipatie door nivolumab"
+   ],
+   "uitleg": "Nivolumab blokkeert PD-1 en haalt zo de rem van de T-cellen, ook van autoreactieve T-cellen. Colitis is een bekende auto-immuunbijwerking, net als thyreoïditis (hypothyreoïdie), artritis en pneumonitis. Meestal is het reversibel, maar het kan ernstig zijn."
+  },
+  {
+   "vraag": "Waarom krijgt een patiënt met een symptomatisch folliculair lymfoom in Nederland meestal R-CVP, terwijl een patiënt met een DLBCL R-CHOP krijgt?",
+   "juist": "Een indolent lymfoom is niet te genezen; de antracycline (de H) voegt dan weinig toe en geeft haaruitval en cardiotoxiciteit",
+   "fout": [
+    "Doxorubicine werkt niet tegen B-cellymfomen met een t(14;18)",
+    "R-CVP geeft bij folliculair lymfoom een grotere kans op genezing dan R-CHOP",
+    "Bij DLBCL is de prednison in R-CHOP het werkzame middel tegen de tumor"
+   ],
+   "uitleg": "Bij een agressief lymfoom is genezing het doel (DLBCL: 60-80% met R-CHOP), dus accepteer je de toxiciteit van de antracycline. Bij een indolent lymfoom is het doel een langdurige remissie (80% van de FL-patiënten heeft een normale levensverwachting), dus laat je de H weg."
+  }
+ ],
+ "kaarten": [
+  {
+   "voor": "Welke klierstations onderzoek je bij verdenking op een lymfoom, en waar kijk je bij een hoge verdenking ook naar?",
+   "achter": "Hals, boven en onder de clavicula, oksels en liezen, en de milt (onder de ribbenboog). Klieren in thorax en buik kun je niet voelen.\nBij een hoge verdenking ook de mammae (vrouw) en de testes (man): zeldzame, maar mogelijke lymfoomlokalisaties.",
+   "prio": true,
+   "citaat": "Lichamelijk onderzoek met vooral alle lymfeklierstations (NB: testes, mammae)"
+  },
+  {
+   "voor": "Wat is de belangrijkste tumormarker in de hematologie, en welk bloedonderzoek vraag je aan bij verdenking op een lymfoom?",
+   "achter": "LDH (lactaatdehydrogenase). Het kan bij een lymfoom verhoogd zijn en telt mee in de IPI.\nDaarnaast een volledig bloedbeeld met leukocytendifferentiatie.",
+   "prio": true,
+   "citaat": "wat de belangrijkste tumormarker is in de hematologie in het algemeen, niet alleen voor lymfoom, is LDH, lactaatdehydrogenase."
+  },
+  {
+   "voor": "Bij welke lymfatische maligniteit heeft een PET-CT geen zin, en waarom?",
+   "achter": "Bij CLL: de cellen nemen weinig radioactief gelabeld glucose (FDG) op.\nPET-CT is zinvol bij lymfomen met een hoge glucoseopname, zoals Hodgkin: de klieren lichten dan fel op.",
+   "prio": false,
+   "citaat": "Bijvoorbeeld, chronische lymfatische leukemie, hoeft u geen scan te doen omdat deze het niet opneemt."
+  },
+  {
+   "voor": "Bij welke ziekten is een beenmergbiopt nodig, en waarom zelden nog bij een lymfoom?",
+   "achter": "Het is essentieel bij beenmergziekten zoals acute leukemie en multipel myeloom.\nBij een lymfoom is het nu zelden nodig: niet voor de diagnose, en het heeft nauwelijks invloed op de behandelkeuze.",
+   "prio": false,
+   "citaat": "Maar voor lymfoom hebben we dat tegenwoordig bijna niet meer nodig, omdat het niet meer zo belangrijk is ... voor de keuze van de behandeling ... en zeker niet meer voor de diagnose."
+  },
+  {
+   "voor": "Een jonge patiënt heeft een halsklier, is 10 kg afgevallen en zweet 's nachts. Waarom denk je eerder aan Hodgkin dan aan Burkitt?",
+   "achter": "Beide zijn agressief en geven veel klachten. Maar Burkitt is zeer zeldzaam en geeft meestal geen halsklier.\nJong + halsklier + B-symptomen is de klassieke presentatie van een Hodgkinlymfoom.",
+   "prio": true,
+   "citaat": "Burkittlymfoom heeft meestal geen [bult] in de keel. Het is ook een zeer zeldzame ziekte. ... Dit is een klassieke presentatie van iemand met een Hodgkinlymfoom."
+  },
+  {
+   "voor": "Een oudere patiënt heeft een halsklier en verhoogde witte bloedcellen, maar geen klachten. Waarom denk je aan CLL en niet aan folliculair lymfoom?",
+   "achter": "Beide zijn indolent en geven bij ouderen weinig klachten, maar alleen CLL geeft een lymfocytose.\nCLL wordt vaak toevallig gevonden bij bloedonderzoek voor iets anders (bv. een diabetes- of nierfunctiecontrole).",
+   "prio": true,
+   "citaat": "Ik zie dat veel mensen ook voor folliculair lymfoom hebben gekozen. Dat is mogelijk, maar die mensen hebben geen vergrote witte bloedcellen."
+  },
+  {
+   "voor": "Welke vijf factoren bepalen de behandelkeuze bij lymfoom en CLL?",
+   "achter": "1) Diagnose\n2) Stadium (Ann Arbor)\n3) Risicofactoren (IPI, genetica)\n4) Is genezing mogelijk (agressief of indolent)?\n5) Fitheid en leeftijd",
+   "prio": true,
+   "citaat": "Wat bepaalt de keuze voor een behandeling? Diagnose · Stadium · Risicofactoren · Genezing? · Fitheid / leeftijd"
+  },
+  {
+   "voor": "Wanneer is een Hodgkinlymfoom 'early' en wanneer 'advanced' (HC 7)?",
+   "achter": "Early: stadium I of II, niet bulky en zonder B-symptomen.\nAdvanced: bulky, stadium III of IV, óf B-symptomen.\nDeze indeling bepaalt hoe intensief je behandelt.\nLet op: dit is de vereenvoudiging van de slide. In de richtlijnen telt een B-symptoom bij stadium I-II meestal als ongunstige factor binnen het vroege stadium.",
+   "prio": true,
+   "citaat": "Specifiek voor Hodgkin: Early: stadium I of II (niet bulky), geen B symptomen. Advanced: bulky of stadium III of IV of B symptomen"
+  },
+  {
+   "voor": "Hoe groot is de kans op curatie per type lymfoombehandeling (HC 7)?",
+   "achter": "Chemo(immuno)therapie: 60-95%. Dit is nog steeds de meest effectieve behandeling.\nBij een recidief: CAR-T 40-50% (na 10 jaar nog ziektevrij), antistoffen (bv. brentuximab bij Hodgkin) circa 30%, small molecules (BTK- en BCL2-remmers) 0%: die houden de ziekte onder controle, maar genezen niet.",
+   "prio": true,
+   "citaat": "kans op curatie 60-95% / 30%* / 40-50%* / 0%* — *recidief / Kleine moleculen maken niemand echt beter."
+  },
+  {
+   "voor": "Waarom is EBV wel een risicofactor, maar geen voldoende verklaring voor het Hodgkinlymfoom?",
+   "achter": "Na een doorgemaakte Pfeiffer is het risico 2-5 keer zo hoog, en bij circa 40% van de biopten is EBV aantoonbaar.\nMaar circa 90% van alle volwassenen heeft EBV doorgemaakt, en Hodgkin blijft zeldzaam. EBV alleen is dus niet genoeg.",
+   "prio": true,
+   "citaat": "Doormaken van Pfeiffer geeft 2-5 keer verhoogd risico – In 40% van de biopten kan EBV aangetoond worden – Echter 90% van alle volwassenen heeft EBV doorgemaakt en Hodgkin nog steeds zeldzame ziekte"
+  },
+  {
+   "voor": "Hoe werkt brentuximab vedotin ('het paard van Troje')?",
+   "achter": "Een anti-CD30-antistof die gekoppeld is aan een celgif (vedotin). Het bindt aan CD30 op de Reed-Sternbergcel en wordt naar binnen getrokken; pas in de cel wordt het gif losgeknipt.\nHet gif remt de tubulinevorming, waardoor de mitose mislukt en de cel sterft. Alleen CD30-positieve cellen worden geraakt.",
+   "prio": true,
+   "citaat": "Brentuximab Vedotin: het paard van Troje / Dit actieve gif beïnvloedt de tubulinevorming."
+  },
+  {
+   "voor": "Wat doet nivolumab bij uitbehandeld Hodgkin, en waarom geneest het niet?",
+   "achter": "Nivolumab is een anti-PD-1-antistof: het heft de rem op van de T-cellen rond de Reed-Sternbergcellen. Bij vrijwel alle uitbehandelde patiënten (na chemo en brentuximab) krimpt de tumor.\nMaar de meesten worden niet volledig schoon. Er ontstaat een status quo die jaren kan duren, waarna de ziekte meestal toch doorbreekt. Het geeft tijd, geen genezing.",
+   "prio": true,
+   "citaat": "Dus dit is een behandeling die u tijd kan geven, maar helaas mensen niet beter kan maken."
+  },
+  {
+   "voor": "Welke bijwerkingen geven checkpointremmers zoals nivolumab, en hoe ontstaan ze?",
+   "achter": "Door auto-immuniteit: de rem op (autoreactieve) T-cellen valt weg.\nVaak: immuun-gemedieerde colitis (diarree) en auto-immuunthyreoïditis (uiteindelijk hypothyreoïdie). Verder o.a. artritis en pneumonitis.\nMeestal reversibel, maar soms blijvend of zelfs dodelijk.",
+   "prio": true,
+   "citaat": "Checkpoint-inhibitor toxiciteit: auto-immuniteit"
+  },
+  {
+   "voor": "Wat is CD20, en op welke B-cellen zit het wel en niet?",
+   "achter": "Een calciumkanaal in de celmembraan van B-cellen. Het zit op vrijwel alle rijpingsstadia, ook op gezonde B-cellen (rituximab ruimt die dus ook op).\nNiet op de jongste voorlopers (vaak afwezig bij B-ALL) en niet op plasmacellen (myeloom).\nBijna alle NHL zijn CD20-positief: het doelwit van rituximab.",
+   "prio": true,
+   "citaat": "Bijna alle NHL zijn CD20 positief • CD20 : Calcium kanaal in de cel membraan • CD20 is aanwezig op oppervlak verschillende stadia B-lymfocyten, dus ook niet-maligne"
+  },
+  {
+   "voor": "Wat is het verschil tussen R-CHOP en R-CVP, en wanneer kies je welke?",
+   "achter": "R-CHOP: agressief NHL (bv. DLBCL). Bevat de antracycline doxorubicine (de H) → genezing bij 60-80%.\nR-CVP: indolent NHL (bv. FL). Zonder antracycline → langdurige remissie, geen genezing.\nDe H weglaten bespaart haaruitval en cardiotoxiciteit. De P staat voor prednison.",
+   "prio": true,
+   "citaat": "R-CHOP: Met antracycline (haaruitval, cardiotoxisch), Genezing / R-CVP: Zonder antracycline, Langdurige remissie, geen genezing"
+  },
+  {
+   "voor": "Hoe wordt CAR-T-celtherapie gemaakt en gegeven?",
+   "achter": "1) Leukaferese: de T-cellen van de patiënt verzamelen\n2) In het lab met een viraal construct een chimere antigeenreceptor inbrengen (meestal tegen CD19), met een extra domein dat de T-cel sterk activeert\n3) De cellen in kweek vermenigvuldigen\n4) Lymfodepleterende chemotherapie bij de patiënt, zodat de CAR-T-cellen zonder concurrentie kunnen uitgroeien\n5) Infusie, zo simpel als een bloedtransfusie",
+   "prio": true,
+   "citaat": "CAR T cellen: patiënt-specifieke celtherapie / De zak wordt vervolgens in de patiënt [geïnfundeerd]. Zo simpel als een bloedtransfusie."
+  },
+  {
+   "voor": "Waarom is CD19 meestal het doelwit van CAR-T-cellen, en niet CD20?",
+   "achter": "CD19 zit ook op zeer jonge B-cellen (zoals bij ALL).\nEn na eerdere behandeling met anti-CD20 (rituximab) is CD20 vaak geblokkeerd of verdwenen, dus geen goed doelwit meer.",
+   "prio": false,
+   "citaat": "CD19 heeft als voordeel ten opzichte van CD20 dat het ook aanwezig is op zeer jonge cellen. ... Dus heel vaak wordt CD20 geblokkeerd of is het volledig verdwenen."
+  },
+  {
+   "voor": "Wat is het cytokine release syndroom na CAR-T, en welke andere vroege toxiciteit ken je?",
+   "achter": "CRS: de CAR-T-cellen delen sterk in het lichaam en maken veel cytokines. Dat geeft hoge koorts, tot orgaanfalen (nier, hart) en IC-opname.\nNeurotoxiciteit: van desoriëntatie (niet weten welke dag het is) tot coma en epileptische aanvallen.\nOmdat dit bekend is, wordt er snel ingegrepen (standaard: tocilizumab, een anti-IL-6-receptorantistof, en/of corticosteroïden).",
+   "prio": true,
+   "citaat": "CRS: toxiciteit door CAR T cell expansie / Dat varieert van u aankijken en niet weten welke dag het vandaag is ... tot in coma raken en epileptische aanvallen krijgen."
+  },
+  {
+   "voor": "Welke nieuwe ontwikkelingen volgen op CAR-T bij NHL?",
+   "achter": "Bispecifieke antistoffen: koppelen in de patiënt een T-cel aan een tumorcel (hetzelfde effect als CAR-T, zonder gemodificeerde cellen). Bijna dagelijkse praktijk.\nAllogene 'off the shelf' CAR-T van een donor: sneller en flexibeler (nog in studie).\nIn vivo CAR-T: een virus maakt de CAR-T-cellen in het lichaam (onderzoeksfase).",
+   "prio": false,
+   "citaat": "Nieuwe ontwikkelingen voor NHL • Bispecifieke antilichamen • Allogene (off the shelf) CART cellen • In vivo CART cel therapie"
+  },
+  {
+   "voor": "Hoe werkt ibrutinib bij CLL?",
+   "achter": "Ibrutinib remt Bruton's tyrosinekinase (BTK), een schakel in de signaalroute onder de B-celreceptor. Die signalering houdt de CLL-cel in leven en laat hem delen; als hij geremd wordt, gaat de cel eerder in apoptose.\nHet is een pil, en CLL-cellen zijn er zeer gevoelig voor.",
+   "prio": true,
+   "citaat": "Targeted therapy voor B cel maligniteiten: BTK remmers / Het remt de B-celreceptor signalering en de CLL-cellen zijn hier erg gevoelig voor."
+  },
+  {
+   "voor": "Hoe beschermt een del(13q14) de CLL-cel tegen celdood, en welk middel speelt daarop in?",
+   "achter": "Op 13q14 liggen de microRNA's miR-15 en miR-16, die de expressie van BCL2 afremmen. Door de deletie ontbreken ze → veel BCL2 → de cel gaat niet in apoptose.\nVenetoclax (een BCL2-remmer, als pil) haalt die bescherming weg, zodat de cel alsnog sterft.",
+   "prio": true,
+   "citaat": "CLL: beschermd tegen celdood door Bcl2 / miR15 miR16 / Del (13q14) / venetoclax"
+  },
+  {
+   "voor": "Waarom kan venetoclax een tumorlysissyndroom geven, en hoe voorkom je dat?",
+   "achter": "Venetoclax laat CLL-cellen zo snel sterven dat er veel kalium, fosfaat en urinezuur in het bloed komt → nierfalen en (door de hyperkaliëmie) hartritmestoornissen. In de eerste studies overleden er patiënten aan.\nPreventie: de dosis elke week een stap ophogen (plus ruime hydratie en urinezuurverlaging).",
+   "prio": true,
+   "citaat": "Maar er is ook één heel speciaal ding met venetoclax. En dit moet u echt weten ... Wat we tegenwoordig doen, is dat we de [venetoclax] elke week een beetje verhogen."
+  }
+ ],
+ "casus": [
+  {
+   "vignet": "Man, 25 jaar, met een Hodgkinlymfoom dat terugkwam na chemotherapie en brentuximab vedotin. Sinds de start van nivolumab heeft hij heftige, waterdunne diarree; hij zit de hele dag op het toilet.",
+   "diagnose": "Immuun-gemedieerde colitis door een checkpointremmer",
+   "waarom": "Anti-PD-1 haalt de rem van de T-cellen, ook van autoreactieve T-cellen. Colitis en thyreoïditis zijn de bekendste auto-immuunbijwerkingen. Ze zijn meestal reversibel, maar soms ernstig."
+  },
+  {
+   "vignet": "Man, 82 jaar, met CLL. Kort na de start van venetoclax heeft hij nierfalen (creatinine 300 µmol/l), met een hoog kalium, fosfaat en urinezuur.",
+   "diagnose": "Tumorlysissyndroom door venetoclax",
+   "waarom": "BCL2-remming laat de CLL-cellen massaal tegelijk sterven. Kalium, fosfaat en urinezuur stijgen → nierfalen en ritmestoornissen. Preventie: de dosis wekelijks ophogen, plus hydratie."
+  },
+  {
+   "vignet": "Vrouw, 58 jaar, met een recidief diffuus grootcellig B-cellymfoom. Enkele dagen na een infusie met haar eigen, genetisch aangepaste T-cellen krijgt ze hoge koorts en wordt ze verward: ze weet niet welke dag het is.",
+   "diagnose": "Cytokine release syndroom met neurotoxiciteit na CAR-T-celtherapie",
+   "waarom": "De CAR-T-cellen expanderen en maken veel cytokines: koorts, tot orgaanfalen (nier, hart). De neurotoxiciteit varieert van desoriëntatie tot coma en insulten. Behandeling: tocilizumab (anti-IL-6-receptor) en/of corticosteroïden."
+  }
+ ],
+ "tabellen": [
+  {
+   "id": "agrind",
+   "titel": "Agressief versus indolent lymfoom (HC 7)",
+   "kolommen": [
+    "Agressief",
+    "Indolent"
+   ],
+   "rijen": [
+    {
+     "rij": "Leeftijd",
+     "cellen": [
+      "Jong én oud (vooral ouder)",
+      "Oud"
+     ]
+    },
+    {
+     "rij": "Groei",
+     "cellen": [
+      "Snel",
+      "Langzaam"
+     ]
+    },
+    {
+     "rij": "Klachten",
+     "cellen": [
+      "Veel (B-symptomen)",
+      "Weinig of geen"
+     ]
+    },
+    {
+     "rij": "Sterfte onbehandeld",
+     "cellen": [
+      "Hoog",
+      "Laag"
+     ]
+    },
+    {
+     "rij": "Genezing",
+     "cellen": [
+      "Ja",
+      "Nee"
+     ]
+    },
+    {
+     "rij": "Wanneer behandelen",
+     "cellen": [
+      "Altijd, met curatief doel",
+      "Pas bij klachten"
+     ]
+    },
+    {
+     "rij": "Voorbeelden",
+     "cellen": [
+      "Hodgkin, DLBCL, Burkitt",
+      "FL, CLL, marginale zone"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "doelwit",
+   "titel": "Doelgerichte en immunotherapie bij lymfoom en CLL (HC 7)",
+   "kolommen": [
+    "Doelwit",
+    "Gebruikt bij (HC 7)"
+   ],
+   "rijen": [
+    {
+     "rij": "Rituximab",
+     "cellen": [
+      "CD20",
+      "B-NHL (R-CHOP, R-CVP)"
+     ]
+    },
+    {
+     "rij": "Obinutuzumab",
+     "cellen": [
+      "CD20",
+      "CLL, met venetoclax"
+     ]
+    },
+    {
+     "rij": "Brentuximab vedotin",
+     "cellen": [
+      "CD30",
+      "Hodgkin bij falen van chemo"
+     ]
+    },
+    {
+     "rij": "Nivolumab",
+     "cellen": [
+      "PD-1",
+      "Hodgkin na chemo en brentuximab"
+     ]
+    },
+    {
+     "rij": "CAR-T-cellen",
+     "cellen": [
+      "Meestal CD19",
+      "Recidief of refractair NHL"
+     ]
+    },
+    {
+     "rij": "Ibrutinib",
+     "cellen": [
+      "BTK",
+      "CLL (en andere B-celmaligniteiten)"
+     ]
+    },
+    {
+     "rij": "Venetoclax",
+     "cellen": [
+      "BCL2",
+      "CLL"
+     ]
+    }
+   ]
+  }
+ ],
+ "tentamentips": [
+  {
+   "citaat": "Maar er is ook één heel speciaal ding met venetoclax. En dit moet u echt weten, dus dit zal waarschijnlijk een vraag zijn.",
+   "betekenis": "Venetoclax = tumorlysissyndroom. Ken het mechanisme (snelle celdood → kalium, fosfaat en urinezuur ↑ → nierfalen, ritmestoornis) en de preventie (dosis wekelijks ophogen)."
+  },
+  {
+   "citaat": "Dit is het deel dat ik belangrijk vind, nadenkend over wat voor symptomen iemand kan hebben en aan welke ziekte diegene lijdt.",
+   "betekenis": "Herken het lymfoom aan de presentatie: jong + halsklier + B-symptomen = Hodgkin; oud + lymfocytose + geen klachten = CLL."
+  },
+  {
+   "citaat": "En wat ik belangrijker vind, is dat u weet, als u naar een patiënt kijkt, wat voor soort lymfoom is dat? Is dat een zeer agressief lymfoom of is dat een zeer indolent lymfoom?",
+   "betekenis": "Ken de tabel agressief versus indolent (leeftijd, groei, klachten, sterfte, genezing, voorbeelden). Het exacte subtype is volgens de docent minder belangrijk voor het begrip."
+  },
+  {
+   "citaat": "Maar gebruik nooit een dunne naald om cellen op te zuigen. De architectuur van zo'n lymfeklier is erg belangrijk.",
+   "betekenis": "De diagnose lymfoom stel je met een excisie- of dikke-naaldbiopt, nooit met cytologie."
+  },
+  {
+   "citaat": "Dit zijn B-symptomen, dus het moet minimaal B zijn. Dus alle A's zijn al fout.",
+   "betekenis": "Bij een stadiumvraag bepaal je eerst A of B (zijn er B-symptomen?) en tel je daarna de kanten van het diafragma, niet het aantal klieren."
+  },
+  {
+   "citaat": "U moet uitsluiten dat het een immuungemedieerde colitis is.",
+   "betekenis": "Diarree onder een checkpointremmer (nivolumab) is een immuun-gemedieerde colitis tot het tegendeel bewezen is; ken ook de andere auto-immuunbijwerkingen (thyreoïditis)."
+  },
+  {
+   "citaat": "Kleine moleculen maken niemand echt beter. Ze zijn prettig voor bepaalde symptomen, maar niet om iemand beter te maken.",
+   "betekenis": "Ken het verschil tussen respons en genezing: chemo(immuno)therapie 60-95%, CAR-T 40-50%, antistoffen 30%, small molecules 0%."
+  },
+  {
+   "citaat": "Wat moet ik weten over lymfoom en CLL? Wat zijn de echte basisprincipes? ... Dus eigenlijk is het een soort lymfoom en CLL voor dummies.",
+   "betekenis": "De basisprincipes zijn de kern. De 'sciencefiction' (in-house, allogene en in vivo CAR-T) is verdieping."
+  }
+ ],
+ "prio_guids": [
+  {
+   "guid": "yZ~E(F(J:y",
+   "waarom": "B-symptomen: de docent begint ermee; ze bepalen de A/B van het stadium en of een Hodgkin 'early' of 'advanced' is."
+  },
+  {
+   "guid": "D1p-kJea*p",
+   "waarom": "Ann Arbor-stadiëring: een stadiumvraag zat in de collegequiz."
+  },
+  {
+   "guid": "n*K4WHd!vz",
+   "waarom": "IPI: staat op de slide als dé klinische risicoscore."
+  },
+  {
+   "guid": "yv0_kIF#vw",
+   "waarom": "Diagnostiek: excisiebiopt, nooit cytologie; de docent benadrukt dit."
+  },
+  {
+   "guid": "e<#POun=%a",
+   "waarom": "Indolent NHL: kernprincipe 'agressief versus indolent' ('wat ik belangrijker vind')."
+  },
+  {
+   "guid": "mm]$?y7.|N",
+   "waarom": "Agressief NHL: kernprincipe 'agressief versus indolent'."
+  },
+  {
+   "guid": "P/.Sqy[(7W",
+   "waarom": "Diagnose CLL op bloed (gumprechtse schollen, flowcytometrie): uitgebreid besproken."
+  },
+  {
+   "guid": "t`BCRxod}*",
+   "waarom": "Immunofenotype van CLL staat letterlijk op de slide."
+  },
+  {
+   "guid": "zqps;m%=?q",
+   "waarom": "CLL als toevalsbevinding bij een oudere zonder klachten: een quizcasus in het college."
+  },
+  {
+   "guid": "dqhY$(Oq!,",
+   "waarom": "CLL alleen behandelen bij klachten: een kernboodschap."
+  },
+  {
+   "guid": "y~Y(rOG5;3",
+   "waarom": "p53-defect als oorzaak van chemoresistentie bij CLL: uitgebreid uitgelegd."
+  },
+  {
+   "guid": "FvwQ]%-pGX",
+   "waarom": "Chemovrije, doelgerichte behandeling van CLL: het slot van het college."
+  },
+  {
+   "guid": "LP{R_IH!Yv",
+   "waarom": "PD-1/PD-L1 bij Hodgkin: de basis voor nivolumab en zijn bijwerkingen."
+  },
+  {
+   "guid": "uk[9vCE.X]",
+   "waarom": "Klein aantal tumorcellen in een groot reactief infiltraat, met immuunontsnapping: expliciet besproken."
+  },
+  {
+   "guid": "K?^IaB^gL>",
+   "waarom": "Brentuximab vedotin en checkpointremmers: twee slides en een quizvraag."
+  },
+  {
+   "guid": "Nd~J4f%E!r",
+   "waarom": "De rol van EBV bij Hodgkin staat op een aparte slide."
+  },
+  {
+   "guid": "cLa|9PFqkf",
+   "waarom": "Bimodale leeftijdsverdeling van Hodgkin: staat op de slide en in het leerdoel."
+  },
+  {
+   "guid": "o9cq}^]30Q",
+   "waarom": "Hodgkin als 'succesverhaal' (90-95% genezing) staat op de slide 'grote kans op genezing'."
+  },
+  {
+   "guid": "MD@w#Zu)|U",
+   "waarom": "R-CHOP als standaard voor agressief NHL (DLBCL)."
+  },
+  {
+   "guid": "wR]1_[jD<k",
+   "waarom": "Late toxiciteit en infertiliteit na Hodgkinbehandeling: de docent benadrukt fertiliteitsbehoud."
+  },
+  {
+   "guid": "IE-8ZgRC$V",
+   "waarom": "PET-CT is de standaard voor de stadiëring; die van de casus werd in het college besproken."
+  }
+ ],
+ "correcties": [
+  {
+   "guid": "o9cq}^]30Q",
+   "huidig": "Zeer goed: stadium I-II circa 95%, stadium III-IV circa 70-80% vijfjaarsoverleving. Beïnvloed door stadium, B-symptomen, bulk (mediastinum/thorax-ratio >1/3), leeftijd en bij gevorderd stadium de IPS-score. Sterkste voorspeller: de interim-PET na 2 kuren.",
+   "voorstel": "Zeer goed: met de huidige combinatiechemotherapie geneest 90-95% van de patiënten (HC 7); in een vroeg stadium is de kans nog iets groter dan in een gevorderd stadium.\nBeïnvloed door stadium, B-symptomen, bulk (mediastinum/thorax-ratio >1/3), leeftijd en bij gevorderd stadium de IPS-score. Sterkste voorspeller: de interim-PET na 2 kuren.\nVoor de circa 5% bij wie chemotherapie faalt, zijn er opties als brentuximab vedotin en checkpointremmers.",
+   "citaat": "Met de huidige combinatie van chemotherapie maken we 90-95% van alle Hodgkinpatiënten beter. ... Maar er is ook 5% van de mensen voor wie dit helemaal niet fantastisch is en voor wie dit niet werkt."
+  },
+  {
+   "guid": "Gg*7R$DY!",
+   "huidig": "Excisiebiopt met immunohistochemie, flowcytometrie en cytogenetica/FISH; PET-CT; lab met LDH en bèta-2-microglobuline; beenmergonderzoek; lumbaalpunctie bij CZS-risico. Verschil: bij NHL is beenmergonderzoek veel vaker nodig (indolente lymfomen zijn niet altijd PET-avide), bij Hodgkin is een adequate PET-CT voldoende",
+   "voorstel": "Biopt: excisie of dikke naald (nooit cytologie), met immunohistochemie, flowcytometrie en cytogenetica/FISH/moleculair onderzoek.\nBeeldvorming: CT hals-thorax-abdomen en PET-CT.\nLab: bloedbeeld met differentiatie, LDH en bèta-2-microglobuline. Lumbaalpunctie bij CZS-risico.\nVerschil met Hodgkin: bij (vooral indolent) NHL is soms nog een beenmergbiopt nodig, omdat niet elk NHL PET-avide is; bij Hodgkin (en DLBCL) volstaat een adequate PET-CT. Volgens HC 7 is een beenmergbiopt bij lymfoom zelden nog nodig.",
+   "citaat": "Excisie vergrote klier, evt biopt maar nooit cytologie / Maar voor lymfoom hebben we dat tegenwoordig bijna niet meer nodig, omdat het niet meer zo belangrijk is, naar de huidige inzichten, voor de keuze van de behandeling die u gaat maken, en zeker niet meer voor de diagnose."
+  },
+  {
+   "guid": "jwmGWZ+Q{I",
+   "huidig": "Circa 30-35% van alle lymfomen, mediane leeftijd 60-65 jaar, komt ook bij kinderen voor. Chemo-immunotherapie is curatief bij circa 60%: circa 80% genezing in stadium II en 30-80% in stadium III-IV, afhankelijk van de IPI",
+   "voorstel": "Circa 30-35% van alle lymfomen; mediane leeftijd 60-65 jaar, komt ook bij kinderen voor.\nMet R-CHOP geneest circa 60-80% (HC 7): circa 80% in stadium II en 30-80% in stadium III-IV, afhankelijk van de IPI.",
+   "citaat": "*60-80% kans op genezing (diffuus grootcellig B-cel lymfoom)"
+  },
+  {
+   "guid": "wR]1_[jD<k",
+   "huidig": "Secundaire maligniteiten (mammacarcinoom na mediastinale bestraling, longcarcinoom, MDS/AML), cardiovasculaire schade (antracyclines, bestraling), longfibrose (bleomycine), hypothyreoïdie, infertiliteit, chronische vermoeidheid",
+   "voorstel": "Secundaire maligniteiten (mammacarcinoom na mediastinale bestraling, longcarcinoom, MDS/AML), cardiovasculaire schade (antracyclines, bestraling), longfibrose (bleomycine), hypothyreoïdie, infertiliteit, chronische vermoeidheid.\nOmdat de patiënten vaak jong zijn en meestal genezen, wegen deze late effecten zwaar (HC 7). Regel daarom vóór de start fertiliteitsbehoud: sperma, (bij voorkeur bevruchte) eicellen of ovariumweefsel invriezen.",
+   "citaat": "Dus voordat u met een behandeling begint, moet u nadenken over het behoud van de vruchtbaarheid. ... Voor mannen is het relatief eenvoudig, u bevriest gewoon wat sperma. ... bij voorkeur bevruchte eicellen of zelfs hele eierstokken"
+  },
+  {
+   "guid": "n*K4WHd!vz",
+   "huidig": "- Leeftijd >60 jaar - LDH verhoogd - ECOG-performance status ≥2 - Ann Arbor-stadium III/IV - >1 extranodale lokalisatie",
+   "voorstel": "- Leeftijd >60 jaar\n- LDH verhoogd\n- ECOG-performance status ≥2\n- Ann Arbor-stadium III/IV\n- >1 extranodale lokalisatie\nHoe meer factoren, hoe slechter de prognose en (in theorie) hoe intensiever de behandeling.",
+   "citaat": "Hoe hoger de score, hoe meer ongunstige kenmerken een dergelijke patiënt heeft. Dus hoe intensiever u zo'n patiënt in theorie moet behandelen"
+  },
+  {
+   "guid": "i~<{SOhM~8",
+   "huidig": "Circa 20% van alle lymfomen, mediane leeftijd boven de 65. Overleving 10-25 jaar en hoge vijfjaarsoverleving, maar geen curatie mogelijk; prognose volgens de FLIPI-score. Risico op Richter-transformatie naar DLBCL, wat de prognose sterk verslechtert",
+   "voorstel": "Circa 20% van alle lymfomen, mediane leeftijd boven de 65.\nNiet te genezen, maar circa 80% heeft een normale levensverwachting (HC 7); overleving 10-25 jaar. Prognose volgens de FLIPI-score.\nRisico op transformatie naar DLBCL, wat de prognose sterk verslechtert.",
+   "citaat": "** 80% heeft normale levensverwachting (folliculair lymfoom)"
+  },
+  {
+   "guid": "FvwQ]%-pGX",
+   "huidig": "Doelgerichte therapie is eerste keus: BTK-remmers (ibrutinib, acalabrutinib, zanubrutinib) of venetoclax (BCL2-remmer) gecombineerd met een anti-CD20-antistof (obinutuzumab). Verder: PI3K-remmers, CAR-T en allogene stamceltransplantatie bij jonge hoogrisicopatiënten",
+   "voorstel": "Chemovrij, met doelgerichte therapie als eerste keus: een BTK-remmer (ibrutinib, acalabrutinib, zanubrutinib), of venetoclax (BCL2-remmer) in combinatie met obinutuzumab (anti-CD20) of met ibrutinib.\nDit is effectiever dan chemo-immunotherapie en geeft minder bijwerkingen; chemotherapie wordt bij CLL nauwelijks nog gebruikt (HC 7).\nVerder: PI3K-remmers, CAR-T en allogene stamceltransplantatie bij jonge hoogrisicopatiënten.",
+   "citaat": "Venetoclax + obinutuzumab (+ibrutinib): beter dan R-chemo / Dus over het algemeen kunt u zeggen dat CLL-patiënten wereldwijd niet meer met chemotherapie worden behandeld en veel meer met doelgerichte therapie."
+  },
+  {
+   "guid": "LIukzdL:AX",
+   "huidig": "Lymfeklierbiopt met diffuse velden grote B-cellen; de follikelarchitectuur is verdwenen. Markers CD20+, CD19+, BCL6+, hoge Ki67. FISH naar MYC, BCL2 en BCL6 voor double hit. Verder PET-CT, beenmergonderzoek, LDH en IPI-score",
+   "voorstel": "Lymfeklierbiopt met diffuse velden grote B-cellen; de follikelarchitectuur is verdwenen. Markers CD20+, CD19+, BCL6+, hoge Ki67. FISH naar MYC, BCL2 en BCL6 voor double hit.\nVerder PET-CT (maakt een beenmergbiopt meestal overbodig), LDH en IPI-score.",
+   "citaat": "Maar voor lymfoom hebben we dat tegenwoordig bijna niet meer nodig, omdat het niet meer zo belangrijk is, naar de huidige inzichten, voor de keuze van de behandeling die u gaat maken, en zeker niet meer voor de diagnose."
+  }
+ ],
+ "koppeling": [
+  {
+   "guid": "FM=MT0S|k}",
+   "college": "HC10"
+  },
+  {
+   "guid": "L{&~wveQ;L",
+   "college": "HC10"
+  },
+  {
+   "guid": "x}cfw[K}^o",
+   "college": "HC10"
+  },
+  {
+   "guid": "xSU&)hx?vb",
+   "college": "HC10"
+  },
+  {
+   "guid": "j3@#RW*8*J",
+   "college": "HC10"
+  },
+  {
+   "guid": "gzc3x-1f4a6734b6ce",
+   "college": "HC10"
+  },
+  {
+   "guid": "gzc3x-f2865325af25",
+   "college": "HC10"
+  },
+  {
+   "guid": "gzc3x-5cb2ffbe4e74",
+   "college": "HC10"
+  },
+  {
+   "guid": "gzc3x-b0a4b825d8c5",
+   "college": "HC10"
+  },
+  {
+   "guid": "gzc3x-dd4a29f2dbf3",
+   "college": "HC10"
+  },
+  {
+   "guid": "gzc3x-cc8b992193fd",
+   "college": "HC10"
+  },
+  {
+   "guid": "gzc3chk-a4b3bf69e8a7",
+   "college": "HC5"
+  },
+  {
+   "guid": "uk[9vCE.X]",
+   "college": "HC7"
+  }
+ ],
+ "afgewezen": [
+  {
+   "wat": "Kaart 'Wie was Thomas Hodgkin?'",
+   "reden": "Pure trivia (de openingsquiz), geen leerdoel."
+  },
+  {
+   "wat": "Kaart 'Met welke biopsietechniek stel je de diagnose lymfoom, en welke gebruik je juist niet?'",
+   "reden": "Dubbeling: 'excisiebiopt, geen cytologie, architectuur nodig' staat al in yv0_kIF#vw en gzc3chk-dcbda6250990. Het dikke-naaldbiopt is via de correctie op Gg*7R$DY! toegevoegd."
+  },
+  {
+   "wat": "Kaart 'Welke opname op een FDG-PET is normaal en wijst niet op een lymfoom?'",
+   "reden": "Trivia, en misleidend: tonsillen kunnen juist een lymfoomlokalisatie zijn (casus 2.2: vergrote tonsillen bij FL). Blaas, hersenen en hart komen niet uit het college."
+  },
+  {
+   "wat": "Kaart 'Waarom behandel je een agressief lymfoom altijd met de bedoeling te genezen, en een indolent lymfoom pas bij klachten?'",
+   "reden": "Dubbeling met e<#POun=%a, mm]$?y7.|N en de tabel agrind. Die tabel heeft nu de rij 'Wanneer behandelen'. 'Altijd' is bovendien te absoluut."
+  },
+  {
+   "wat": "Kaart 'Wat betekent een hoge IPI-score voor de patiënt en de behandeling?'",
+   "reden": "Te dun voor een eigen kaart; als één regel toegevoegd aan de bestaande IPI-kaart n*K4WHd!vz (correctie)."
+  },
+  {
+   "wat": "Kaart 'Welk genetisch onderzoek gebruik je bij een lymfoom voor de risico-inschatting?'",
+   "reden": "Dubbeling met CTY)oVV};, (HC 5: karyotypering, FISH, PCR, NGS). Staat in de kapstok."
+  },
+  {
+   "wat": "Kaart 'Is het Hodgkinlymfoom vooral een ziekte van jongeren?'",
+   "reden": "Dubbeling met cLa|9PFqkf (bimodale verdeling), en een ja/nee-vraag. De nuance 'tweede piek volgens de docent de hoogste' staat in de kapstok."
+  },
+  {
+   "wat": "Kaart 'Wat regel je vóór de start van chemotherapie bij een jonge patiënt met Hodgkin?'",
+   "reden": "Dubbeling met N!SY+n*[kK (fertiliteitspreservatie bij AYA's, met dezelfde opties). De Hodgkinspecifieke boodschap is via een correctie toegevoegd aan wR]1_[jD<k, waar infertiliteit al als laat effect staat."
+  },
+  {
+   "wat": "Kaart 'Wat bereik je met brentuximab vedotin bij een Hodgkinlymfoom dat niet op chemotherapie reageert?'",
+   "reden": "Dubbeling met de curatiekaart ('antistoffen (bv. brentuximab bij Hodgkin) circa 30%') en de correctie op o9cq}^]30Q (5% faalt op chemo)."
+  },
+  {
+   "wat": "Kaart 'Wat is de levensverwachting bij folliculair lymfoom?'",
+   "reden": "Een losse getalkaart; het getal (80% normale levensverwachting) is toegevoegd aan de bestaande prognosekaart i~<{SOhM~8. Daar staat nu ook 'transformatie' in plaats van 'Richter-transformatie', want die term hoort bij CLL."
+  },
+  {
+   "wat": "Kaart 'Waar let je naast de leeftijd op bij de behandelkeuze voor een CLL-patiënt?'",
+   "reden": "Dubbeling met de nieuwe kaart over de vijf factoren (fitheid/leeftijd) en met tfwO+>3.:L (HC 13). Bovendien nauwelijks toetsbaar."
+  },
+  {
+   "wat": "Kaart 'Waarom wordt CLL tegenwoordig nauwelijks nog met chemotherapie behandeld?'",
+   "reden": "Dubbeling met FvwQ]%-pGX en y~Y(rOG5;3. 'Veel CLL is resistent door een TP53-defect' is overdreven: een TP53-afwijking komt maar bij een minderheid voor. De kernboodschap ('beter dan chemo-immunotherapie, minder bijwerkingen') staat nu via een correctie in FvwQ]%-pGX."
+  },
+  {
+   "wat": "Kaart 'Op basis waarvan deelt de WHO-classificatie lymfoïde neoplasmata in?'",
+   "reden": "Dubbeling met yx}oxR*4:8 (HC 5). Het citaat was alleen een blokboekleerdoel; de stof komt niet uit de slides of het transcript."
+  },
+  {
+   "wat": "Casus 'Man, 84 jaar, lymfocytose bij nierfunctiecontrole' (CLL)",
+   "reden": "Dubbeling met de bestaande CLL-casus gzc3x-8d2ff63cb938 en de nieuwe kaart 'CLL versus FL'. Dezelfde situatie staat ook al als controlevraag 2."
+  },
+  {
+   "wat": "prio_guid s8O/RD/SWZ (tumorlysissyndroom)",
+   "reden": "Staat niet in kaarten_HC7.tsv of kaarten_HC10.tsv maar in kaarten_HC9.tsv. Prio alleen op kaarten van dit college."
+  },
+  {
+   "wat": "Tabel agrind, rij 'Chemo bij B-NHL'",
+   "reden": "Staat niet in de slidetabel en dubbelt de kaart over R-CHOP en R-CVP. Vervangen door de rij 'Wanneer behandelen'."
+  },
+  {
+   "wat": "Tabel doelwit, kolommen 'Werking' en 'Onthoud'",
+   "reden": "'Onthoud' had geen eenduidig antwoord (bv. 'Paard van Troje; Hodgkin', 'Pil; CLL zeer gevoelig'), dus elke cel werd een ambigue kaart. 'Werking' dubbelde de losse mechanismekaarten. Vervangen door de kolom 'Gebruikt bij (HC 7)', met obinutuzumab als aparte rij."
+  },
+  {
+   "wat": "Kern van vijf zinnen",
+   "reden": "Het schema vraagt twee of drie zinnen; samengevoegd tot drie."
+  },
+  {
+   "wat": "In de uitleg van controlevraag 1 de zin 'Volgens het college is dit door de B-symptomen een advanced Hodgkin'",
+   "reden": "Overbodig voor de vraag, en verwarrend naast gzc3chk-65d817e796da (B-symptomen als ongunstige factor binnen het vroege stadium). De nuance staat nu op de early/advanced-kaart."
+  },
+  {
+   "wat": "Formuleringen in kapstok en kaarten: 'vaak chemoresistent door een TP53-defect', 'nivolumab: zelden volledig', 'CD20 niet op voorlopers', 'gumprechtse schaduwen', 'agressief altijd curatief', 'small molecules verlichten de klachten', 'vrijwel alle patiënten reageren'",
+   "reden": "Te stellig of onnauwkeurig. Nu: 'onder meer door een TP53-defect', 'de meesten worden niet schoon', 'niet op de jongste voorlopers (vaak afwezig bij B-ALL)', 'gumprechtse schollen' (zoals het blokboek en de bestaande kaarten), 'in principe curatief', 'houden de ziekte onder controle, maar genezen niet', 'bij vrijwel iedereen krimpt de tumor'."
+  },
+  {
+   "wat": "In de correctie op o9cq}^]30Q: 'dan volgen brentuximab vedotin of een checkpointremmer'",
+   "reden": "Botst met oK0yErMowb (eerst salvagechemotherapie en autologe SCT). Geherformuleerd als 'er zijn opties als ...'."
+  },
+  {
+   "wat": "In de correctie op jwmGWZ+Q{I de zin over CAR-T bij een recidief (40-50%)",
+   "reden": "Dubbeling met de nieuwe curatiekaart."
+  },
+  {
+   "wat": "In de kaart over nieuwe ontwikkelingen de zin over in-house CAR-T-productie in het UMC Utrecht",
+   "reden": "Pure trivia; volgens de docent zelf 'sciencefiction'."
+  },
+  {
+   "wat": "In de CRS-kaart en -casus 'tocilizumab en corticosteroïden' als vaste combinatie",
+   "reden": "Neurotoxiciteit reageert vooral op corticosteroïden, CRS vooral op tocilizumab. Daarom 'en/of'. (Het transcript zegt 'antidepressiva', een evidente transcriptiefout.)"
+  }
+ ]
+}

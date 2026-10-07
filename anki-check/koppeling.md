@@ -199,7 +199,7 @@ De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een n
 - 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Behandeling bij Hemofilie B [tabel]
 - 📊 Vergelijk Erfelijke bloedingsziekten Vul in: Behandeling bij Von Willebrand [tabel]
 
-## HC5 (19 kaarten)
+## HC5 (20 kaarten)
 
 - Hoe worden hematologische maligniteiten ingedeeld naar cell of origin?
 - Wat is de rol van flowcytometrie bij hematologische maligniteiten?
@@ -220,6 +220,7 @@ De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een n
 - 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
 - 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
 - 🧩 Schema Waar ontstaan de hematologische maligniteiten? Wat hoort op de plek van het ? [schema]
+- Welke infecties zijn geassocieerd met lymfomen?
 
 ## HC6 (39 kaarten)
 
@@ -263,7 +264,7 @@ De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een n
 - 📊 Vergelijk Myeloproliferatieve neoplasmata Vul in: Behandeling bij Myelofibrose [tabel]
 - 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij CML [tabel]
 
-## HC7 (80 kaarten)
+## HC7 (69 kaarten)
 
 - Wat is de rol van PET-CT bij lymfatische maligniteiten?
 - Wat is de incidentie en leeftijdsverdeling van het Hodgkinlymfoom?
@@ -271,7 +272,6 @@ De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een n
 - Hoe verloopt de diagnostiek van het Hodgkinlymfoom?
 - Wat is het natuurlijk beloop en verspreidingspatroon van het Hodgkinlymfoom?
 - Wat is de mogelijke rol van EBV in de pathogenese van het Hodgkinlymfoom?
-- Uit welk deel van de lymfopoiese ontstaat het Hodgkinlymfoom?
 - Wat is de rol van PD1/PD-L1 bij het Hodgkinlymfoom?
 - Wat kenmerkt het nodulair lymfocyten-predominante Hodgkinlymfoom (NLPHL)?
 - Waarom vindt stadiëringsonderzoek plaats en welke stadia-indeling wordt gebruikt?
@@ -303,10 +303,6 @@ De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een n
 - Wat zijn vaak voorkomende lokalisaties van een MALT-lymfoom en de bijbehorende prikkel?
 - Wat zijn B-symptomen en waarom zijn ze van belang?
 - Vergelijk Hodgkin- en non-Hodgkinlymfoom op hoofdlijnen
-- Wat kenmerkt hairy cell leukemie?
-- Wat kenmerkt het mantelcellymfoom?
-- Welke drie vormen van het Burkitt-lymfoom zijn er?
-- Welke T-cellymfomen moet je kennen?
 - Wat is de relatie tussen immuundeficiëntie en maligne lymfomen?
 - Wat is de Richter-transformatie?
 - CLL — incidentie en prognose?
@@ -323,16 +319,12 @@ De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een n
 - Wanneer doe je een biopsie van een vergrote lymfeklier?
 - Welke factoren zijn ongunstig bij een Hodgkinlymfoom in vroeg stadium?
 - Casus 2.2: wat is de FLIPI-score van de 56-jarige man met een folliculair lymfoom in alle klierstations en het beenmerg (lab normaal)?
-- Welke infecties zijn geassocieerd met lymfomen?
 - 🕵️ Wie ben ik? Man, 68 jaar, moe, vergrote halsklieren. Lymfocyten 55 × 10⁹/l, monotone kleine lymfocyten met gumprechtse schollen. CD5+, CD
 - 🕵️ Wie ben ik? Vrouw, 30 jaar, nachtzweten, koorts en 7 kg afgevallen. Pijnloze halsklieren die pijn doen na alcohol. Thorax: breed mediasti
 - 🕵️ Wie ben ik? Man, 35 jaar, één langzaam groeiende halsklier, verder klachtenvrij. Biopt: popcorncellen die CD20+ zijn en CD30− en CD15−.
 - 🕵️ Wie ben ik? Man, 56 jaar, al een jaar pijnloze klieren in hals, oksels en liezen, voelt zich goed. Biopt: follikelvormige groei, CD10+ BC
 - 🕵️ Wie ben ik? Vrouw, 65 jaar, halszwelling die in enkele weken hard groeit, met koorts en nachtzweten. LDH sterk verhoogd. Biopt: diffuse v
-- 🕵️ Wie ben ik? Jongen, 10 jaar, snel groeiende buikmassa bij de overgang van dunne naar dikke darm, met invaginatie. Biopt: starry sky-beeld
 - 🕵️ Wie ben ik? Vrouw, 60 jaar, al lang maagklachten, H. pylori positief. Maagbiopt: kleine lymfocyten die de klierbuizen infiltreren (lymfo-
-- 🕵️ Wie ben ik? Man, 62 jaar, gegeneraliseerde lymfadenopathie, splenomegalie en beenmergbetrokkenheid. B-cellen CD5+, CD23−, cycline D1+, t(
-- 🕵️ Wie ben ik? Man, 50 jaar, enorme milt zonder vergrote klieren, pancytopenie. Beenmergaspiraat: dry tap. Cellen met haarachtige uitlopers,
 - 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Markers bij Klassiek Hodgkin [tabel]
 - 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Markers bij NLPHL [tabel]
 - 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Markers bij Non-Hodgkin [tabel]
@@ -342,9 +334,7 @@ De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een n
 - 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Leeftijd bij Klassiek Hodgkin [tabel]
 - 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Leeftijd bij NLPHL [tabel]
 - 📊 Vergelijk Hodgkin vs. non-Hodgkin (blokboek tabel 1) Vul in: Leeftijd bij Non-Hodgkin [tabel]
-- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Burkitt-lymfoom [tabel]
-- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Folliculair lymfoom [tabel]
-- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Mantelcellymfoom [tabel]
+- Wat is de rol van de andere immuuncellen in de lymfeklier bij Hodgkin?
 
 ## HC8 (43 kaarten)
 
@@ -434,16 +424,98 @@ De add-on zet deze indeling als tag `college::HCx` op je kaarten. Klopt er een n
 - 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Kinder-ALL (gunstig) [tabel]
 - 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij AML (gunstig) [tabel]
 
-## HC10 (7 kaarten)
+## HC10 (17 kaarten)
 
+- Uit welk deel van de lymfopoiese ontstaat het Hodgkinlymfoom?
+- Wat kenmerkt hairy cell leukemie?
+- Wat kenmerkt het mantelcellymfoom?
+- Welke drie vormen van het Burkitt-lymfoom zijn er?
+- Welke T-cellymfomen moet je kennen?
+- 🕵️ Wie ben ik? Jongen, 10 jaar, snel groeiende buikmassa bij de overgang van dunne naar dikke darm, met invaginatie. Biopt: starry sky-beeld
+- 🕵️ Wie ben ik? Man, 62 jaar, gegeneraliseerde lymfadenopathie, splenomegalie en beenmergbetrokkenheid. B-cellen CD5+, CD23−, cycline D1+, t(
+- 🕵️ Wie ben ik? Man, 50 jaar, enorme milt zonder vergrote klieren, pancytopenie. Beenmergaspiraat: dry tap. Cellen met haarachtige uitlopers,
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Burkitt-lymfoom [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Folliculair lymfoom [tabel]
+- 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Mantelcellymfoom [tabel]
 - Wat zijn de morfologische kenmerken van het klassieke Hodgkinlymfoom?
-- Wat is de rol van de andere immuuncellen in de lymfeklier bij Hodgkin?
 - Welke markers brengt het klassieke Hodgkinlymfoom tot expressie?
 - Welke varianten van de Reed-Sternbergcel zijn er?
 - Wat zijn lymfo-epitheliale laesies?
 - Wat kenmerkt mycosis fungoides en het Sézary-syndroom?
 - 🕵️ Wie ben ik? Man, 55 jaar, al jaren eczeemplekken in het zwembroekgebied die tijdelijk op steroïdzalf reageren, nu verheven plaques. Biopt
 
-## HC11 (1 kaarten)
+## HC11 (54 kaarten)
 
 - 📊 Vergelijk Translocaties die je moet kennen Vul in: Translocatie + gen bij Ewing-sarcoom [tabel]
+- Hoe is de epidemiologie van leukemie op de kinderleeftijd?
+- Wat zijn de meest voorkomende solide tumoren op de kinderleeftijd?
+- Welke chromosomale en moleculaire afwijkingen horen bij maligniteiten op de kinderleeftijd?
+- Wat is de rol van chirurgie en radiotherapie bij solide tumoren bij kinderen?
+- Beschrijf de verschillende vormen van leukemie op de kinderleeftijd — en is dit anders dan bij volwassenen?
+- Beschrijf het diagnostisch proces bij verdenking op leukemie bij kinderen
+- Beschrijf de extramedullaire lokalisaties van ALL en AML
+- Wat zijn de belangrijkste prognostische factoren bij ALL op de kinderleeftijd?
+- Geef prognostisch gunstige en ongunstige cytogenetische afwijkingen bij ALL en AML bij kinderen
+- Wat zijn de belangrijkste mechanistische effecten van allogene stamceltransplantatie bij maligne ziekten?
+- Wanneer wordt stamceltransplantatie toegepast bij kinderen met leukemie, en wat zijn andere indicaties?
+- Wat is de prognose van ALL bij kinderen, en hoe verschilt die van ALL op volwassen leeftijd?
+- Wat zijn acute complicaties van anthracyclines, vincristine, corticosteroïden en asparaginase?
+- Geef een DD van een zwelling in de buik bij jonge kinderen
+- Waar gaat het neuroblastoom van uit?
+- Met welke klachten kan een neuroblastoom zich presenteren?
+- Hoe verloopt de diagnostiek van het neuroblastoom?
+- Hoe wordt een neuroblastoom behandeld?
+- Beschrijf MIBG-therapie
+- Beschrijf het idee achter therapie met cis-retinoïnezuur bij neuroblastoom
+- Wat is de prognose van een neuroblastoom en welke prognostische factoren zijn er?
+- Wat zijn de belangrijkste verschillen tussen kinderoncologie en volwassenoncologie?
+- Hoe verloopt de diagnostiek van solide tumoren bij kinderen?
+- Hoeveel kinderen krijgen jaarlijks kanker in Nederland?
+- Waarom is screening op leukemie bij kinderen niet zinvol, en bij welke kindertumoren wel?
+- Wat is MRD-onderzoek bij kinderleukemie en wanneer wordt het gedaan?
+- Wat is de belangrijkste determinant van overleving bij kinderkanker?
+- Nefroblastoom (Wilms-tumor) — presentatie en diagnostiek?
+- Nefroblastoom (Wilms-tumor) — behandeling en prognose?
+- Osteosarcoom — presentatie en behandeling?
+- Ewing-sarcoom — presentatie en behandeling?
+- Rhabdomyosarcoom — kenmerken en behandeling?
+- 🕵️ Wie ben ik? Meisje, 4 jaar, wil niet meer staan, beenpijn, bleek, koorts, blauwe plekken, hepatosplenomegalie. 75% blasten; CD19+, CD10+,
+- 🕵️ Wie ben ik? Jongen, 3 jaar, hangerig met koorts en een grote buikmassa links die de middellijn overschrijdt. Urine: VMA en HVA verhoogd. 
+- 🕵️ Wie ben ik? Meisje, 3 jaar, moeder voelt bij het wassen een gladde, pijnloze buikmassa die de middellijn niet overschrijdt. Bloeddruk ver
+- 🕵️ Wie ben ik? Baby van 14 maanden: op foto's licht één pupil wit op in plaats van rood, en het kindje kijkt scheel.
+- 🕵️ Wie ben ik? Jongen, 15 jaar, al 2 maanden 's nachts pijn boven de knie met zwelling. Röntgen: zonnestraaltjes en een Codman-driehoek in d
+- 🕵️ Wie ben ik? Meisje, 12 jaar, pijn en zwelling van het bekken met koorts en een verhoogde BSE. Röntgen: uienschil-periostreactie. Transloc
+- 🕵️ Wie ben ik? Jongen, 7 jaar: binnen enkele dagen een blauw, gezwollen ooglid met een naar voren en omlaag staand oog.
+- 📊 Vergelijk Bottumoren bij kinderen Vul in: Lokalisatie bij Osteosarcoom [tabel]
+- 📊 Vergelijk Bottumoren bij kinderen Vul in: Lokalisatie bij Ewing-sarcoom [tabel]
+- 📊 Vergelijk Bottumoren bij kinderen Vul in: Röntgen bij Osteosarcoom [tabel]
+- 📊 Vergelijk Bottumoren bij kinderen Vul in: Röntgen bij Ewing-sarcoom [tabel]
+- 📊 Vergelijk Bottumoren bij kinderen Vul in: Radiotherapie bij Osteosarcoom [tabel]
+- 📊 Vergelijk Bottumoren bij kinderen Vul in: Radiotherapie bij Ewing-sarcoom [tabel]
+- 📊 Vergelijk Buikmassa bij een peuter Vul in: Uitgangspunt bij Neuroblastoom [tabel]
+- 📊 Vergelijk Buikmassa bij een peuter Vul in: Uitgangspunt bij Nefroblastoom (Wilms) [tabel]
+- 📊 Vergelijk Buikmassa bij een peuter Vul in: Middellijn bij Neuroblastoom [tabel]
+- 📊 Vergelijk Buikmassa bij een peuter Vul in: Middellijn bij Nefroblastoom (Wilms) [tabel]
+- 📊 Vergelijk Buikmassa bij een peuter Vul in: Diagnostiek bij Neuroblastoom [tabel]
+- 📊 Vergelijk Buikmassa bij een peuter Vul in: Diagnostiek bij Nefroblastoom (Wilms) [tabel]
+- Wat zijn late effecten van cytostatica en radiotherapie bij kinderen?
+- Wat kenmerkt non-Hodgkin- en Hodgkinlymfoom op de kinderleeftijd?
+
+## HC12 (5 kaarten)
+
+- Wat wordt bedoeld met AYA's en welke leeftijdsspecifieke thema's spelen bij hen?
+- Waarom wordt de diagnose kanker bij AYA's vaak later gesteld?
+- Welke tumorsoorten komen relatief vaak voor bij AYA's?
+- Waarom is fertiliteitspreservatie een kernthema bij AYA's, en welke opties zijn er?
+- Welke leeftijdsspecifieke zorg krijgen AYA's?
+
+## HC13 (8 kaarten)
+
+- Wat is het onderscheid tussen chronologische en functionele leeftijd in de geriatrische oncologie?
+- Wat wordt beoordeeld in een comprehensive geriatric assessment (CGA)?
+- Waarom is een geriatrisch assessment nuttig bij oudere patiënten met kanker?
+- Waarom verdragen ouderen oncologische behandeling vaak slechter?
+- Waarom neemt de kans op kanker toe met de leeftijd, op cellulair niveau?
+- Waarom voldoet de Karnofsky Performance Status niet bij ouderen?
+- In welke drie groepen deelt het CGA oudere patiënten in?
+- Welke gevolgen heeft de veranderde lichaamssamenstelling bij ouderen voor medicatie?
