@@ -389,7 +389,7 @@ def main():
         for c in overgeslagen:
             print('  -', c['guid'], '|', c['huidig'][:90], '→', c['voorstel'][:120])
     print('koppeling:', dict(sorted(per.items(), key=lambda kv: (len(kv[0]), kv[0]))))
-    print('per college nieuw:', {hc: sum(1 for r in nieuw if f'college::{hc}' in r[5]) for hc in COLLEGES})
+    print('per college nieuw:', {hc: sum(1 for r in nieuw if f'college::{hc}' in r[5].split()) for hc in COLLEGES})
 
 
 if __name__ == '__main__':
