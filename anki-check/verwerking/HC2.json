@@ -1,0 +1,581 @@
+{
+ "tentamentips": [
+  {
+   "citaat": "De reperfusie-gemedieerde weefselschade. Dit hoeft u niet uit uw hoofd te kennen. Het gaat er meer om te weten, te begrijpen hoe dit systeem is opgebouwd. [...] Dit gaat een beetje te ver.",
+   "betekenis": "Begrijp het principe van ischemie-reperfusieschade: tijdens ischemie hoopt hypoxanthine zich op, bij reoxygenatie maakt xanthine-oxidase O2⁻ en H2O2, en ijzer zet dat om in •OH. Het reactieschema hoef je niet uit je hoofd te leren."
+  },
+  {
+   "citaat": "Dus ferritine is eigenlijk de belangrijkste maatstaf voor de ijzervoorziening in het lichaam. Dit is erg belangrijk...",
+   "betekenis": "Ferritine geeft de ijzervoorraad weer: ijzer wordt pas als ferritine opgeslagen als er genoeg is. Laag ferritine betekent een lege voorraad. Let op: ferritine stijgt ook bij ontsteking."
+  },
+  {
+   "citaat": "U hoeft deze formule niet te kennen, maar het gaat over wat belangrijk is voor het zuurstofgehalte in de slagaders. Dat is de zuurstofsaturatie en de Hb. [...] En de rest van die formule doet me eigenlijk niets.",
+   "betekenis": "De CaO2-formule hoef je niet te kennen. Je moet wel weten dat het O2-gehalte van het bloed door het Hb én de saturatie wordt bepaald, niet alleen door de saturatie."
+  },
+  {
+   "citaat": "Dat is zeer zeldzaam, dus ik denk niet dat ik u dat hoef te vragen, want dat gaat ver. [...] U hoeft dat ziektebeeld niet te kennen. [...] Dat hoeft u niet gedetailleerd pathofysiologisch te weten. Maar het gaat erom dat ergens mutaties in dat pad ervoor kunnen zorgen dat uw drive aan blijft staan.",
+   "betekenis": "De naam Chuvash-polycytemie en de details van HIF/VHL hoef je niet te kennen. Je moet wel kunnen redeneren: een EPO dat bij een hoog Hb niet onderdrukt is, wijst op een defect in het zuurstofsensorpad, waardoor de EPO-productie aan blijft staan."
+  },
+  {
+   "citaat": "Zeer belangrijk. Onderzoek om de oorzaak te achterhalen, zit in de darmen. [...] Maar als je niet begrijpt waar het ijzertekort vandaan komt, moet je in de darmen kijken. Of er een tumor zit, dat is belangrijk.",
+   "betekenis": "Bij een onverklaard ijzergebrek (een man, of een vrouw zonder hevige menstruatie) onderzoek je altijd de darm op een tumor of poliepen."
+  },
+  {
+   "citaat": "Ik ga hier niet in op de antioxidanten. Het is een beetje te diepgaand voor mij, maar het komt erop neer dat als je deze giftige zuurstofradicalen hebt, je antioxidanten ze weer kunnen opvangen. Er moet dus altijd een balans zijn tussen uw zuurstofradicalen en uw antioxidanten.",
+   "betekenis": "De losse antioxidanten zijn geen speerpunt. Ken wel het principe: oxidatieve stress is een disbalans ten gunste van de pro-oxidanten."
+  },
+  {
+   "citaat": "Misschien de ontsteking [...]. Dat is eigenlijk het allerbelangrijkste. [...] Dus je moet de oorzaak van de ziekte behandelen. Of het nu reuma of kanker is of iets anders. [...] Maar die bloedarmoede krijgt u niet goed onder controle als de ontsteking niet verdwijnt.",
+   "betekenis": "Bij anemie bij chronische ziekte behandel je in de eerste plaats de onderliggende ontsteking. IJzer (oraal of intraveneus) heeft weinig zin, EPO alleen soms."
+  },
+  {
+   "citaat": "Dus uiteindelijk helpt het enige dat echt helpt, is om de ziekte zelf te behandelen. [...] U moet het oorspronkelijke probleem aanpassen, anders krijgt u het niet voor elkaar.",
+   "betekenis": "Bij secundaire erytrocytose (bijvoorbeeld door COPD) is het hoge Hb een terechte compensatie. Je behandelt de hypoxie, bijvoorbeeld met zuurstoftherapie. Aderlaten neemt de prikkel niet weg."
+  },
+  {
+   "citaat": "Dus wanneer ik een patiënt met hoge bloeddruk [spraakherkenningsfout voor: hoog Hb] analyseer, kijk ik altijd naar de zuurstofsaturatie. Zijn er aanwijzingen voor longziekte?",
+   "betekenis": "De eerste stap bij een te hoog Hb is zoeken naar chronische hypoxie: longziekte (COPD), ernstige slaapapneu of hartziekte."
+  },
+  {
+   "citaat": "Wat gebeurt er met chronische ontsteking voor erytropoëse? [...] Welke veranderingen treden er op in het lichaam tijdens chronische hemolyse? [...] Wat zijn de gevolgen voor het lichaam van te veel ijzer? [...] Dat zijn dus dingen die ik morgen wil bespreken.",
+   "betekenis": "De zes werkcollegevragen (slide 'Deel 2: voorbereiding werkcollege') vormen de kern van het IC. Je moet ze kunnen beantwoorden: chronische ontsteking, chronische hemolyse, oorzaken van een te hoog Hb, aanpassingen bij ijzergebrek, oorzaken van te weinig of te veel ijzer, en de gevolgen van te veel ijzer."
+  },
+  {
+   "citaat": "Een ander belangrijk punt in de ontwikkeling van de rode bloedcel... Vanaf het stadium van erytroblast tot reticulocyt geeft de cel zijn kern af.",
+   "betekenis": "De voorlopers in het beenmerg hebben een kern. Reticulocyten en erytrocyten zijn kernloos. Vanaf het reticulocytstadium zitten de cellen in het perifere bloed."
+  },
+  {
+   "citaat": "Dus dit geval is nog steeds zeldzaam, dus ik zal erover heen gaan. Het is een ijzer[stapeling] in het hart.",
+   "betekenis": "De casus met cardiale ijzerstapeling (dhr. W) is niet uitgebreid besproken. Ken vooral het principe: bij hemochromatose is hepcidine continu laag, het ijzer hoopt zich eerst in de lever en daarna in het hart op, en de behandeling is aderlaten."
+  }
+ ],
+ "prio_guids": [
+  {
+   "guid": "oJ;ADE}J).",
+   "waarom": "De rode draad van HC en IC (hoogte, COPD, het 'normale' EPO). Samenvattingsslide: 'Erytropoeise is essentieel voor zuurstoftransport via hemoglobine – Oxygen sensing <-> EPO'."
+  },
+  {
+   "guid": "P^egvNR`ZM",
+   "waarom": "HC: 'De belangrijkste rol bij de opname van ijzer uit de voeding wordt voornamelijk gereguleerd door hepcidine.' Komt in het IC steeds terug ('Welk hormoon reguleert ijzer?')."
+  },
+  {
+   "guid": "gzc3x-428f31fd514f",
+   "waarom": "HC en IC: bij chronische ontsteking 'verhoging van het hepcidinegehalte, wat resulteert in een veel lagere ijzeropname en een relatief ijzertekort'. Dit is de kern van werkcollegevraag 1."
+  },
+  {
+   "guid": "gzc3x-9c6164ab65ff",
+   "waarom": "Herhaald in HC (ijzergebrek, hypoxie, erythroferrone) en IC (hemolyse): 'Uw hepcidine neemt af zodat uw ijzeropname kan toenemen.'"
+  },
+  {
+   "guid": "y:3jgDTd-b",
+   "waarom": "In het HC uitgelegd en in het IC teruggehaald: 'Erythroferron, waar ik het gisteren over had, wordt gestimuleerd.'"
+  },
+  {
+   "guid": "MS;l!:V4SE",
+   "waarom": "IC: 'wat we vaak zien bij patiënten die levenslang chronische hemolyse hebben, is dat je uiteindelijk het tegenovergestelde krijgt. En dat is ijzerstapeling.' (zie ook de correctie)"
+  },
+  {
+   "guid": "BPmWY8yq=T",
+   "waarom": "Werkcollegevraag 'Welke aanpassingen treden op in het lichaam bij chronische hemolyse?', uitgebreid met de zaal besproken (zie ook de correctie)."
+  },
+  {
+   "guid": "FNZL:.Xb7Y",
+   "waarom": "Een van de zes werkcollegevragen op de slide (Deel 2), in het HC als bespreekpunt genoemd ('Heeft u een ijzertekort? Wat zal uw lichaam doen om dat te proberen te compenseren?')."
+  },
+  {
+   "guid": "h93LA4G9Ow",
+   "waarom": "Werkcollegevraag 'Wat kunnen oorzaken zijn van te weinig of te veel ijzer?', in het IC besproken (dieet, chronisch bloedverlies, hemochromatose)."
+  },
+  {
+   "guid": "q8)?cVhg:H",
+   "waarom": "Werkcollegevraag 'Wat zijn de gevolgen voor het lichaam van te veel ijzer? Is dat eigenlijk giftig?' Docent: eerst de lever, daarna het hart."
+  },
+  {
+   "guid": "lxuM%8[@5d",
+   "waarom": "Werkcollegevraag 'Wat kunnen oorzaken zijn van toegenomen erytropoëse (te hoog Hb)?', lang met de zaal doorgenomen (EPO, niertumor, dehydratie, COPD, slaapapneu, hartziekte, beenmergziekte)."
+  },
+  {
+   "guid": "BiMjP$Q_b=",
+   "waarom": "IC: 'Zeer belangrijk. Onderzoek om de oorzaak te achterhalen, zit in de darmen. [...] Of er een tumor zit, dat is belangrijk.'"
+  },
+  {
+   "guid": "l^hJO<+Jil",
+   "waarom": "Eerste werkcollegevraag. IC: 'Chronische ontsteking, lage EPO, laag ijzer, maar hoog ferritine. Het ijzer is er dus wel, maar het is als het ware niet beschikbaar.' (zie ook de correctie)"
+  },
+  {
+   "guid": "gzc3c-f60ac7f7d583",
+   "waarom": "Het IC opent hiermee: 'Het is dus erg belangrijk dat de zuurstofsaturatie niet het enige is [...] maar ook het hemoglobine.' De formule zelf hoef je niet te kennen (zie de correctie)."
+  },
+  {
+   "guid": "gzc3c-8d5369e6b1b7",
+   "waarom": "IC: 'Hoe wordt de uitscheiding van ijzer gereguleerd? Nee, inderdaad niet. Het is nogal vervelend, omdat je het kunt stapelen. Het is eigenlijk giftig.' Ook op de samenvattingsslide: 'Geen regulatiemechanisme voor ijzeruitscheiding'."
+  },
+  {
+   "guid": "gzc3c-51f767a33188",
+   "waarom": "Slidevragen 'Vragen ijzermetabolisme' die in het IC aan de zaal zijn gesteld: 'Waar zit het meeste ijzer in ons lichaam?' en 'Welke organen zijn betrokken bij het ijzermetabolisme?'"
+  },
+  {
+   "guid": "gEmEP}Pf`5",
+   "waarom": "Samenvattingsslide: 'IJzer is een onmisbaar maar toxisch sporenelement' en 'IJzer katalyseert de vorming zuurstofradicalen'. HC: 'IJzer en zuurstof reageren zeer effectief met elkaar. Ze zijn echt een stel.'"
+  },
+  {
+   "guid": "n/=+.]#elM",
+   "waarom": "Hemochromatose in HC en IC: hepcidine continu laag, ongecontroleerde opname, 1 op 10 Nederlanders drager."
+  },
+  {
+   "guid": "DoWdrK8^Lo",
+   "waarom": "IC-vraag aan de zaal: 'Wat veroorzaakt dat voornamelijk voor problemen? Vermoeidheid, [transcript: 'urineweginfecties', vermoedelijk een spraakherkenningsfout] en afwijkingen in levertesten.' Op de slide staat de Trias van Brissot."
+  },
+  {
+   "guid": "ArjkQ9hQlC",
+   "waarom": "HC: 'uw ijzerhomeostase is ook erg belangrijk voor de aanmaak van uw rode bloedcellen'. De opname (Fe3+ → Fe2+, vitamine C, bovenste dunne darm, 1-2 van 10-20 mg) wordt uitgebreid uitgelegd en de aantallen worden herhaald."
+  },
+  {
+   "guid": "fHE?R^=RKb",
+   "waarom": "HC: 'Een ander belangrijk punt in de ontwikkeling van de rode bloedcel [...] geeft de cel zijn kern af.' (zie ook de correctie)"
+  },
+  {
+   "guid": "gzc3c-833cb8197cb4",
+   "waarom": "HC: 'oxidatieve stress. Wat is het eigenlijk? Een onevenwicht tussen de pro-oxidant en antioxidant verhouding', plus de balans die ook in de antioxidanten-passage wordt benadrukt."
+  },
+  {
+   "guid": "gzc3c-69c7f409d781",
+   "waarom": "IC-casus: 'Het laboratorium zal zeggen dat dit een normale EPO is. Maar vergeleken met deze Hb is dat helemaal niet normaal.'"
+  },
+  {
+   "guid": "gzc3c-84c6b3c1ce5a",
+   "waarom": "De IC-casus van de 20-jarige man met Ht 0,66 en EPO 14, uitgebreid besproken (de naam van het ziektebeeld hoef je niet te kennen)."
+  },
+  {
+   "guid": "gzc3c-942688fde5f9",
+   "waarom": "IC: 'Want dat [aderlaten] is de behandeling hiervoor. [...] het grootste deel van het ijzer is nu opgeslagen in uw rode bloedcellen.'"
+  },
+  {
+   "guid": "gzc3c-74dfe2e2e68b",
+   "waarom": "IC: 'Gelukkig krijgen niet alle patiënten daadwerkelijk ijzerstapeling. De klinische expressie is niet zo hoog. [...] Veel meer mannen dan vrouwen.'"
+  }
+ ],
+ "nieuwe_kaarten": [
+  {
+   "voor": "Welk percentage van de erytrocyten in het perifere bloed is normaal een reticulocyt?",
+   "achter": "Maximaal circa 2%.\nBij hemolyse of bloedverlies stijgt dit (reticulocytose), doordat het beenmerg compenseert.",
+   "prio": true,
+   "citaat": "HC: 'In een normale situatie, ongeveer 2% van de rode bloedcellen in het perifere bloed mogen reticulocyten zijn.' IC: 'normaal gesproken is in het perifere bloed maximaal 2% van uw rode bloedcellen nog een reticulocyt.'"
+  },
+  {
+   "voor": "Hoe lang duurt de rijping van erytroïde voorlopers in het beenmerg, en hoe lang leeft een erytrocyt?",
+   "achter": "Rijping (inclusief ijzeropname) in het beenmerg: circa 3 weken.\nLevensduur in het perifere bloed: circa 120 dagen.",
+   "prio": false,
+   "citaat": "Slide: 'Maturation of Erythroid Precursors and Iron Uptake (3 weeks)' en 'Peripheral Blood RBC Lifespan 120 days'."
+  },
+  {
+   "voor": "Hoeveel zuurstofmoleculen kan één hemoglobinemolecuul binden, en waarom?",
+   "achter": "Vier. Hemoglobine bestaat uit vier globineketens. Elke keten draagt een heemgroep met één ijzerion (Fe²⁺), en dat bindt één O2.",
+   "prio": false,
+   "citaat": "HC: 'Eén hemoglobine bestaat uit vier eiwitketens. [...] Elke eiwitketen heeft een metaalion in het midden. Het metaal bindt de zuurstof.' Slide: Fe2+."
+  },
+  {
+   "voor": "Welke globineketen zit in alle normale hemoglobinevormen (HbA, HbA2 en HbF)?",
+   "achter": "De alfaketen: HbA = α2β2, HbA2 = α2δ2, HbF = α2γ2.\nZonder alfaketens kun je dus geen enkel normaal hemoglobine maken, ook geen foetaal hemoglobine.",
+   "prio": false,
+   "citaat": "HC: 'Maar alfaketen, zoals u kunt zien, moet u altijd in staat zijn om hemoglobine te maken.' Slide: HbA αβ, HbF αγ, HbA2 αδ."
+  },
+  {
+   "voor": "Waar in de erytroïde voorloper wordt heem gevormd, en waar gaat het opgenomen ijzer heen?",
+   "achter": "In het mitochondrion.\nIJzer komt via de transferrinereceptor de cel in. Een deel wordt opgeslagen als ferritine, een deel gaat naar het mitochondrion en wordt daar in protoporfyrine ingebouwd → heem.\nHeem + globineketens → hemoglobine.",
+   "prio": false,
+   "citaat": "HC: 'Waar wordt dit gevormd? In de mitochondriën. [...] via de transferrinereceptor [...] En dat vormt uiteindelijk heem samen met de protoporfyrineringen. [...] een deel van het ijzer [...] wordt opgeslagen in de opslagvorm van ijzer, ferritine.'"
+  },
+  {
+   "voor": "Hoe wordt protoporfyrine gevormd?",
+   "achter": "Eerst wordt δ-aminolevulinezuur (δ-ALA) gevormd, met vitamine B6 als belangrijk co-enzym.\nTwee δ-ALA-moleculen → porfobilinogeen (een ring). Vier porfobilinogeenringen → via tussenstappen protoporfyrine.\nProtoporfyrine + Fe²⁺ = heem.",
+   "prio": false,
+   "citaat": "HC: 'vitamine B6 is een belangrijk co-enzym om deze reactie te stimuleren. U heeft delta-ALA nodig. En twee delta-ALA moleculen kunnen samensmelten tot een porfobilinogeenring. [...] dan worden ze gegroepeerd in vier, je hebt protoporfyrines.'"
+  },
+  {
+   "voor": "Hoe wordt de heemsynthese gereguleerd?",
+   "achter": "Remming: door heem zelf (negatieve terugkoppeling).\nStimulatie: onder andere door EPO.",
+   "prio": false,
+   "citaat": "HC: 'Deze reactie wordt vertraagd door heem, wat op zich vrij logisch is, omdat dat een soort negatieve feedbacklus is. En het wordt gestimuleerd door bijvoorbeeld EPO.'"
+  },
+  {
+   "voor": "Welke snelle en welke trage compensatie zet het lichaam in bij een lage zuurstofspanning?",
+   "achter": "Snel: O2-sensoren in de hals (glomus caroticum) → ademfrequentie en hartfrequentie ↑. Effectief, maar niet lang vol te houden.\nTraag maar duurzaam: de nier voelt de lage O2-spanning → meer EPO → beenmerg. Pas na dagen zijn er meer rijpe erytrocyten (Hb ↑).",
+   "prio": true,
+   "citaat": "HC: 'ze kunnen heel snel reageren door uw ademhaling te versnellen en uw hartslag [...] In de nieren zullen deze zuurstofsensoren een langzamer compensatiemechanisme bieden, maar duurzamer.' en 'Dit zijn de snellere compensatiemechanismen. [...] Maar dat kun je niet eeuwig volhouden.' Slide: 'welke andere aanpassing naast ↓ P50 bij lage pO2?'"
+  },
+  {
+   "voor": "Wat 'meet' de zuurstofsensor in de nier precies?",
+   "achter": "De zuurstofspanning die na gebruik in het weefsel overblijft: de balans tussen het O2-aanbod (rodecelmassa, O2-spanning in de lucht, hart-longfunctie, O2-affiniteit van Hb) en het O2-verbruik.\nDaardoor kan ook een Hb dat O2 slecht afgeeft (hoge affiniteit) de EPO-productie verhogen.",
+   "prio": false,
+   "citaat": "HC: 'Je gebruikt niet alles. Je hebt altijd een soort reserve. En dat is de zuurstofdruk die overblijft.' Slide: 'environmental O2 tension, cardiopulmonary function, hemoglobin oxygen affinity → Oxygen Supply; oxygen consumption; oxygen sensor'."
+  },
+  {
+   "voor": "Is EPO alleen nodig bij hypoxie?",
+   "achter": "Nee. EPO is essentieel voor de rijping van erytrocyten: zonder EPO worden er geen rode bloedcellen gemaakt.\nEr is altijd een basale EPO-spiegel, en die stijgt als de zuurstofspanning daalt.",
+   "prio": false,
+   "citaat": "Slide: 'EPO is essentieel voor RBC rijping'. HC: 'Dus je hebt altijd een stabiel EPO-niveau, maar dit zal toenemen als je zuurstofgehalte lager is.'"
+  },
+  {
+   "voor": "Waar wordt EPO gemaakt bij de volwassene, en waar bij de foetus?",
+   "achter": "Volwassene: vooral in de nier (daar zit ook de zuurstofsensor).\nFoetus: in de lever.",
+   "prio": false,
+   "citaat": "Slide (Model for the Regulation of Erythropoiesis): 'Adult Kidney, Fetal Liver'."
+  },
+  {
+   "voor": "Waarom is de zuurstofdissociatiecurve van hemoglobine S-vormig?",
+   "achter": "Door coöperatieve binding: de vier ketens werken samen. Heeft één keten zijn O2 afgegeven, dan verandert de vorm van het molecuul en geven de andere ketens hun O2 makkelijker af. Omgekeerd stijgt de affiniteit naarmate er meer O2 gebonden is.\nZonder samenwerking zou de curve geen S-vorm hebben.",
+   "prio": false,
+   "citaat": "HC: 'Dus dat is eigenlijk een soort samenwerking tussen de ketens [...] En omdat ze samenwerken, heeft de curve een S-vorm. Het is geen rechte lijn.'"
+  },
+  {
+   "voor": "Wat is de P50, en wat betekent een hogere of lagere P50?",
+   "achter": "P50 = de pO2 waarbij 50% van het hemoglobine met O2 verzadigd is.\nHogere P50 (curve naar rechts) = lagere affiniteit → O2 wordt makkelijker aan de weefsels afgegeven.\nLagere P50 (curve naar links) = hogere affiniteit → O2 wordt makkelijker in de longen opgenomen, maar moeilijker afgegeven.",
+   "prio": false,
+   "citaat": "HC: 'Dus de p50 is [...] waarbij 50% van uw hemoglobine verzadigd is.' en 'In deze structuur is het veel moeilijker om zuurstof af te geven aan weefsels, maar aan de andere kant is het gemakkelijker om het in de longen op te nemen.'"
+  },
+  {
+   "voor": "Hoe remt hepcidine ferroportine?",
+   "achter": "Hepcidine bindt aan ferroportine (de ijzerexporter van enterocyt en macrofaag). Ferroportine wordt daarna de cel in genomen (geïnternaliseerd) en afgebroken.\nZonder deze 'poort' kan er geen ijzer naar het plasma.",
+   "prio": true,
+   "citaat": "HC: 'dit [...] is een hepcidine, dat op de poort gaat zitten wanneer deze aanwezig is, en die poort wordt in de cel opgenomen, en dan kan er geen ijzer worden opgenomen.'"
+  },
+  {
+   "voor": "Wat is de beste maat voor de ijzervoorraad van het lichaam, en waarom?",
+   "achter": "Ferritine. IJzer wordt pas als ferritine opgeslagen als er genoeg ijzer is. Bij een tekort wordt alles direct gebruikt en wordt er geen ferritine gemaakt. Laag ferritine betekent dus een lege voorraad.\nLet op: ferritine stijgt ook bij ontsteking (acutefase-eiwit).",
+   "prio": true,
+   "citaat": "HC: 'Als u niet genoeg ijzer heeft, zult u het niet opslaan, maar het allemaal direct gebruiken. [...] Dus ferritine is eigenlijk de belangrijkste maatstaf voor de ijzervoorziening in het lichaam. Dit is erg belangrijk.' IC: 'Dan stijgt het ferritinegehalte in uw bloed' (bij ontsteking)."
+  },
+  {
+   "voor": "Waarom is ijzer zo'n effectieve katalysator van radicaalvorming?",
+   "achter": "IJzer heeft twee stabiele oxidatietoestanden (Fe²⁺ en Fe³⁺) en hoort bij de sterkste biologische oxidatoren en reductoren. Het wisselt gemakkelijk elektronen uit met O2 (Fe²⁺ + O2 ⇌ Fe³⁺ + O2⁻).\nAlleen vrij, oplosbaar ijzer is katalytisch actief.",
+   "prio": false,
+   "citaat": "Slide: 'Redoxkoppel Fe2+/O2 ⇌ Fe3+/O2⁻ – moet ijzer in oplosbare vorm aanwezig zijn [...] Twee stabiele vormen [...] In de range van de sterkste biologische oxiderende en reducerende stoffen'. HC: 'IJzer en zuurstof reageren zeer effectief met elkaar. Ze zijn echt een stel.'"
+  },
+  {
+   "voor": "Waarom maken fagocyten bewust zuurstofradicalen, en wat is het risico?",
+   "achter": "Na fagocytose van een bacterie activeren ze het NADPH-oxidasecomplex: NADPH geeft een elektron aan O2, zodat superoxide (O2⁻) ontstaat. Dat helpt de bacterie te doden.\nRisico: als de reactie niet goed gecontroleerd wordt, raakt ook het omliggende weefsel beschadigd.",
+   "prio": false,
+   "citaat": "HC: 'Die bacterie wordt gefagocyteerd [...] het celmembraan heeft NADPH [...] dat kan reageren met zuurstof, waardoor de O2- [...] Maar het kan ook giftig worden als de reactie niet goed wordt beheerd. [...] U wilt alleen dat de bacteriën worden afgebroken, maar niet de cellen eromheen.' Samenvattingsslide: 'Rol afweer – Weefselschade'."
+  },
+  {
+   "voor": "Geef een klinisch voorbeeld van reperfusieschade.",
+   "achter": "Een hartinfarct waarbij het afgesloten vat met een stent weer wordt geopend. De terugkeer van zuurstof levert via xanthine-oxidase en ijzer zuurstofradicalen op.\nDe weefselschade komt dus niet alleen door de ischemie, maar ook door de reperfusie.",
+   "prio": false,
+   "citaat": "HC: 'u krijgt een hartaanval, u heeft ischemie in het hart, u opent het bloedvat weer met een stent [...] Weefselschade wordt dus niet alleen veroorzaakt door ischemie [...] maar ook [...] van de zuurstof die giftig kan zijn.'"
+  },
+  {
+   "voor": "Wie heeft minder zuurstof in het arteriële bloed: een gezonde klimmer op 8400 m op de Everest, of een patiënt met een milde anemie (Hb 9 g/dl ≈ 5,6 mmol/l) op zeeniveau?",
+   "achter": "De anemiepatiënt. Het Hb bepaalt het zuurstofgehalte meer dan de zuurstofspanning in de lucht.\nKanttekening: de chronische anemiepatiënt is aan zijn lage Hb gewend (een chronisch Hb van 5 voelt anders dan een acuut Hb van 5). De klimmer is niet gewend aan de lage zuurstofspanning.",
+   "prio": true,
+   "citaat": "IC (Grocott, NEJM 2009): 'Een Hb van 9 gram per deciliter is ongeveer een Hb van 6 op onze schaal. Dus dat is niet eens een zeer ernstige bloedarmoede. En het is lager in termen van zuurstof dan de gezonde bergbeklimmer.'"
+  },
+  {
+   "voor": "Een patiënt met slecht gereguleerde reuma heeft anemie bij chronische ziekte. Waarom helpen ijzertabletten niet, en wat doe je wel?",
+   "achter": "Oraal ijzer: het hoge hepcidine heeft ferroportine gesloten, dus er wordt nauwelijks ijzer opgenomen.\nIJzerinfuus: komt wel in het bloed, maar gaat 'naar de verkeerde plekken' (de macrofagen) en niet naar de erytropoëse.\nWat wel helpt: de ontsteking behandelen (samen met de reumatoloog). Eventueel EPO, omdat de nier te weinig EPO maakt, maar dat is niet standaard.",
+   "prio": true,
+   "citaat": "IC: 'Moet ik ijzertabletten geven? [...] ijzertabletten hebben ook weinig nut [...] IJzerinfuus? [...] Maar het gaat nog steeds naar de verkeerde plekken [...] Die nier produceert te weinig [EPO] [...] Dat is eigenlijk het allerbelangrijkste [...] Als de ontsteking beter onder controle is, dan krijg ik ook mijn bloedarmoede onder controle.'"
+  },
+  {
+   "voor": "Waarom is haptoglobine laag bij hemolyse?",
+   "achter": "Vrij hemoglobine (buiten de erytrocyt) is toxisch. Haptoglobine bindt het, en het complex wordt snel uit het bloed verwijderd.\nBij veel hemolyse wordt haptoglobine dus verbruikt en is het laag.",
+   "prio": true,
+   "citaat": "IC: 'Haptoglobine laag, heel goed. Waarom? [...] dat hemoglobine dat vrijkomt in het bloed, dus niet verpakt in een rode bloedcel, is eigenlijk giftig. Dus uw lichaam wil het zo snel mogelijk verwijderen. Dit is wat het bindt aan haptoglobine.'"
+  },
+  {
+   "voor": "Welke ziekten geven levenslang chronische hemolyse?",
+   "achter": "Vooral sikkelcelziekte en thalassemie (de twee belangrijkste), daarnaast onder andere hereditaire sferocytose.",
+   "prio": false,
+   "citaat": "IC: 'Sikkelcelziekte, zeker. Thalassemie, ja, en dan heb je nog allerlei andere, sferocytose enzovoort, maar dat zijn de twee belangrijkste.'"
+  },
+  {
+   "voor": "Waarom kan een gedehydreerde (oudere) patiënt een te hoog Hb hebben zonder echte erytrocytose?",
+   "achter": "Het Hb is een concentratie (hoeveelheid per liter). Bij een verlaagd plasmavolume stijgt de concentratie, terwijl de totale rodecelmassa niet hoger is (relatieve erytrocytose).\nOplossing: vocht geven. Verdere hematologische analyse is dan niet nodig.",
+   "prio": true,
+   "citaat": "IC: 'Uw hemoglobine, wat we in het laboratorium meten, is een concentratie. [...] De totale hoeveelheid rode bloedcellen is niet hoger, maar uw concentratie is hoger. [...] vloeistof erin, dat heeft het probleem opgelost.'"
+  },
+  {
+   "voor": "Waarom ben je bang voor een sterk verhoogd Hb of hematocriet (bijvoorbeeld een Ht van 0,66)?",
+   "achter": "Het bloed wordt dik en stroperig (hyperviscositeit), met een groot risico op trombose.\nDat is ook het gevaar van EPO-doping.",
+   "prio": true,
+   "citaat": "IC: 'Wat is het risico daarvan? Trombose. Trombose, ja. Daar zijn we bang voor.' en 'een hematocriet van 0,66 [...] dat betekent dat uw bloed erg dik en stroperig is. [...] Dus ik ben bang voor complicaties.'"
+  },
+  {
+   "voor": "Waar kijk je als eerste naar bij een patiënt met een te hoog Hb?",
+   "achter": "Naar de zuurstofsaturatie: is er chronische hypoxie als terechte prikkel?\nDenk aan longziekte (COPD, emfyseem), ernstige slaapapneu (uren per nacht hypoxie) en hartziekte.",
+   "prio": true,
+   "citaat": "IC: 'Dus wanneer ik een patiënt met [hoog Hb] analyseer, kijk ik altijd naar de zuurstofsaturatie. Zijn er aanwijzingen voor longziekte? [...] ernstige slaapapneu [...] Hartziekten kunnen hetzelfde effect hebben. Dat zijn de belangrijkste.'"
+  },
+  {
+   "voor": "Een COPD-patiënt heeft een te hoog Hb. Waarom lost aderlaten het probleem niet op, en wat doe je wel?",
+   "achter": "Het hoge Hb is een terechte compensatie voor de hypoxie (EPO hoog en passend). Aderlaten verlaagt het Hb wel, maar de weefsels blijven hypoxisch: de EPO-prikkel blijft bestaan en het O2-aanbod wordt slechter.\nBehandel de oorzaak, bijvoorbeeld met zuurstoftherapie.\nAderlaten heeft wel zin als het beenmerg ongecontroleerd te veel aanmaakt (polycythaemia vera).",
+   "prio": true,
+   "citaat": "IC: 'Dus in die situatie kunt u ook een hoge EPO meten. En dat is eigenlijk een compensatiemechanisme. [...] Dus dan blijft de zuurstof te laag in de weefsels. Dat betekent dus ook dat uw drang om erytropoëse te maken aan blijft staan. [...] zuurstoftherapie [...] Als dat [beenmerg] een beetje ongecontroleerde rode bloedcellen aanmaakt, laten we soms [ader]...'"
+  },
+  {
+   "voor": "Een 20-jarige en een 70-jarige hebben allebei een sterk verhoogd Hb. Hoe verschilt je denkrichting?",
+   "achter": "Jonge patiënt: denk aan een aangeboren oorzaak, zoals een defect in het zuurstofsensorpad (bv. VHL), een EPO-receptormutatie of een Hb met hoge O2-affiniteit.\n70-jarige met een nieuw hoog Hb: niet aangeboren. Denk aan polycythaemia vera (JAK2), hypoxie (COPD) of een EPO-producerende tumor.",
+   "prio": false,
+   "citaat": "IC: 'Als mensen nog zo jong zijn, denk je in de aangeboren hoek.' en 'dat vind ik niet bij iemand van 70 jaar die plotseling met een hoge Hb op mijn poli komt. Dan zal het niet aangeboren zijn.'"
+  },
+  {
+   "voor": "Waarom moet je bij een hoogtestage ook op hoogte verblijven, en niet alleen vanuit het dal de berg op fietsen?",
+   "achter": "Het Hb stijgt via de trage EPO-compensatie. Daarvoor moet de zuurstofspanning langdurig laag zijn (ongeveer een week of langer).\nKort op hoogte trainen en in het dal slapen zet dat mechanisme onvoldoende in gang.\nEen hoogtestage is de natuurlijke, veiligere variant van EPO-doping.",
+   "prio": false,
+   "citaat": "IC: 'het gaat erom hoog genoeg te zijn om uw compensatiemechanisme in werking te stellen. Dus u hoeft niet [...] in de vallei te slapen en gewoon die berg op te rijden en weer naar beneden te gaan. Dat slaat nergens op. [...] de natuurlijke variant van het spuiten van EPO. Maar dan een stuk veiliger.' HC: 'als u er lang genoeg verblijft, bijvoorbeeld een week, zult u zien dat uw Hb op een natuurlijke manier zal stijgen.'"
+  },
+  {
+   "voor": "Geeft acuut bloedverlies van 2 liter (bijvoorbeeld bij een ongeval) een ijzergebrek?",
+   "achter": "Nee. Het lichaam heeft een ijzervoorraad (ferritine) om het verlies aan te vullen.\nIJzergebrek ontstaat vooral door chronisch, sluipend bloedverlies.",
+   "prio": true,
+   "citaat": "IC: 'En is het dan zo dat als ik een ongeluk krijg en ik verlies 2 liter bloed, ik dan ook een ijzertekort heb? Dat is geen probleem, want ik heb wel een voorraad [...] Dus bloedverlies is correct, maar vooral chronisch bloedverlies.'"
+  },
+  {
+   "voor": "Wat is de meest voorkomende oorzaak van chronisch bloedverlies bij een vrouw, en waaraan denk je bij een man?",
+   "achter": "Vrouw: hevige menstruaties.\nMan: gastro-intestinaal bloedverlies. Poliepen (goed- en kwaadaardig) en tumoren verliezen langzaam steeds een beetje bloed.",
+   "prio": true,
+   "citaat": "IC: 'Zeer hevige menstruaties? Absoluut. Meest voorkomend. En wat als het een man is? [...] gastro-intestinale tumoren [kunnen] heel langzaam bloed verliezen, elke keer een klein beetje. [...] vooral poliepen, zowel kwaadaardig als goedaardig.'"
+  },
+  {
+   "voor": "Hoe waarschijnlijk is een dieet als enige oorzaak van ijzergebrek?",
+   "achter": "Weinig waarschijnlijk. IJzer zit in vlees (vooral) en groenten, en je hebt maar 1-2 mg per dag nodig.\nAlleen een zeer gebrekkig dieet geeft een tekort, vooral als de behoefte tegelijk verhoogd is (groei, zwangerschap).",
+   "prio": false,
+   "citaat": "IC: 'groenten en met name vlees. [...] Maar je hebt echt een heel gebrekkig dieet nodig om een tekort te ontwikkelen [...] en zeker in een situatie van ook eens toegevoegde behoefte aan ijzer.' Slide: 'Deficiënt dieet – Toegenomen behoefte aan ijzer'."
+  },
+  {
+   "voor": "Waarom verwijdert aderlaten bij hemochromatose zo effectief ijzer, en wat is het doel?",
+   "achter": "Het meeste lichaamsijzer zit in het hemoglobine van de erytrocyten. Elke aderlating verwijdert dus veel ijzer, en voor nieuwe erytrocyten haalt het beenmerg ijzer uit de voorraden.\nHet doel is ijzer verwijderen (ferritine omlaag), niet het Hb verlagen.",
+   "prio": true,
+   "citaat": "IC: 'Want dat [aderlaten] is de behandeling hiervoor. [...] En dat is niet om uw Hb-waarden [te verlagen], maar [...] Want het grootste deel van het ijzer is nu opgeslagen in uw rode bloedcellen.' (transcript: 'baarmoeder verlaten' = aderlaten)"
+  },
+  {
+   "voor": "Waar hoopt ijzer zich bij hemochromatose het eerst op, en wanneer wordt het echt gevaarlijk?",
+   "achter": "Eerst in de lever: afwijkende levertesten, uiteindelijk fibrose, cirrose of zelfs leverfalen.\nBij verdere stapeling ook in het hart (cardiomyopathie). Dan kom je echt in de problemen.",
+   "prio": true,
+   "citaat": "IC: 'De lever is de eerste plek waar dat ijzer zich gaat ophopen. Als u nog meer ijzer begint op te hopen, zal het zich ook in uw hart ophopen. Dan kunt u echt in de problemen komen. Maar leverfalen door ijzerstapeling kan zeker ook.'"
+  }
+ ],
+ "correcties": [
+  {
+   "guid": "qS]w]y<Uy+",
+   "huidig": "HbF: twee alfa- en twee gammaketens, meer dan 70% bij de foetus en tot 6 maanden; [...] HbA1: [...] circa 98% bij volwassenen",
+   "voorstel": "HbA (HbA1): twee alfa- en twee bètaketens (α2β2), circa 97-98% bij volwassenen\nHbF: twee alfa- en twee gammaketens (α2γ2). Meer dan 70% bij de pasgeborene, in de eerste 6 levensmaanden grotendeels vervangen door HbA, bij volwassenen circa 1%. Neemt O2 makkelijker op en geeft het moeilijker af (hogere affiniteit), zodat de foetus O2 van de moeder kan onttrekken\nHbA2: twee alfa- en twee deltaketens (α2δ2), minder dan 3%",
+   "citaat": "HC: 'Ergens in de eerste zes maanden van het leven wordt het grootste deel van dat foetale hemoglobine vervangen door hemoglobine A1. [...] meestal is het slechts 1% van het hemoglobine van een volwassene.' Slide: 'Neonate: > 70 %, Adult: ~1 %'. 'Tot 6 maanden >70%' is onjuist: het daalt juist in die periode."
+  },
+  {
+   "guid": "ck2=ExOu)b",
+   "huidig": "Ferritine is de snel beschikbare intracellulaire ijzeropslag met een halfwaardetijd van circa 24 uur. Hemosiderine ontstaat pas bij zeer grote hoeveelheden als neerslag van geaggregeerd ferritine in weefsels, en is veel slechter beschikbaar",
+   "voorstel": "Ferritine: de belangrijkste, snel beschikbare opslagvorm van ijzer, in cellen en in plasma. Een bolvormig eiwit van 24 subunits dat tot circa 4500 ijzeratomen kan opslaan.\nHemosiderine: ontstaat bij gedeeltelijke afbraak van de eiwitmantel van ferritine, waarna grote aggregaten in de weefsels achterblijven (aan te kleuren met Pruisisch blauw). Slechter beschikbaar, en bij ernstige ijzerstapeling ook toxisch.",
+   "citaat": "Slide: 'Ferritine – Intracellulaire depots en in plasma – bolvormig eiwit 24 subunits – opslag max 4500 ijzeratomen. Bij gedeeltelijke destructie eiwitmantel ferritine: grote aggregaten in weefsels hemosiderine'. HC: 'als er veel hemosiderine in het been[merg] of op andere plaatsen zit, dan kan het ook giftig worden.' De '24 uur halfwaardetijd' komt in geen enkele bron voor (vermoedelijk verwarring met de 24 subunits). 'Pas bij zeer grote hoeveelheden' klopt niet: de docent toont hemosiderine gewoon in het beenmerg."
+  },
+  {
+   "guid": "fHE?R^=RKb",
+   "huidig": "Stamcel → BFU-E → CFU-E → pro-erytroblast → normoblast (laatste kernhoudende stadium, stoot de kern af) → reticulocyt (nog resten ER, kleurt paars) → erytrocyt. De cel wordt bij elke stap kleiner",
+   "voorstel": "Stamcel → BFU-E → CFU-E → pro-erytroblast → erytroblasten (vroeg, intermediair en laat; ook normoblasten genoemd) → de late erytroblast stoot zijn kern uit → reticulocyt (geen kern, nog resten RNA/ribosomen; vanaf hier ook in het perifere bloed) → erytrocyt. De cel wordt bij elke stap kleiner.",
+   "citaat": "HC: 'Vanaf het stadium van erytroblast tot reticulocyt geeft de cel zijn kern af. [...] Vanaf het reticulocytenstadium zijn ze te vinden in het perifere bloed.' Slide: 'Early/Intermediate/Late Erythroblast – Nuclear Extrusion – Reticulocyte'. Een reticulocyt bevat resten ribosomaal RNA, geen ER (de kapstok zegt ook: 'een jonge rode cel met nog wat RNA')."
+  },
+  {
+   "guid": "BPmWY8yq=T",
+   "huidig": "Reticulocytose, erytroïde hyperplasie van het beenmerg, extramedullaire hematopoëse, verhoogd LDH en indirect bilirubine, verlaagd haptoglobine, toegenomen foliumzuurverbruik, risico op galstenen",
+   "voorstel": "Aanpassingen (doel: meer erytropoëse): reticulocytose (meer dan 2%), erytroïde hyperplasie van het beenmerg (soms extramedullaire hematopoëse), meer foliumzuurverbruik, en erythroferrone ↑ → hepcidine ↓ → meer ijzeropname (levenslang: risico op ijzerstapeling).\nDirecte gevolgen van de afbraak (geen aanpassing): LDH ↑, indirect bilirubine ↑ (risico op galstenen), haptoglobine ↓.",
+   "citaat": "IC: 'Dit zijn dus gewoon effecten van de hemolyse. Maar uw lichaam zal ook aanpassingen doen als gevolg van de hemolyse. En dit alles is er hoofdzakelijk op gericht om meer erytropoëse mogelijk te maken.' en 'Uw hepcidine wordt [verlaagd], zodat u meer ijzer kunt [opnemen]'. De huidige kaart noemt de afbraakproducten aanpassingen, terwijl de docent die expliciet onderscheidt. Ook mist de kaart de aanpassing waar de docent de nadruk op legt (hepcidine ↓)."
+  },
+  {
+   "guid": "MS;l!:V4SE",
+   "huidig": "Door de korte levensduur van de erytrocyten is er ineffectieve maar zeer actieve erytropoëse. Dat geeft veel erythroferrone, waardoor hepcidine sterk wordt onderdrukt en de ijzerabsorptie ongeremd doorgaat. Samen met transfusies leidt dat tot ijzerstapeling",
+   "voorstel": "Door de levenslange hemolyse (en bij thalassemie ook ineffectieve erytropoëse) is de erytropoëse continu sterk gestimuleerd. Het beenmerg maakt veel erythroferrone, waardoor hepcidine sterk wordt onderdrukt en de ijzerabsorptie ongeremd doorgaat, ook zonder ijzertekort. Samen met transfusies leidt dat tot ijzerstapeling.",
+   "citaat": "IC: 'Uw gehele erytropoëse wordt gestimuleerd. Erythroferron, waar ik het gisteren over had, wordt gestimuleerd. Uw hepcidine neemt af zodat uw ijzeropname kan toenemen. [...] Omdat het hepcidine continu wordt neerwaarts gereguleerd, en u onbeheerst ijzer blijft opnemen.' Een korte levensduur van de erytrocyten veroorzaakt geen ineffectieve erytropoëse. Ineffectieve erytropoëse (vernietiging van voorlopers in het merg) is typisch voor thalassemie, niet voor sikkelcelziekte."
+  },
+  {
+   "guid": "gzc3c-f60ac7f7d583",
+   "huidig": "CaO2 ≈ 1,34 × Hb × SaO2 + 0,003 × PaO2 (Hb in g/dl, PaO2 in mmHg). Het opgeloste deel is verwaarloosbaar: Hb en saturatie bepalen het zuurstofgehalte. Klimmers op de Everest hebben een extreem lage PaO2, maar compenseren dat deels met een hoger Hb.",
+   "voorstel": "Het arteriële zuurstofgehalte wordt bepaald door het Hb én de saturatie. Het opgeloste deel (PaO2) is verwaarloosbaar. Een normale saturatie betekent dus niet automatisch genoeg O2 in het bloed: bij anemie is het O2-gehalte laag.\nTer illustratie (de formule hoef je volgens de docent niet te kennen): CaO2 ≈ 1,34 × Hb × SaO2 + 0,003 × PaO2 (Hb in g/dl, PaO2 in mmHg).",
+   "citaat": "IC: 'U hoeft deze formule niet te kennen, maar het gaat over wat belangrijk is voor het zuurstofgehalte in de slagaders. Dat is de zuurstofsaturatie en de Hb. [...] En de rest van die formule doet me eigenlijk niets.' De kaart laat nu de formule leren, terwijl de docent dat expliciet niet vraagt."
+  },
+  {
+   "guid": "l^hJO<+Jil",
+   "huidig": "[...] Daarnaast verminderde EPO-respons en kortere erytrocytenlevensduur. Lab: ferritine normaal tot hoog, transferrine/TIBC laag, saturatie laag. [...]",
+   "voorstel": "Inflammatoire cytokinen (vooral IL-6) verhogen hepcidine. Hepcidine blokkeert ferroportine: ijzer raakt opgesloten in de macrofagen en de darmopname daalt. Er is genoeg ijzer, maar het is niet beschikbaar (relatief ijzertekort).\nDaarnaast remmen de cytokinen de EPO-productie in de nier (EPO inadequaat laag) en zijn ze toxisch voor het beenmerg (onderdrukte erytropoëse). Ook is de levensduur van de erytrocyten korter.\nLab: ferritine normaal tot hoog, plasma-ijzer laag, transferrine/TIBC laag, saturatie laag.\nLet op: transferrine is een negatief acutefase-eiwit (daalt bij ontsteking), ferritine een positief.\nEzelsbrug: ferritine = brandweer bij ontsteking (↑); transferrine gaat met vakantie (↓).",
+   "citaat": "IC: 'die [cytokinen] zijn ook toxisch voor het beenmerg [...] Bovendien wordt uw nier ook beïnvloed door de ontsteking, door cytokines, bij de vorming van EPO. Dus uw EPO is laag [...] Chronische ontsteking, lage EPO, laag ijzer, maar hoog ferritine.' Slide: 'cytokinen release: toxisch voor beenmerg – minder EPO productie nier'. 'Verminderde EPO-respons' is ambigu en mist de lage EPO-productie en de beenmergremming uit de kern die de docent benadrukt."
+  },
+  {
+   "guid": "kapstok",
+   "huidig": "Regelkring: 'CaO2 ≈ 1,34 × Hb × SaO2 (+ opgelost O2): Hb is de grootste knop.'",
+   "voorstel": "Het arteriële O2-gehalte wordt bepaald door Hb én saturatie (de CaO2-formule hoef je niet te kennen). Een patiënt met een milde anemie op zeeniveau (Hb 9 g/dl) heeft minder O2 in het bloed dan een gezonde klimmer op 8400 m.",
+   "citaat": "IC: 'U hoeft deze formule niet te kennen, maar het gaat over wat belangrijk is voor het zuurstofgehalte in de slagaders. Dat is de zuurstofsaturatie en de Hb.'"
+  },
+  {
+   "guid": "kapstok",
+   "huidig": "IC-casussen: 'Erytrocytose met een \"normaal\" EPO → Chuvash (VHL).'",
+   "voorstel": "Erytrocytose met een 'normaal' EPO → inadequaat, want het had onderdrukt moeten zijn. Denk aan een (aangeboren) defect in het O2-sensorpad (HIF/VHL, bv. Chuvash). De naam hoef je niet te kennen, het principe wel.",
+   "citaat": "IC: 'U hoeft dat ziektebeeld niet te kennen. [...] Maar het gaat erom dat ergens mutaties in dat pad ervoor kunnen zorgen dat uw drive aan blijft staan.'"
+  }
+ ],
+ "kapstok_aanvullingen": [
+  {
+   "kop": "Erytropoëse",
+   "punt": "Normaal is maximaal circa 2% van de erytrocyten in het perifere bloed een reticulocyt. Bij hemolyse of bloedverlies stijgt dat, doordat het beenmerg compenseert."
+  },
+  {
+   "kop": "Hemoglobine",
+   "punt": "Heem wordt in het mitochondrion gemaakt: δ-ALA (B6 als co-enzym) → porfobilinogeen → protoporfyrine, en met Fe²⁺ wordt dat heem. Heem remt de synthese (negatieve terugkoppeling), EPO stimuleert haar."
+  },
+  {
+   "kop": "Hemoglobine",
+   "punt": "Coöperatieve O2-binding van de vier ketens geeft een S-vormige dissociatiecurve. P50 = de pO2 waarbij 50% van het Hb verzadigd is."
+  },
+  {
+   "kop": "Regelkring",
+   "punt": "Snelle compensatie bij een lage pO2: sensoren in de hals → ademhaling en hartfrequentie ↑ (niet lang vol te houden). Trage maar duurzame compensatie: nier → EPO → pas na dagen meer erytrocyten."
+  },
+  {
+   "kop": "Regelkring",
+   "punt": "Er is altijd een basale EPO-spiegel, want EPO is essentieel voor de rijping. EPO wordt bij de volwassene in de nier gemaakt, bij de foetus in de lever."
+  },
+  {
+   "kop": "IJzer",
+   "punt": "Ferritine is de belangrijkste maat voor de ijzervoorraad (bij een tekort wordt er niets opgeslagen), maar het is ook een acutefase-eiwit."
+  },
+  {
+   "kop": "IJzer",
+   "punt": "Hepcidine bindt ferroportine, waarna ferroportine geïnternaliseerd en afgebroken wordt: de 'poort' gaat dicht."
+  },
+  {
+   "kop": "IJzer",
+   "punt": "IJzergebrek ontstaat vooral door chronisch bloedverlies (acuut verlies wordt uit de voorraad aangevuld): bij vrouwen door hevige menstruaties, bij mannen door GI-poliepen of een tumor. Bij een onverklaard ijzergebrek onderzoek je altijd de darm."
+  },
+  {
+   "kop": "Opslag en transport",
+   "punt": "Transferrine is ook 'een van de belangrijkste antioxidanten': het houdt ijzer gebonden, zodat dat geen radicaalvorming katalyseert."
+  },
+  {
+   "kop": "Zuurstof en radicalen",
+   "punt": "Radicalen zijn nuttig in de afweer (NADPH-oxidase in fagocyten) en schadelijk als ze ongecontroleerd ontstaan. Voorbeeld van reperfusieschade: een stent bij een hartinfarct. Begrijp het principe, het schema hoef je niet uit je hoofd te leren."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Anemie bij chronische ziekte: hepcidine ↑ (ijzer vast in de macrofagen), EPO ↓ (nier geremd) en cytokinen die het merg remmen. Kern: 'lage EPO, laag ijzer, hoog ferritine'. Oraal ijzer helpt niet en intraveneus ijzer belandt in de macrofagen: behandel de ontsteking, eventueel met EPO."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Chronische hemolyse: gevolgen zijn LDH ↑, bilirubine ↑ en haptoglobine ↓ (vrij Hb wordt weggevangen). Aanpassingen zijn reticulocyten ↑ en erythroferrone ↑ → hepcidine ↓, met op termijn ijzerstapeling (sikkelcelziekte, thalassemie)."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Te hoog Hb: kijk eerst naar de saturatie (COPD, slaapapneu, hartziekte). Dehydratie geeft een schijnbaar hoog Hb (het is een concentratie). Het gevaar is trombose. Bij een jonge patiënt denk je aan een aangeboren oorzaak."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Secundaire erytrocytose (COPD) is een terechte compensatie met een hoog EPO. Aderlaten neemt de prikkel niet weg: behandel de hypoxie. Bij een ongecontroleerd werkend merg (PV, JAK2) is aderlaten wel zinvol."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Hemochromatose: hepcidine continu laag. IJzer hoopt zich eerst op in de lever, daarna in het hart. Aderlaten verwijdert ijzer omdat het meeste ijzer in de erytrocyten zit. Menstruatie werkt als natuurlijke aderlating, dus vrouwen krijgen minder vaak klachten."
+  }
+ ],
+ "valkuilen": [
+  "Een hoog ferritine bij ontsteking betekent niet dat er bruikbaar ijzer is. Bij anemie bij chronische ziekte zit het ijzer opgesloten in de macrofagen, en ijzer geven (oraal of intraveneus) helpt nauwelijks.",
+  "Bij anemie verwacht je een hoog EPO, maar bij anemie bij chronische ziekte is het EPO juist laag: de cytokinen remmen de EPO-productie in de nier.",
+  "Acuut bloedverlies geeft geen ijzergebrek, chronisch (occult) bloedverlies wel. Bij een man, of een vrouw zonder hevige menstruatie, onderzoek je dus altijd de darm.",
+  "Het Hb is een concentratie: dehydratie geeft een schijnbaar te hoog Hb zonder verhoogde rodecelmassa.",
+  "Bij secundaire erytrocytose (COPD) is het hoge Hb een terechte compensatie met een passend hoog EPO. Aderlaten neemt de prikkel niet weg: behandel de hypoxie.",
+  "Een normale saturatie betekent niet dat er genoeg O2 in het bloed zit. Bij een (milde) anemie is het O2-gehalte laag, zelfs lager dan bij een gezonde klimmer op 8400 m.",
+  "Chronische hemolyse leidt op den duur niet tot ijzergebrek, maar juist tot ijzerstapeling: erythroferrone onderdrukt hepcidine.",
+  "Aderlaten bij hemochromatose is bedoeld om ijzer te verwijderen, niet om het Hb te verlagen.",
+  "Let op de termen 'strak' en 'ontspannen': in het leerboek is de T-vorm (tense, deoxy-Hb) de vorm met lage O2-affiniteit en de R-vorm (relaxed, oxy-Hb) die met hoge affiniteit. In het transcript loopt 'strak/ontspannen' precies andersom. Houd de leerboekdefinitie aan en onthoud het principe: coöperatieve binding geeft een S-curve.",
+  "Bij inspanning stijgt de temperatuur en daalt de pH, dus de curve schuift naar rechts (meer O2-afgifte). 'Temperatuur daalt' in het transcript is een spraakherkenningsfout.",
+  "Een hoogtestage werkt alleen als je lang genoeg op hoogte verblijft. Kort omhoog fietsen en in het dal slapen zet de trage EPO-respons onvoldoende in gang."
+ ],
+ "docentcitaten": [
+  {
+   "citaat": "Het laboratorium zal zeggen dat dit een normale EPO is. Maar vergeleken met deze Hb is dat helemaal niet normaal.",
+   "onderwerp": "EPO interpreteren bij erytrocytose (inadequaat normaal EPO)"
+  },
+  {
+   "citaat": "IJzer en zuurstof reageren zeer effectief met elkaar. Ze zijn echt een stel.",
+   "onderwerp": "IJzer als katalysator van zuurstofradicaalvorming"
+  },
+  {
+   "citaat": "Als de ontsteking beter onder controle is, dan krijg ik ook mijn bloedarmoede onder controle.",
+   "onderwerp": "Behandeling van anemie bij chronische ziekte"
+  },
+  {
+   "citaat": "Als je veel menstruaties hebt, dan is het eigenlijk een beetje alsof je constant aderlaat.",
+   "onderwerp": "Waarom vrouwen minder vaak klachten van hemochromatose krijgen (in het transcript verbasterd tot 'de baarmoeder moet verlaten')"
+  }
+ ],
+ "afgewezen": [
+  {
+   "wat": "Nieuwe kaart 'Hoe verschuift de zuurstofdissociatiecurve bij intensieve inspanning?'",
+   "reden": "Dubbel met P!.fq:MjAn (factoren voor een rechtsverschuiving) en met de nieuwe kaart over snelle en trage compensatie. De transcriptfout over de temperatuur staat als valkuil."
+  },
+  {
+   "wat": "Nieuwe kaart 'H2O2 + bloed (demonstratie)'",
+   "reden": "Een demonstratie, pure trivia die niet getoetst wordt. Catalase staat al in gzc3c-b3a1599825a1."
+  },
+  {
+   "wat": "Nieuwe kaart 'Gevolgen vs aanpassingen bij chronische hemolyse'",
+   "reden": "Dubbel met BPmWY8yq=T. Het onderscheid dat de docent maakt is in plaats daarvan als correctie van die kaart verwerkt."
+  },
+  {
+   "wat": "Nieuwe kaart 'EPO-spiegel bij PV, hypoxie en defecte O2-sensor'",
+   "reden": "Dubbel met de vergelijkingstabel (gzc3c-968ec7ae36ea t/m gzc3c-798080c680e9), gzc3c-69c7f409d781 en de nieuwe COPD-kaart."
+  },
+  {
+   "wat": "Nieuwe kaart 'Doping (Lance Armstrong, Max Hauke)'",
+   "reden": "Namen zijn trivia. Doping staat al in lxuM%8[@5d en het tromboserisico in de Ht-kaart. 'Natuurlijke, veiligere variant' is in de hoogtestagekaart opgenomen."
+  },
+  {
+   "wat": "Nieuwe kaart 'Erfelijk te hoog hepcidine (IRIDA/TMPRSS6)'",
+   "reden": "Alleen terloops genoemd als zeer zeldzaam. IRIDA en TMPRSS6 staan niet in het transcript of op de slides."
+  },
+  {
+   "wat": "COPD-kaart: de regel 'Vocht of plasma geven helpt niet, want dat verdwijnt naar extravasaal'",
+   "reden": "Het transcript is hier onduidelijk (niet te horen wat de student voorstelde). Bij twijfel geschrapt."
+  },
+  {
+   "wat": "Kaart 'eerste stap bij hoog Hb': de 'Daarna'-lijst (JAK2/PV, niertumor, EPO/testosteron, dehydratie)",
+   "reden": "Dubbel met lxuM%8[@5d. De kaart houdt nu één leerpunt."
+  },
+  {
+   "wat": "Kaart 'aderlaten bij hemochromatose': het deel over vrouwen en menstruatie",
+   "reden": "Dubbel met gzc3c-74dfe2e2e68b ('menstruatie en zwangerschappen beschermen'). Staat nog wel in kapstok en docentcitaat."
+  },
+  {
+   "wat": "prio n3@9_IDbn3 (HIF-hydroxylases, VHL, proteasoom)",
+   "reden": "De docent zegt juist: 'Dat hoeft u niet gedetailleerd pathofysiologisch te weten.' Alleen het principe (defect sensorpad → EPO blijft aan) is benadrukt."
+  },
+  {
+   "wat": "prio kY%D>6ubHw (vitamine C bij oraal ijzer)",
+   "reden": "Eén terloopse klinische opmerking in het HC, niet als belangrijk benoemd."
+  },
+  {
+   "wat": "prio P!.fq:MjAn (rechtsverschuiving dissociatiecurve)",
+   "reden": "Niet als belangrijk benoemd en niet in het IC teruggekomen. De uitleg in het transcript is bovendien verward (T/R omgedraaid, temperatuur)."
+  },
+  {
+   "wat": "Correctie gzc3c-84c6b3c1ce5a (Chuvash-casus)",
+   "reden": "De bestaande tekst is inhoudelijk juist. Het voorstel is alleen een herformulering. 'De naam hoef je niet te kennen' staat al in de tentamentips en de kapstokcorrectie."
+  },
+  {
+   "wat": "Correctie yaNFl:>B|L (transferrine vs lactoferrine)",
+   "reden": "De bestaande tekst is niet fout. De antioxidantfunctie van transferrine is als kapstokpunt toegevoegd en staat al in gzc3c-b3a1599825a1 en gEmEP}Pf`5."
+  },
+  {
+   "wat": "Tentamentip 'Dus bloedverlies is correct, maar vooral chronisch bloedverlies.'",
+   "reden": "Een inhoudelijke uitspraak, geen uitspraak over het tentamen of over wat je moet kennen. Staat als kaart (acuut vs chronisch) en als valkuil."
+  },
+  {
+   "wat": "Tentamentip 'Het laboratorium zal zeggen dat dit een normale EPO is...'",
+   "reden": "Staat al als docentcitaat, als valkuil in de kapstok en in kaart gzc3c-69c7f409d781. Een extra tentamentip voegt niets toe."
+  },
+  {
+   "wat": "Prio-motivatie DoWdrK8^Lo: '[gewrichtsklachten]' ingevoegd in het citaat",
+   "reden": "Het transcript zegt 'urineweginfecties'. Dat is nu gemarkeerd als vermoedelijke spraakherkenningsfout in plaats van stilzwijgend vervangen."
+  },
+  {
+   "wat": "Correctie qS]w]y<Uy+: toevoeging 'normaal <1-2%' bij HbF",
+   "reden": "Niet door de bronnen gedragen. Vervangen door 'circa 1%' (slide en transcript)."
+  }
+ ]
+}

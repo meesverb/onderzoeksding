@@ -1,0 +1,697 @@
+{
+ "tentamentips": [
+  {
+   "citaat": "Uw typische examenvraag, jonge vrouw van 20 jaar met microcytaire anemie. Wel, het kan ofwel thalassemie of ijzertekort zijn. ... De eerste stap is het meten van ferritine. Als het ferritinegehalte normaal is, kan het jonge meisje thalassemie hebben. Verlaagd ferritine, dan is het waarschijnlijk menorragie.",
+   "betekenis": "Kernvraag voor het tentamen: microcytaire anemie bij een jonge vrouw. Bepaal eerst het ferritine. Laag betekent ijzergebrek (meestal menorragie); normaal betekent: denk aan thalassemie(dragerschap)."
+  },
+  {
+   "citaat": "En wat als het een man van 70 jaar is met microcytaire anemie? Dan denkt u aan iets anders. ... Occult bloedverlies. ... Als u een patiënt van 70 jaar in uw praktijk heeft met ijzertekort, dan hoeft u dit [de FOBT] niet meer te doen, u doet onmiddellijk een scopie.",
+   "betekenis": "Hetzelfde lab bij een oudere man betekent occult gastro-intestinaal bloedverlies (darmkanker) tot het tegendeel bewezen is. Doe direct een scopie en sla de FOBT over (IC: 'omdat je het zou kunnen missen')."
+  },
+  {
+   "citaat": "(IC) Bloedverlies, meestal [gewoon] zichtbaar, maar de grote examenvraag is altijd de vraag naar chronisch occult bloedverlies en hoe dat aan te tonen.",
+   "betekenis": "Je moet kunnen uitleggen hoe je chronisch occult bloedverlies aantoont: een microcytaire anemie met lage reticulocyten en een laag ferritine. Daarna zoek je de oorzaak met een scopie; de FOBT hoort bij het bevolkingsonderzoek."
+  },
+  {
+   "citaat": "(IC, na casus 1) Dit is echt het brood en boter van de [...]",
+   "betekenis": "Casus 1 is kernstof: een microcytaire anemie bij een vrouw van 26 tegenover een man van 67. Daarbij horen ferritine en transferrinesaturatie, de vraag naar PPI en antistolling, direct een scopie bij de man, en een thalassemietest als de microcytose blijft bestaan."
+  },
+  {
+   "citaat": "De basis van alle diagnostiek, altijd en eeuwig, is één. Kinetisch bekijken we het oorzakelijke mechanisme en dat doen we door naar de reticulocyten te kijken. ... En morfologisch, en dat is het MCV. ... Die combinatie is de snelle manier om te diagnosticeren.",
+   "betekenis": "Elke anemie analyseer je met twee classificaties: kinetisch (reticulocyten: aanmaak, afbraak of verlies) en morfologisch (MCV). In de samenvatting zei de docent: 'Classificatie begint altijd met kinetiek, maken, breken, verliezen, en dan morfologisch.'"
+  },
+  {
+   "citaat": "Maar ik zou de reticulocytose op de eerste plaats zetten. Dat is de boodschap van vandaag. Wat doet u? U heeft bloedarmoede. U meet het reticulocytengetal en het MCV. ... Als u aan hemolyse denkt, voegt u deze drie toe.",
+   "betekenis": "De vaste volgorde is: eerst reticulocyten en MCV, en bij een vermoeden van hemolyse daarna LDH, bilirubine en haptoglobine."
+  },
+  {
+   "citaat": "Laat u dus niet afleiden door het normale bereik, dit is een [aanmaak]stoornis. De reticulocytenrespons had veel hoger moeten zijn.",
+   "betekenis": "Reticulocyten binnen de normaalwaarde zijn bij een anemie inadequaat en wijzen op een aanmaakstoornis. Dit kwam terug in IC-casus 1 (reticulocyten 25, ref. 25-120) en casus 2 (reticulocyten 36: 'nog niet eens halverwege het normale bereik')."
+  },
+  {
+   "citaat": "... dat u de directe antiglobulinetest moet doen en dat is een heel belangrijke test ... (IC) Daarom begint u altijd met de Coombs-test of de directe antiglobulinetest.",
+   "betekenis": "Bij elke nieuwe hemolyse doe je eerst de DAT. Een positieve uitslag betekent immuunhemolyse: behandel met prednison en geef geen routinematige transfusie."
+  },
+  {
+   "citaat": "Thalassemie zou u moeten weten.",
+   "betekenis": "Thalassemie is kernstof. Ken het verschil tussen kwantitatief en kwalitatief en tussen alfa en bèta, de compensatie met HbA2 en HbF, en de diagnostiek: Hb-elektroforese/HPLC voor bèta, DNA-onderzoek voor alfa."
+  },
+  {
+   "citaat": "Dus onthoud, sikkelcelziekte is een kwaliteitsverandering. Dus het geeft geen microcytair bloed.",
+   "betekenis": "Sikkelcelziekte is normocytair. Microcytose bij een sikkelcelpatiënt wijst op een bijkomende thalassemie of ijzergebrek (IC-casus 5)."
+  },
+  {
+   "citaat": "IJzertekort is geen diagnose, het is een symptoom. Mensen hebben dus om een reden ijzertekort. ... (IC) Is vitamine B12-tekort een diagnose? Nee, ook een symptoom.",
+   "betekenis": "Bij een ijzer- of B12-tekort moet je altijd de oorzaak benoemen: bloedverlies, malabsorptie, medicatie, dieet of een operatie."
+  },
+  {
+   "citaat": "(IC) Ik heb het nog nooit gezien, maar het is een van de belangrijkste boodschappen van het vorige college. Vitamine B12 in zeer grote tekorten kan ook hemolyse veroorzaken. ... (HC) Daarom moet u altijd B12 bij hebben, want dan weet u zeker dat u niets mist.",
+   "betekenis": "Bepaal bij hemolyseparameters altijd ook vitamine B12. Hemolyseparameters met lage reticulocyten en macrocytose passen bij een B12-tekort."
+  },
+  {
+   "citaat": "(IC) Dus medicatie is bijna altijd het juiste antwoord. Als u de patiënt iets wilt vragen, welke medicijnen gebruikt u dan? Welke supplementen?",
+   "betekenis": "Vraag in elke casus naar medicatie en supplementen: PPI, metformine, methotrexaat, antistolling en chemotherapie."
+  },
+  {
+   "citaat": "(IC, casus 5, Hb-elektroforese HbS/bèta-thalassemie) Een beetje te moeilijk, denk ik.",
+   "betekenis": "Het principe moet je kennen: verhoogd HbA2/HbF betekent bèta-thalassemie, een extra piek is HbS, en alfa-thalassemie zie je alleen met DNA-onderzoek. Het volledig ontleden van zo'n gecombineerde elektroforese vond de docent zelf aan de moeilijke kant."
+  },
+  {
+   "citaat": "PNH, dat zal ik overslaan ... [PNH] Dat hoeft u niet te weten ... Mars hemoglobine, PNH hebben we niet besproken, dat sla ik over ... hemofagocytose slaan we over.",
+   "betekenis": "PNH hoef je volgens de docent niet te kennen. Marshemoglobinurie en hemofagocytose heeft hij overgeslagen, al staan ze op de slides."
+  },
+  {
+   "citaat": "(IC, MDS) Mijn vraag is hoe je het kunt herkennen. En dat zijn vaak meerdere cytopenieën.",
+   "betekenis": "Bij MDS gaat het om herkennen: een oudere met macrocytose, lage reticulocyten, meerdere cytopenieën en dysplastische vormen, die je verwijst naar de hematoloog. De diagnostiek en behandeling in detail horen bij de maligne hematologie."
+  },
+  {
+   "citaat": "We hebben het al over hypersplenisme gehad, dat zou u moeten kunnen herkennen.",
+   "betekenis": "Herken hypersplenisme: een grote milt (bv. bij cirrose) met naast de anemie ook leukopenie en trombocytopenie."
+  },
+  {
+   "citaat": "U zou deze rij nu moeten kennen.",
+   "betekenis": "Dit gaat over de dia 'Verworven oorzaken van anemie', de rij hemoglobine-aanmaak: ijzergebrek (MCV ↓), inflammatie (MCV ↓ of normaal) en lood- of koperintoxicatie (MCV ↓)."
+  }
+ ],
+ "prio_guids": [
+  {
+   "guid": "rjliBW[a!b",
+   "waarom": "'Maar ik zou de reticulocytose op de eerste plaats zetten. Dat is de boodschap van vandaag.' (heeft al prio::tentamen)"
+  },
+  {
+   "guid": "klxRY3kM<E",
+   "waarom": "Samenvatting HC: 'Classificatie begint altijd met kinetiek, maken, breken, verliezen'"
+  },
+  {
+   "guid": "D]V)GGJ|2S",
+   "waarom": "'En morfologisch, en dat is het MCV ... Die combinatie is de snelle manier om te diagnosticeren'"
+  },
+  {
+   "guid": "o`*d#5SSQu",
+   "waarom": "Microcytair: 'te weinig bouwstenen in de zak' (ijzer, heem, globine); 'dat hebben we vandaag al duizend keer gezegd'"
+  },
+  {
+   "guid": "LQE!eO67Z.",
+   "waarom": "'Uw typische examenvraag': jonge vrouw (menorragie) tegenover man van 70 (occult GI-bloedverlies)"
+  },
+  {
+   "guid": "MknBkrV{2-",
+   "waarom": "HC: 'u doet onmiddellijk een scopie'; IC: FOBT overslaan 'omdat je het zou kunnen missen' (zie de correctie)"
+  },
+  {
+   "guid": "gzc3chk-10dd9bbe3efc",
+   "waarom": "IC-casus 1: 'Wat als dit een man van 67j zou zijn?' Occult bloedverlies, scopie ('het brood en boter')"
+  },
+  {
+   "guid": "v1A^PuDit5",
+   "waarom": "Typische examenvraag: ijzergebrek tegenover thalassemie (en ACD) bij microcytose (heeft al prio::tentamen)"
+  },
+  {
+   "guid": "gzc3x-926570f75c9b",
+   "waarom": "'De eerste stap is het meten van ferritine'"
+  },
+  {
+   "guid": "gzc3x-34320446e65b",
+   "waarom": "'Ferritine is een vervelend stofje ... het kan ook stijgen bij ontsteking'; bij ACD: hoog ferritine met lege transportwagens"
+  },
+  {
+   "guid": "gzc3x-87d35efdf52d",
+   "waarom": "Basisschema MCV (microcytair): 'de basis van alle diagnostiek'"
+  },
+  {
+   "guid": "gzc3x-f159bd84bc9e",
+   "waarom": "De macrocytaire DD wordt in HC en IC herhaald"
+  },
+  {
+   "guid": "gzc3x-225ef25ec107",
+   "waarom": "Lage reticulocyten betekent een aanmaakstoornis: 'de fabriek doet het niet goed'"
+  },
+  {
+   "guid": "gzc3x-ca4013878111",
+   "waarom": "Hoge reticulocyten betekent afbraak of verlies; daarna de drie hemolyseparameters en de DAT"
+  },
+  {
+   "guid": "JRmN1jD7;.",
+   "waarom": "De normocytaire DD (acuut bloedverlies, ACD, beenmerg, nier, endocrien) wordt in HC en IC herhaald"
+  },
+  {
+   "guid": "Hst]7DU?L6",
+   "waarom": "'Als u aan hemolyse denkt, voegt u deze drie toe' (heeft al prio::tentamen)"
+  },
+  {
+   "guid": "Fw`2SIU?Q",
+   "waarom": "'dat is een heel belangrijke test'; IC: 'Daarom begint u altijd met de Coombs-test'"
+  },
+  {
+   "guid": "gzc3c-8d3a064fc352",
+   "waarom": "Prednison bij warme AIHA in HC én IC; de transfusievraag ('olie op het vuur') ook in beide (zie de correctie)"
+  },
+  {
+   "guid": "x+N>K39x-g",
+   "waarom": "IC-dia 'Verhoogde afbraak: intrinsiek vs extrinsiek, congenitaal vs verworven'; in HC en IC uitgebreid behandeld"
+  },
+  {
+   "guid": "gzc3c-269397cc9012",
+   "waarom": "IC: 'een van de belangrijkste boodschappen van het vorige college. Vitamine B12 in zeer grote tekorten kan ook hemolyse veroorzaken' (heeft al prio::tentamen)"
+  },
+  {
+   "guid": "maCg:]icTN",
+   "waarom": "'Als u niet weet waar het van gemaakt is, kunt u niet zeggen hoe het wordt veroorzaakt'; de drie onderdelen komen terug in de samenvatting"
+  },
+  {
+   "guid": "gzc3c-cbbd4f5dcb6c",
+   "waarom": "Vraag aan de zaal in HC en IC ('Waarom zit hemoglobine in een zak?'); samenvatting: 'Het zit in een zak omdat ijzer giftig is'"
+  },
+  {
+   "guid": "gzc3c-1404126062cf",
+   "waarom": "Samenvatting: de enzymen hebben twee belangrijke taken, antioxidatie en energie (glycolyse)"
+  },
+  {
+   "guid": "gzc3c-18803893df9b",
+   "waarom": "Samenvatting: G6PD ('200 miljoen patiënten') en de glycolytische enzymen"
+  },
+  {
+   "guid": "%rvY+#Rc]",
+   "waarom": "'Normocytair en hyperchroom ... Omdat de diagnose dan sferocytose is. Heel specifiek.'"
+  },
+  {
+   "guid": "v|_UksN~#x",
+   "waarom": "'Dus onthoud, sikkelcelziekte is een kwaliteitsverandering. Dus het geeft geen microcytair bloed.'"
+  },
+  {
+   "guid": "gzc3c-4dc7ebf2a643",
+   "waarom": "'Veel dragers zijn niet bekend ... dus test frequent'; bij anemie ondanks suppletie: 'denk niet te lang na, test gewoon'"
+  },
+  {
+   "guid": "gzc3c-97fcc1ab9781",
+   "waarom": "IC-casus 2 (RA): activiteit, CRP/BSE en medicatie; 'medicatie is bijna altijd het juiste antwoord'"
+  },
+  {
+   "guid": "gzc3c-73b73819bfa4",
+   "waarom": "IC: 'uw beste wapen is de anamnese'; 'altijd eerst praten'"
+  }
+ ],
+ "nieuwe_kaarten": [
+  {
+   "voor": "Hb 5,6, MCV 75 en reticulocyten 0,7% (normaal 0,5-2,5%). Is dat een adequate beenmergrespons?",
+   "achter": "Nee. Bij zo'n laag Hb hoort de EPO-prikkel de reticulocyten sterk te laten stijgen. Een getal binnen de normaalwaarde is bij een anemie dus inadequaat: een aanmaakstoornis (hier microcytair, dus meestal ijzergebrek).\nLaat je niet afleiden door het normale bereik.",
+   "prio": true,
+   "citaat": "Laat u dus niet afleiden door het normale bereik ... De reticulocytenrespons had veel hoger moeten zijn. (HC; ook IC-casus 1: reticulocyten 25, ref. 25-120)"
+  },
+  {
+   "voor": "Jonge vrouw met een microcytaire anemie: wat is je eerste stap, en hoe interpreteer je de uitslag?",
+   "achter": "Ferritine bepalen, liefst samen met de transferrinesaturatie.\nLaag: ijzergebrek, meestal door menorragie. Vraag de oorzaak uit en behandel.\nNormaal: denk aan thalassemie(dragerschap). Doe een Hb-elektroforese/HPLC en zo nodig DNA-onderzoek (alfa).",
+   "prio": true,
+   "citaat": "Uw typische examenvraag, jonge vrouw van 20 jaar met microcytaire anemie ... De eerste stap is het meten van ferritine."
+  },
+  {
+   "voor": "Waarom wijst een hoog MCV meestal op een rijpingsstoornis, en wat is de belangrijkste uitzondering?",
+   "achter": "Tijdens de rijping wordt de erytroïde cel steeds kleiner: kern eruit, dan reticulocyt, dan organellen eruit, dan erytrocyt. Loopt de rijping vast (B12- of foliumzuurtekort, dysplasie/MDS, alcohol, lever, medicatie zoals methotrexaat), dan blijven de cellen groot.\nUitzondering: veel reticulocyten (hemolyse, bloedverlies), omdat jonge cellen groter zijn.",
+   "prio": true,
+   "citaat": "Dus een hoge MCV betekent een ontwikkelingsstoornis of... Dat is de eerste uitzondering. Veel jonge rode bloedcellen. (HC; herhaald in IC)"
+  },
+  {
+   "voor": "Waarom geven nierinsufficiëntie, beenmergsuppressie (chemo, bestraling) en hormoontekorten meestal een normocytaire anemie?",
+   "achter": "De 'fabriek' draait op een laag pitje (te weinig EPO, of een geremd merg), maar de bouwstenen en de rijping zijn intact. De cellen die wél gemaakt worden, hebben dus een normale grootte.\nUitzondering: een medicijn dat dysplasie geeft, geeft macrocytose.",
+   "prio": false,
+   "citaat": "Als de nieren het niet doen, te weinig EPO, wordt de fabriek stilgelegd. Maar verder verandert er niets. Dus normocytose. ... Tenzij dat medicijn dysplasie veroorzaakt. Dan veroorzaakt het macrocytose."
+  },
+  {
+   "voor": "Waarom is anemie bij chronische ziekte meestal normocytair, en wanneer wordt ze microcytair?",
+   "achter": "Ontsteking remt de erytropoëse direct en geeft een te lage EPO-productie. De fabriek ligt dan stil, en de anemie is normocytair.\nDaarnaast verhoogt ontsteking hepcidine, dat ferroportine sluit. Het ijzer blijft in de voorraden (ferritine hoog) en de transportwagens zijn leeg (transferrinesaturatie <20%). Overheerst dit functionele ijzertekort, dan wordt de anemie microcytair.",
+   "prio": true,
+   "citaat": "Hepcidine sluit de ferroportine ... De transportwagens zijn leeg. De transferrinesaturatie is lager dan 20%. En dat kan ... microcytaire anemie veroorzaken. Meestal normocytair. (IC casus 2; ook HC)"
+  },
+  {
+   "voor": "Welke ferritinewaarde bewijst ijzergebrek, en waarom sluit een normaal of hoog ferritine ijzergebrek niet uit?",
+   "achter": "Een ferritine <30 µg/l bewijst ijzergebrek (huidige richtlijnen).\nFerritine is een acutefase-eiwit en stijgt bij ontsteking. Bij een ontsteking kan er dus (functioneel) ijzergebrek zijn ondanks een normaal of hoog ferritine. Bepaal dan ook de transferrinesaturatie.",
+   "prio": true,
+   "citaat": "Dus een ferritinegehalte onder de 30, dat zijn de nieuwe richtlijnen, is gewoon een bewijs van ijzertekort. Ferritine is een vervelend stofje ... het kan ook stijgen bij ontsteking."
+  },
+  {
+   "voor": "Wat meet de transferrinesaturatie, en welke afkapwaarden gebruik je?",
+   "achter": "Hoe vol de 'transportwagens' (transferrine) zijn die ijzer naar het beenmerg brengen.\n<20% (sommigen 25%): (functioneel) ijzertekort.\n>45%: mogelijk ijzerstapeling. Dat kun je alleen nuchter beoordelen, want na een maaltijd stijgt de saturatie snel.\nVooral nuttig naast het ferritine bij een chronische ziekte.",
+   "prio": true,
+   "citaat": "Dus nuchter gemeten, boven 45% kan ijzerstapeling zijn, onder 20% is waarschijnlijk een ijzertekort. (IC: 'Ik wil transferrinesaturatie ... dat is vooral nuttig wanneer iemand een chronische ziekte heeft.')"
+  },
+  {
+   "voor": "Hoe toon je chronisch occult bloedverlies aan, en wat is de rol van de feces-occultbloedtest (FOBT)?",
+   "achter": "Via het bloed: een microcytaire anemie met lage reticulocyten en een laag ferritine (ijzergebrek).\nDe FOBT hoort bij het bevolkingsonderzoek darmkanker, waar hij poliepen vindt nog vóór er ijzergebrek is.\nBij een oudere met aangetoond ijzergebrek sla je de FOBT over en doe je direct een scopie: een negatieve FOBT sluit intermitterend bloedverlies niet uit.",
+   "prio": true,
+   "citaat": "(IC) De grote examenvraag is altijd de vraag naar chronisch occult bloedverlies en hoe dat aan te tonen. ... Maar we slaan het eigenlijk over, omdat je het zou kunnen missen."
+  },
+  {
+   "voor": "Waarom vraag je bij ijzergebrek naar het gebruik van een protonpompremmer?",
+   "achter": "IJzer in de voeding is vooral Fe3+. Maagzuur is nodig om het tot Fe2+ te reduceren, zodat het via DMT1 kan worden opgenomen. Een PPI remt dus de ijzeropname, en miljoenen Nederlanders gebruiken er een.\nGevolg: oraal ijzer wordt slecht opgenomen, blijft in de darm achter en geeft buikklachten.",
+   "prio": true,
+   "citaat": "Als u een [maagzuur]rem heeft, komt deze er niet doorheen. ... Het wordt niet opgenomen, het veroorzaakt ook buikpijn, omdat al dat ijzer in de darmen achterblijft. (IC casus 1)"
+  },
+  {
+   "voor": "Casus (IC): een vrouw van 26 met een microcytaire anemie krijgt ijzer. Het ferritine is nu 50, maar het MCV blijft 78. Wat doe je?",
+   "achter": "Test op thalassemiedragerschap: Hb-elektroforese/HPLC, en zo nodig DNA-onderzoek (alfa).\nDe combinatie van ijzergebrek en thalassemiedragerschap komt in Nederland vaak voor. Blijft de microcytose bestaan bij een normaal ferritine, denk dan aan thalassemie.",
+   "prio": true,
+   "citaat": "U test gewoon op thalassemie, als de patiënt niet verder verbetert. Ferritine is normaal en het blijft maar microcyteren. (IC; HC: 'de combinatie van ijzertekort en thalassemie ... heel gebruikelijk in Nederland')"
+  },
+  {
+   "voor": "Hoe vaak komt dragerschap van een hemoglobinopathie voor in Nederland?",
+   "achter": "Ongeveer 1 op de 100 Nederlanders en 1 op de 50 pasgeborenen.\nDaardoor is thalassemie(dragerschap) na ijzergebrek de belangrijkste oorzaak van microcytose.",
+   "prio": true,
+   "citaat": "Eén op de vijftig pasgeboren kinderen, één op de honderd Nederlanders heeft dit. (HC, herhaald in IC; dia: 1% drager, pasgeborenen 2%)"
+  },
+  {
+   "voor": "Welke drie hemolyseparameters bepaal je, en welke daarvan is het meest specifiek?",
+   "achter": "LDH ↑, (ongeconjugeerd) bilirubine ↑ en haptoglobine ↓.\nLDH zit in elke cel en stijgt bij elk celverval (hartinfarct, leverfalen, ischemie). Bilirubine stijgt ook bij een afsluiting van de galwegen.\nHaptoglobine is het meest specifiek: het bindt vrijgekomen Hb en raakt bij hemolyse verbruikt.",
+   "prio": true,
+   "citaat": "[LDH] Dus niet specifiek, maar het kan wel bijdragen. ... [haptoglobine] En dat is een heel specifiek teken voor hemolyse. ... Dit zijn de drie standaard hemolytische parameters."
+  },
+  {
+   "voor": "Een patiënt is geel, maar de ontlasting is gewoon bruin. Waar denk je aan?",
+   "achter": "Aan hemolyse (prehepatische icterus): er ontstaat zoveel bilirubine dat het in het bloed stijgt, terwijl de galafvoer open is.\nBij een afsluiting van de galwegen (steen, tumor) bereikt bilirubine de darm niet en is de ontlasting ontkleurd.",
+   "prio": true,
+   "citaat": "Dus geelzucht met normale [ontlasting] kan bijvoorbeeld voortkomen uit hemolyse. ... patiënt ziet geel, de [ontlasting] is nog bruin, dus geen steen. (HC, twee keer)"
+  },
+  {
+   "voor": "Waarom is de directe antiglobulinetest (DAT, Coombs) de eerste test bij een nieuw vastgestelde hemolyse?",
+   "achter": "De test onderscheidt immuun- van niet-immuunhemolyse, en die behandel je heel verschillend.\nPositief: immuunhemolyse. Behandel met immuunsuppressie (prednison) en wees terughoudend met transfusie.\nNegatief: zoek verder naar intrinsieke oorzaken (membraan, enzym, Hb-pathie) of andere extrinsieke oorzaken.",
+   "prio": true,
+   "citaat": "Waarom beginnen we met de directe antiglobulinetest? ... Vanwege de verschillende diagnose. ... Behandelen we het hetzelfde? Nee. (IC)"
+  },
+  {
+   "voor": "Geef je bij een auto-immuun hemolytische anemie direct een bloedtransfusie?",
+   "achter": "In principe niet. De antistoffen reageren ook op de donorerytrocyten, en je kunt er allo-antistoffen bij maken: 'olie op het vuur'.\nAlleen bij een levensbedreigende anemie, bv. pijn op de borst door ischemie. De behandeling is immuunsuppressie (prednison).",
+   "prio": true,
+   "citaat": "Dus als je meer rode bloedcellen toevoegt, zullen de antistoffen nog meer reageren ... Als iemand pijn op de borst heeft door ischemie, dan moeten we het doen. ... Omdat je olie op het vuur gooit. (HC; IC idem)"
+  },
+  {
+   "voor": "Hoe werkt de directe antiglobulinetest (DAT, Coombs)?",
+   "achter": "Je voegt anti-humaan-globuline (anti-IgG, eventueel anti-complement) toe aan de erytrocyten van de patiënt. Zitten er antistoffen op de cellen, dan verbindt het reagens ze en klonteren ze samen (agglutinatie = positief).\nZitten er geen antistoffen op de cel, dan is er geen agglutinatie.",
+   "prio": false,
+   "citaat": "Een beetje bloed van een patiënt, u voegt er anti-IgG aan toe. ... en dan beginnen ze zich op te hopen. En als ... er geen immunoglobulinen zijn, krijg je ook geen opeenhoping."
+  },
+  {
+   "voor": "Wat is de eerste keus bij een koude auto-immuun hemolytische anemie, en waarom helpt splenectomie daar nauwelijks?",
+   "achter": "Rituximab (anti-CD20), dat de aanmaak van de IgM-antistoffen remt.\nIgM (een pentameer) activeert complement en geeft intravasculaire hemolyse. Afbraak door miltmacrofagen, zoals bij IgG, speelt weinig rol.\nDe warme AIHA (IgG) komt veel vaker voor; de basis daarvan is prednison.",
+   "prio": false,
+   "citaat": "Rituximab is de eerste keuze bij de koude auto-immuunziekte, omdat het dan de vorming van immunoglobulinen stopt. Maar de basis is meestal prednison, omdat de meest voorkomende warm is. (IC casus 3)"
+  },
+  {
+   "voor": "Waarom bepaal je bij (vrijwel) elke anemie de ijzerstatus, vitamine B12 en foliumzuur, ook als je aan hemolyse denkt?",
+   "achter": "Ze kosten weinig en een tekort is makkelijk te behandelen.\nBij hemolyse is de aanmaak hoog en het verbruik van bouwstoffen dus groot.\nEen ernstig B12-tekort kan zelf hemolyseparameters geven. Met een B12-bepaling mis je dat niet.",
+   "prio": true,
+   "citaat": "(IC) Ik zou altijd de ijzerstatus, vitamine B12, foliumzuur nemen ... het kost niets en het is belangrijk dat het in orde is. (HC) Daarom moet u altijd B12 bij hebben, want dan weet u zeker dat u niets mist."
+  },
+  {
+   "voor": "Hoe herken je hypersplenisme (bv. bij levercirrose) in het bloedbeeld?",
+   "achter": "Een sterk vergrote milt breekt te veel bloedcellen af, een extrinsieke oorzaak van hemolyse.\nNaast de anemie zie je vaak ook leukopenie en trombocytopenie: de milt 'eet' niet alleen erytrocyten.",
+   "prio": true,
+   "citaat": "We hebben het al over hypersplenisme gehad, dat zou u moeten kunnen herkennen. ... Maar eet het alleen rode bloedcellen? ... je ziet vaak lagere witte bloedcellen en lagere [bloedplaatjes]."
+  },
+  {
+   "voor": "Hoe herken je als niet-hematoloog een myelodysplastisch syndroom bij een oudere met anemie?",
+   "achter": "Een macrocytaire anemie met lage reticulocyten, zonder hemolyse, alcoholgebruik of B12-/foliumzuurtekort.\nIn de leukodiff en de uitstrijk vaak meerdere cytopenieën en dysplastische (afwijkende) vormen. Eerdere chemotherapie is een risicofactor.\nVerwijs naar de hematoloog voor beenmergonderzoek. Veel blasten betekent AML.",
+   "prio": true,
+   "citaat": "(IC casus 6) Mijn vraag is hoe je het kunt herkennen. En dat zijn vaak meerdere cytopenieën. ... De eerste stap is om de morfologische afwijking in het perifere bloed te bekijken. Als u dat heeft, kunt u het doorverwijzen naar de hematoloog."
+  },
+  {
+   "voor": "Langs welke drie assen deel je een hemolyse in, en welke anamnesevraag helpt daarbij?",
+   "achter": "Intrinsiek (membraan, enzym, Hb) tegenover extrinsiek (antistoffen, mechanisch, infectie, micro-angiopathie, hypersplenisme).\nCongenitaal tegenover verworven.\nIntravasculair tegenover extravasculair.\nVraag: 'Heeft u dit al uw hele leven? Heeft de familie het ook?' Zo ja, denk dan aan een aangeboren (intrinsieke) oorzaak.",
+   "prio": false,
+   "citaat": "IC-dia 'Verhoogde afbraak: intrinsiek vs extrinsiek, congenitaal vs verworven, intravasculair vs extravasculair'; casus 5: 'Is het geboren of niet? Heeft u dit al uw hele leven?'"
+  },
+  {
+   "voor": "Hoe kwantificeer je menorragie, en aan welke onderliggende aandoening denk je bij een jonge vrouw met ijzergebrek door menorragie?",
+   "achter": "Vraag concreet: hoeveel dagen bloedverlies, en hoe vaak moet ze verschonen? Moeders met dezelfde aandoening noemen het vaak 'normaal'.\nOngeveer 1 op de 10 jonge vrouwen met ijzergebrek door menorragie heeft een erfelijke bloedingsziekte, zoals de ziekte van Von Willebrand (die bij mannen en vrouwen even vaak voorkomt).",
+   "prio": true,
+   "citaat": "Dus als u huisarts wordt of nadenkt over menorragie, op welk gebied dan ook, kwantificeer het. ... En ongeveer 1 op de 10 jonge vrouwen met ijzertekort als gevolg van menorragie heeft een bepaalde erfelijke bloedstollingsziekte."
+  },
+  {
+   "voor": "Een patiënt met sikkelcelziekte is microcytair. Wat concludeer je?",
+   "achter": "Sikkelcelziekte is een kwalitatieve afwijking en geeft zelf geen microcytose. Door de vele grote reticulocyten verwacht je eerder een normaal tot hoog MCV.\nEr speelt dus iets bijkomends: een thalassemie (bèta zie je op de Hb-elektroforese, alfa alleen met DNA-onderzoek) of ijzergebrek (bepaal het ferritine).",
+   "prio": true,
+   "citaat": "Dus die [reticulocyten] verhogen nog steeds het MCV ... Maar ze is het niet, ze is microcytair. Dus ze heeft sowieso iets eronder. Dus neemt u een ferritine, voor de zekerheid. (IC casus 5)"
+  },
+  {
+   "voor": "Wat lokt een vaso-occlusieve pijncrise bij sikkelcelziekte uit, en waar zit de pijn meestal?",
+   "achter": "Na zuurstofafgifte polymeriseert HbS en lopen de vervormde cellen vast. Onder normale omstandigheden gebeurt dat niet: er is een uitlokker nodig, zoals stress, vasoconstrictie (kou) of ontsteking.\nDe pijn zit vooral in de ledematen, spieren en botten.",
+   "prio": false,
+   "citaat": "Dit gebeurt vooral bij enige stress, bij enige vasoconstrictie in combinatie met een beetje ontsteking. ... Onder normale omstandigheden gebeurt dit niet. (HC; IC casus 5: pijn in schouder en arm, uitgelokt door kou)"
+  },
+  {
+   "voor": "Is een HbS-drager beschermd tegen malaria?",
+   "achter": "Nee. Dragerschap gaf (zonder behandeling) een overlevingsvoordeel bij malaria; daardoor komt het in malariagebieden veel voor.\nHet is geen bescherming: adviseer gewoon malariaprofylaxe.",
+   "prio": true,
+   "citaat": "Dus het betekent niet dat u beschermd bent tegen malaria ... Maar er zijn nog steeds mensen die denken, oh ik ben beschermd tegen malaria. Fout. Neem gewoon malariaprofylaxe."
+  },
+  {
+   "voor": "Hoe wordt G6PD-deficiëntie in Nederland meestal ontdekt, en hoe stel je de diagnose?",
+   "achter": "X-gebonden (vooral jongens en mannen), wereldwijd circa 200 miljoen mensen.\nBuiten een aanval is het bloedbeeld normaal. Hemolyse treedt op bij oxidatieve stress: in Nederland vooral door medicatie (bv. antimalariamiddelen), zelden door tuinbonen.\nDe diagnose stel je met een specifieke G6PD-test. Patiënten krijgen een lijst met middelen die ze moeten vermijden.",
+   "prio": true,
+   "citaat": "Het is een X-gebonden ziekte ... 200 miljoen patiënten ... Je moet een specifieke test doen ... dat je normaal gesproken een [normaal] rode bloedcelbeeld hebt en dat komt er pas uit als je die medicijnen neemt ... in Nederland zien we ze voornamelijk via medicijnen."
+  },
+  {
+   "voor": "Waarom is het MCHC bij hereditaire sferocytose verhoogd?",
+   "achter": "Het membraan is zwak. In de circulatie gaan steeds kleine stukjes membraan verloren, terwijl het hemoglobine in de cel blijft. De cel wordt daardoor kleiner en bolvormig, met een hogere Hb-concentratie.\nEen verhoogd MCHC is zo specifiek dat je al aan sferocytose kunt denken op basis van dit goedkope getal.",
+   "prio": true,
+   "citaat": "Maar wat er in de bloedbaan gebeurt, is dat telkens kleine stukjes van het membraan worden verwijderd. ... Dit betekent dat de concentratie hemoglobine erg hoog wordt, omdat het hemoglobine erin blijft."
+  },
+  {
+   "voor": "Defecten in welke membraaneiwitten geven hereditaire sferocytose?",
+   "achter": "Defecten in eiwitten van het membraanskelet: spectrine, ankyrine en band 3.",
+   "prio": false,
+   "citaat": "De meest voorkomende zijn bèta-spectrines, band 3, deze ankerproteïnen, en ankyrine ... en ze geven allemaal sferocytose."
+  },
+  {
+   "voor": "Waarom is het vaststellen van ijzergebrek of een B12-tekort nooit het eindpunt van je diagnostiek?",
+   "achter": "Het is een symptoom en geen diagnose: er is altijd een oorzaak.\nBij ijzergebrek: bloedverlies (menorragie, occult GI-verlies), malabsorptie (PPI, coeliakie, maagoperatie) of te weinig inname.\nBij een B12-tekort: loop de vijf opnamefactoren na (dieet, maag, pancreas, intrinsic factor, ileum).",
+   "prio": true,
+   "citaat": "IJzertekort is geen diagnose, het is een symptoom. Mensen hebben dus om een reden ijzertekort. ... Als arts moet u erover blijven nadenken. (HC) Is vitamine B12-tekort een diagnose? Nee, ook een symptoom. (IC)"
+  },
+  {
+   "voor": "Waarom vraag je bij elke anemie naar medicatie en supplementen? Noem voorbeelden.",
+   "achter": "Medicatie is een veelvoorkomende oorzaak; volgens de docent een kwart tot een derde van de problemen.\nPPI: minder ijzer- en B12-opname.\nMetformine: B12-tekort.\nMethotrexaat (een antifolaat): macrocytaire anemie.\nAntistolling: bloedverlies.\nChemotherapie: beenmergsuppressie, later MDS.\nOxidatieve middelen: hemolyse bij G6PD-deficiëntie.\nLet op de tijdsrelatie en op of het beeld past bij het bijwerkingenprofiel.",
+   "prio": true,
+   "citaat": "Dus medicatie is bijna altijd het juiste antwoord. Als u de patiënt iets wilt vragen, welke medicijnen gebruikt u dan? Welke supplementen? ... Dus het beeld moet passen bij het bijwerkingenprofiel van het medicijn. (IC)"
+  },
+  {
+   "voor": "Acuut bloedverlies: wanneer verschijnt de reticulocytose, en wat zie je daarvoor in het bloed?",
+   "achter": "Direct vrijwel niets: Hb en MCV zijn vlak na de bloeding gelijk, omdat je volbloed verliest. De anemie is normocytair.\nDe reticulocytenrespons komt pas na ongeveer 5 dagen; in de traumakamer is die er dus nog niet.",
+   "prio": true,
+   "citaat": "Als u 3 liter bloed bij mij afneemt ... zal ik dezelfde grootte van mijn cellen hebben als twee minuten daarvoor. ... En pas vijf dagen later ziet u reticulocytenrespons. (HC, twee keer)"
+  },
+  {
+   "voor": "Welke drie hemoglobinesoorten heeft een volwassene, uit welke ketens bestaan ze en hoeveel procent vormen ze?",
+   "achter": "HbA: α2β2, circa 98%.\nHbA2: α2δ2, <3% (een soort 'reservehemoglobine').\nHbF: α2γ2, ≤1%.\nHbA2 en HbF bevatten geen bètaketens. Daarom stijgen ze ter compensatie bij bèta-thalassemie.",
+   "prio": false,
+   "citaat": "HbA2 is een soort reserve hemoglobine. En hier zijn twee alfa- en twee deltaketens (HC); dia 'Structuur van het Hb molecuul': HbA 98%, HbA2 <3%, HbF volw. ~1%"
+  }
+ ],
+ "correcties": [
+  {
+   "guid": "MknBkrV{2-",
+   "huidig": "Gastroscopie én coloscopie om een gastro-intestinale maligniteit uit te sluiten, aangevuld met feces occult bloed en coeliakieserologie",
+   "voorstel": "Direct scopie: gastroscopie én coloscopie, om een gastro-intestinale maligniteit (of een andere bron van occult bloedverlies) op te sporen. Daarnaast coeliakieserologie.\nGeen feces-occultbloedtest: een negatieve uitslag sluit intermitterend bloedverlies niet uit, en het ijzergebrek bij een oudere man is al indicatie genoeg.\nVraag ook naar medicatie (PPI, antistolling).",
+   "citaat": "HC: 'Als u een patiënt van 70 jaar in uw praktijk heeft met ijzertekort, dan hoeft u dit niet meer te doen, u doet onmiddellijk een scopie.' IC: 'Maar we slaan het eigenlijk over, omdat je het zou kunnen missen. Als hij een dag geen bloedverlies heeft, voert u de scopie niet uit.'"
+  },
+  {
+   "guid": "Fw`2SIU?Q",
+   "huidig": "De aanwezigheid van antistoffen of complement op het oppervlak van de erytrocyt. Positief bij auto-immuun hemolytische anemie, uitgelokt door infectie, medicatie, transfusie, zwangerschap of een onderliggende maligniteit of auto-immuunziekte. Behandeling van AIHA: prednison",
+   "voorstel": "De aanwezigheid van antistoffen (IgG) en/of complement op het oppervlak van de erytrocyt.\nPositief bij immuunhemolyse: auto-immuun (AIHA, uitgelokt door infectie, medicatie of een onderliggende maligniteit of auto-immuunziekte) of allo-immuun (na een bloedtransfusie of zwangerschap).\nBehandeling van (warme) AIHA: prednison.",
+   "citaat": "Dia 'Oorzaken hemolyse immunologisch': 'Allo immuun hemolyse – VG bloedtransfusies of zwangerschap'. HC: 'U kunt ook allo-immuunhemolyse krijgen na een bloedtransfusie of een microtransfusie van foetus naar moeder tijdens de zwangerschap.'"
+  },
+  {
+   "guid": "gzc3c-8d3a064fc352",
+   "huidig": "Prednison als eerste lijn; bij onvoldoende effect rituximab (anti-CD20). Daarnaast foliumzuur en zo nodig een transfusie.\nZoek en behandel een onderliggende oorzaak (bv. CLL, lymfoom, auto-immuunziekte, medicatie).",
+   "voorstel": "Prednison als eerste lijn; bij onvoldoende effect rituximab (anti-CD20). Daarnaast foliumzuur.\nIn principe geen transfusie; alleen bij een levensbedreigende anemie (bv. ischemie).\nZoek en behandel een onderliggende oorzaak (bv. CLL, lymfoom, auto-immuunziekte, medicatie).",
+   "citaat": "HC: 'Als iemand pijn op de borst heeft door ischemie, dan moeten we het doen. ... Omdat je olie op het vuur gooit.' IC: 'Kunnen we ook een bloedtransfusie geven als iemand een auto-immuunaanval op zijn rode bloedcellen heeft? Nee.'"
+  },
+  {
+   "guid": "kapstok",
+   "huidig": "docent='dr. Joline Saes, internist-hematoloog' (HC3)",
+   "voorstel": "docent='dr. Joline Saes, internist-hematoloog (slides); in de opnames van HC 3 en IC 3 spreekt haar collega (E.J.) van Beers, Van Creveldkliniek'",
+   "citaat": "HC-begin: 'Als ik me niet vergis, heb je net erytropoëse gehad ... Die heb je van Jolien Saas, een collega van mij. En ik ben [..] van Beers. Wij werken samen bij [Van Creveld]kliniek.' IC: 'Jolien, mijn collega, legde uit hoe het werkt.' (De voorletters komen uit de bronvermelding 'E.J. van Beers et al.' op de slides. De voornaam is in het transcript onleesbaar, en zijn titel of functie wordt niet genoemd.)"
+  },
+  {
+   "guid": "kapstok",
+   "huidig": "valkuil: 'Het college hanteert een MCV van 82-98 fl als normaal (niet 80-100).'",
+   "voorstel": "De slides en de IC-casussen hanteren een MCV van 82-98 fl als normaal; de docent noemde mondeling '80 tot 100'. Leer 82-98, maar weet dat 80-100 elders ook gangbaar is.",
+   "citaat": "HC: 'Dus van 80 tot 100 is normaal en daarboven is de macrocyt[aire].' Dia's: 'Microcytair <82fl – Normocytair 82-98fl – Macrocytair >98fl'"
+  },
+  {
+   "guid": "kapstok",
+   "huidig": "cel: 'Dragerschap van HbS beschermt tegen ernstige malaria. Daarom komt het vooral voor waar malaria heerste.'",
+   "voorstel": "Dragerschap van HbS gaf een overlevingsvoordeel bij malaria, maar het is geen echte bescherming: malariaprofylaxe blijft nodig. Daarom komt het vooral voor waar malaria heerste.",
+   "citaat": "HC: 'Dus het betekent niet dat u beschermd bent tegen malaria ... Maar er zijn nog steeds mensen die denken, oh ik ben beschermd tegen malaria. Fout. Neem gewoon malariaprofylaxe.'"
+  },
+  {
+   "guid": "kapstok",
+   "huidig": "Kinetisch: 'Aanmaak ↓ (reticulocyten laag): bouwstenen, beenmerg, hormonen (EPO, TSH, androgenen), chronische ziekte.'",
+   "voorstel": "Aanmaak ↓ (reticulocyten laag, of 'normaal' maar bij een anemie inadequaat): bouwstenen, beenmerg, hormonen (EPO, schildklierhormoon, androgenen), chronische ziekte.",
+   "citaat": "HC: 'Laat u dus niet afleiden door het normale bereik ... De reticulocytenrespons had veel hoger moeten zijn.' en 'Tekort aan schildklierhormoon of tekort aan andere hormonen.' (Bij hypothyreoïdie is er geen tekort aan TSH.)"
+  },
+  {
+   "guid": "kapstok",
+   "huidig": "Kinetisch: 'Verlies: acuut (reticulocyten ↑) of chronisch occult (ijzergebrek, reticulocyten ↓).'",
+   "voorstel": "Verlies: acuut (eerst geen afwijking; het Hb daalt pas na hemodilutie en de reticulocytose komt pas na ±5 dagen) of chronisch occult (ijzergebrek, reticulocyten ↓).",
+   "citaat": "HC: '... binnen een uur heeft u geen [reticulocyten]respons gehad, omdat het vijf dagen duurt' en 'En pas vijf dagen later ziet u reticulocytenrespons.'"
+  }
+ ],
+ "kapstok_aanvullingen": [
+  {
+   "kop": "Definitie",
+   "punt": "Wereldwijd is ijzergebrek de belangrijkste oorzaak van anemie (worminfecties, voeding). In welvarende landen gaat een relatief groot deel van de anemie terug op aangeboren hemoglobinopathieën."
+  },
+  {
+   "kop": "De erytrocyt",
+   "punt": "Hb zit in een 'zak' omdat ijzer toxisch is ('roest'). Haptoglobine vangt vrijgekomen Hb direct weg; schiet het tekort (massale hemolyse), dan dreigt nierschade."
+  },
+  {
+   "kop": "De erytrocyt",
+   "punt": "De enzymen hebben twee taken: antioxidatie via de pentosefosfaatroute (G6PD-deficiëntie: X-gebonden, ~200 miljoen mensen, in NL meestal ontdekt via medicatie) en energie via de glycolyse (pyruvaatkinasedeficiëntie)."
+  },
+  {
+   "kop": "De erytrocyt",
+   "punt": "Membraanskelet: defecten in spectrine, ankyrine en band 3 geven sferocytose. Membraanverlies terwijl het Hb in de cel blijft, verklaart het verhoogde MCHC."
+  },
+  {
+   "kop": "Lab",
+   "punt": "IJzerstatus: ferritine <30 µg/l bewijst ijzergebrek. Omdat ferritine een acutefase-eiwit is, bepaal je ook de transferrinesaturatie: <20% is een (functioneel) tekort, >45% (nuchter) wijst op stapeling."
+  },
+  {
+   "kop": "Lab",
+   "punt": "Hemolyseparameters: LDH (>250 U/l, aspecifiek), bilirubine (icterus vanaf >50 µmol/l; DD galsteen) en haptoglobine ↓ (het meest specifiek). Geel met bruine ontlasting: denk aan hemolyse, niet aan een steen."
+  },
+  {
+   "kop": "Lab",
+   "punt": "Bepaal bij een anemie standaard ferritine, B12 en foliumzuur: ze zijn goedkoop, een tekort is makkelijk te behandelen, en een ernstig B12-tekort kan zelf hemolyseparameters geven."
+  },
+  {
+   "kop": "Kinetisch",
+   "punt": "Hemolyse: doe eerst de DAT. Positief betekent immuunhemolyse: prednison (warm, IgG) of rituximab (koud, IgM), en wees terughoudend met transfusie ('olie op het vuur')."
+  },
+  {
+   "kop": "Kinetisch",
+   "punt": "Hypersplenisme (bv. bij cirrose): naast de anemie ook leuko- en trombopenie. Meerdere cytopenieën wijzen op een probleem van beenmerg of milt, niet alleen van de erytrocyt."
+  },
+  {
+   "kop": "Morfologisch",
+   "punt": "De logica: ligt de fabriek stil (nier, beenmerg, ACD, endocrien), dan is de anemie normocytair. Te weinig bouwsteen voor Hb (ijzer, heem, globine) geeft microcytose. Een rijpingsstoornis of veel reticulocyten geeft macrocytose."
+  },
+  {
+   "kop": "Hemoglobinopathieën",
+   "punt": "Hb bij volwassenen: HbA α2β2 (~98%), HbA2 α2δ2 (<3%) en HbF α2γ2 (≤1%). Bij bèta-thalassemie stijgen HbA2 en HbF; bij alfa-thalassemie is compensatie niet mogelijk, dus is DNA-onderzoek nodig."
+  },
+  {
+   "kop": "Hemoglobinopathieën",
+   "punt": "1 op de 100 Nederlanders en 1 op de 50 pasgeborenen is drager. Na ijzergebrek is dragerschap de belangrijkste oorzaak van microcytose."
+  },
+  {
+   "kop": "Hemoglobinopathieën",
+   "punt": "Sikkelcelziekte is kwalitatief en geeft dus géén microcytose. Microcytose bij sikkelcelziekte betekent een bijkomende thalassemie of ijzergebrek."
+  },
+  {
+   "kop": "Hemoglobinopathieën",
+   "punt": "Vaso-occlusieve crisis: polymerisatie van HbS na zuurstofafgifte, uitgelokt door stress, kou (vasoconstrictie) of ontsteking. De pijn zit vooral in de ledematen en botten."
+  },
+  {
+   "kop": "Bloedverlies",
+   "punt": "Kwantificeer menorragie (hoeveel dagen, hoe vaak verschonen). Ongeveer 1 op de 10 jonge vrouwen met ijzergebrek door menorragie heeft een erfelijke bloedingsziekte (bv. Von Willebrand)."
+  },
+  {
+   "kop": "Bloedverlies",
+   "punt": "Oudere man met ijzergebrek: direct scopie, geen FOBT (de FOBT hoort bij het bevolkingsonderzoek). Vraag naar een PPI (remt de ijzeropname, waardoor oraal ijzer faalt en buikpijn geeft) en naar antistolling."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Casus 1, vervolg: na ijzersuppletie is het ferritine 50, maar het MCV blijft 78. Test dan op thalassemiedragerschap; de combinatie met ijzergebrek komt vaak voor."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Casus 2: een normocytaire anemie bij actieve RA past bij ACD (methotrexaat zou eerder macrocytair zijn). Bepaal CRP/BSE en laat de ontsteking behandelen."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Casus 3 (man, 74): hemolyse met een positieve DAT, dus warme AIHA, behandeling prednison. Controleer ook ijzer, B12 en foliumzuur."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Casus 4: het B12-tekort is een symptoom. Vraag naar dieet, maagoperatie (bariatrie), PPI, pancreas, intrinsic factor, ileum en coeliakie (buikpijn na brood)."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Casus 6: MDS na eerdere chemotherapie. Eerst een leukodiff en morfologie (meerdere cytopenieën, dysplasie), daarna de hematoloog voor beenmergonderzoek (veel blasten betekent AML)."
+  },
+  {
+   "kop": "IC-casussen",
+   "punt": "Casus 7 (TTP) staat op de slides, maar is in de opname van het IC niet meer besproken."
+  },
+  {
+   "kop": "Tentamen",
+   "punt": "Typische examenvraag: microcytaire anemie bij een jonge vrouw (ferritine: ijzergebrek door menorragie, of thalassemie) tegenover een man van 70 (occult GI-bloedverlies, dus scopie). Weet hoe je chronisch occult bloedverlies aantoont."
+  },
+  {
+   "kop": "Tentamen",
+   "punt": "IJzergebrek en B12-tekort zijn geen diagnose maar een symptoom: zoek altijd het waarom, en vraag altijd naar medicatie ('medicatie is bijna altijd het juiste antwoord'). PNH hoef je niet te kennen; marshemoglobinurie en hemofagocytose heeft de docent overgeslagen."
+  }
+ ],
+ "valkuilen": [
+  "Reticulocyten 'binnen de normaalwaarde' bij een anemie zijn niet geruststellend: de respons is inadequaat en wijst op een aanmaakstoornis.",
+  "Acuut bloedverlies: in de traumakamer zijn Hb en MCV nog normaal, en de reticulocytose komt pas na ongeveer 5 dagen.",
+  "Een normaal of hoog ferritine sluit ijzergebrek niet uit bij ontsteking (ferritine is een acutefase-eiwit). Bepaal ook de transferrinesaturatie (<20%).",
+  "Een niet-nuchter bepaalde transferrinesaturatie kan vals hoog zijn (>45%) en ten onrechte op stapeling wijzen.",
+  "Een negatieve FOBT sluit occult bloedverlies niet uit. Bij een oudere man met ijzergebrek doe je direct een scopie.",
+  "Bij AIHA geef je niet routinematig een transfusie ('olie op het vuur'). Doe dat alleen bij een levensbedreigende anemie.",
+  "PPI-gebruik verklaart waarom oraal ijzer niet werkt en buikklachten geeft. Vraag er altijd naar.",
+  "Microcytose past niet bij sikkelcelziekte. Zoek een bijkomende thalassemie of ijzergebrek.",
+  "Een normale Hb-elektroforese sluit alfa-thalassemie niet uit; daarvoor is DNA-onderzoek nodig.",
+  "Een HbS-drager is niet beschermd tegen malaria: malariaprofylaxe blijft nodig.",
+  "Methotrexaat geeft eerder een macrocytaire anemie. Een normocytaire anemie bij RA past beter bij ACD; het beeld moet passen bij het bijwerkingenprofiel.",
+  "G6PD-deficiëntie geeft buiten een aanval een normaal bloedbeeld. Je vindt het alleen met een gerichte G6PD-test.",
+  "Geel met normaal bruine ontlasting wijst eerder op hemolyse dan op een galsteen.",
+  "Patiënten met een aangeboren anemie zoals thalassemie die 'voor de zekerheid' ijzer of multivitaminen slikken, kunnen ijzer stapelen, ook zonder transfusies.",
+  "Een hoog LDH is niet specifiek voor hemolyse (ook bij een hartinfarct, leverfalen of ischemie). Haptoglobine is het meest specifiek."
+ ],
+ "docentcitaten": [
+  {
+   "citaat": "Classificatie begint altijd met kinetiek, maken, breken, verliezen, en dan morfologisch.",
+   "onderwerp": "De vaste analyse van elke anemie: reticulocyten, daarna MCV"
+  },
+  {
+   "citaat": "Laat u niet afleiden door het normale bereik.",
+   "onderwerp": "Reticulocyten binnen de normaalwaarde zijn bij anemie inadequaat"
+  },
+  {
+   "citaat": "IJzertekort is geen diagnose, het is een symptoom.",
+   "onderwerp": "Altijd de oorzaak van ijzer- of B12-tekort zoeken"
+  },
+  {
+   "citaat": "Dan gooi je olie op het vuur.",
+   "onderwerp": "Geen routinematige transfusie bij auto-immuun hemolytische anemie"
+  }
+ ],
+ "afgewezen": [
+  {
+   "wat": "Nieuwe kaart 'Wat is de functie van haptoglobine ...'",
+   "reden": "Dubbel met de nieuwe kaart over de hemolyseparameters (haptoglobine bindt vrij Hb en raakt verbruikt) en met de bestaande kaart gzc3c-cbbd4f5dcb6c (vrij Hb is toxisch en beschadigt de nier)."
+  },
+  {
+   "wat": "Nieuwe kaart 'Afkapwaarden tekenen van erytrocytenafbraak (LDH >250, icterus >50)'",
+   "reden": "Laag rendement: de docent noemt de getallen niet en ze verschillen per lab. Wel opgenomen in de kapstok (Lab)."
+  },
+  {
+   "wat": "Nieuwe kaart 'Casus (IC) man van 74 ... welk aanvullend lab?'",
+   "reden": "Dubbel: de DAT als eerste test, de bouwstoffen-bepaling en de AIHA-casus (gzc3x-80ea25713669) dekken dit al. De casus staat wel in de kapstok."
+  },
+  {
+   "wat": "Nieuwe kaart 'Waarom kijk je bij een anemie ook naar de leukocyten en trombocyten?'",
+   "reden": "Dubbel met gzc3c-fa7919d026a8 (beenmergsuppressie: volledig bloedbeeld) en met de nieuwe kaarten over hypersplenisme en MDS."
+  },
+  {
+   "wat": "Nieuwe kaart 'Casus (IC) man van 70 na chemotherapie ... MDS'",
+   "reden": "Grote overlap met de bestaande 'Wie ben ik?'-kaart gzc3x-a29a18c49085. Herschreven tot een herkenningskaart ('Hoe herken je MDS als niet-hematoloog?'), wat aansluit bij de focus van de docent."
+  },
+  {
+   "wat": "Nieuwe kaart 'Wanneer geeft een hartklep mechanische hemolyse?'",
+   "reden": "Trivia ('allemaal heel specifiek'); kunstklep als mechanische oorzaak staat al in gzc3c-bf549c6e9780."
+  },
+  {
+   "wat": "Nieuwe kaart 'DIS met micro-angiopathische hemolyse (sepsis)'",
+   "reden": "Dubbel met gzc3c-4b3f31889dad (TMA-oorzaken, incl. sepsis/DIS) en gzc3c-f4f3cc8494d7 (fragmentocyten bij TTP/HUS/DIS)."
+  },
+  {
+   "wat": "Nieuwe kaart 'Hemolyse bij een jonge reiziger na een backpackreis (malaria)'",
+   "reden": "Trivia; malaria als infectieuze oorzaak van hemolyse staat al in gzc3c-bf549c6e9780."
+  },
+  {
+   "wat": "Nieuwe kaart 'Waarom heeft Nederland meer bloeddonoren met een niet-westerse achtergrond nodig?' (Duffy)",
+   "reden": "Een uitweiding van de docent; geen kernstof van anemie. Ook uit de kapstok-aanvulling 'Membraan' gehaald."
+  },
+  {
+   "wat": "Nieuwe kaart 'Hoe geeft loodvergiftiging een microcytaire anemie?'",
+   "reden": "Lood als heemsynthesestoornis staat al in o`*d#5SSQu en gzc3chk-e4c342b35d45. De bewering 'koperintoxicatie doet iets vergelijkbaars' is twijfelachtig (kopertekort geeft microcytose/sideroblastair beeld; koperintoxicatie eerder hemolyse), en de 'Gekke Hoedenmaker' ging over kwik, niet over lood."
+  },
+  {
+   "wat": "Nieuwe kaart 'RA-patiënt met methotrexaat en een normocytaire anemie'",
+   "reden": "Dubbel met gzc3c-97fcc1ab9781 (RA: activiteit, methotrexaat/macrocytose, ijzerstatus). Het punt 'beeld moet passen bij het bijwerkingenprofiel' staat in de medicatiekaart en de valkuilen."
+  },
+  {
+   "wat": "Nieuwe kaart 'Supplementprobleem bij patiënten met een aangeboren anemie (ijzerstapeling)'",
+   "reden": "Een zijantwoord op een vraag uit de zaal; inhoudelijk gedekt door gzc3x-a8d290d944fb ('Geen ijzer geven!') en gzc3chk-03c8c9ecf618 (stapeling door lage hepcidine). Wel als valkuil opgenomen."
+  },
+  {
+   "wat": "Nieuwe kaart 'Waarom zijn patiënten met chronische hemolyse extra vermoeid?'",
+   "reden": "Trivia (7,5 kg per jaar, 'stuk rundvlees per dag'); wordt niet getoetst."
+  },
+  {
+   "wat": "Nieuwe kaart 'Waarom meet men bij dopingcontroles de reticulocyten?'",
+   "reden": "Trivia."
+  },
+  {
+   "wat": "Nieuwe kaart 'Prevalentie anemie bij 70-plussers (14%: 6/3/3/1/2%)'",
+   "reden": "Trivia. De afkorting 'ECI' wordt in de bronnen niet uitgelegd ('onverklaard' is een aanname). De 14% staat al in de kapstok."
+  },
+  {
+   "wat": "Nieuwe kaart 'Wat is wereldwijd de belangrijkste oorzaak van anemie?'",
+   "reden": "Laag rendement als kaart; opgenomen in de kapstok (Definitie)."
+  },
+  {
+   "wat": "Nieuwe kaart 'Casus (IC) vrouw van 55 met B12-tekort, buikpijn van brood, maagverkleining'",
+   "reden": "Dubbel met gzc3c-6a85e9a403aa (vijf opnamefactoren), gzc3c-5c45357bf693 (dezelfde casus) en de nieuwe kaart 'symptoom, geen diagnose'. Coeliakie en maagverkleining staan in de kapstok."
+  },
+  {
+   "wat": "Bewering 'spectrine is het meest voorkomende defect' (nieuwe kaart membraaneiwitten en kapstok-aanvulling)",
+   "reden": "De docent zegt het, maar leerboeken noemen ankyrine meestal als de meest voorkomende oorzaak van hereditaire sferocytose. Bij twijfel geschrapt; de kaart noemt alleen de drie eiwitten."
+  },
+  {
+   "wat": "Laatste regel van de nieuwe kaart 'Jonge vrouw met microcytaire anemie' (man van 70: scopie)",
+   "reden": "Tweede leerpunt dat al in MknBkrV{2-, LQE!eO67Z. en de nieuwe kaart over occult bloedverlies staat."
+  },
+  {
+   "wat": "Nieuwe kaart koude/warme AIHA: oorspronkelijke vraag en uitgebreide uitleg van de warme vorm",
+   "reden": "De IgG/IgM-verdeling staat al in gzc3c-cebef3a54986 en de splenectomie-indicaties in b5>2:kf#d&. De kaart is ingeperkt tot het nieuwe leerpunt (rituximab bij koude AIHA; splenectomie helpt daar nauwelijks)."
+  },
+  {
+   "wat": "Laatste regels van de nieuwe kaarten over PPI (inzet van PPI tegen ijzerstapeling), dragerschap (thalassemiedragers milde microcytose; veel dragers onbekend) en sferocytose (genoemde eiwitten)",
+   "reden": "Trivia of dubbel met gzc3c-94cb08dcc1e4 en de nieuwe kaart met de casus 'ferritine 50, MCV 78'."
+  },
+  {
+   "wat": "prio_guid gzc3c-d657e2afc3ea (hielprik)",
+   "reden": "Alleen een vraag op een IC-dia; het antwoord van de docent is onverstaanbaar en hij benadrukt het onderwerp niet."
+  },
+  {
+   "wat": "prio_guid gzc3c-176e0e42e504 (membraanafwijkingen / osmotische resistentie)",
+   "reden": "De osmotische resistentie wordt uitgelegd, maar niet als belangrijk benadrukt."
+  },
+  {
+   "wat": "Correctie GRdd`%iL@K (behandeloverzicht: koude AIHA met rituximab toevoegen)",
+   "reden": "De bestaande tekst ('corticosteroïden bij AIHA') is niet in strijd met het college ('de basis is meestal prednison, omdat de meest voorkomende warm is'). De koude AIHA staat in een eigen nieuwe kaart."
+  },
+  {
+   "wat": "Correctie MknBkrV{2-: coeliakieserologie 'pas als de scopie geen verklaring geeft'",
+   "reden": "Geen steun in de bronnen; richtlijnen adviseren coeliakieserologie bij ijzergebreksanemie gewoon naast de scopie. Alleen de FOBT is geschrapt."
+  },
+  {
+   "wat": "Correctie Fw`2SIU?Q: warme/koude AIHA-behandeling aan de DAT-kaart toevoegen",
+   "reden": "Twee leerpunten op één kaart; dekt al de nieuwe kaart over koude AIHA. De correctie is beperkt tot het verschil tussen auto- en allo-immuun (transfusie en zwangerschap geven allo-immuunhemolyse)."
+  },
+  {
+   "wat": "Correctie gzc3c-8d3a064fc352: uitleg 'olie op het vuur' in de achterkant",
+   "reden": "Die uitleg staat al in de nieuwe kaart over transfusie bij AIHA; de correctie beperkt zich tot 'in principe geen transfusie'."
+  },
+  {
+   "wat": "Correctie kapstok-docent: 'dr. (E.J.) van Beers, internist-hematoloog'",
+   "reden": "De titel en functie van de spreker worden in het transcript niet genoemd. Aangepast naar 'collega (E.J.) van Beers, Van Creveldkliniek'."
+  },
+  {
+   "wat": "Tentamentip 'Ferritine <30 ... boven 45% stapeling, onder 20% tekort'",
+   "reden": "Geen uitspraak over het tentamen of over 'moet je kennen'; de afkapwaarden staan in de kaarten en de kapstok."
+  },
+  {
+   "wat": "Docentcitaat 'Medicatie is bijna altijd het juiste antwoord'",
+   "reden": "Vervangen door 'maken, breken, verliezen' (het kernraamwerk). Het citaat staat wel bij de tentamentips."
+  },
+  {
+   "wat": "Opmerking bij de bestaande tag prio::tentamen op gzc3c-be8c5d4b190f (marshemoglobinurie-casus); geen voorstel van de collega",
+   "reden": "De docent sloeg marshemoglobinurie over ('Mars hemoglobine, PNH hebben we niet besproken, dat sla ik over'). Overweeg de prio-tag te verwijderen."
+  }
+ ]
+}

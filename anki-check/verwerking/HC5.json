@@ -1,0 +1,491 @@
+{
+ "tentamentips": [
+  {
+   "citaat": "Wij denken eigenlijk dat u niet precies hoeft te weten wat elke ziekte inhoudt. Maar ik probeer vandaag een indeling te maken zodat u begrijpt wat waar thuishoort.",
+   "betekenis": "De details per ziekte hoef je niet te kennen. Wel de indeling: gaat het mis op stamcelniveau (acute leukemie, MDS, MPN) of in een rijpere, gedifferentieerde cel (CLL, lymfoom, multipel myeloom)?"
+  },
+  {
+   "citaat": "En voor mij is het belangrijk dat u het begrijpt [...] welke hematologische ziekte geassocieerd zou kunnen zijn met bepaalde symptomen. [...] En dan moet u terug naar de hematopoëse [...] waar het misgaat in de hematopoëse [...] [welk] soort kanker dat het zou kunnen zijn.",
+   "betekenis": "Dit is de kernvaardigheid: van klachten naar ziekte redeneren via de plek waar de maligne cellen zitten en het stadium in de hematopoëse waar het misgaat."
+  },
+  {
+   "citaat": "Maar voor nu is het belangrijk om te onthouden dat blasten, dus veel jonge cellen die je normaal gesproken alleen in je [beenmerg] vindt, als je ze terugvindt in je bloed, dan is dat een teken van acute leukemie.",
+   "betekenis": "Blasten in het perifere bloed betekenen acute leukemie. Dit moet je paraat hebben."
+  },
+  {
+   "citaat": "Dus als u een zeer hoog aantal witte bloedcellen heeft, van die grote cellen in de bloedbaan, wat voor klachten zou u dan kunnen krijgen? Het is iets wat je moet weten, iets waar je over na moet kunnen denken.",
+   "betekenis": "Je moet de klachten van hyperleukocytose kunnen beredeneren: leukostase in de kleine vaten van longen, hersenen en ogen."
+  },
+  {
+   "citaat": "Dat hoeft u niet allemaal precies te weten, maar weet dat er allerlei voorlopers zijn. [...] En de cellen hierboven, al die jongere vormen, worden niet in het bloed aangetroffen. En als u dat wel vindt, dan [is er sprake van] ziekte.",
+   "betekenis": "De volledige stamboom van voorlopers hoef je niet in detail te kennen. Wel het principe dat jonge vormen niet in het bloed horen."
+  },
+  {
+   "citaat": "En dan heb je twee soorten, wat nu even iets minder belangrijk is. U heeft acute myeloïde leukemie. [...] of vanuit de lymfatische hoek.",
+   "betekenis": "In dit introductiecollege staat het begrip acute leukemie (blasten) voorop. Het onderscheid tussen AML en ALL is hier bijzaak."
+  },
+  {
+   "citaat": "En de laatste twee, dat is allemaal wat zeldzamer. [...] een zeer zeldzame ziekte, die je misschien één of twee keer in je loopbaan ziet, tenzij je hematoloog wordt [...] Dus voor ons is het een beetje minder belangrijk om te weten. Maar u begrijpt het principe.",
+   "betekenis": "Bij MDS en MPN gaat het in dit college om het principe (een stamcelziekte), niet om de details. Let op: veel MDS/MPN-kaarten hebben vanuit de slides wel de tag prio::tentamen. De docent zegt ook: 'U hoort er spoedig meer over'."
+  },
+  {
+   "citaat": "Stadium 1 is het laagste stadium, 4 is het hoogste, verspreid door het hele lichaam. En dat bepaalt ook, u hoeft het niet precies te weten, hoe u het behandelt bij sommige soorten lymfoom.",
+   "betekenis": "De details van de lymfoomstadiëring hoef je niet te kennen. Wel het principe dat lymfoom een systemische ziekte is."
+  },
+  {
+   "citaat": "Mijn collega Rogier [Mous] heeft hier al een college over gegeven, dus dat zouden jullie allemaal moeten weten.",
+   "betekenis": "De stof over CLL en lymfomen uit het eerdere college wordt bekend verondersteld; dit college bouwt erop voort."
+  },
+  {
+   "citaat": "Maar daar gaan we het vandaag niet over hebben, om dat te herkennen. Dat doen we in het praktijkexamen. [...] Een blast wordt gekenmerkt door een nucleolus. [...] We zullen dit ook in de praktijk bekijken.",
+   "betekenis": "Het herkennen van cellen in een uitstrijk (soorten leukocyten, een blast met nucleolus, een Auerstaaf) oefen je in het practicum (de docent spreekt van een praktijkexamen)."
+  },
+  {
+   "citaat": "Dat was de behandeling van alle ziektebeelden in vogelvlucht. Veel informatie, maar u krijgt deze terug in de aparte colleges.",
+   "betekenis": "Dit college is een overzicht. De afzonderlijke ziektebeelden worden in latere colleges uitgediept, dus zet hier vooral het kader neer."
+  }
+ ],
+ "prio_guids": [
+  {
+   "guid": "Hgc,:w+-9f",
+   "waarom": "De rode draad van het college: 'ik probeer vandaag een indeling te maken zodat u begrijpt wat waar thuishoort', namelijk stamcelziekten versus maligniteiten van rijpere cellen."
+  },
+  {
+   "guid": "gzc3c-b819b8d94b28",
+   "waarom": "Uitgebreid uitgelegd: de jonge cellen horen in het beenmerg, 'dat is waar het misgaat'. De normale aanmaak wordt onderdrukt, met anemie, trombocytopenie en neutropenie (infecties), elk met een eigen klachtenslide."
+  },
+  {
+   "guid": "gzc3c-90a9f0f941ba",
+   "waarom": "'Voor nu is het belangrijk om te onthouden dat blasten [...] als je ze terugvindt in je bloed, dan is dat een teken van acute leukemie.'"
+  },
+  {
+   "guid": "gzc3c-e0180abd5727",
+   "waarom": "'CLL is een beetje een gekke ziekte. We [scharen] dat soms ook onder het lymfoom. Het zit in uw bloedbaan [...] maar het zit ook vaak in de [lymfeklieren].' CLL krijgt veel aandacht, met foto's en vragen aan de zaal."
+  },
+  {
+   "guid": "gzc3x-ba4c0e41ebb4",
+   "waarom": "Multipel myeloom als ziekte van 'plasmacellen, zeer gedifferentieerde B-cellen' met een M-proteïne: 'Wanneer u in het bloed meet of iemand zo'n M-proteïne heeft, dan moet u denken aan een multipel myeloom.'"
+  },
+  {
+   "guid": "gzc3c-4133efc18af7",
+   "waarom": "De docent bespreekt uitgebreid de lytische laesies en pathologische fracturen via osteoclasten ('heel typisch voor multipel myeloom'), met de B en de C van CRAB."
+  },
+  {
+   "guid": "qbksY@pJcD",
+   "waarom": "Meerdere hits, meerdere klonen en klonale evolutie: uitgelegd en later herhaald ('een optelsom van deze mutaties veroorzaakt kanker'). De slide zet er een uitroepteken bij."
+  },
+  {
+   "guid": "gzc3c-000a0778df7a",
+   "waarom": "'Wat heel typisch kan zijn voor lymfoom, zijn de B-symptomen [...] Die drie komen eigenlijk samen', met als verklaring de cytokineproductie, precies het mechanisme op deze kaart."
+  }
+ ],
+ "nieuwe_kaarten": [
+  {
+   "voor": "Hoe beredeneer je de klachten bij een hematologische maligniteit?",
+   "achter": "Vraag je af waar de maligne cellen zitten (en waar in de hematopoëse het misgaat):\nBloed: hyperleukocytose → leukostase\nBeenmerg: verdringing → anemie, trombocytopenie, neutropenie\nLymfeklieren en milt: lymfadenopathie, splenomegalie (snel vol gevoel)\nCytokines: B-symptomen, jeuk\nBot (myeloom): lytische laesies, fracturen",
+   "prio": true,
+   "citaat": "\"Je moet je afvragen waar de cellen zich bevinden.\" / \"voor mij is het belangrijk dat u het begrijpt [...] welke hematologische ziekte geassocieerd zou kunnen zijn met bepaalde symptomen\""
+  },
+  {
+   "voor": "Welke cellen horen normaal in het perifere bloed, en wat betekent het als je blasten in het bloed vindt?",
+   "achter": "Normaal alleen rijpe cellen; de jonge voorlopers blijven in het beenmerg. Jonge vormen in het bloed wijzen op ziekte.\nVeel blasten in het bloed: denk aan acute leukemie.",
+   "prio": true,
+   "citaat": "\"de cellen hierboven, al die jongere vormen, worden niet in het bloed aangetroffen\" / \"blasten [...] als je ze terugvindt in je bloed, dan is dat een teken van acute leukemie\""
+  },
+  {
+   "voor": "Welke klachten geeft een zeer hoog leukocytengetal (hyperleukocytose) bij acute leukemie, en via welk mechanisme?",
+   "achter": "Leukostase: de grote blasten lopen vast in de kleine vaten (geen trombose van de grote vaten).\nLongen: dyspneu, lage saturatie\nHersenen: o.a. hersenbloeding\nOgen: visusstoornissen",
+   "prio": true,
+   "citaat": "\"Het is iets wat je moet weten [...] Wanneer het vast komt te zitten in kleine aderen in de longen of in de hersenen of in het oog [...] niet echt een grote trombose in een grote ader [...] hyperleukocytose, een leukostase\""
+  },
+  {
+   "voor": "Aan welke klinische tekenen herken je trombocytopenie?",
+   "achter": "Bloedend tandvlees, neusbloedingen (epistaxis) en petechiën (kleine puntvormige huidbloedingen).",
+   "prio": false,
+   "citaat": "\"bloedend tandvlees, bloedneuzen, petechiën, die kleine puntvormige bloeduitstortingen op de huid\" (in het transcript staat 'trombopathie', een spraakherkenningsfout)"
+  },
+  {
+   "voor": "Welke lichamelijke bevindingen zie je soms bij acute lymfatische leukemie (ALL), naast de cytopenieën?",
+   "achter": "Lymfadenopathie en splenomegalie: lymfatische leukemiecellen nestelen zich graag in lymfeklieren en milt.\nEen grote milt drukt op de maag: snel een vol gevoel.",
+   "prio": false,
+   "citaat": "\"Wat je soms ziet bij lymfatische leukemie [...] dat ze die cellen soms graag in de lymfeklieren verzamelen [...] een grote [milt] die soms de hele maag vult en dan kunnen ze snel een vol gevoel krijgen\""
+  },
+  {
+   "voor": "Waar vind je de maligne cellen bij leukemie, en waar bij lymfoom?",
+   "achter": "Leukemie (acuut én chronisch): altijd in het bloed (leukemie = 'wit bloed').\nLymfoom: in lymfeklieren en andere secundaire lymfoïde organen; in het algemeen niet in het bloed.\nCLL zit in beide.",
+   "prio": true,
+   "citaat": "\"U vindt die kwaadaardige cellen altijd in het bloed, bij beide vormen van leukemie\" / \"Lymfomen bevinden zich over het algemeen niet in de bloedbaan\""
+  },
+  {
+   "voor": "Geeft acute of chronische leukemie vaker cytopenieën door verdringing in het beenmerg?",
+   "achter": "Acute leukemie. Bij CLL pas als het beenmerg uitgebreid geïnfiltreerd is.",
+   "prio": false,
+   "citaat": "\"In uw [beenmerg] is er een onderdrukking van de goede cellen [...] Dit komt vaker voor bij acute leukemie dan bij chronische leukemie.\""
+  },
+  {
+   "voor": "Welke lichamelijke afwijkingen passen bij CLL, en waardoor ontstaan ze?",
+   "achter": "De CLL-cellen (rijpe maligne lymfocyten) zitten in lymfeklieren, bloed en milt:\nLymfadenopathie (bv. in de hals)\nSplenomegalie: snel een vol gevoel\nLymfocytose in het bloed\nBij uitgebreide ziekte ook beenmerginfiltratie: cytopenieën\nTypisch bij oudere patiënten. Bij behandeling slinken klieren en milt weer.",
+   "prio": false,
+   "citaat": "\"CLL is een ziekte van de iets oudere patiënt [...] Als je begint met het behandelen van de CLL, verdwijnt het allemaal [...] als u veel CLL-cellen heeft, zullen ze overal zijn\""
+  },
+  {
+   "voor": "Casus: in een bloeduitstrijk zie je veel te veel rijpe lymfocyten (leukocyten 80 × 10⁹/l, bijna allemaal lymfocyten). Waar denk je aan, en hoe bevestig je dat?",
+   "achter": "Verdenking op CLL. Morfologie alleen bewijst het niet. Bevestig met flowcytometrie (welke eiwitten zitten op de cel).",
+   "prio": true,
+   "citaat": "\"Er is geen vlag op het scherm, ik ben een CLL-cel, dus u zult hier wat extra onderzoek moeten doen. Om te zien wat voor eiwitten erop zitten met flowcytometrie.\""
+  },
+  {
+   "voor": "Waarin verschilt een Hodgkinlymfoom vooral van een non-Hodgkinlymfoom?",
+   "achter": "Vooral microscopisch: Hodgkin heeft een typisch beeld (Reed-Sternbergcellen omgeven door reactieve cellen). Klinisch lijken ze op elkaar.\nNHL is een verzamelnaam voor veel verschillende lymfomen.",
+   "prio": false,
+   "citaat": "\"vooral omdat het er microscopisch zeer typisch uitziet, lijkt klinisch hetzelfde als non-Hodgkin. Dus in dat opzicht kun je dat onderscheid niet zo goed maken\""
+  },
+  {
+   "voor": "Bij welke hematologische maligniteiten passen B-symptomen, en hoe ontstaan ze?",
+   "achter": "Bij lymfomen in het algemeen (Hodgkin én non-Hodgkin), niet alleen bij Hodgkin.\nKoorts, nachtzweten en gewichtsverlies, meestal samen.\nLymfoomcellen maken veel cytokines, wat een constante ontstekingstoestand geeft.",
+   "prio": true,
+   "citaat": "\"wat heel typisch kan zijn voor lymfoom, zijn de B-symptomen [...] Die drie komen eigenlijk samen [...] die lymfoomcellen veel cytokines aanmaken\" (de opsomming 'kortademigheid, diarree' in het transcript is een spraakherkenningsfout)"
+  },
+  {
+   "voor": "Welke klachten passen, naast B-symptomen, vooral bij het Hodgkinlymfoom?",
+   "achter": "Gegeneraliseerde jeuk zonder huidafwijkingen (door cytokines). Terugkerende jeuk is vaak het eerste teken van een recidief.\nPijnlijke lymfeklieren na alcoholgebruik.",
+   "prio": false,
+   "citaat": "\"bij Hodgkin, dat lymfeklieren pijnlijk zijn bij het drinken van alcohol [...] dat patiënten jeuk kunnen hebben [...] Vaak is het eerste symptoom dat patiënten herkennen wanneer de ziekte terugkeert, dat ze weer jeuk krijgen [...] je ziet niets op de huid\""
+  },
+  {
+   "voor": "Waarom behandel je veel lymfomen in stadium I hetzelfde als in stadium IV?",
+   "achter": "Lymfoom is een systemische ziekte. Je gaat ervan uit dat het zich via het lymfestelsel al door het lichaam heeft verspreid, ook als de scan dat niet laat zien.\n(Stadium I–IV beschrijft waar de lymfoomlokalisaties zitten; IV = verspreid door het hele lichaam.)",
+   "prio": false,
+   "citaat": "\"voor veel lymfomen geldt dat je een stadium 1 hetzelfde behandelt als een stadium 4, omdat je ervan uit kunt gaan dat het zich door het lichaam heeft verspreid, via het lymfestelsel\""
+  },
+  {
+   "voor": "Waarom noem je een hematologische maligniteit een systemische ziekte?",
+   "achter": "Witte bloedcellen circuleren via bloed en lymfe door het hele lichaam. Daardoor is de ziekte in principe overal aanwezig, anders dan een lokale solide tumor.",
+   "prio": false,
+   "citaat": "\"omdat witte bloedcellen overal in het lichaam zijn, in beweging, dus zowel in het bloed als in de lymfe, we noemen het een systemische ziekte\""
+  },
+  {
+   "voor": "Waar bevindt multipel myeloom zich vrijwel altijd, en waarom daar?",
+   "achter": "In het beenmerg, waar normaal maar weinig plasmacellen zitten. Maligne plasmacellen krijgen daar veel voedingsstoffen en signalen van andere cellen (het micromilieu), en dat geeft ze een groeivoordeel.",
+   "prio": false,
+   "citaat": "\"wanneer plasmacellen schadelijk worden [...] vinden ze het erg fijn in de [beenmerg]. Omdat ze veel voedingsstoffen binnenkrijgen [...] veel signalen van andere cellen [...] geeft ze een groeivoordeel [...] Ja, eigenlijk altijd.\""
+  },
+  {
+   "voor": "Wat is een M-proteïne, en waarom meet je het?",
+   "achter": "Normale plasmacellen maken een mix van veel verschillende immunoglobulinen (polyklonaal). Een maligne plasmacelkloon maakt er maar één: het monoklonale eiwit (M-proteïne).\nMeetbaar in het bloed: een aanwijzing voor multipel myeloom (maar ook bij MGUS) en een ziektemarker tijdens de behandeling.",
+   "prio": true,
+   "citaat": "\"Normaal gesproken is dat een hele mix [...] En dat is nog maar één soort. En dat noemt u dan het M-eiwit [...] we gebruiken dat als een ziektemarker [...] Wanneer u in het bloed meet of iemand zo'n M-proteïne heeft, dan moet u denken aan een multipel myeloom\""
+  },
+  {
+   "voor": "Waar staan de CRAB-criteria van multipel myeloom voor?",
+   "achter": "C: hypercalciëmie (door botafbraak)\nR: nierfalen (door het hoge calcium en neerslag van M-proteïne in de nieren)\nA: anemie (beenmerg vol myeloomcellen)\nB: botlaesies (lytische laesies, pathologische fracturen)",
+   "prio": true,
+   "citaat": "\"De B van de [CRAB]-criteria staat voor botlaesies [...] De C staat voor hypercalciëmie [...] De R staat voor nierfalen [...] de A staat voor anemie\""
+  },
+  {
+   "voor": "Hoe kunnen de lichte ketens van een M-proteïne orgaanschade geven?",
+   "achter": "Ze kunnen complexeren en neerslaan in weefsels: amyloïdose, met orgaanschade (bv. aan de nieren).",
+   "prio": false,
+   "citaat": "Slide: \"Kliniek door M-proteine, lichte ketens kunnen complexeren / neerslagen in weefsels: amyloidose en orgaan schade\""
+  },
+  {
+   "voor": "Hoe kan een maligne plasmacelkloon zich buiten het beenmerg presenteren?",
+   "achter": "Als plasmacytoom (een tumor in weefsel) of als plasmacelleukemie (in het bloed).",
+   "prio": false,
+   "citaat": "Slide: \"Clonale plasmacel progressie: in weefsels (plasmacytoom) of bloed: leukemie\""
+  },
+  {
+   "voor": "Welke onderzoeken gebruik je bij verdenking op een hematologische maligniteit?",
+   "achter": "Bloedonderzoek (telling en uitstrijk)\nBeenmergonderzoek (aspiraat en biopt)\nBiopt van een aangedane lymfeklier (bij lymfoom)\nBeeldvorming, vooral PET-CT\nFlowcytometrie en moleculair/cytogenetisch onderzoek",
+   "prio": false,
+   "citaat": "\"Bloedonderzoek [...] [beenmerg]onderzoek [...] Bij lymfeklierkanker wilt u vaak een biopt van de aangedane lymfeklier. We doen veel beeldvorming, scans, met name PET-CT-scans [...] moleculair en genetisch onderzoek\""
+  },
+  {
+   "voor": "Waar zit bij volwassenen actief beenmerg, en waar doe je een beenmergpunctie meestal?",
+   "achter": "In de wervels, ribben, het sternum, de schedel, het bekken en de lange pijpbeenderen.\nDe punctie doe je meestal in de bekkenkam (cristapunctie): goed bereikbaar en met veel beenmerg.",
+   "prio": false,
+   "citaat": "\"Veel in de wervelkolom [...] Uw ribben, en in de lange dijbenen is het, en in de schedel. En ook in het bekken. En we gebruiken de laatste.\""
+  },
+  {
+   "voor": "Wat is het verschil tussen een beenmergaspiraat en een beenmergbiopt?",
+   "achter": "Aspiraat: vloeibaar beenmerg, met een spuit opgezogen en op glas uitgestreken. De hematoloog beoordeelt de cellen (cytomorfologie).\nBiopt: een stukje spongieus bot (solide weefsel) dat bij het terugtrekken in de holle naald blijft zitten. De patholoog beoordeelt het.",
+   "prio": false,
+   "citaat": "\"u zuigt [...] leeg met een spuit uit een holle naald [...] smeert u dan uit op een glas [...] als u de naald terugtrekt, komt er een stukje [...] mee in die holle naald, en dat is het biopt dat de patholoog kan onderzoeken [...] Als hematologen kijken we voornamelijk naar de uitstrijk\""
+  },
+  {
+   "voor": "Hoe verloopt een cristapunctie (houding, verdoving, route van de naald)?",
+   "achter": "Patiënt in zijligging met opgetrokken knieën. Lokale verdoving van huid en periost. Met een holle naald door de harde cortex tot in het sponsachtige bot; bij veel onderhuids vet een langere naald.",
+   "prio": false,
+   "citaat": "\"De patiënt wordt op zijn zij gelegd, met de knieën iets opgetrokken [...] lokale anesthesie van de huid en het beenvlies [...] eerst door dat solide bot en dan kom je [...] met een holle naald in die sponsachtige klomp\""
+  },
+  {
+   "voor": "Wanneer doe je een sternumpunctie in plaats van een cristapunctie, en wat is de beperking?",
+   "achter": "Alleen als een aspiraat volstaat, bv. om na de eerste behandeling van acute leukemie de respons te beoordelen.\nEen biopt kan niet (het bot is te dun). Je gebruikt een dunne naald met een stop, omdat het hart achter het sternum ligt.\nVoor bv. lymfoom in het beenmerg heb je een biopt nodig, dus een cristapunctie.",
+   "prio": false,
+   "citaat": "\"in het borstbeen kun je ook [beenmerg] aspireren, nou ja, je kunt er geen biopt doen [...] achter het borstbeen zit het hart [...] bij patiënten met acute leukemie, die we een eerste behandeling hebben gegeven [...] dan heb je genoeg aan een aspiratie\""
+  },
+  {
+   "voor": "Wat zie je in een normaal beenmergbiopt?",
+   "achter": "Georganiseerde eilandjes van erytropoëse en myelopoëse, met megakaryocyten: zeer grote cellen waaruit de trombocyten ontstaan.",
+   "prio": false,
+   "citaat": "\"deze zeer grote zijn megakaryocyten. Dat is waar de trombocyten vandaan komen\"; slide: \"Normaal beenmerg biopt: georganiseerde eilandjes van myelopoese, erytropoese en megakaryocyten\""
+  },
+  {
+   "voor": "Waaraan herken je een blast in een beenmerg- of bloeduitstrijk?",
+   "achter": "Een grote, onrijpe cel met een nucleolus (en weinig cytoplasma).",
+   "prio": true,
+   "citaat": "\"Hier ziet u verschillende blasten, grote cellen met een nucleolus [...] We zullen dit ook in de praktijk bekijken. Een blast wordt gekenmerkt door een nucleolus.\""
+  },
+  {
+   "voor": "Wat is een Auerstaaf, en bij welke ziekte past die?",
+   "achter": "Een roze, naaldvormig staafje in het cytoplasma van een blast (gekristalliseerde granula). Het past bij acute myeloïde leukemie (AML): de blast is myeloïd.",
+   "prio": false,
+   "citaat": "\"[Auer]staaf, dat is de roze naald in het cytoplasma [...] als je zo'n staafje ziet [...] dan is er sprake van acute myeloïde leukemie\""
+  },
+  {
+   "voor": "Welke klassieke translocaties zijn met cytogenetica ontdekt bij myeloïde maligniteiten?",
+   "achter": "t(9;22): het Philadelphiachromosoom met BCR-ABL (CML)\nt(15;17): PML-RARA (acute promyelocytenleukemie, een vorm van AML)",
+   "prio": false,
+   "citaat": "Slide: \"Cytogenetische afwijkingen [...] Ontdekken translokaties bv t(15;17), t(9;22): BCR-ABL\""
+  },
+  {
+   "voor": "Hoe werkt een PET-CT, en waarvoor gebruik je die bij lymfoom?",
+   "achter": "Je dient radioactief gelabelde glucose (FDG) toe. Die hoopt zich op in metabool actief weefsel: tumor, maar ook infectie.\nGebruik: stadiëring bij de diagnose en responsevaluatie tijdens en na de behandeling (opname verdwenen = complete remissie).",
+   "prio": false,
+   "citaat": "\"radioactieve glucose [...] die naar de verschillende plaatsen gaat met actief weefsel, zoals kanker, maar ook bijvoorbeeld infectie [...] de patiënt is in volledige remissie\""
+  },
+  {
+   "voor": "Welke FDG-opname op een PET-CT is fysiologisch (dus geen lymfoom)?",
+   "achter": "Hersenen en hart (veel glucoseverbruik), nieren en blaas (uitscheiding van de tracer) en aangespannen spieren.",
+   "prio": false,
+   "citaat": "\"De hersenen zijn ook altijd zwart [...] de nieren zijn ook zwart [...] het hart [...] is ook actief [...] Dit is dus geen lymfe, maar gewoon een actieve spier\""
+  },
+  {
+   "voor": "Hoe verschilt de PET-CT bij multipel myeloom van die bij lymfoom?",
+   "achter": "Myeloom: opname in de botten (wervels, bekken, lange pijpbeenderen), niet in de lymfeklieren.\nLymfoom: opname in de lymfeklieren en lymfoïde organen.",
+   "prio": false,
+   "citaat": "\"je ziet het heel duidelijk in de lange dijbenen, in de wervels, hier in de bekkenholte en helemaal niet in de [lymfeklieren]. Dit is dus een zeer typische scan voor multipel myeloom.\""
+  },
+  {
+   "voor": "Welke cellijnen ontstaan uit de gemeenschappelijke myeloïde voorloper (CMP), en welke uit de gemeenschappelijke lymfoïde voorloper (CLP)?",
+   "achter": "CMP: erytrocyten, megakaryocyten/trombocyten, granulocyten en monocyten/macrofagen.\nCLP: B-cellen, T-cellen en NK-cellen.\nBeide komen voort uit de hematopoëtische stamcel (HSC) in het beenmerg.",
+   "prio": false,
+   "citaat": "\"De myeloïde zijde, de gemeenschappelijke myeloïde voorloper, de CMP, of de gemeenschappelijke lymfoïde voorloper [...] Monocyten, trouwens, komen voort uit de myeloïde voorloper\"; slide: hiërarchie HSC → CMP/CLP → rijpe cellen"
+  },
+  {
+   "voor": "Wat zijn de primaire en wat de secundaire lymfoïde organen?",
+   "achter": "Primair (aanmaak): beenmerg en thymus.\nSecundair (waar lymfocyten naartoe gaan): lymfeklieren, milt en het lymfoïde weefsel in de slijmvliezen (bv. darm en longen).\nLymfomen ontstaan in de secundaire lymfoïde organen.",
+   "prio": false,
+   "citaat": "\"de primaire lymfoïde organen, dus daar worden ze gemaakt [...] verplaatsen naar de secundaire lymfoïde organen [...] lymfoom of lymfatische kanker kan daarin voorkomen\""
+  },
+  {
+   "voor": "Hoe beoordeel je een bloeduitstrijk, en hoe herken je daarin erytrocyten en trombocyten?",
+   "achter": "Een druppel bloed wordt op een glaasje uitgestreken. Je kijkt aan het dunne uiteinde, waar de cellen los van elkaar liggen.\nErytrocyten: kleine roze cellen zonder kern (veruit het talrijkst). Trombocyten: kleine stipjes, ook zonder kern.",
+   "prio": false,
+   "citaat": "\"kijk naar het uiteinde van het reepje waar de cellen erg dun zijn [...] de kleine roze cellen [...] Dat zijn de kleine stipjes [...] Ze hebben ook geen celkern\""
+  },
+  {
+   "voor": "Wat betekent een TP53-mutatie bij een hematologische maligniteit voor de prognose?",
+   "achter": "Meestal een slechte prognose: de ziekte reageert minder goed op chemotherapie. TP53-mutaties komen bij veel hematologische maligniteiten voor.",
+   "prio": false,
+   "citaat": "\"de TP53-mutatie, die bij veel hematologische kankers voorkomen. Dat is vaak een zeer slechte prognostische mutatie, waarbij u minder goed reageert op chemotherapie\""
+  },
+  {
+   "voor": "Waarom verschuift de behandeling van hematologische maligniteiten van chemotherapie naar doelgerichte therapie?",
+   "achter": "Chemotherapie is niet specifiek: ze tast ook gezonde weefsels aan en geeft veel bijwerkingen.\nMet kennis van de mutaties kun je middelen maken die het afwijkende eiwit specifiek remmen (doelgerichte therapie).",
+   "prio": false,
+   "citaat": "\"Iedereen kreeg chemotherapie. En nu, omdat we steeds meer weten over mutaties [...] doelgerichte therapie\" / \"een behandeling die ook alle gezonde weefsels aantast, waardoor patiënten veel bijwerkingen krijgen\""
+  },
+  {
+   "voor": "Hoe werkt CAR-T-celtherapie?",
+   "achter": "Eigen T-cellen van de patiënt worden in het laboratorium met een lentivirale vector aangepast, zodat ze een chimere antigeenreceptor (CAR) tot expressie brengen. Die herkent CD19 op de (B-)tumorcel. Na teruggave doden de CAR-T-cellen de tumorcellen.",
+   "prio": false,
+   "citaat": "\"U heeft een T-cel van de patiënt. U verwerkt het in het laboratorium met een lentivirale vector. Dat geeft een expressie van het CAR-eiwit [...] Het herkent vervolgens CD19 [...] Dit doodt de tumorcel.\""
+  },
+  {
+   "voor": "Wat is het verschil tussen een indolent en een agressief non-Hodgkinlymfoom?",
+   "achter": "Indolent: laaggradig, weinig agressief, rijpere lymfocyten.\nAgressief: hooggradig, snel groeiend, blastair (onrijpe lymfocyten).\nNHL kan nodaal of extranodaal voorkomen, in elk orgaan.",
+   "prio": false,
+   "citaat": "Slide: \"Spectrum van indolent (laaggradig, weinig agressief, rijpere lymfocyten) tot zeer agressief groeiend, hooggradig, blastair (onrijpe lymfocyten)\""
+  },
+  {
+   "voor": "Wat zijn de kenmerken van polycythaemia vera?",
+   "achter": "Meestal een JAK2-mutatie (96%). Te veel bloedcelproductie: erytrocytose, vaak ook trombo- en leukocytose.\nGevolg: arteriële en veneuze trombose, en vaak (ernstige) constitutionele symptomen.",
+   "prio": false,
+   "citaat": "Slide: \"Polycythemia vera: meest JAK2 mutatie (96%) [...] erythrocytose, maar ook trombo- en leukocytose: arteriele en veneuze trombose, vaak (ernstige) constitutionele symptomen!\""
+  },
+  {
+   "voor": "Wat zijn de kenmerken van essentiële trombocytose?",
+   "achter": "Een mutatie in JAK2, CALR (calreticuline) of MPL. Te veel bloedplaatjes, met risico op arteriële en veneuze trombose; vaak constitutionele symptomen.",
+   "prio": false,
+   "citaat": "Slide: \"Essentiele trombocytose: JAK2, CALR (calreticulin) of MPL mutaties. Te veel aan bloedplaatjes: trombocytose arteriele en veneuze trombose!\""
+  },
+  {
+   "voor": "Wat zijn de kenmerken van myelofibrose?",
+   "achter": "Een stamcelziekte met fibrose van het beenmerg en cytokineproductie door megakaryocyten. Gevolg: extramedullaire hematopoëse met splenomegalie, en vaak constitutionele symptomen.",
+   "prio": false,
+   "citaat": "Slide: \"Myelofibrose: hematopoetische stamcelziekte waarbij fibrosering van het beenmerg, megakaryocytaire cytokine productie (groei milt en frequent constitutionele symptomen). Extramedullaire hematopoiese\""
+  },
+  {
+   "voor": "Wat zie je bij CML in het bloed en bij lichamelijk onderzoek?",
+   "achter": "Door BCR-ABL ontstaat een groeivoordeel met relatief veel myelopoëse: splenomegalie en jonge myeloïde vormen in het bloed.",
+   "prio": false,
+   "citaat": "Slide: \"Chronische myeloide leukemie: Specifieke translocatie (BCR-ABL) waardoor groeivoordeel met relatief meer myelopoese. splenomegalie en jonge vormen in bloed\""
+  }
+ ],
+ "correcties": [],
+ "kapstok_aanvullingen": [
+  {
+   "kop": "Hiërarchie",
+   "punt": "Indeling volgens de docent: gaat het mis op stamcelniveau (acute leukemie, MDS, MPN) of in een rijpere, gedifferentieerde cel (CLL, lymfoom, multipel myeloom)? Waar iets thuishoort is belangrijker dan de details per ziekte."
+  },
+  {
+   "kop": "Hiërarchie",
+   "punt": "Rijpe cellen horen in het bloed; jonge voorlopers of blasten in het bloed betekenen ziekte (blasten: denk aan acute leukemie)."
+  },
+  {
+   "kop": "Hiërarchie",
+   "punt": "Primaire lymfoïde organen (beenmerg, thymus) versus secundaire (lymfeklieren, milt, slijmvliezen). Hematologische maligniteiten zijn systemische ziekten."
+  },
+  {
+   "kop": "Klinisch redeneren",
+   "punt": "Klachten volgen de lokalisatie van de maligne cellen: bloed (hyperleukocytose → leukostase), beenmerg (verdringing → anemie, trombocytopenie, neutropenie), lymfeklieren en milt (lymfadenopathie, splenomegalie → snel vol gevoel), cytokines (B-symptomen, jeuk), bot (myeloom: lytische laesies, fracturen)."
+  },
+  {
+   "kop": "Klinisch redeneren",
+   "punt": "Leukemie: maligne cellen altijd in het bloed. Lymfoom: in de lymfeklieren, meestal niet in het bloed (CLL wel). Myeloom: in beenmerg en bot."
+  },
+  {
+   "kop": "Klinisch redeneren",
+   "punt": "Hyperleukocytose bij acute leukemie → leukostase in de kleine vaten van longen (dyspneu, lage saturatie), hersenen (bloeding) en ogen."
+  },
+  {
+   "kop": "Genetica",
+   "punt": "Een TP53-mutatie komt vaak voor en betekent een slechte prognose met een slechte respons op chemotherapie. Mutaties sturen de prognose en de doelgerichte therapie."
+  },
+  {
+   "kop": "Diagnostiek",
+   "punt": "Cristapunctie: aspiraat (uitstrijk, beoordeeld door de hematoloog) en biopt (patholoog). Een sternumpunctie levert alleen een aspiraat op (bv. responsevaluatie na de eerste behandeling van acute leukemie)."
+  },
+  {
+   "kop": "Diagnostiek",
+   "punt": "Blast: grote cel met nucleolus. Auerstaaf → AML. Normaal biopt: eilandjes van erytro- en myelopoëse met megakaryocyten."
+  },
+  {
+   "kop": "Diagnostiek",
+   "punt": "Uitstrijk met veel rijpe lymfocyten (bv. leukocyten 80 × 10⁹/l) → denk aan CLL en bevestig met flowcytometrie."
+  },
+  {
+   "kop": "Diagnostiek",
+   "punt": "PET-CT (FDG): lymfoom in de klieren, myeloom in de botten. Fysiologische opname in hersenen, hart, nieren/blaas en aangespannen spieren; ook infectie geeft opname."
+  },
+  {
+   "kop": "Lymfatisch",
+   "punt": "Lymfoom: stadium I–IV, maar het is systemisch, dus veel lymfomen behandel je in stadium I hetzelfde als in stadium IV. B-symptomen passen bij lymfoom in het algemeen. Hodgkin: jeuk (ook als eerste teken van een recidief) en pijn in de klieren na alcohol."
+  },
+  {
+   "kop": "Lymfatisch",
+   "punt": "Multipel myeloom: een monoklonaal M-proteïne in het bloed; CRAB = hypercalciëmie, nierfalen, anemie, botlaesies (lytisch)."
+  },
+  {
+   "kop": "Therapie",
+   "punt": "CAR-T: eigen T-cellen worden via een lentivirale vector voorzien van een CAR tegen CD19. De trend gaat van niet-specifieke chemotherapie (bij MM sinds 1958 melfalan, nog steeds in gebruik) naar doelgerichte therapie en immuuntherapie."
+  }
+ ],
+ "valkuilen": [
+  "B-symptomen (koorts, nachtzweten, gewichtsverlies) zijn niet specifiek voor Hodgkin: ze passen bij lymfomen in het algemeen.",
+  "Lymfoomcellen zitten meestal niet in het bloed. Vind je veel rijpe lymfocyten in het bloed, denk dan aan CLL.",
+  "Een uitstrijk met veel rijpe lymfocyten bewijst nog geen CLL; daarvoor heb je flowcytometrie nodig.",
+  "Hyperleukocytose geeft verstopping van de kleine vaten (leukostase), geen trombose van de grote vaten.",
+  "Een sternumpunctie levert alleen een aspiraat op, geen biopt. Voor bv. lymfoom in het beenmerg heb je een cristabiopt nodig.",
+  "Stadium IV betekent bij lymfoom niet automatisch een andere of uitzichtloze behandeling: lymfoom is systemisch, dus veel lymfomen behandel je in elk stadium op dezelfde manier.",
+  "FDG-opname op een PET-CT is niet specifiek: ook infectie en fysiologische opname (hersenen, hart, nieren/blaas, aangespannen spieren) kleuren aan.",
+  "Myeloom zit in het beenmerg en bot, niet in de lymfeklieren (de PET-CT laat opname in de botten zien).",
+  "Niet alle witte bloedcellen zijn lymfoïd: granulocyten en monocyten komen uit de myeloïde voorloper (CMP), alleen B-, T- en NK-cellen uit de lymfoïde (CLP).",
+  "Jonge vormen in het bloed betekenen niet altijd acute leukemie: CML geeft ook jonge myeloïde vormen in het bloed. Veel blasten in het bloed wijzen op acute leukemie (of een blastencrise)."
+ ],
+ "docentcitaten": [
+  {
+   "citaat": "Je moet je afvragen waar de cellen zich bevinden.",
+   "onderwerp": "Klachten beredeneren vanuit de lokalisatie van de maligne cellen"
+  },
+  {
+   "citaat": "Blasten, dus veel jonge cellen die je normaal gesproken alleen in je [beenmerg] vindt: als je ze terugvindt in je bloed, dan is dat een teken van acute leukemie.",
+   "onderwerp": "Blasten in het perifere bloed"
+  },
+  {
+   "citaat": "Er is geen vlag op het scherm: ik ben een CLL-cel.",
+   "onderwerp": "Morfologie is niet genoeg; bevestig met flowcytometrie"
+  },
+  {
+   "citaat": "Voor veel lymfomen geldt dat je een stadium 1 hetzelfde behandelt als een stadium 4.",
+   "onderwerp": "Lymfoom als systemische ziekte"
+  }
+ ],
+ "afgewezen": [
+  {
+   "wat": "Nieuwe kaart 'Wat was de FAB-classificatie van acute leukemie?'",
+   "reden": "Historische trivia: alleen een bijzin op de slide, niet door de docent genoemd. De huidige WHO-pijlers staan al in yx}oxR*4:8."
+  },
+  {
+   "wat": "Nieuwe kaart 'Wat valt er allemaal onder de hematologie, en over welke cellen gaat bloedkanker eigenlijk altijd?'",
+   "reden": "Het eerste deel is trivia. 'Altijd de leukocyten' is een onnauwkeurige generalisatie die botst met bestaande kaarten (PV met erytrocytose, ET met trombocytose)."
+  },
+  {
+   "wat": "Nieuwe kaart 'Hoe is de behandeling van multipel myeloom in de loop van de tijd veranderd?' (rabarber 1844, melfalan 1958)",
+   "reden": "Historische trivia. Hoge-dosis melfalan staat al in A-|>ls9qg~; de trend van chemotherapie naar doelgerichte therapie staat op een andere nieuwe kaart en in de kapstok."
+  },
+  {
+   "wat": "Nieuwe kaart 'Bij welke patiënt en welke ziekte werd CAR-T-celtherapie voor het eerst succesvol toegepast?' (Emily Whitehead)",
+   "reden": "Anekdote of trivia die niet getoetst wordt. Het werkingsmechanisme van CAR-T staat op een eigen kaart."
+  },
+  {
+   "wat": "Nieuwe kaart 'Wat is bij een Hodgkinlymfoom vaak het eerste symptoom dat de patiënt herkent als de ziekte terugkeert?'",
+   "reden": "Samengevoegd met de kaart over jeuk en alcoholpijn bij Hodgkin, om twee bijna identieke kaarten te voorkomen."
+  },
+  {
+   "wat": "Prio-vlag van de nieuwe kaart over CAR-T (true → false)",
+   "reden": "De docent spreekt enthousiast ('revolutionair', 'mijn hobby'), maar noemt het nergens belangrijk of tentamenstof."
+  },
+  {
+   "wat": "Prio-vlag van de nieuwe kaart over de Auerstaaf (true → false)",
+   "reden": "De docent zegt juist: 'Dat hoeft niet, want dat komt na de oefening.' De blastkaart (nucleolus, twee keer genoemd en gekoppeld aan het practicum) krijgt wel prio."
+  },
+  {
+   "wat": "prio_guid gzc3x-7de63d1a1c9b (myeloïde voorloper: AML, MDS, MPN)",
+   "reden": "De docent noemt het onderscheid AML/ALL 'nu even iets minder belangrijk' en MDS/MPN 'een beetje minder belangrijk om te weten'. De nadruk ligt op de grove indeling (Hgc,:w+-9f)."
+  },
+  {
+   "wat": "prio_guid gzc3x-bf3ed209918d (lymfoïde voorloper: ALL, TdT+)",
+   "reden": "Zelfde reden: het subtype AML of ALL is volgens de docent bijzaak. TdT en B-/T-ALL komen in het college niet voor."
+  },
+  {
+   "wat": "prio_guid gzc3x-e69aa7df1798 (naïeve B-cel: CLL en mantelcel, CD5/CD23/cycline D1)",
+   "reden": "De inhoud van de kaart (immunofenotype, mantelcellymfoom) wordt niet besproken. De nadruk op CLL (in bloed én klieren) zit in gzc3c-e0180abd5727 en in de nieuwe CLL-kaarten."
+  },
+  {
+   "wat": "prio_guid i[67XUS/c6 (rol van flowcytometrie)",
+   "reden": "Flowcytometrie wordt één keer terloops genoemd bij de CLL-casus. Lichte-ketenrestrictie en MRD uit de kaart komen niet aan bod; de nieuwe CLL-casuskaart dekt het punt."
+  },
+  {
+   "wat": "prio_guid nL?mzlsc<W (graft-versus-hostziekte)",
+   "reden": "Alleen kort genoemd en uitgesteld ('Hier zullen we het later over hebben'); geen nadruk in dit college. GVHD heeft al prio via gG`rP@}TdZ en de casus gzc3c-779bfd1ec4fe."
+  },
+  {
+   "wat": "Tentamentip over de CRAB-criteria",
+   "reden": "Geen uitspraak over het tentamen of over wat je moet kennen; de verdere zin in het transcript is onverstaanbaar. CRAB wordt wel uitgebreid uitgelegd en staat daarom als prio-kaart in de lijst."
+  },
+  {
+   "wat": "Valkuil 'Stadium IV is bij lymfoom niet hetzelfde als uitgezaaid en dus slechter'",
+   "reden": "Geherformuleerd. De docent zegt alleen dat veel lymfomen in stadium I en IV hetzelfde worden behandeld; dat het stadium prognostisch niet uitmaakt zegt hij niet, en dat klopt ook niet."
+  },
+  {
+   "wat": "Kapstokpunt 'sternumpunctie (bv. responsevaluatie bij AML)'",
+   "reden": "De docent zegt 'acute leukemie', niet specifiek AML. Aangepast."
+  },
+  {
+   "wat": "Emily Whitehead in het kapstokpunt over therapie",
+   "reden": "Weggelaten, in lijn met het schrappen van de bijbehorende triviakaart."
+  }
+ ]
+}

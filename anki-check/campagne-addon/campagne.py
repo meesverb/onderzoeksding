@@ -25,7 +25,8 @@ def _laad(naam: str, standaard):
 COLLEGEDATA = _laad('colleges.json', {})  # kapstok, controlevragen en verzamelcel per college
 KOPPELING = _laad('koppeling.json', {})  # guid → college, met de hand ingedeeld op basis van de slides
 EXTRA_TAGS = _laad('extra_tags.json', {})  # guid → tags, bv. prio::tentamen voor wat de docent in het transcript benadrukt
-IMPORT_MARKER = COLLEGEDATA.get('_meta', {}).get('marker')  # notitie die alleen in de nieuwste collegeimport zit
+IMPORT_MARKER = COLLEGEDATA.get('_meta', {}).get('marker')  # versie van de collegeimport
+IMPORT_GUIDS = COLLEGEDATA.get('_meta', {}).get('guids', [])  # nieuwe notities in die versie
 HERKANSING = 'GZC III - Herkansing'
 
 # ------------------------------------------------------------------ inhoud van de campagne
@@ -570,7 +571,11 @@ def installatie(col, cfg: dict, staat: dict) -> list[dict]:
     heeft = lambda zoek: bool(col.find_notes(zoek))
     check = heeft('tag:check::behouden')
     extra = heeft('tag:vorm::casus OR tag:vorm::schema')
-    colleges = bool(IMPORT_MARKER) and bool(col.db.scalar('select count() from notes where guid = ?', IMPORT_MARKER))
+    aanwezig = 0
+    for i in range(0, len(IMPORT_GUIDS), 400):
+        deel = IMPORT_GUIDS[i:i + 400]
+        aanwezig += col.db.scalar(f'select count() from notes where guid in ({",".join("?" * len(deel))})', *deel)
+    colleges = bool(IMPORT_GUIDS) and aanwezig == len(IMPORT_GUIDS)
     n_weg = len(col.find_notes('tag:check::dubbel OR tag:check::verwijderen'))
     did = col.decks.id_for_name(cfg['deck'])
     try:

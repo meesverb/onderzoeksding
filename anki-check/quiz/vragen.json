@@ -2892,20 +2892,20 @@
     "Flowcytometrie van het bloed",
     "Reticulocytengetal"
    ],
-   "uitleg": "Alleen het biopt laat de architectuur en cellulariteit zien. Hier was het hypoplastisch: (verworven) aplastische anemie."
+   "uitleg": "Alleen het biopt laat de architectuur en cellulariteit zien. Hier was het hypoplastisch: beenmergfalen op stamcel-/voorloperniveau, bij deze jongen door een genetisch defect."
   },
   {
    "id": "kHC13",
    "thema": "T1",
    "soort": "Controlevraag HC 1",
-   "vraag": "Een meisje van 14 maanden heeft cellulitis, vaak otitis, spruw en een navelstomp die lang niet droog werd. Neutrofielen <0,5 × 10⁹/l. In welk gen verwacht je een mutatie?",
+   "vraag": "Een meisje van 14 maanden heeft cellulitis, vaak otitis, spruw en een navelstomp die lang niet droog werd. Neutrofielen 0,1 × 10⁹/l met relatief veel eosinofielen en monocyten. Wat verwacht je in het beenmerg?",
    "opties": [
-    "ELANE",
-    "RUNX1",
-    "JAK2",
-    "HFE"
+    "Een maturatiestop op het niveau van de promyelocyt",
+    "Een leeg (hypoplastisch) merg",
+    "Een merg vol blasten",
+    "Fibrose van het merg"
    ],
-   "uitleg": "Ernstige congenitale neutropenie: ELANE codeert neutrofielen-elastase."
+   "uitleg": "Ernstige congenitale neutropenie: de granulocytaire voorlopers kunnen niet verder rijpen en de aanmaak wijkt uit naar eo's en mono's. Het gen (ELANE) hoef je volgens de docent niet te kennen."
   },
   {
    "id": "kHC14",

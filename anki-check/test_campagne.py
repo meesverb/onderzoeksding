@@ -92,7 +92,7 @@ def main():
     assert len(log.new) == verwacht_nieuw and len(log.updated) == len(rijen) - verwacht_nieuw, (len(log.new), len(log.updated))
     mcv = col.get_note(col.find_notes('"Hoe classificeer je anemie morfologisch*"')[0])
     assert '82-98 fl' in mcv['Back'], mcv['Back']
-    assert campagne.IMPORT_MARKER and col.db.scalar('select count() from notes where guid = ?', campagne.IMPORT_MARKER) == 1
+    assert campagne.IMPORT_GUIDS and campagne.installatie(col, CFG, {})[2]['klaar'], 'collegeimport moet als binnen gelden'
 
     stappen = {s['id']: s for s in campagne.installatie(col, CFG, st)}
     assert stappen['check']['klaar'] and stappen['extra']['klaar'] and stappen['colleges']['klaar']

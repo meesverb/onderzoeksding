@@ -1,0 +1,563 @@
+{
+ "tentamentips": [
+  {
+   "citaat": "Als ondersteuning kunt u zich eigenlijk herinneren dat een normale verdeling van het aantal leukocyten in steady state ongeveer 50% neutrofielen, ongeveer 40% lymfocyten is, en de rest, die vormen die 10%.",
+   "betekenis": "Ken de normale leukocytenverdeling (±50/40/10) uit je hoofd en gebruik die om een differentiatie te beoordelen."
+  },
+  {
+   "citaat": "Dus de context van de patiënt is eigenlijk het belangrijkst.",
+   "betekenis": "Beoordeel bloedwaarden nooit los van de kliniek: een normaal leukocytengetal bij een zeer zieke patiënt is niet normaal."
+  },
+  {
+   "citaat": "Hoog MCV, erg belangrijk.",
+   "betekenis": "Een hoog MCV bij een pancytopenie past bij een B12- of foliumzuurtekort, maar ook bij een beenmergprobleem met verstoorde aanmaak."
+  },
+  {
+   "citaat": "Dus hij kan het om de een of andere reden niet doen. Dat is zeer relevant om te weten. Dus je moet je reticulocyten altijd afzetten tegen de Hb.",
+   "betekenis": "Een reticulocytengetal binnen de referentiewaarden is bij een ernstige anemie te laag en wijst op een aanmaakprobleem."
+  },
+  {
+   "citaat": "Afhankelijk van waar het defect zich bevindt, voert u uw diepgaand onderzoek uit.",
+   "betekenis": "Kern van het IC: bepaal per casus waar in de boom het defect zit (stamcel, voorloper, rijpe cel). Dat stuurt het vervolgonderzoek."
+  },
+  {
+   "citaat": "Dit zijn allemaal een beetje rariteiten, dus u zult dit niet in de dagelijkse praktijk tegenkomen, maar het is slechts om aan te geven hoe u de hematopoëse kunt bekijken en hoe u deze kunt detecteren.",
+   "betekenis": "De casussen dienen om het redeneren te oefenen (één of meer lijnen, te veel of te weinig, kwaliteit of kwantiteit, aangeboren of verworven, waar zit het defect), niet om de zeldzame diagnoses te stampen."
+  },
+  {
+   "citaat": "Dit wordt het genetisch beenmergfalensyndroom genoemd. Dit is niet zo relevant voor deze cursus. Maar het gaat over het detecteren.",
+   "betekenis": "Het gaat om de redenering (is het een aanmaakprobleem en waar zit het defect?), niet om de precieze naam van het syndroom."
+  },
+  {
+   "citaat": "(Over de ELANE-mutatie bij ernstige congenitale neutropenie) Dat mag u vergeten.",
+   "betekenis": "De gennaam ELANE hoef je niet te kennen. Belangrijker zijn het beeld (ernstige neutropenie, relatief veel eo's en mono's) en de plaats van het defect (maturatiestop bij de promyelocyt)."
+  },
+  {
+   "citaat": "(Over de plaats van RUNX1 in de boom) U hoeft dit niet te onthouden, maar om te begrijpen wat voor soort probleem ik heb.",
+   "betekenis": "Begrijp dat RUNX1 ook de erytro- en myelopoëse stuurt, waardoor het defect hoger zit dan alleen de megakaryopoëse. De exacte positie hoef je niet te stampen."
+  },
+  {
+   "citaat": "(Over de labwaarden bij vitamine-B12-tekort) U hoeft het niet te onthouden, maar alleen voor de volledigheid.",
+   "betekenis": "De details van dat bloedbeeld hoef je niet te kennen. Het onderscheid wel: een vol merg met hoog LDH (bouwsteenprobleem) tegenover een leeg merg (beenmergfalen)."
+  },
+  {
+   "citaat": "(Over waar B12 en foliumzuur in de erytropoëse ingrijpen, en dat dit ook voor de andere lijnen geldt) Dit is altijd nuttig om in gedachten te houden.",
+   "betekenis": "B12 en foliumzuur zijn nodig voor de DNA-replicatie, dus een tekort treft alle cellijnen."
+  },
+  {
+   "citaat": "Ik verwacht niet dat u weet wat het normale bereik is, maar ik verwacht wel dat u weet hoe het voelt.",
+   "betekenis": "Je moet kunnen inschatten wanneer een kind te veel of te ernstige infecties heeft (cellulitis en drie antibioticakuren op 14 maanden is te veel), zonder exacte normen."
+  },
+  {
+   "citaat": "(Over veroudering: myeloïde voorkeur, meer MDS/AML) Ik denk dat het belangrijk is om dat te onthouden.",
+   "betekenis": "Ken het effect van veroudering en chronische ontsteking op de hematopoëse: myeloïde voorkeur, meer MDS/AML en minder compensatievermogen."
+  },
+  {
+   "citaat": "Zoveel van die genetische factoren zijn ook een soort leukemiepredispositiesyndromen. Dus dat is goed om te beseffen, en zeker als het defect zich op een hoog voorloperniveau bevindt, op stamcelniveau.",
+   "betekenis": "Een erfelijk stamceldefect kan onder compensatiestress via een second hit overgaan in MDS/AML."
+  },
+  {
+   "citaat": "Als een patiënt met deze klacht bij de [huisarts] komt, dan is het natuurlijk 9 van de 10 keer ijzertekort. [...] maar dat is iets om zelf in gedachten te houden.",
+   "betekenis": "Moeheid en bleekheid zijn meestal ijzertekort. Passen de getallen daar niet bij (pancytopenie, hoog MCV), denk dan aan iets ernstigers."
+  },
+  {
+   "citaat": "(Passagère trombopathie bij infectie) Het is voor nu niet zo relevant. Maar het is goed om dat te beseffen.",
+   "betekenis": "Infectie kan tijdelijk een trombopathie geven. Herstelt het niet, zoek dan verder."
+  }
+ ],
+ "prio_guids": [
+  {
+   "guid": "gzc3c-71d552636161",
+   "waarom": "Het hele IC is op deze vier assen gebouwd; de docent herhaalt ze bij de casus: 'enkelvoudig, meervoudig, [aangeboren, verworven], te veel, te weinig, kwalitatief, kwantitatief.'"
+  },
+  {
+   "guid": "gzc3c-066764e33b4b",
+   "waarom": "De oorzakentabel staat drie keer op de slides (pancytopenie, gestoorde hematopoëse, evaluatie trombocytopenie) en komt bij elke casus terug: 'Als u nadenkt over de evaluatie van een trombocytopenie, heeft u opnieuw deze kaders.'"
+  },
+  {
+   "guid": "gzc3c-f8ae8be76d6e",
+   "waarom": "Dezelfde, steeds herhaalde oorzakentabel; afbraak door hypersplenisme legt de docent apart uit."
+  },
+  {
+   "guid": "gzc3c-975c74a2d133",
+   "waarom": "Dezelfde oorzakentabel; de docent bespreekt expliciet dat verlies bij pancytopenie minder relevant is en infectie vooral verbruik is."
+  },
+  {
+   "guid": "gzc3c-b19ed2fb0b04",
+   "waarom": "'Dus slechte kwaliteit, hoe noemen we dat? Dysplasie' – terug bij de RUNX1-casus (slide: 'Slechte kwaliteit → dysplasie → MDS AML')."
+  },
+  {
+   "guid": "gzc3chk-579efc32b5ec",
+   "waarom": "'Het is in de praktijk een beetje mijn kernactiviteit, dus daarom neem ik dat als voorbeeld. Wat zijn de oorzaken van pancytopenie?'"
+  },
+  {
+   "guid": "J`llDjM@<G",
+   "waarom": "De docent legt biopt (holle naald, 3D-beeld van de mergholte) en aspiraat (uitstrijkje voor celdetail) uitgebreid uit; slide: 'Beenmergbiopsie – essentieel om compleet beeld te krijgen van de hematopoiese'."
+  },
+  {
+   "guid": "AP.$-n:(O9",
+   "waarom": "De docent loopt de stappen expliciet door: eerst 'heel droog naar de cijfers', dan microscopie, dan het beenmerg ('Voorlopers bevinden zich alleen in het beenmerg')."
+  },
+  {
+   "guid": "gzc3c-5fd7b63acd43",
+   "waarom": "Een groot deel van casus 1 gaat over gericht doorvragen (infecties, antibiotica, tropen, dieet 'cruciaal', medicatie, familie: 'Dat zijn dus heel belangrijke vragen') en over het LO (lever/milt, klieren, bleek of geel, stigmata)."
+  },
+  {
+   "guid": "gzc3c-65cc0e9b63cf",
+   "waarom": "'Zoveel van die genetische factoren zijn ook een soort leukemiepredispositiesyndromen. Dus dat is goed om te beseffen' – de RUNX1-casus loopt uit op MDS in transitie naar AML."
+  },
+  {
+   "guid": "nWy=&dtP2R",
+   "waarom": "Over veroudering: 'Ik denk dat het belangrijk is om dat te onthouden.' Eerst corrigeren, zie correcties."
+  },
+  {
+   "guid": "gzc3c-1d1c0edc9afe",
+   "waarom": "Herhaald aan het begin van het IC (slide 'Herhaling'): symmetrische/asymmetrische deling is 'noodzakelijk voor uw hematopoëse op lange termijn [...] voor de rest van uw leven'."
+  },
+  {
+   "guid": "gzc3c-166e5c2d297f",
+   "waarom": "Herhaald in het IC (plastisch systeem: cellen kunnen onder invloed van prikkels van eindbestemming veranderen) en in de samenvatting ('aangestuurd door cytokines, groeifactoren, transcriptiefactoren')."
+  }
+ ],
+ "nieuwe_kaarten": [
+  {
+   "voor": "Betekent een tekort aan bloedcellen altijd dat de hematopoëse gestoord is?",
+   "achter": "Nee. Het tekort kan ook buiten de aanmaak ontstaan: verlies (bloeding), verbruik (infectie) of afbraak (hypersplenisme, antistoffen).\nAlleen bij een defect ín de aanmaak (stamcel, voorloper of rijpe cel) spreek je van een gestoorde hematopoëse.",
+   "prio": true,
+   "citaat": "'Als u nadenkt over een probleem in uw bloedcellen, betekent dat niet altijd dat er een probleem is in de hematopoëse.' / slide: 'Defect IN hematopoiese = gestoorde aanmaak'"
+  },
+  {
+   "voor": "Waarom vraag je bij elke gestoorde aanmaak: waar in de boom zit het defect?",
+   "achter": "Het defect kan in de stamcel, in een (multipotente of toegewijde) voorloper of in de rijpe cel zitten. Hoe hoger in de boom, hoe meer cellijnen zijn aangedaan.\nDe plaats van het defect bepaalt je vervolgonderzoek.",
+   "prio": true,
+   "citaat": "'Zit het probleem in de stamcel, in de voorloper, in de rijpe cel?' / 'Afhankelijk van waar het defect zich bevindt, voert u uw diepgaand onderzoek uit.' (slides: 3x 'Waar zit het defect?')"
+  },
+  {
+   "voor": "Wat is het verschil tussen een kwantitatief en een kwalitatief probleem van de hematopoëse?",
+   "achter": "Kwantitatief: de productie is gestoord, met te veel of te weinig cellen.\nKwalitatief: de productie loopt, maar de cellen zijn defect of werken niet (bv. trombopathie, dysplasie).",
+   "prio": false,
+   "citaat": "'Het kan een kwalitatief probleem zijn, zodat [...] de drijfveer van de productie normaal is. Maar dat de cellen gewoon defect zijn of geen functie hebben.'"
+  },
+  {
+   "voor": "Waarom is bloedverlies zelden de verklaring voor een pancytopenie?",
+   "achter": "Bij bloeden verlies je vooral rode cellen: dat geeft alleen een anemie.\nBij een pancytopenie denk je aan een aanmaakprobleem, of aan afbraak en verbruik (hypersplenisme, infectie).",
+   "prio": false,
+   "citaat": "'Verlies is in dit geval iets minder relevant, want als je bloedt, heb je alleen bloedarmoede.'"
+  },
+  {
+   "voor": "Wat is hypersplenisme?",
+   "achter": "De milt filtert normaal oude bloedcellen weg. Is hij te actief (bv. door een infectie), dan vangt hij te veel cellen weg en ontstaat een cytopenie.\nDat is verhoogde afbraak, geen aanmaakprobleem.",
+   "prio": false,
+   "citaat": "'Uw milt is een soort filter voor uw oude cellen [...] Soms is een milt, bijvoorbeeld door een infectie, te actief en als gevolg daarvan krijgt u cytopenie. En dat noemt men hypersplenisme.'"
+  },
+  {
+   "voor": "Hoe kunnen een virale infectie en een ontsteking een cytopenie geven?",
+   "achter": "Virale infecties kunnen het beenmerg onderdrukken (beenmergsuppressie).\nOntsteking kan de aanmaak van alle cellijnen onderdrukken.",
+   "prio": false,
+   "citaat": "'Virale infecties staan erom bekend dat ze [beenmerg]suppressie kunnen veroorzaken. Ontsteking onderdrukt al uw cellijnen.'"
+  },
+  {
+   "voor": "Hoe verschuift de leukocytendifferentiatie bij een bacteriële infectie en bij EBV?",
+   "achter": "Bacteriële infectie: veel neutrofielen, vaak relatief minder lymfocyten.\nEBV (ziekte van Pfeiffer): veel lymfocyten, vaak minder neutrofielen.",
+   "prio": false,
+   "citaat": "'[Veel] neutrofielen bij een bacteriële infectie resulteert vaak in minder lymfocyten. [...] bij een EBV-infectie [...] krijg je veel lymfocyten en als gevolg daarvan zie je vaak minder neutrofielen.'"
+  },
+  {
+   "voor": "Wat is de normale verdeling van de leukocyten in steady state?",
+   "achter": "Ongeveer 50% neutrofielen, 40% lymfocyten en 10% overig (monocyten, eosinofielen, basofielen).\nBij 10 × 10⁹/l leukocyten verwacht je dus 4-5 × 10⁹/l neutrofielen.",
+   "prio": true,
+   "citaat": "'Een normale verdeling [...] in steady state is ongeveer 50% neutrofielen, ongeveer 40% lymfocyten, en de rest [...] 10%.' / 'Als u 10 leukocyten heeft, heeft u er 4 tot 5 neutrofielen nodig, niet 0,1.'"
+  },
+  {
+   "voor": "Waarom is een normaal leukocytengetal bij een zeer zieke patiënt eigenlijk niet normaal?",
+   "achter": "Het lichaam hoort op de infectie te reageren: je verwacht meer leukocyten (of juist veel minder bij beenmergsuppressie) en een andere verdeling.\nBeoordeel bloedwaarden altijd in de context van de patiënt.",
+   "prio": true,
+   "citaat": "'Als u een zeer zieke patiënt heeft, dan is een normaal wit bloedbeeld eigenlijk niet normaal, want het lichaam moet reageren op die infectie.'"
+  },
+  {
+   "voor": "Een niet-zieke patiënt wordt verwezen voor een chronische leukopenie; de verdeling van de leukocyten is normaal. Hoe beoordeel je dat?",
+   "achter": "Geruststellend: het merg lijkt in balans. Het absolute aantal valt buiten de referentiewaarden, maar zonder ziekte en met een normale verdeling hoef je er meestal weinig mee.",
+   "prio": false,
+   "citaat": "'De verdeling van de leukocyten is volkomen normaal. Er kan nog steeds een probleem zijn, maar ik vind dat zeer geruststellend. [...] als de patiënt niet ziek is en de verdeling normaal is, doe ik er niet veel mee.'"
+  },
+  {
+   "voor": "Waar let je op bij microscopie van het bloed (bloeduitstrijk)?",
+   "achter": "Hoe de cellen eruitzien: grootte, vorm, de granula in de neutrofielen en afwijkende cellen.\nIn de witte reeks wil je variatie zien: veel van één celtype is meestal een slecht teken.",
+   "prio": false,
+   "citaat": "'Over het algemeen zou je kunnen zeggen dat je een variatie in de witte bloedcel wilt zien. Als u veel van één ding ziet, is dat meestal een slecht teken.'"
+  },
+  {
+   "voor": "Waarom heb je beenmergonderzoek nodig om de voorlopercellen te beoordelen?",
+   "achter": "Voorlopers komen alleen in het beenmerg voor en zijn in het perifere bloed niet zichtbaar.\nWil je weten waar in de boom het defect zit, dan moet je in het merg kijken.",
+   "prio": true,
+   "citaat": "'Alle voorlopers waar we het gisteren over hadden, zijn niet zichtbaar in het perifere bloed.' / 'Voorlopers bevinden zich alleen in het beenmerg. Dus we gaan in het beenmerg kijken.'"
+  },
+  {
+   "voor": "Hoe herken je in een beenmergbiopt een hypoplastisch ('leeg') merg?",
+   "achter": "Normaal liggen tussen de roze botbalkjes paarse hematopoëtische cellen en witte vetcellen, gelijkmatig verdeeld en niet te veel vet.\nBij een hypoplastisch merg is de hematopoëse grotendeels vervangen door vet.",
+   "prio": false,
+   "citaat": "'De paarse vlekjes [...] uw cellen. En daartussen zit vet. Dat is de witte. [...] mooi gelijkmatig verdeeld. Niet te veel vet.' / 'Dus, hypoplastisch. [...] grotendeels vervangen door vet [...] een hypoplastisch of leeg beenmerg.'"
+  },
+  {
+   "voor": "Een jongen met een Hb van 3,0 mmol/l is alleen wat moe en bleek. Wat zegt dat over het beloop?",
+   "achter": "Het probleem is waarschijnlijk langzaam (chronisch) ontstaan, zodat het lichaam zich heeft aangepast.\nZakt het Hb in een paar dagen van 7,5 naar 3, dan voel je je zeer ellendig.",
+   "prio": true,
+   "citaat": "'Hb in een paar dagen naar 3, voelt u zich erg ellendig. Als het erg langzaam gaat, past uw lichaam zich aan. Dus dat zijn dingen die u in de praktijk kunt gebruiken.'"
+  },
+  {
+   "voor": "Een voetballende jongen heeft trombocyten 26 × 10⁹/l maar weinig blauwe plekken. Is dat vreemd?",
+   "achter": "Niet per se. 26 ligt rond de grens waaronder je echt bloedingsproblemen krijgt, en blauwe plekken op 'logische' plekken vallen bij een voetballer niet op.",
+   "prio": false,
+   "citaat": "'26 [plaatjes], misschien doen ze het heel goed. Het is een beetje op de grens waar je echt in de problemen komt. Blauwe plekken horen ook bij voetbal.'"
+  },
+  {
+   "voor": "Waarom neem je 'blanco voorgeschiedenis' niet zomaar aan?",
+   "achter": "Wat je hoort, hangt af van hoe je vraagt. Vraag gericht naar mogelijke oorzaken: vaak ziek? Hoe vaak antibiotica? In de tropen geweest? Medicatie (veel middelen beïnvloeden het bloedbeeld)?\nEen blanco voorgeschiedenis sluit ook een erfelijk defect niet uit.",
+   "prio": false,
+   "citaat": "'Dat lege geschiedenis, het is maar hoe je het vraagt. [...] Bent u vaak ziek geweest? Hoe vaak heeft u antibiotica gebruikt? [...] Bent u in de tropen geweest?' / 'De jongen had een genetisch defect.'"
+  },
+  {
+   "voor": "Hoe vraag je naar het dieet bij een cytopenie, en waar let je op?",
+   "achter": "Simpelweg: 'Wat eet je op een dag?'\nLet op vegetarisch of veganistisch eten (vitamine B12 zit in dierlijke producten), rood vlees (ijzer) en groene groenten en graanproducten (foliumzuur).",
+   "prio": false,
+   "citaat": "'De eenvoudigste vraag [...] wat eet je op een dag?' / 'Waar haalt u vitamine B12 vandaan? Dierlijke producten. Dus u bent vegetariër, veganist.'"
+  },
+  {
+   "voor": "Wat is een 'bouwsteenprobleem' van de hematopoëse?",
+   "achter": "Een aanmaakprobleem door een tekort aan bouwstenen (ijzer, vitamine B12, foliumzuur), terwijl de stamcellen en voorlopers zelf normaal zijn.",
+   "prio": true,
+   "citaat": "'Maar geen stamcel- of progenitorprobleem, het is een bouwsteenprobleem.' / samenvatting: '[Bouwstenen] zijn cruciaal voor uw hematopoëse.'"
+  },
+  {
+   "voor": "Wat is de meest waarschijnlijke oorzaak als iemand met moeheid en bleekheid bij de huisarts komt?",
+   "achter": "In 9 van de 10 gevallen ijzertekort.\nPassen de getallen daar niet bij (bv. pancytopenie, hoog MCV), denk dan aan iets ernstigers en verwijs snel.",
+   "prio": false,
+   "citaat": "'Als een patiënt met deze klacht bij de [huisarts] komt, dan is het natuurlijk 9 van de 10 keer ijzertekort.' / 'De patiënt wordt doorverwezen naar het ziekenhuis voor een snelle beoordeling. Dit kan ook een teken zijn van iets zeer ernstigs.'"
+  },
+  {
+   "voor": "Waarom beoordeel je bij een bleek kind ook of het geel is?",
+   "achter": "Geel (icterus) wijst eerder op verhoogde afbraak (hemolyse) dan op een aanmaakprobleem.\nEen heel bleek kind lijkt snel wat gelig; onderscheid het met bloedonderzoek (bilirubine, LDH).",
+   "prio": false,
+   "citaat": "'Maar of het geel is ook relevant. Want als je erg bleek bent, ziet iedereen er een beetje gelig uit. Om dat te onderscheiden, krijgt u dat natuurlijk ook uit uw bloedonderzoek.'"
+  },
+  {
+   "voor": "Waarom voel je bij een kind met pancytopenie naar lever, milt en lymfeklieren?",
+   "achter": "Om het type probleem te onderscheiden: vergroting past bij infiltratie (leukemie, lymfoom), infectie of hypersplenisme (afbraak). Bij primair beenmergfalen zijn ze niet vergroot.",
+   "prio": false,
+   "citaat": "'Dus je kijkt naar een grote lever of [milt]. Het is belangrijk om te differentiëren met wat voor soort probleem ik te maken heb.'"
+  },
+  {
+   "voor": "Wat zijn stigmata, en waarom zoek je ernaar bij een cytopenie?",
+   "achter": "Uiterlijke kenmerken (dysmorfieën, huidafwijkingen) die bij bepaalde aangeboren ziektebeelden horen, zoals erfelijke beenmergfalensyndromen.\nZe wijzen op een aangeboren in plaats van een verworven oorzaak.",
+   "prio": false,
+   "citaat": "'Als je nadenkt over aangeboren afwijkingen, moet je ook kijken naar wat we stigmata noemen. Bepaalde ziektebeelden hebben bepaalde specifieke kenmerken, bepaalde dysmorfieën, huidafwijkingen.'"
+  },
+  {
+   "voor": "Waarom herhaal je bij een ernstig afwijkend bloedbeeld zonder aanwijzingen uit anamnese en lichamelijk onderzoek eerst het bloedonderzoek?",
+   "achter": "Laboratoriumfouten komen regelmatig voor. Zeker bij een milde presentatie met ernstige getallen bevestig je eerst de uitslag.",
+   "prio": false,
+   "citaat": "'Laten we eerst het [bloedonderzoek] herhalen, omdat het feitelijk een milde presentatie heeft. [...] Misschien was het een laboratoriumfout, dat gebeurt zeer regelmatig.'"
+  },
+  {
+   "voor": "Wat zegt een hoog MCV bij een pancytopenie?",
+   "achter": "Het past bij een vitamine-B12- of foliumzuurtekort, maar is ook een algemeen kenmerk van een beenmergprobleem met verstoorde aanmaak (bv. beenmergfalen, MDS).\nIJzergebrek geeft juist een laag MCV.",
+   "prio": true,
+   "citaat": "'Hoog MCV, erg belangrijk. [...] Het is ook een algemene eigenschap van een [beenmerg]probleem met een verstoorde [aanmaak], zonder ijzerafhankelijk te zijn.'"
+  },
+  {
+   "voor": "Een patiënt met een Hb van 3,0 mmol/l heeft een reticulocytengetal binnen de referentiewaarden. Hoe interpreteer je dat?",
+   "achter": "Te laag. Bij zo'n anemie is het EPO zeer hoog en zou het merg veel reticulocyten moeten maken. Gebeurt dat niet, dan kan het merg niet reageren: een aanmaakprobleem.\nZet reticulocyten altijd af tegen het Hb.",
+   "prio": true,
+   "citaat": "'Als je een Hb van 3 hebt, dan heb je een zeer hoge [EPO], dus moet je veel reticulocyten aanmaken. Dat doet hij niet. [...] Dus je moet je reticulocyten altijd afzetten tegen de Hb.'"
+  },
+  {
+   "voor": "Jongen van 11 met pancytopenie: vrijwel geen neutrofielen, 0 monocyten, normaal aantal lymfocyten en een hypoplastisch merg. Waar zit het defect ongeveer?",
+   "achter": "Minstens op het niveau van de multipotente voorloper, boven de MEP en de GMP: rood, plaatjes, neutrofielen én monocyten (zelfde voorloper als neutrofielen) zijn aangedaan.\nDe lymfoïde (T-cel)lijn lijkt vrijwel normaal.",
+   "prio": true,
+   "citaat": "'Ja, tenminste op het progenitor-niveau. [...] het is ergens rond de multipotente voorloper, denk ik. [...] tenminste boven de megakaryocyten [en] de granulocytenprecursor, omdat die drie cellijnen daar zeker zijn.'"
+  },
+  {
+   "voor": "Hoe onderscheid je bij een pancytopenie met hoog MCV een ernstig vitamine-B12-tekort van beenmergfalen?",
+   "achter": "B12-tekort: vol merg met te grote (megaloblastaire) voorlopers die niet goed kunnen delen en uiteenvallen (ineffectieve aanmaak) → hoog LDH. Een bouwsteenprobleem.\nBeenmergfalen: leeg (hypoplastisch) merg, geen hoog LDH. Een stamcel- of voorloperprobleem.",
+   "prio": true,
+   "citaat": "'Je hebt veel precursors, maar ze kunnen niet verder en ze kunnen zich niet goed delen, ze vallen uiteen en je krijgt afbraakproducten. Hoge LDH, dat had onze patiënt niet.'"
+  },
+  {
+   "voor": "Waarom geeft een vitamine-B12-tekort niet alleen anemie, maar ook trombopenie en leukopenie?",
+   "achter": "B12 (en foliumzuur) zijn nodig voor de DNA-replicatie. Bij een tekort staat de celdeling in álle lijnen onder druk.\nHet hoofdbeeld is een megaloblastaire anemie.",
+   "prio": true,
+   "citaat": "'Vitamine B12-tekort veroorzaakt voornamelijk megaloblastaire anemie. Maar vitamine B12 is voor uw DNA-replicatie, wat ook een tekort geeft aan andere cellijnen.' / 'Dit is altijd nuttig om in gedachten te houden.'"
+  },
+  {
+   "voor": "Een kind met koorts heeft petechiën, blauwe plekken en bloedneuzen bij trombocyten rond 80-90 × 10⁹/l. Wat is hier vreemd?",
+   "achter": "Bij 80-90 verwacht je geen bloedingen.\nBloedingen bij een maar matig verlaagd aantal wijzen erop dat de plaatjes ook slecht werken: een trombopathie.",
+   "prio": true,
+   "citaat": "'Met [plaatjes] van 90, 80, zou u geen bloedingen mogen hebben.' / 'Ja, dat ze het ook niet zo goed doen.'"
+  },
+  {
+   "voor": "Wat is een passagère trombopathie?",
+   "achter": "Een tijdelijke stoornis van de plaatjesfunctie tijdens een (virale) infectie.\nInfectie is de meest voorkomende oorzaak van trombopenie en trombopathie bij jonge kinderen. Na herstel hoort het bloedbeeld te normaliseren.",
+   "prio": false,
+   "citaat": "'Dat kan door infectie komen. Dat noemen we een passagère trombopathie. [...] En ook is de meest voorkomende oorzaak van deze problemen een infectie. Vooral bij jonge kinderen.'"
+  },
+  {
+   "voor": "Wanneer is een trombopenie na een virale infectie bij een kind verdacht voor een erfelijke oorzaak?",
+   "achter": "Als de plaatjes na herstel niet normaliseren (of verder dalen), en zeker als een ouder ook lage plaatjes heeft.\nVolgende stap: genetische diagnostiek.",
+   "prio": false,
+   "citaat": "'In principe zouden we de [plaatjes] moeten normaliseren. Maar ze normaliseren niet, bovendien zijn ze iets lager [...] Maar dan komt het verhaal dat de vader ook lage [plaatjes] heeft.' / 'Genetische diagnostiek, ja.'"
+  },
+  {
+   "voor": "Hoe toon je bij een kind met trombopenie aan dat er ook een trombopathie is?",
+   "achter": "Met trombocytenfunctietests (gestoord), bij normale stollingstijden.\nDan is er naast een kwantitatief ook een kwalitatief plaatjesprobleem.",
+   "prio": false,
+   "citaat": "'Normale [stol]tijden. Trombocytenfunctietests tonen aan dat deze verstoord is. [...] Ja, maar u heeft ook een kwantitatief probleem.'"
+  },
+  {
+   "voor": "Vader en zoon hebben dezelfde erfelijke trombopenie. Welke overerving past hierbij, en welke kan niet?",
+   "achter": "Past bij autosomaal dominant.\nX-gebonden kan niet: een vader geeft zijn zoon zijn Y-chromosoom; de zoon krijgt zijn X van de moeder.",
+   "prio": true,
+   "citaat": "'Het suggereert autosomaal dominant. [...] Dit is een heel klassiek voorbeeld. [...] Maar een vader kan een X-gebonden ziekte niet aan een zoon geven.'"
+  },
+  {
+   "voor": "Waarom zit het defect bij een familiaire RUNX1-mutatie hoger in de boom dan alleen de megakaryopoëse?",
+   "achter": "RUNX1 is een cruciale transcriptiefactor voor de megakaryopoëse, maar ook voor vroege voorlopers van de erytropoëse en voor de myelopoëse.\nHet defect zit dus op (vroeg) voorloper- of stamcelniveau; later kunnen ook Hb en leukocyten dalen.",
+   "prio": false,
+   "citaat": "'[RUNX1] is een cruciale transcriptiefactor voor uw megakaryopoëse. [...] zeer vroege progenitor ook relevant voor uw erytropoëse. [...] [RUNX1] is ook erg belangrijk voor uw myelopoëse.'"
+  },
+  {
+   "voor": "Waarom krijgen kinderen met een erfelijk stamceldefect vaker MDS of AML?",
+   "achter": "De aanmaak is vanaf de geboorte verstoord, zodat het merg voortdurend onder compensatiestress staat. Daardoor kan een second (en third) hit ontstaan die de ruimte krijgt om uit te groeien.\nVeel van deze defecten zijn leukemiepredispositiesyndromen, vooral als het defect op stamcelniveau zit.",
+   "prio": true,
+   "citaat": "'Als u een genetisch defect heeft, waardoor u vanaf de geboorte een soort verstoorde bloedaanmaak heeft, met alle bestaande compensatiemechanismen, dan kan er een zogenaamde tweede treffer optreden. Zoveel van die genetische factoren zijn ook een soort leukemiepredispositiesyndromen.'"
+  },
+  {
+   "voor": "Waarom kan een vader met dezelfde RUNX1-mutatie geen MDS hebben terwijl zijn zoon het wel krijgt?",
+   "achter": "Variabele penetrantie (zelfde mutatie, ander ziektebeeld). Vader en zoon zijn genetisch niet gelijk (de moeder draagt ook bij). Er is samenspel met andere transcriptiefactoren. En externe factoren, zoals herhaalde infecties, kunnen een second hit ruimte geven.",
+   "prio": false,
+   "citaat": "'Soms heeft het te maken met een mutatie die een veranderende penetrantie heeft [...] Wat ook belangrijk is dat deze jongen ook een moeder heeft. [...] En je hebt externe factoren.'"
+  },
+  {
+   "voor": "Wat is dysplasie, en is het altijd een teken van maligniteit?",
+   "achter": "Dysplasie is een kwaliteitsstoornis: cellen met een afwijkende vorm en rijping.\nHet is soms tijdelijk (bij infectie of een tekort) en soms onderdeel van een echte ziekte, zoals MDS (dat kan overgaan in AML).",
+   "prio": true,
+   "citaat": "'Dus slechte kwaliteit, hoe noemen we dat? Dysplasie, en soms is dat tijdelijk.' / 'Soms is het gevolg van een infectie, van een tekort. En soms maakt het deel uit van een echte ziekte.'"
+  },
+  {
+   "voor": "Waarom is MDS bij een kind opvallend?",
+   "achter": "MDS is vooral een ouderdomsziekte. Zie je het bij een kind, dan is het meestal het gevolg van een genetisch (erfelijk) defect.",
+   "prio": true,
+   "citaat": "'Myelodysplastisch syndroom is eigenlijk een ouderdomsziekte. Dus wanneer u het bij kinderen ziet, is het meestal het gevolg van een genetisch probleem.'"
+  },
+  {
+   "voor": "Meisje van 14 maanden: opname met cellulitis (IV-antibiotica) en eerder 2x antibiotica voor otitis. Is dat normaal?",
+   "achter": "Nee, dat is veel. Otitis komt bij jonge kinderen vaak voor, maar cellulitis is een ongebruikelijke infectie, en drie antibioticakuren (één IV) op 14 maanden is te veel.\nDenk aan een afweerstoornis, zoals een neutropenie.",
+   "prio": false,
+   "citaat": "'Maar cellulitis is een nogal ongebruikelijke infectie. Otitis is prima [...] Drie keer antibiotica, één keer infuus [...] dat is veel.'"
+  },
+  {
+   "voor": "Wat vraag je over de neonatale periode als je een granulocytenprobleem vermoedt?",
+   "achter": "Hoe snel de navelstomp droog werd en afviel: normaal binnen ongeveer een week. Bleef hij lang nat, dan kan dat op een granulocytenprobleem wijzen (de voorspellende waarde is niet hoog).\nVraag ook naar luieruitslag en spruw.",
+   "prio": false,
+   "citaat": "'Normaal gesproken zou het binnen een week droog moeten zijn. Als dat niet gebeurt, kan dat betekenen dat u een probleem heeft met uw granulocyten. [...] Maar de [voorspellende] waarde ervan is niet erg hoog.'"
+  },
+  {
+   "voor": "Een kind heeft vrijwel geen neutrofielen, maar wel relatief veel eosinofielen en monocyten. Hoe verklaar je dat?",
+   "achter": "De granulocytaire voorlopers kunnen niet verder rijpen (maturatiestop) of sterven af. De aanmaak wijkt daardoor uit naar de zijtakken: eosinofielen en monocyten.",
+   "prio": false,
+   "citaat": "'Als gevolg hiervan ziet u dat u meer eo's en ook meer mono's gaat maken. Omdat die cellen niet [verder] kunnen [...] gaan ze dus naar links naar de eo's en naar rechts naar de mono's.'"
+  },
+  {
+   "voor": "Wat zie je in het beenmerg bij ernstige congenitale neutropenie, en waar zit het defect dus?",
+   "achter": "Een maturatiestop op het niveau van de promyelocyt: veel promyelocyten, maar verder rijpende neutrofielen ontbreken.\nHet defect zit laag in de witte boom, tussen de GMP en de rijpe neutrofiel.",
+   "prio": true,
+   "citaat": "'U ziet een soort oververtegenwoordiging van promyelocyten. [...] Dit wordt een maturatiestop op het niveau van de promyelocyt genoemd.' / 'om aan te geven waar we het defect hebben gedetecteerd.'"
+  },
+  {
+   "voor": "Hoe verhouden expansie en differentiatie van stamcellen zich tot elkaar?",
+   "achter": "Het zijn tegengestelde processen: een cel die zich als stamcel vermenigvuldigt, differentieert niet, en een cel die differentieert, verlaat de stamcelpool.",
+   "prio": false,
+   "citaat": "'Expansie en differentiatie zijn processen die eigenlijk tegenovergesteld zijn.' (samenvattingsslide: 'Expansie – Differentiatie – Lineages')"
+  },
+  {
+   "voor": "Waarom kan het beenmerg op oudere leeftijd tekorten minder goed compenseren?",
+   "achter": "De celdeling verloopt trager en er is meer DNA-schade. Daarnaast beïnvloeden meer ziektes en chronische laaggradige ontsteking ('inflammaging') de hematopoëse.",
+   "prio": true,
+   "citaat": "'Later in het leven kunt u minder gemakkelijk compenseren dan u op jonge leeftijd kunt. Dat is logisch, omdat celdeling vertraagd is [...] en is er meer schade aan het DNA.' / 'Ik denk dat het belangrijk is om dat te onthouden.'"
+  }
+ ],
+ "correcties": [
+  {
+   "guid": "gzc3c-035d911a7afc",
+   "huidig": "Verworven aplastische anemie\nPancytopenie met een leeg merg zonder infiltratie, zonder aanwijzingen voor erfelijk beenmergfalen. Eerst ondersteunende zorg (transfusies, infectiepreventie).",
+   "voorstel": "Erfelijk beenmergfalen (genetisch stamceldefect)\nLeeg (hypoplastisch) merg zonder infiltratie, met hoog MCV en te weinig reticulocyten. Geen tekorten, geen hoog LDH. Ondanks de blanco voorgeschiedenis bleek het genetisch.\nEerst ondersteunende zorg: transfusies en antibiotische profylaxe.",
+   "citaat": "'De jongen had een genetisch defect, waarbij je een soort stamcelfalen krijgt. Als gevolg hiervan, een verstoorde hematopoëse. Dit wordt het genetisch beenmergfalensyndroom genoemd.' / 'Hoge LDH, dat had onze patiënt niet.' / 'Precies, u geeft hem antibiotische profylaxe.' ('Verworven' en 'zonder aanwijzingen voor erfelijk beenmergfalen' zijn in strijd met het college.)"
+  },
+  {
+   "guid": "vraag",
+   "huidig": "Controlevraag 3 (jongen van 11), uitleg: 'Alleen het biopt laat de architectuur en cellulariteit zien. Hier was het hypoplastisch: (verworven) aplastische anemie.'",
+   "voorstel": "Alleen het biopt laat de architectuur en cellulariteit zien. Hier was het hypoplastisch: beenmergfalen op stamcel-/voorloperniveau, bij deze jongen door een genetisch defect.",
+   "citaat": "'De jongen had een genetisch defect, waarbij je een soort stamcelfalen krijgt.'"
+  },
+  {
+   "guid": "kapstok",
+   "huidig": "IC: gestoorde hematopoëse – 'Casussen: pancytopenie met een leeg merg (aplastische anemie) · trombopenie bij vader en zoon (RUNX1 → later MDS) · ernstige neutropenie bij een peuter (ELANE).'",
+   "voorstel": "Casussen: pancytopenie met een leeg merg (erfelijk beenmergfalen) · trombopenie + trombopathie bij vader en zoon (RUNX1 → binnen maanden MDS in transitie naar AML) · ernstige neutropenie met relatief veel eo's en mono's bij een peuter (maturatiestop bij de promyelocyt).",
+   "citaat": "'De jongen had een genetisch defect [...]' / 'Want dit is de periode in de maanden daarna.' / 'Dit wordt een maturatiestop op het niveau van de promyelocyt genoemd.' / over ELANE: 'Dat mag u vergeten.'"
+  },
+  {
+   "guid": "gzc3c-3060dafd4aeb",
+   "huidig": "VOORKANT: 'Jongen, 3 jaar, koorts met petechiën, krijgt snel blauwe plekken en heeft soms een bloedneus. Zijn vader heeft ook lage bloedplaatjes. Jaren later dysplasie in het beenmerg.' ACHTERKANT: 'Familiaire RUNX1-mutatie met overgang naar MDS ...'",
+   "voorstel": "VOORKANT: Jongen, 3 jaar, koorts met petechiën, snel blauwe plekken en soms een bloedneus bij trombocyten rond 80-90. Na herstel van de infectie blijven de plaatjes laag; zijn vader heeft ook lage plaatjes. In de maanden daarna dalen ook Hb en leukocyten.\nACHTERKANT: Familiaire RUNX1-mutatie met MDS in transitie naar AML\nErfelijk stamceldefect in een transcriptiefactor: trombopenie en trombopathie. Onder compensatiestress een second en third hit → MDS/AML.",
+   "citaat": "'Want dit is de periode in de maanden daarna. [...] Dus deze jongen heeft myelodysplastisch syndroom in transitie naar acute myeloïde leukemie.' / 'Met [plaatjes] van 90, 80, zou u geen bloedingen mogen hebben.' ('Jaren later' wordt niet door het college gedragen.)"
+  },
+  {
+   "guid": "gzc3c-02fb8bf90643",
+   "huidig": "VOORKANT: '... Neutrofielen <0,5 × 10⁹/l, verder normaal bloedbeeld.' ACHTERKANT: 'Ernstige congenitale neutropenie (ELANE) Een geïsoleerde, ernstige neutropenie vanaf jonge leeftijd met bacteriële en schimmelinfecties. ELANE codeert neutrofielen-elastase.'",
+   "voorstel": "VOORKANT: Meisje, 14 maanden, opgenomen met cellulitis (IV-antibiotica). Eerder 2x otitis, navelstomp bleef lang nat, als baby veel luieruitslag en spruw. Neutrofielen 0,1 × 10⁹/l, met relatief veel eosinofielen en monocyten.\nACHTERKANT: Ernstige congenitale neutropenie\nBeenmerg: maturatiestop op het niveau van de promyelocyt; de aanmaak wijkt uit naar eo's en mono's.\nHier door een ELANE-mutatie (de gennaam hoef je volgens de docent niet te kennen).",
+   "citaat": "'En als gevolg daarvan ziet u ook hoge eo's [...] en hoge mono's. Dat is opvallend.' ('verder normaal bloedbeeld' klopt dus niet) / 'Dit wordt een maturatiestop op het niveau van de promyelocyt genoemd.' / over ELANE: 'Dat mag u vergeten.'"
+  },
+  {
+   "guid": "gzc3c-236230aa2bba",
+   "huidig": "VOORKANT: 'Wat is ernstige congenitale neutropenie, en welk gen is het bekendst?' ACHTERKANT: '... Het bekendste gen is ELANE, dat neutrofielen-elastase codeert.'",
+   "voorstel": "VOORKANT: Wat is ernstige congenitale neutropenie?\nACHTERKANT: Een erfelijke aanmaakstoornis met neutrofielen <0,5 × 10⁹/l vanaf jonge leeftijd: ernstige bacteriële infecties (cellulitis, otitis) en spruw, met relatief veel eosinofielen en monocyten.\nMeestal een ELANE-mutatie; de gennaam mag je volgens de docent vergeten.",
+   "citaat": "'We hebben genetisch onderzoek gedaan en dit past bij een ernstige congenitale neutropenie op basis van een ELANE-mutatie. Dat mag u vergeten.' (De kaart vraagt precies naar wat de docent zegt te mogen vergeten.)"
+  },
+  {
+   "guid": "vraag",
+   "huidig": "Controlevraag 4 (meisje van 14 maanden): 'In welk gen verwacht je een mutatie?' – juist: ELANE; fout: RUNX1, JAK2, HFE.",
+   "voorstel": "Vraag: 'Een meisje van 14 maanden heeft cellulitis, vaak otitis, spruw en een navelstomp die lang niet droog werd. Neutrofielen 0,1 × 10⁹/l met relatief veel eosinofielen en monocyten. Wat verwacht je in het beenmerg?' Juist: 'Een maturatiestop op het niveau van de promyelocyt'. Fout: 'Een leeg (hypoplastisch) merg', 'Een merg vol blasten', 'Fibrose van het merg'. Uitleg: 'Ernstige congenitale neutropenie: de granulocytaire voorlopers kunnen niet verder rijpen en de aanmaak wijkt uit naar eo's en mono's. Het gen (ELANE) hoef je volgens de docent niet te kennen.'",
+   "citaat": "'Dit wordt een maturatiestop op het niveau van de promyelocyt genoemd.' / over ELANE: 'Dat mag u vergeten.'"
+  },
+  {
+   "guid": "nWy=&dtP2R",
+   "huidig": "Er ontstaat een voorkeursroute richting de myeloïde lijn: minder lymfocyten en erytrocyten, meer granulocyten en trombocyten. Dat verklaart mede waarom anemie en chronische lymfatische leukemie op oudere leeftijd vaker voorkomen",
+   "voorstel": "Door veroudering, DNA-stress en DNA-schade en chronische ontsteking ('inflammaging') krijgt het beenmerg een myeloïde voorkeur: meer myeloïde en minder lymfoïde aanmaak.\nDaardoor is er meer risico op extra schade en dus op MDS/AML.",
+   "citaat": "'Het beenmerg [krijgt] onder invloed van ouderdom, DNA-stress en DNA-schade een soort scheefgroei [...] een soort voorkeur voor myeloïde cellen ten opzichte van de productie van lymfocyten. [...] betekent ook dat u meer risico heeft op aanvullende schade en dus MDS/AML.' (Een myeloïde voorkeur verklaart geen CLL, want die is lymfoïd.)"
+  }
+ ],
+ "kapstok_aanvullingen": [
+  {
+   "kop": "IC: gestoorde hematopoëse",
+   "punt": "Niet elk tekort aan bloedcellen is een probleem ín de hematopoëse: denk ook aan verlies, verbruik (infectie) en afbraak (hypersplenisme, antistoffen). Bij pancytopenie is bloedverlies zelden de oorzaak, want bloeden geeft alleen een anemie."
+  },
+  {
+   "kop": "IC: gestoorde hematopoëse",
+   "punt": "Vraag bij elke casus: waar zit het defect? Stamcel → multipotente voorloper → toegewijde voorloper → rijpe cel. Hoe hoger in de boom, hoe meer lijnen aangedaan; erfelijke defecten hoog in de boom geven vaker MDS/AML."
+  },
+  {
+   "kop": "IC: gestoorde hematopoëse",
+   "punt": "Bloedbeeld in context: de normale verdeling is ±50% neutrofielen, ±40% lymfocyten en ±10% rest. Een normaal leukocytengetal bij een zeer zieke patiënt is niet normaal. In de witte reeks wil je variatie: veel van één celtype is een slecht teken."
+  },
+  {
+   "kop": "IC: gestoorde hematopoëse",
+   "punt": "Zet reticulocyten altijd af tegen het Hb (een 'normaal' getal bij een Hb van 3 is te laag). Een hoog MCV past bij een B12-/foliumzuurtekort én bij een beenmergprobleem."
+  },
+  {
+   "kop": "IC: gestoorde hematopoëse",
+   "punt": "Leeg merg zonder hoog LDH = beenmergfalen (stamcel/voorloper). Vol merg met megaloblastaire voorlopers en hoog LDH = B12-/foliumzuurtekort (bouwsteenprobleem: ijzer, B12, foliumzuur)."
+  },
+  {
+   "kop": "IC: gestoorde hematopoëse",
+   "punt": "Voorlopers zijn niet zichtbaar in het perifere bloed: daarvoor moet je in het beenmerg kijken."
+  },
+  {
+   "kop": "IC: gestoorde hematopoëse",
+   "punt": "Casus 2: bloedingen bij plaatjes van 80-90 → trombopathie. Blijft het na de infectie bestaan en heeft de vader het ook → genetica (autosomaal dominant; X-gebonden kan niet van vader op zoon). Erfelijk stamceldefect onder compensatiestress → second hit → MDS/AML (leukemiepredispositie)."
+  },
+  {
+   "kop": "IC: gestoorde hematopoëse",
+   "punt": "Casus 3: te veel en te ernstige infecties (cellulitis), navelstomp lang nat, neutrofielen 0,1 met relatief veel eo's en mono's → maturatiestop bij de promyelocyt (ernstige congenitale neutropenie; de gennaam hoef je niet te kennen)."
+  },
+  {
+   "kop": "Veroudering",
+   "punt": "Veroudering, DNA-stress/-schade en chronische ontsteking ('inflammaging') geven een myeloïde voorkeur → meer risico op MDS/AML. MDS is een ouderdomsziekte; bij een kind is het meestal genetisch. Een ouder merg compenseert minder goed."
+  },
+  {
+   "kop": "De stamcel",
+   "punt": "Expansie en differentiatie zijn tegengestelde processen. Het systeem is plastisch: voorlopers kunnen onder invloed van prikkels nog van bestemming veranderen, maar niet elke cel kan alles worden."
+  }
+ ],
+ "valkuilen": [
+  "Een reticulocytengetal binnen de referentiewaarden is bij een Hb van 3 mmol/l te laag. Beoordeel reticulocyten altijd ten opzichte van het Hb.",
+  "Een hoog MCV is niet alleen B12 of foliumzuur: het past ook bij een beenmergprobleem (beenmergfalen, MDS). Onderscheid: een B12-tekort geeft een vol merg en hoog LDH, beenmergfalen een leeg merg zonder hoog LDH.",
+  "Weinig klachten bij een Hb van 3 betekent niet dat het meevalt. Het wijst op een langzaam ontstaan (chronisch) probleem waaraan het lichaam zich heeft aangepast.",
+  "Een normaal leukocytengetal bij een zeer zieke patiënt is niet geruststellend. Omgekeerd is een licht verlaagd aantal met een normale verdeling bij een niet-zieke patiënt meestal wel geruststellend.",
+  "Een 'blanco voorgeschiedenis' is maar zo goed als je vraagt, en sluit een erfelijk defect niet uit (de jongen van 11 en de vader met RUNX1 hadden allebei een onopvallende voorgeschiedenis).",
+  "Een vader kan een X-gebonden aandoening niet aan zijn zoon doorgeven. Overdracht van vader op zoon past bij autosomaal dominant.",
+  "Een trombopenie die na een virale infectie niet herstelt (zeker als een ouder het ook heeft) is geen gewone postvirale trombopenie. Denk aan een erfelijk stamceldefect en doe genetisch onderzoek.",
+  "Bloedingen bij plaatjes rond 80-90 passen niet bij het aantal. Denk aan een functiestoornis (trombopathie) en doe trombocytenfunctietests.",
+  "Bij pancytopenie is bloedverlies zelden de verklaring: bloeden geeft alleen een anemie."
+ ],
+ "docentcitaten": [
+  {
+   "citaat": "Als u nadenkt over een probleem in uw bloedcellen, betekent dat niet altijd dat er een probleem is in de hematopoëse.",
+   "onderwerp": "Gestoorde hematopoëse versus verlies, verbruik en afbraak"
+  },
+  {
+   "citaat": "Als u een zeer zieke patiënt heeft, dan is een normaal wit bloedbeeld eigenlijk niet normaal.",
+   "onderwerp": "Bloedbeeld in de context van de patiënt"
+  },
+  {
+   "citaat": "Je moet je reticulocyten altijd afzetten tegen de Hb.",
+   "onderwerp": "Reticulocyten bij ernstige anemie"
+  },
+  {
+   "citaat": "Als u veel van één ding ziet, is dat meestal een slecht teken.",
+   "onderwerp": "Microscopie van de witte reeks"
+  }
+ ],
+ "afgewezen": [
+  {
+   "wat": "prio_guid 'gzc3c-579efc32b5ec' (DD pancytopenie)",
+   "reden": "Deze GUID bestaat niet in de TSV. De juiste GUID is 'gzc3chk-579efc32b5ec'. Die staat nu in prio_guids."
+  },
+  {
+   "wat": "prio_guid b@Lv-8*me] (ziektebeeld aplastische anemie, incl. ATG + ciclosporine)",
+   "reden": "De docent benadrukt het lege merg als bevinding, niet het ziektebeeld aplastische anemie. De diagnose van de casus was een genetisch beenmergfalen, en de docent zegt daarover 'niet zo relevant voor deze cursus'. Behandeling en oorzaken van verworven aplastische anemie komen niet aan bod."
+  },
+  {
+   "wat": "prio_guid gzc3c-9a431e128464 (steady-state- vs stress-erytropoëse)",
+   "reden": "De verwijzing 'We hebben het gisteren over die beenmergstress gehad' gaat over compensatiestress als voedingsbodem voor een second hit, niet over de duur van stress-erytropoëse (2 vs 5 dagen) waar deze kaart over gaat."
+  },
+  {
+   "wat": "prio_guids gzc3c-035d911a7afc, gzc3c-3060dafd4aeb en gzc3c-02fb8bf90643 (de drie 'Wie ben ik?'-casuskaarten)",
+   "reden": "De docent noemt de casussen 'allemaal een beetje rariteiten' die alleen dienen om het redeneren te oefenen. Over de diagnoses zegt ze 'niet zo relevant voor deze cursus' (casus 1) en 'Dat mag u vergeten' (ELANE, casus 3). Het benadrukte redeneren staat nu in aparte prio-kaarten (reticulocyten, MCV, waar zit het defect, leukemiepredispositie), en RUNX1 blijft prio via gzc3c-65cc0e9b63cf. Correcties op deze drie kaarten blijven wel staan."
+  },
+  {
+   "wat": "Nieuwe kaart 'Hoe en waar wordt een beenmergpunctie gedaan bij kinderen en bij volwassenen?'",
+   "reden": "Het deel over biopt en aspiraat dubbelt met J`llDjM@<G. De rest (sedatie of lokale verdoving, punctieplaats) is procedurele trivia. 'Sternum: alleen aspiraat' staat niet in transcript of slides."
+  },
+  {
+   "wat": "Nieuwe kaart 'Jongen van 11 ... wat zijn de normaalwaarden op deze leeftijd?'",
+   "reden": "Kinderreferentiewaarden zijn trivia (de docent: 'Er zijn geen referentiewaarden'). Het leerpunt 'ernstige pancytopenie' staat al in casuskaart gzc3c-035d911a7afc."
+  },
+  {
+   "wat": "Nieuwe kaart 'Ondersteunende zorg bij beenmergfalen'",
+   "reden": "Bijna een dubbeling van casuskaart gzc3c-035d911a7afc. 'Schimmelwerende profylaxe' is een interpretatie van de transcriptie 'ontstekingsremmende profylaxe' en dus onzeker. De antibiotische profylaxe is opgenomen in de correctie van de casuskaart."
+  },
+  {
+   "wat": "Nieuwe kaart 'Waarom geeft een ELANE-mutatie geen functiestoornis maar een tekort?' en de bijbehorende valkuil over elastase",
+   "reden": "Dit is een detail van een gen dat je volgens de docent mag vergeten ('Het is voorlopig iets minder relevant'). De kern (voorlopers rijpen niet verder of sterven af, waardoor de aanmaak uitwijkt naar eo's en mono's) staat al in de kaart over relatief veel eo's en mono's."
+  },
+  {
+   "wat": "Nieuwe kaart 'Hangen de klinische verschijnselen van een cytopenie af van het mechanisme erachter?'",
+   "reden": "Vaag en dubbelzinnig ('meestal niet, soms wel'), dus ongeschikt als kaart. De zin in het transcript is een terloopse opmerking."
+  },
+  {
+   "wat": "Nieuwe kaart 'Hoe lang duurt de erytropoëse van BFU-E tot erytrocyt?'",
+   "reden": "Komt alleen van een HC-slide, de docent benadrukt het niet. 'Pro → ery ca. 5 dagen' staat al in gzc3c-9a431e128464, en de verhouding BFU-E : CFU-E = 1:10 is trivia. Bovendien zegt HC2 '±3 weken', wat zonder uitleg verwarrend is."
+  },
+  {
+   "wat": "Valkuil 'Myeloïde scheefgroei bij veroudering geeft meer risico op MDS/AML, niet op lymfoïde ziekten zoals CLL'",
+   "reden": "De docent zegt dit niet: het is onze eigen correctie van kaart nWy=&dtP2R, en die wordt al via de correctie opgelost. Bovendien komt CLL wél vaker voor op oudere leeftijd, dus de formulering zou misleidend zijn."
+  },
+  {
+   "wat": "Kapstokaanvulling 'Beenmergpunctie: bij kinderen altijd onder sedatie, bij volwassenen onder lokale verdoving. Biopt = 3D-architectuur, aspiraat = celdetail.'",
+   "reden": "Biopt en aspiraat staan al in de bestaande kapstok, en sedatie is trivia. Vervangen door de kern: voorlopers zijn niet zichtbaar in het perifere bloed."
+  },
+  {
+   "wat": "Inhoudelijke aanpassingen aan nieuwe kaarten uit het voorstel",
+   "reden": "Kaarten met twee vragen zijn gesplitst of herschreven tot één leerpunt: hypoplastisch biopt, bouwsteenprobleem, de oudere leeftijd (alleen compensatie; de myeloïde voorkeur staat in de correctie van nWy=&dtP2R) en trombocytenfunctietests. Bij 'waar zit het defect' is de zin over maligne ontaarding geschrapt (dubbel met de leukemiepredispositiekaart). Bij de kaart over 26 plaatjes is de vraag naar verwachte klachten vervangen door één punt. De correcties op 3060dafd4aeb, 035d911a7afc en 02fb8bf90643 zijn ingekort. De dubbeling in de correctie van nWy=&dtP2R (MDS als ouderdomsziekte, compensatie) is weggehaald, want die punten staan nu in aparte kaarten."
+  }
+ ]
+}

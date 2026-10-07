@@ -75,13 +75,17 @@ def samenvoegen():
         for x in v['prio_guids']:
             prio[x['guid']] = x['waarom']
         for x in v['correcties']:
-            correcties[x['guid']] = x
+            if x['guid'] in ('kapstok', 'vraag') or x['guid'].startswith('gzc3c-'):
+                HANDMATIG.append((hc, x))  # kapstok, controlevragen en eigen kaarten: met de hand verwerkt in colleges_inhoud.py
+            else:
+                correcties[x['guid']] = x
         for x in v.get('koppeling', []):
             koppeling_extra[x['guid']] = x['college']
     colleges = dict(sorted(colleges.items(), key=lambda kv: (len(kv[0]), kv[0])))  # HC1 … HC9, HC13
     return colleges, prio, correcties, koppeling_extra
 
 
+HANDMATIG = []
 COLLEGES, PRIO, CORRECTIES, KOPPELING_EXTRA = samenvoegen()
 
 # ------------------------------------------------------------------ koppeling bestaande kaarten
@@ -282,8 +286,8 @@ def kapstok_md(hc, c):
     return '\n'.join(regels)
 
 
-def campagnedata(marker):
-    colleges = {'_meta': dict(marker=marker)}
+def campagnedata(marker, guids):
+    colleges = {'_meta': dict(marker=marker, guids=guids)}
     for hc, cel in CI.CELLEN_OVERIG.items():
         colleges[hc] = dict(cel=cel)
     for hc, c in COLLEGES.items():
@@ -373,8 +377,9 @@ def main():
     ADDON_DATA.mkdir(exist_ok=True)
     (ADDON_DATA / 'koppeling.json').write_text(json.dumps(koppeling, ensure_ascii=False, sort_keys=True))
     (ADDON_DATA / 'extra_tags.json').write_text(json.dumps(extra_tags, ensure_ascii=False, sort_keys=True))
-    marker = gids[-1]  # de add-on ziet aan deze notitie of de nieuwste versie van de collegeimport al binnen is
-    (ADDON_DATA / 'colleges.json').write_text(json.dumps(campagnedata(marker), ensure_ascii=False))
+    # versie van de collegeimport: de add-on biedt de import opnieuw aan zolang niet al deze notities in de collectie staan
+    marker = hashlib.sha1('|'.join(gids).encode()).hexdigest()[:12]
+    (ADDON_DATA / 'colleges.json').write_text(json.dumps(campagnedata(marker, gids), ensure_ascii=False))
     for naam in ('GZC3_check_import.txt', 'GZC3_extra_import.txt', 'GZC3_colleges_import.txt'):
         shutil.copy(ROOT / naam, ADDON_DATA / naam)
     nq = quiz_bijwerken()
@@ -384,6 +389,7 @@ def main():
         per[col] = per.get(col, 0) + 1
     print('nieuw:', tel, 'totaal', len(nieuw), '| bijgewerkt:', len(bijgewerkt), f'(waarvan {len(gecorrigeerd)} correcties)',
           '| nadruk op bestaande kaarten:', len(extra_tags), '| quizvragen:', nq, '| versie', marker)
+    print(f'met de hand verwerkt in colleges_inhoud.py: {len(HANDMATIG)} correcties op kapstok, controlevragen en eigen kaarten')
     if overgeslagen:
         print('correcties zonder kaart (kapstok/vraag, met de hand verwerken):')
         for c in overgeslagen:

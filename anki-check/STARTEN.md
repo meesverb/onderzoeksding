@@ -6,7 +6,7 @@
 2. In het hoofdscherm staat onder je decks nu **Campagne GZC III**, met bovenaan een **installatiecheck**. Die ziet zelf wat je al gedaan hebt; klik bij elke open stap op de knop, van boven naar beneden:
    1. **Import 1**: de gecontroleerde kaarten (er wordt eerst automatisch een back-up gemaakt).
    2. **Import 2**: casussen, schema's, tabellen en ezelsbruggen.
-   3. **Import 3**: de 181 kaarten uit de slides van HC 1-5.
+   3. **Import 3**: de 464 kaarten uit de colleges en 32 correcties. Komt er later een nieuwere versie, dan verschijnt deze stap vanzelf opnieuw.
    4. **Dubbele kaarten verwijderen**: de 93 notities met `check::dubbel` of `check::verwijderen`.
    5. **FSRS**: opent de deckopties. Zet FSRS aan, kies een retentie van 0,90 en klik op Opslaan.
    6. **Campagne starten**: zet de nieuwe kaarten op volgorde van de colleges, en kaarten van colleges die je nog niet hebt gedaan, op slot. Je eerdere opschorting per thema vervalt daarmee.
@@ -17,12 +17,21 @@
 
 De add-on koppelt alle T1- en T2-kaarten zelf aan hun college (tag `college::HC3` enz.). Dat gebeurt bij het openen van je profiel, na elke import en na het synchroniseren. Zoek in de browser op `tag:college::HC3` om alle kaarten van één college te zien.
 
-## Nieuw: de colleges HC 1-5 verwerkt
+## Verwerkte colleges: HC 1-7 en HC 13 (slides + transcripten)
 
-- **Kapstokken** van één pagina met 5 controlevragen: `kapstokken/HC1.md` t/m `HC5.md`, ook in het collegevenster in Anki en in de quiz (soort *Controlevraag*).
-- **181 nieuwe kaarten** (`bron::slides-HC1-5`): 100 basiskaarten, 14 casussen uit de IC's, 34 tabelkaarten en 33 schemakaarten. De schema's zijn zelfgetekende versies van de belangrijkste figuren: hiërarchie van de hematopoëse, ijzerkringloop, reperfusieschade, bilirubineafbraak en aangrijpingspunten van de antistolling.
-- **MCV-grenzen** aangepast aan het college: 82-98 fl (het deck zei 80-100).
-- **Koppeling** van alle 412 T1/T2-kaarten aan HC 1-10, met de hand op basis van de slides. Ter controle: `koppeling.md`.
+- **Kapstokken** van één pagina met 5 controlevragen: `kapstokken/HC1.md` t/m `HC7.md` en `HC13.md`. Ze staan ook in het collegevenster in Anki (inclusief 🎯 tentamentips en 🎙️ citaten van de docent) en in de quiz (soort *Controlevraag*).
+- **464 nieuwe kaarten** in `GZC3_colleges_import.txt`:
+  - 172 uit de slides, met 📚 op de voorkant;
+  - 151 uit de transcripten, met 🎙️ op de voorkant en de tag `bron::transcript`;
+  - 24 casussen, 84 tabelkaarten en 33 schemakaarten.
+- **Nadruk van de docent:** 91 bestaande kaarten krijgen van de add-on `prio::tentamen` en `nadruk::docent`. Zoek op `tag:nadruk::docent`.
+- **32 correcties** op bestaande kaarten die niet klopten met wat de docent zei. Een paar voorbeelden:
+  - de jongen van 11 uit IC 1 had erfelijk beenmergfalen;
+  - de ELANE-gennaam mag je vergeten;
+  - de PV-streefwaarde is Ht <0,45 voor iedereen.
+- **MCV-grenzen:** de slides gebruiken 82-98 fl, de docent zei mondeling 80-100.
+- **Koppeling:** alle T1-, T2- en T3-kaarten zijn met de hand aan hun college gekoppeld. Ter controle: `koppeling.md`.
+- Hoe dit tot stand kwam, staat in `verwerking/README.md`: per college een opsteller en een sceptische controleur.
 
 ## Het plan
 
