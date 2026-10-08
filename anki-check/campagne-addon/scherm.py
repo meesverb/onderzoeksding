@@ -50,7 +50,7 @@ color:var(--ink);text-align:left;font-family:-apple-system,"Segoe UI",Roboto,san
 .gz .knoppen{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .gz button{font:inherit;font-size:13px;font-weight:600;border-radius:9px;padding:7px 12px;cursor:pointer;border:1.5px solid var(--hema);background:var(--hema);color:var(--kaart)}
 .gz button.licht{background:transparent;color:var(--hema)}
-.gz button.klein{padding:3px 9px;font-size:12px}
+.gz button.klein{padding:3px 9px;font-size:12px;color:var(--kaart)}.gz button.licht.klein{color:var(--hema)}
 .gz button:disabled{opacity:.4;cursor:default}
 .gz .vink{display:inline-flex;gap:6px;align-items:center;cursor:pointer;font-size:12px;color:var(--zacht);white-space:nowrap}
 .gz .vink input{accent-color:var(--hema);margin:0}
@@ -222,7 +222,7 @@ def _lastig_en_nood(s: dict) -> str:
     if nd:
         per = nd['per']
         chips = ''.join(f'<span class="chip {"ok" if v.get("gezien") == v.get("n") else "paars"}">{th} {v.get("gezien", 0)}/{v.get("n", 0)}</span>'
-                        for th, v in sorted(per.items()) if th != 'totaal')
+                        for th, v in sorted(per.items(), key=lambda x: CAMPAGNE_VOLGORDE.index(x[0]) if x[0] in CAMPAGNE_VOLGORDE else 9) if th != 'totaal')
         tot = per.get('totaal', {})
         inhoud = (f'<div class="klein">{tot.get("gezien", 0)}/{tot.get("n", 0)} essentiekaarten gezien · {tot.get("verankerd", 0)} verankerd</div>'
                   f'<div style="margin-top:4px">{chips}</div><div class="knoppen"><button class="klein" {_cmd("gzc3:noodleren")}>▶ Noodpakket leren</button>'

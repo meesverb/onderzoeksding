@@ -1,0 +1,2108 @@
+{
+ "groepen": [
+  {
+   "samenvattingen": [
+    {
+     "thema": "T1",
+     "punten": [
+      "Hoe hoger het defect in de hematopoëtische boom, hoe meer cellijnen aangedaan; zet reticulocyten altijd af tegen het Hb.",
+      "Pancytopenie: leeg merg zonder infiltratie = beenmergfalen; vol megaloblastair merg met hoog LDH = B12-/foliumzuurtekort.",
+      "Hepcidine blokkeert ferroportine: hoog bij ontsteking (ACD; behandel de ontsteking), laag bij ijzergebrek en veel erytropoëse (thalassemie).",
+      "IJzeruitscheiding is niet gereguleerd; hemochromatose: nuchtere saturatie ≥45% plus hoog ferritine, behandeling aderlaten.",
+      "Te hoog Hb: eerst saturatie; bij hypoxie de oorzaak behandelen, niet aderlaten. 'Normaal' EPO bij hoog Hb is inadequaat.",
+      "Analyseer elke anemie kinetisch (reticulocyten) én morfologisch (MCV <82, 82-98, >98 fl).",
+      "Microcytair: eerst ferritine. Laag (<30) = ijzergebrek, zoek de oorzaak; normaal = denk aan thalassemiedragerschap.",
+      "IJzergebrek bij een man of postmenopauzale vrouw: direct gastro- én coloscopie, geen FOBT.",
+      "Hemolyse: LDH ↑, bilirubine ↑, haptoglobine ↓, reticulocyten ↑; eerst de DAT. Warme AIHA: prednison.",
+      "B12-tekort: macrocytair, kan hemolyseparameters geven; vraag naar PPI en metformine; nooit alleen foliumzuur geven.",
+      "Slijmvliesbloedingen en direct nabloeden = primaire hemostase (VWD, plaatjes); gewrichten en uitgesteld nabloeden = secundaire (hemofilie).",
+      "Alleen aPTT verlengd: hemofilie, VWD of heparine. Normale PT/aPTT sluit VWD en trombopathie niet uit."
+     ]
+    }
+   ],
+   "kaarten": [
+    {
+     "thema": "T1",
+     "college": "HC1",
+     "voor": "Reticulocyten binnen de referentiewaarden bij Hb 3,0 mmol/l: adequate beenmergrespons?",
+     "achter": "Nee, te laag: het merg reageert niet (aanmaakprobleem). Zet reticulocyten altijd af tegen het Hb.",
+     "bron_guids": [
+      "gzc3c-10b44be62781"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC1",
+     "voor": "Wat is de normale leukocytenverdeling in steady state?",
+     "achter": "Ongeveer 50% neutrofielen, 40% lymfocyten en 10% overig.",
+     "bron_guids": [
+      "gzc3c-8e20ea02f332"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC1",
+     "voor": "Pancytopenie met een leeg, vervet beenmerg zonder infiltratie of fibrose: diagnose?",
+     "achter": "Beenmergfalen: meestal verworven aplastische anemie (auto-immuun), soms erfelijk.",
+     "bron_guids": [
+      "gzc3x-d0d549cfa915",
+      "gzc3c-e1be620b0e52"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC1",
+     "voor": "Pancytopenie met hoog MCV, vol megaloblastair merg en hoog LDH: oorzaak?",
+     "achter": "Vitamine B12- of foliumzuurtekort: een bouwsteenprobleem met ineffectieve aanmaak.",
+     "bron_guids": [
+      "gzc3c-b8a0edef17e7"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC1",
+     "voor": "Kind met een erfelijk stamceldefect (bv. familiaire RUNX1-mutatie): welk maligne risico?",
+     "achter": "MDS/AML: compensatiestress in het merg geeft ruimte aan een second (en third) hit.",
+     "bron_guids": [
+      "gzc3c-f2bc42c5dc44",
+      "gzc3c-65cc0e9b63cf"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC1",
+     "voor": "Naar welke lijn verschuift de hematopoëse bij veroudering, en met welk risico?",
+     "achter": "Myeloïde voorkeur (o.a. door 'inflammaging'), met meer risico op MDS/AML.",
+     "bron_guids": [
+      "nWy=&dtP2R"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Welk eiwit blokkeert hepcidine, en met welk effect?",
+     "achter": "Ferroportine: minder ijzeropname uit de darm en minder ijzerafgifte uit macrofagen.",
+     "bron_guids": [
+      "P^egvNR`ZM",
+      "gzc3c-724a73ebef5c"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Hoe wordt de uitscheiding van ijzer gereguleerd?",
+     "achter": "Niet: alleen passief verlies. Alle regulatie zit aan de opnamekant (hepcidine).",
+     "bron_guids": [
+      "gzc3c-8d5369e6b1b7"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Wat doet ontsteking (IL-6) met hepcidine, en wat is het gevolg?",
+     "achter": "Hepcidine stijgt: ijzer blijft opgesloten in macrofagen → anemie bij chronische ziekte.",
+     "bron_guids": [
+      "gzc3x-428f31fd514f",
+      "l^hJO<+Jil"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Wat is de kern van de behandeling van anemie bij chronische ziekte?",
+     "achter": "De onderliggende ontsteking behandelen; oraal ijzer helpt niet (hepcidine sluit ferroportine).",
+     "bron_guids": [
+      "gzc3c-926371f2676e"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Waarom stapelt ijzer bij thalassemie, ook zonder transfusies?",
+     "achter": "Veel (ineffectieve) erytropoëse → erythroferrone ↑ → hepcidine ↓ → ongeremde ijzeropname.",
+     "bron_guids": [
+      "gzc3x-9c6164ab65ff",
+      "MS;l!:V4SE"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Waar kijk je als eerste naar bij een patiënt met een te hoog Hb?",
+     "achter": "De zuurstofsaturatie: is er chronische hypoxie (COPD, slaapapneu, hartziekte)?",
+     "bron_guids": [
+      "gzc3c-c88a253cc713"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Erytrocytose door COPD: waarom lost aderlaten het probleem niet op?",
+     "achter": "Het hoge Hb is terechte compensatie (EPO passend hoog). Behandel de hypoxie, bv. met zuurstof.",
+     "bron_guids": [
+      "gzc3c-82f045b50bd7"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "EPO binnen de referentiewaarden bij een sterk verhoogd Hb: hoe interpreteer je dat?",
+     "achter": "Inadequaat normaal (had onderdrukt moeten zijn): denk aan een defecte zuurstofsensor (bv. VHL).",
+     "bron_guids": [
+      "gzc3c-69c7f409d781"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Welke labcombinatie wijst op hereditaire hemochromatose?",
+     "achter": "Nuchtere transferrinesaturatie ≥45% met een verhoogd ferritine.",
+     "bron_guids": [
+      "gzc3c-e5dd55a5f5fb",
+      "gzc3x-dc2ac9656a2a"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Wat is de behandeling van hereditaire hemochromatose?",
+     "achter": "Aderlaten (of erytrocytaferese) tot een ferritine rond 50 µg/l.",
+     "bron_guids": [
+      "gzc3c-942688fde5f9"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "In welk orgaan hoopt ijzer zich bij hemochromatose het eerst op?",
+     "achter": "In de lever (afwijkende levertesten, later fibrose/cirrose); daarna in het hart (cardiomyopathie).",
+     "bron_guids": [
+      "gzc3c-428bdc6f7049"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC2",
+     "voor": "Geeft acuut bloedverlies van 2 liter een ijzergebrek?",
+     "achter": "Nee, de ijzervoorraad vult het aan. IJzergebrek ontstaat door chronisch, sluipend bloedverlies.",
+     "bron_guids": [
+      "gzc3c-cb194cd394f1"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Wat zijn de WHO-afkapwaarden voor anemie in mmol/l?",
+     "achter": "Hb <8,1 mmol/l bij mannen en <7,5 mmol/l bij vrouwen.",
+     "bron_guids": [
+      "pF=Yk?q9`A"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Welke MCV-grenzen gebruikt het anemiecollege voor micro-, normo- en macrocytair?",
+     "achter": "Microcytair <82 fl, normocytair 82-98 fl, macrocytair >98 fl.",
+     "bron_guids": [
+      "D]V)GGJ|2S",
+      "gzc3c-14dd20b944bb"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Anemie met verhoogde reticulocyten: welke twee mechanismen?",
+     "achter": "Hemolyse of bloedverlies (het merg reageert adequaat).",
+     "bron_guids": [
+      "gzc3x-ca4013878111"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Jonge vrouw met een microcytaire anemie: wat is je eerste aanvullende test?",
+     "achter": "Ferritine, liefst samen met de transferrinesaturatie.",
+     "bron_guids": [
+      "gzc3c-42255a6986d9"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Microcytose blijft bestaan bij een normaal ferritine: waaraan denk je?",
+     "achter": "Thalassemiedragerschap: doe een Hb-elektroforese/HPLC.",
+     "bron_guids": [
+      "gzc3c-f8a11996b1a0",
+      "gzc3c-42255a6986d9"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Man van 65 met ijzergebreksanemie: welk onderzoek doe je direct?",
+     "achter": "Gastroscopie én coloscopie (GI-maligniteit tot het tegendeel bewezen); geen FOBT.",
+     "bron_guids": [
+      "MknBkrV{2-",
+      "gzc3x-df4049456ede"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Onder welke ferritinewaarde is ijzergebrek bewezen?",
+     "achter": "Ferritine <30 µg/l.",
+     "bron_guids": [
+      "gzc3c-75a1cc118cd8"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Normaal ferritine bij actieve ontsteking: welke test toont functioneel ijzertekort?",
+     "achter": "De transferrinesaturatie: <20% wijst op (functioneel) ijzertekort.",
+     "bron_guids": [
+      "gzc3c-e9b86ce9b739",
+      "gzc3c-75a1cc118cd8"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Hoe zijn ferritine en transferrine/TIBC bij anemie bij chronische ziekte?",
+     "achter": "Ferritine normaal tot hoog, transferrine/TIBC laag.",
+     "bron_guids": [
+      "gzc3x-34320446e65b",
+      "gzc3x-36987203cc81"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Laag MCV, hoog erytrocytenaantal, normaal ferritine en HbA2 4,2%: diagnose?",
+     "achter": "Bèta-thalassemie minor (HbA2 >3%). Geen ijzer geven.",
+     "bron_guids": [
+      "gzc3x-a8d290d944fb"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Waarmee stel je alfa-thalassemie vast?",
+     "achter": "Met DNA-onderzoek; de Hb-elektroforese blijft normaal (geen compensatie mogelijk).",
+     "bron_guids": [
+      "f`@6vO-J-y"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Sikkelcelpatiënt met een microcytaire anemie: wat concludeer je?",
+     "achter": "Er speelt iets bijkomends (thalassemie of ijzergebrek); sikkelcelziekte zelf geeft geen microcytose.",
+     "bron_guids": [
+      "gzc3c-01017edb2f1c"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Welke drie labparameters wijzen op hemolyse, en welke is het meest specifiek?",
+     "achter": "LDH ↑, ongeconjugeerd bilirubine ↑ en haptoglobine ↓; haptoglobine is het meest specifiek.",
+     "bron_guids": [
+      "gzc3c-7c299b201fc2"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Wat is de eerste test bij een nieuw vastgestelde hemolyse?",
+     "achter": "De directe antiglobulinetest (DAT/Coombs): onderscheidt immuun- van niet-immuunhemolyse.",
+     "bron_guids": [
+      "gzc3c-956f7e0b22d3"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Wat is de eerste keus behandeling van een warme auto-immuun hemolytische anemie?",
+     "achter": "Prednison; wees terughoudend met transfusie ('olie op het vuur').",
+     "bron_guids": [
+      "gzc3c-8d3a064fc352",
+      "gzc3c-6a51598d52b4"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Hemolyse met verhoogd MCHC, sferocyten en negatieve DAT: diagnose?",
+     "achter": "Hereditaire sferocytose (membraandefect).",
+     "bron_guids": [
+      "gzc3x-7fe4bc3641cc",
+      "gzc3c-cc730639aa41"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Na tuinbonen donkere urine en geelzucht; uitstrijk met bite cells en Heinz-lichaampjes: diagnose?",
+     "achter": "G6PD-deficiëntie: te weinig gereduceerd glutathion → oxidatieve, intravasculaire hemolyse.",
+     "bron_guids": [
+      "gzc3x-025d76af543e",
+      "t{`|*#&HN="
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Hemolyseparameters bij een hoog MCV en lage reticulocyten: waaraan denk je?",
+     "achter": "Vitamine B12-tekort: intramedullaire hemolyse door ineffectieve erytropoëse.",
+     "bron_guids": [
+      "gzc3c-269397cc9012",
+      "gzc3c-5c45357bf693"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Welke twee veelgebruikte medicijnen kunnen een vitamine B12-tekort geven?",
+     "achter": "Metformine en langdurig gebruik van een protonpompremmer (PPI).",
+     "bron_guids": [
+      "gzc3c-5fe6fbc0b21e"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Waarom nooit alleen foliumzuur geven zonder eerst een B12-tekort uit te sluiten?",
+     "achter": "Bij een onbehandeld B12-tekort dreigt dan neurologische verslechtering.",
+     "bron_guids": [
+      "GRdd`%iL@K",
+      "gzc3x-ff12ba9e7eb0"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Kind met sferocytose is na koorts plots doodsbleek, reticulocyten vrijwel 0: oorzaak?",
+     "achter": "Aplastische crise door parvovirus B19.",
+     "bron_guids": [
+      "gzc3c-d23f775be780",
+      "gzc3c-6ac86906c571"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Anemie, leukopenie én trombocytopenie bij levercirrose met een sterk vergrote milt: waaraan denk je?",
+     "achter": "Hypersplenisme: de milt breekt te veel bloedcellen af (afbraak, geen aanmaakprobleem).",
+     "bron_guids": [
+      "gzc3c-b2e761b84ec8",
+      "gzc3c-cc3b82e47e27"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Trombopenie, fragmentocyten en ADAMTS13-activiteit <5%: diagnose en eerste behandeling?",
+     "achter": "TTP: spoed plasmaferese (plus caplacizumab en prednison).",
+     "bron_guids": [
+      "gzc3x-d6d9053bc8db",
+      "gzc3c-854307e0c797"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC3",
+     "voor": "Oudere met macrocytaire anemie, lage reticulocyten, normaal B12/foliumzuur en dysplasie: diagnose?",
+     "achter": "Myelodysplastisch syndroom (MDS); verwijs naar de hematoloog voor beenmergonderzoek.",
+     "bron_guids": [
+      "gzc3x-a29a18c49085",
+      "gzc3c-80235d8ab6e6"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Slijmvliesbloedingen en direct nabloeden na kiesextractie: welke hemostase is gestoord?",
+     "achter": "De primaire hemostase (plaatjes, Von Willebrand-factor).",
+     "bron_guids": [
+      "x$w)ddV`.7",
+      "K|`%X2hpHZ"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Gewrichts- en spierbloedingen met uitgesteld nabloeden: welke hemostase is gestoord?",
+     "achter": "De secundaire hemostase (stollingsfactoren), zoals bij hemofilie.",
+     "bron_guids": [
+      "K|`%X2hpHZ",
+      "N/6YODa,@k"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "aPTT verlengd, PT normaal: belangrijkste oorzaken?",
+     "achter": "Hemofilie A/B, ziekte van Von Willebrand of heparine (intrinsieke route).",
+     "bron_guids": [
+      "d=ww*<NUE5"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "PT verlengd, aPTT normaal: belangrijkste oorzaken?",
+     "achter": "Factor VII-deficiëntie, vroege vitamine K-deficiëntie of VKA, beginnende leverziekte.",
+     "bron_guids": [
+      "oaD(,eTTHY"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Welke bloedingsstoornissen sluit een normale PT en aPTT niet uit?",
+     "achter": "Ziekte van Von Willebrand, trombopathie en factor XIII-deficiëntie.",
+     "bron_guids": [
+      "Mf[G9_-*nu",
+      "gzc3chk-25039b489946"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Wat is de meest voorkomende erfelijke bloedingsziekte, en hoe erft die over?",
+     "achter": "Ziekte van Von Willebrand; meestal autosomaal dominant.",
+     "bron_guids": [
+      "E*2I&&qZTr",
+      "gzc3x-4759fdbab5c1"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Welke factor ontbreekt bij hemofilie A en welke bij hemofilie B?",
+     "achter": "A: factor VIII (85%); B: factor IX (15%). Beide X-gebonden recessief.",
+     "bron_guids": [
+      "rS~)S]v5qM",
+      "gzc3x-780a564db44e",
+      "gzc3x-5d5e257d97f2"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Sluit een negatieve familieanamnese hemofilie uit?",
+     "achter": "Nee: bij circa 1 op de 3 patiënten gaat het om een spontane mutatie.",
+     "bron_guids": [
+      "rS~)S]v5qM",
+      "AYHbgt_Wje"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Welke factor VIII/IX-activiteit hoort bij ernstige, matige en milde hemofilie?",
+     "achter": "Ernstig <1% (spontane gewrichts- en spierbloedingen), matig 1-5%, mild >5%.",
+     "bron_guids": [
+      "u~Xs!U46X3"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Waarom werkt desmopressine (DDAVP) niet bij hemofilie B?",
+     "achter": "Het maakt factor VIII en VWF vrij uit het endotheel, maar geen factor IX.",
+     "bron_guids": [
+      "c_@bI_~[FS",
+      "gzc3x-fa669f3f8b89"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Hoe werkt emicizumab bij hemofilie A?",
+     "achter": "Bispecifiek antilichaam dat FIXa en FX koppelt en zo FVIIIa nabootst; werkt ook bij remmers.",
+     "bron_guids": [
+      "gzc3c-c8da230ecee3"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Wat is de eerste keus behandeling bij de ziekte van Von Willebrand type 1?",
+     "achter": "Desmopressine (DDAVP).",
+     "bron_guids": [
+      "gzc3x-7467e2f8af47",
+      "Bt%ef>s^/B"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Sepsis, bloeden uit insteekopeningen, PT/aPTT verlengd, fibrinogeen laag, D-dimeer sterk verhoogd: diagnose?",
+     "achter": "Diffuse intravasale stolling (DIS); behandel de onderliggende oorzaak.",
+     "bron_guids": [
+      "gzc3c-95a9979f3dd1"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Petechiën bij geïsoleerde trombocytopenie, verder normaal bloedbeeld en stolling: waarschijnlijkste diagnose?",
+     "achter": "Immuun-trombocytopenie (ITP), een diagnose per exclusionem.",
+     "bron_guids": [
+      "gzc3x-f7da1ebd6a61",
+      "O~XxPK<0dV"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Wat zijn de drie factoren van de trias van Virchow?",
+     "achter": "Stase, endotheelschade en hypercoagulabiliteit.",
+     "bron_guids": [
+      "N5XIA^w8%k",
+      "gzc3c-f921f583cb53"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Welke stollingsfactoren zijn vitamine K-afhankelijk?",
+     "achter": "Factor II, VII, IX en X, plus de remmers proteïne C en S.",
+     "bron_guids": [
+      "N{]K@0p`L:",
+      "gzc3c-14e8d9afb661"
+     ]
+    },
+    {
+     "thema": "T1",
+     "college": "HC4",
+     "voor": "Welke routinestollingstest voorspelt het tromboserisico?",
+     "achter": "Geen: PT, aPTT, PFA en bloedingstijd meten alleen de bloedingsneiging.",
+     "bron_guids": [
+      "gzc3c-263ee12398d2"
+     ]
+    }
+   ],
+   "afgewezen": [
+    {
+     "voor": "Vader en zoon hebben dezelfde erfelijke trombopenie: welke overerving is uitgesloten?",
+     "reden": "Geschrapt: algemene genetica, geen hematologische kern; ruimte gemaakt voor ontbrekende kernonderwerpen."
+    },
+    {
+     "voor": "Peuter met ernstige neutropenie en relatief veel eo's en mono's: wat toont het beenmerg?",
+     "reden": "Geschrapt: zeldzaam ziektebeeld dat de docent zelf een rariteit noemde; in tijdnood geen essentie."
+    },
+    {
+     "voor": "Wat is de beste maat voor de ijzervoorraad van het lichaam?",
+     "reden": "Geschrapt: dubbel met 'eerste test bij microcytaire anemie (ferritine)' en 'ferritine <30'; de acutefase-valkuil zit in de saturatiekaart."
+    },
+    {
+     "voor": "Mengen met normaal plasma corrigeert de verlengde stollingstijd niet: wat betekent dat?",
+     "reden": "Geschrapt: geen nadruk in college of kapstok HC4; lagere prioriteit om het totaal rond het doel te houden."
+    },
+    {
+     "voor": "Pancytopenie met een leeg, vervet beenmerg zonder infiltratie of fibrose: diagnose?",
+     "reden": "Verbeterd: een leeg merg is beenmergfalen, niet altijd aplastische anemie. Het kan ook erfelijk zijn, zoals in de HC1-casus van de jongen van 11."
+    },
+    {
+     "voor": "Waarom geeft een erfelijk stamceldefect (bv. familiaire RUNX1-mutatie) vaker MDS/AML?",
+     "reden": "Herschreven tot een vraag met één eenduidig antwoord (welk maligne risico: MDS/AML)."
+    },
+    {
+     "voor": "Welk effect heeft veroudering op de hematopoëse?",
+     "reden": "Vraag te vaag (meerdere goede antwoorden); herschreven naar de myeloïde voorkeur en het risico op MDS/AML."
+    },
+    {
+     "voor": "Onder welke factor VIII/IX-activiteit spreek je van ernstige hemofilie?",
+     "reden": "Verbeterd: de volledige indeling is aangevuld (matig 1-5%, mild >5%), die nodig is voor de casus van lichte hemofilie A."
+    },
+    {
+     "voor": "Microcytose blijft bestaan bij een normaal ferritine: waaraan denk je?",
+     "reden": "Antwoord ingekort: het DNA-onderzoek voor alfa-thalassemie staat al op een eigen kaart, dus dat is hier weggelaten."
+    },
+    {
+     "voor": "Sluit een negatieve familieanamnese hemofilie uit?",
+     "reden": "Bron verbeterd: de trivia-kaart 'royal disease' is vervangen door de kernkaart rS~)S]v5qM, die het 1-op-3-feit expliciet noemt."
+    },
+    {
+     "voor": "Geïsoleerde trombocytopenie bij een verder gezonde volwassene: waarschijnlijkste diagnose?",
+     "reden": "Vraag aangescherpt: petechiën en een normale stolling toegevoegd, zodat het antwoord eenduidig ITP is."
+    }
+   ]
+  },
+  {
+   "samenvattingen": [
+    {
+     "thema": "T2",
+     "punten": [
+      "Indeling: stamcelziekten (acute leukemie, MDS, MPN) versus rijpe lymfatische maligniteiten (lymfoom, CLL, myeloom, Waldenström).",
+      "Blasten in het perifere bloed wijzen op acute leukemie (≥20% blasten in het merg); MDS: <20%, celrijk merg met dysplasie.",
+      "Spoed: leukostase (kleine vaten, geen erytrocytentransfusie), tumorlysis (K, fosfaat, urinezuur ↑, Ca ↓), febriele neutropenie (antibiotica binnen een uur).",
+      "CML: t(9;22) met BCR-ABL1, bont bloedbeeld met basofilie en grote milt; behandeling TKI (imatinib).",
+      "PV: JAK2 V617F en laag EPO (secundair: EPO hoog); aderlaten tot Ht <0,45 plus acetylsalicylzuur, cytoreductie bij hoog risico.",
+      "Trombocytose is meestal reactief (ijzergebrek), pas daarna ET; myelofibrose (ook na PV/ET): traandruppelcellen, grote milt, alleen allogene SCT curatief.",
+      "Lymfoom: agressief (Hodgkin, DLBCL, Burkitt) is te genezen; indolent (FL, CLL) niet, behandel pas bij klachten.",
+      "Diagnose lymfoom met excisie- of dikke-naaldbiopt, nooit cytologie; CLL wél op bloed met flowcytometrie (CD5+, CD23+).",
+      "Ann Arbor: tel de zijden van het diafragma, niet de klieren; B = koorts, nachtzweten, >10% gewichtsverlies.",
+      "Hodgkin: jong, halsklier en B-symptomen; Reed-Sternbergcel CD30+ en CD15+; chemotherapie geneest 90-95%.",
+      "Nieuwe middelen: venetoclax geeft tumorlysis (dosis opbouwen), nivolumab colitis, CAR-T cytokine release syndroom; small molecules genezen niet.",
+      "Plasmacel: MGUS (<30 g/l, <10% plasmacellen, geen CRAB, 1%/jaar) versus myeloom met CRAB; IgM wijst op Waldenström."
+     ]
+    }
+   ],
+   "kaarten": [
+    {
+     "thema": "T2",
+     "college": "HC5",
+     "voor": "Vanaf welk blastenpercentage in het beenmerg spreek je van acute leukemie?",
+     "achter": "≥20% blasten; daaronder, met dysplasie, is het MDS.",
+     "bron_guids": [
+      "gzc3c-b819b8d94b28",
+      "gzc3c-652f318c3871"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC5",
+     "voor": "Waar wijzen veel blasten in het perifere bloed op?",
+     "achter": "Acute leukemie: jonge voorlopers horen normaal alleen in het beenmerg.",
+     "bron_guids": [
+      "gzc3c-bdb0dc9ae20d"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC5",
+     "voor": "Hyperleukocytose bij acute leukemie: via welk mechanisme ontstaan de klachten?",
+     "achter": "Leukostase: blasten verstoppen de kleine vaten (longen, hersenen, ogen), geen trombose van grote vaten.",
+     "bron_guids": [
+      "gzc3c-0324511e0fca"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC5",
+     "voor": "Hoe celrijk is het beenmerg bij MDS meestal, ondanks de cytopenie?",
+     "achter": "Hypercellulair: ineffectieve hematopoëse door dysplasie en apoptose.",
+     "bron_guids": [
+      "gzc3c-4086bd3f0376"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC5",
+     "voor": "Welke vorm van stamceltransplantatie geeft een graft-versus-leukemie-effect?",
+     "achter": "Allogeen (donor-T-cellen), met risico op GvHD; autoloog geeft geen GvL.",
+     "bron_guids": [
+      "gG`rP@}TdZ"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC5",
+     "voor": "30 dagen na allogene SCT: exantheem, waterdunne diarree en stijgend bilirubine. Diagnose?",
+     "achter": "Acute graft-versus-hostziekte (donor-T-cellen tegen huid, darm en lever).",
+     "bron_guids": [
+      "gzc3c-779bfd1ec4fe"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC5",
+     "voor": "Zijn B-symptomen specifiek voor het Hodgkinlymfoom?",
+     "achter": "Nee, ze passen bij lymfomen in het algemeen (Hodgkin én non-Hodgkin).",
+     "bron_guids": [
+      "gzc3c-908032f1bbc4"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC5",
+     "voor": "Welk gen wordt door t(14;18) overgeëxprimeerd?",
+     "achter": "BCL2 (anti-apoptotisch), klassiek bij het folliculair lymfoom.",
+     "bron_guids": [
+      "gzc3c-ccf411f75017",
+      "gzc3x-dd4a29f2dbf3"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Welke translocatie en welk fusiegen horen bij CML?",
+     "achter": "t(9;22), het Philadelphiachromosoom: BCR-ABL1.",
+     "bron_guids": [
+      "gzc3x-df41010fd95c",
+      "gzc3x-7e1eb3ed5c83",
+      "gzc3c-310dd1bb2c2c"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Man, 50 jaar, leukocyten 180 × 10⁹/l met alle granulocytaire rijpingsstadia, basofilie en grote milt. Diagnose?",
+     "achter": "Chronische myeloïde leukemie (CML).",
+     "bron_guids": [
+      "gzc3x-df41010fd95c",
+      "gzc3c-01bdf5c2cb97"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Wat is de eerste keus behandeling van CML?",
+     "achter": "Een TKI (imatinib), die het BCR-ABL-tyrosinekinase remt.",
+     "bron_guids": [
+      "gzc3x-df41010fd95c",
+      "gzc3c-430bd56ab1aa"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Welke labwaarde onderscheidt PV van een secundaire erytrocytose?",
+     "achter": "EPO: verlaagd bij PV, hoog(-normaal) bij secundaire erytrocytose.",
+     "bron_guids": [
+      "ltV$QYX7-z",
+      "gzc3c-325f3a43723d"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Welke mutatie heeft circa 95% van de patiënten met polycythaemia vera?",
+     "achter": "JAK2 V617F.",
+     "bron_guids": [
+      "gzc3c-3c401890916b",
+      "gzc3x-75cb35c86533"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Tot welke hematocriet laat je een patiënt met polycythaemia vera aderlaten?",
+     "achter": "Ht <0,45 (naast acetylsalicylzuur).",
+     "bron_guids": [
+      "gzc3x-9fc12ccdd224",
+      "gzc3c-6a6367407b88"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Hoog-risico PV (>60 jaar, eerdere trombose of leukocyten >15 × 10⁹/l): wat voeg je toe?",
+     "achter": "Cytoreductie, 1e lijn hydroxycarbamide of peginterferon, naast aderlaten en acetylsalicylzuur.",
+     "bron_guids": [
+      "gzc3c-7e18b8bda7f4",
+      "gzc3c-dd8bca8f4013",
+      "gzc3c-9735d816c9a4"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Trombocyten 650, Hb 6,1, MCV 72, ferritine 5 bij menorragie. Oorzaak van de trombocytose?",
+     "achter": "Reactieve trombocytose bij ijzergebrek, geen ET: eerst ijzer geven.",
+     "bron_guids": [
+      "gzc3c-9745b37793b1"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Trombocyten 900 × 10⁹/l, overige lijnen normaal, brandende pijnaanvallen in handen en voeten, CALR-mutatie. Diagnose?",
+     "achter": "Essentiële trombocytose; de brandende pijn is erythromelalgie (reageert op acetylsalicylzuur).",
+     "bron_guids": [
+      "gzc3x-9f62fddf7ef1",
+      "gzc3c-137ae558407e"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Enorme milt, traandruppelcellen, leuko-erytroblastair bloedbeeld en een dry tap. Diagnose?",
+     "achter": "Myelofibrose (extramedullaire hematopoëse in de milt).",
+     "bron_guids": [
+      "gzc3x-831e8f63247e",
+      "gzc3c-fa5557443942"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Al 14 jaar ET; nu dalende trombocyten, anemie, groeiende milt en traandruppelcellen. Diagnose?",
+     "achter": "Post-ET myelofibrose: een deel van de ET- en PV-patiënten gaat over in MF.",
+     "bron_guids": [
+      "gzc3c-fa19c1856aac"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC6",
+     "voor": "Wat is de enige curatieve behandeling van myelofibrose?",
+     "achter": "Allogene SCT; ruxolitinib verkleint milt en klachten, maar geneest niet.",
+     "bron_guids": [
+      "gzc3c-85302abdee88",
+      "gzc3x-3536d8f7ec20"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Jonge patiënt met halsklier, nachtzweten en 10 kg gewichtsverlies: welk lymfoom vermoed je?",
+     "achter": "Hodgkinlymfoom.",
+     "bron_guids": [
+      "gzc3c-ad093a1bd469"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Oudere, klachtenvrije patiënt met halsklier en lymfocytose bij routinelab. Diagnose?",
+     "achter": "CLL (folliculair lymfoom geeft geen lymfocytose).",
+     "bron_guids": [
+      "gzc3c-a3c8d515e52c"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Hoe verkrijg je weefsel voor de diagnose lymfoom?",
+     "achter": "Excisie- of dikke-naaldbiopt, nooit cytologie: de architectuur is nodig.",
+     "bron_guids": [
+      "yv0_kIF#vw",
+      "Gg*7R$DY!"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Met welk onderzoek bevestig je een vermoeden van CLL?",
+     "achter": "Flowcytometrie op perifeer bloed; beenmergonderzoek is niet nodig.",
+     "bron_guids": [
+      "P/.Sqy[(7W",
+      "gzc3c-a1272483ec4b"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Welk immunofenotype past bij CLL?",
+     "achter": "CD19+ B-cellen die CD5+ en CD23+ zijn, met zwak CD20.",
+     "bron_guids": [
+      "t`BCRxod}*",
+      "gzc3x-8d2ff63cb938"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Hodgkin in vier klierstations, alleen boven het diafragma, met nachtzweten. Ann Arbor-stadium?",
+     "achter": "IIB: één zijde van het diafragma, nachtzweten is een B-symptoom.",
+     "bron_guids": [
+      "D1p-kJea*p",
+      "yZ~E(F(J:y"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Wat zijn de drie B-symptomen?",
+     "achter": "Koorts >38 °C, nachtzweten, >10% gewichtsverlies in 6 maanden.",
+     "bron_guids": [
+      "yZ~E(F(J:y"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Welk type lymfoom is te genezen: agressief of indolent?",
+     "achter": "Agressief (Hodgkin, DLBCL, Burkitt); indolent (FL, CLL) is niet te genezen.",
+     "bron_guids": [
+      "gzc3c-9a50f49faaf7",
+      "gzc3c-c4218e242651",
+      "gzc3c-0a4f550b218c"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Snel groeiende halszwelling, B-symptomen, sterk verhoogd LDH; biopt: diffuse vellen grote CD20+ B-cellen. Diagnose?",
+     "achter": "Diffuus grootcellig B-cellymfoom (DLBCL): agressief, maar met R-CHOP te genezen.",
+     "bron_guids": [
+      "gzc3x-242d4d211191",
+      "gzc3c-24128ab00a14"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Is een hoog lymfocytengetal op zich een reden om CLL te behandelen?",
+     "achter": "Nee: behandel pas bij symptomatische of progressieve ziekte (bv. B-symptomen, beenmergfalen).",
+     "bron_guids": [
+      "dqhY$(Oq!,"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Welke gevaarlijke bijwerking geeft venetoclax bij CLL?",
+     "achter": "Tumorlysissyndroom; daarom de dosis wekelijks ophogen (plus hydratie).",
+     "bron_guids": [
+      "gzc3c-62d491bc7d07",
+      "gzc3c-0450a2015c72"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Waterdunne diarree onder nivolumab bij Hodgkin: waar denk je eerst aan?",
+     "achter": "Immuun-gemedieerde colitis (auto-immuunbijwerking van de checkpointremmer).",
+     "bron_guids": [
+      "gzc3c-40a98f5f3db3",
+      "gzc3c-fcc05cefaf0d"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Enkele dagen na CAR-T-celtherapie: hoge koorts en verwardheid. Diagnose?",
+     "achter": "Cytokine release syndroom met neurotoxiciteit; behandeling tocilizumab en/of corticosteroïden.",
+     "bron_guids": [
+      "gzc3c-4357126f00e3",
+      "gzc3c-927388dcd6da"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC7",
+     "voor": "Wat is de eerste behandeling van een H. pylori-positief MALT-lymfoom van de maag?",
+     "achter": "H. pylori-eradicatie.",
+     "bron_guids": [
+      "F/$y[p8CqX",
+      "gzc3x-b053a65fe20f"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC8",
+     "voor": "Waar staat CRAB voor bij multipel myeloom?",
+     "achter": "hyperCalciëmie, Renale insufficiëntie, Anemie, Botlaesies (lytisch).",
+     "bron_guids": [
+      "x,m0]b]^H6",
+      "gzc3c-1e13ce4a36e2"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC8",
+     "voor": "M-proteïne <30 g/l, <10% klonale plasmacellen in het beenmerg, geen CRAB. Diagnose?",
+     "achter": "MGUS.",
+     "bron_guids": [
+      "Mf1dB!(2vh",
+      "gzc3x-0d83c4bb290c"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC8",
+     "voor": "Hoe groot is de kans op progressie van MGUS naar multipel myeloom?",
+     "achter": "Circa 1% per jaar.",
+     "bron_guids": [
+      "Mf1dB!(2vh"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC8",
+     "voor": "IgM-M-proteïne met hyperviscositeit, klieren en milt, zonder botlaesies. Diagnose?",
+     "achter": "Morbus Waldenström.",
+     "bron_guids": [
+      "gzc3x-0a45d9225324",
+      "p6Z^zGjDei"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC8",
+     "voor": "Wat is de belangrijkste oorzaak van nierinsufficiëntie bij multipel myeloom?",
+     "achter": "Cast-nefropathie: vrije lichte ketens slaan neer in de distale tubuli.",
+     "bron_guids": [
+      "y*B[|B7k`Z"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC8",
+     "voor": "Congoroodkleuring met appelgroene dubbelbreking: welke diagnose?",
+     "achter": "Amyloïdose (bij AL-amyloïdose bestaan de fibrillen uit vrije lichte ketens).",
+     "bron_guids": [
+      "qA!J,nmRra",
+      "gzc3x-0fa0342b2df6"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC9",
+     "voor": "Welke naaldvormige insluiting in een blast bewijst de myeloïde lijn (AML)?",
+     "achter": "De Auerse staaf (niet altijd aanwezig, maar bewijst dat de blast myeloïd is).",
+     "bron_guids": [
+      "Q|Gz_J:z%A"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC9",
+     "voor": "Wat houdt het 7+3-inductieschema bij AML in?",
+     "achter": "Zeven dagen cytarabine plus drie dagen antracycline.",
+     "bron_guids": [
+      "q=[iN*/~,v"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC9",
+     "voor": "Welke labwaarden veranderen bij een tumorlysissyndroom?",
+     "achter": "Kalium, fosfaat en urinezuur omhoog; calcium omlaag.",
+     "bron_guids": [
+      "s8O/RD/SWZ",
+      "gzc3x-12876c722324"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC9",
+     "voor": "Koorts na chemotherapie met neutrofielen <0,5 × 10⁹/l: wat is het beleid?",
+     "achter": "Kweken afnemen en binnen een uur breedspectrumantibiotica; niet wachten op uitslagen.",
+     "bron_guids": [
+      "IMxx*p8r].",
+      "gzc3x-42dd864324db"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC9",
+     "voor": "Welke transfusie vermijd je bij leukostase, en waarom?",
+     "achter": "Erytrocytentransfusie: die verhoogt de viscositeit.",
+     "bron_guids": [
+      "EmQ9yT%Qc0",
+      "gzc3x-aaaf13c38b56"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC10",
+     "voor": "Welke markers heeft de Reed-Sternbergcel bij het klassiek Hodgkinlymfoom?",
+     "achter": "CD30+ en CD15+, CD20 negatief of zwak.",
+     "bron_guids": [
+      "jfT)U>BD|P",
+      "gzc3x-89c194cf970e"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC10",
+     "voor": "Welke translocatie en welk gen horen bij het Burkitt-lymfoom?",
+     "achter": "t(8;14) met MYC.",
+     "bron_guids": [
+      "gzc3x-b0a4b825d8c5",
+      "xSU&)hx?vb"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC10",
+     "voor": "B-cellymfoom CD5+, CD23−, cycline D1+, t(11;14). Welk lymfoom?",
+     "achter": "Mantelcellymfoom (CLL is ook CD5+, maar CD23+).",
+     "bron_guids": [
+      "gzc3x-1f4a6734b6ce",
+      "t`BCRxod}*"
+     ]
+    },
+    {
+     "thema": "T2",
+     "college": "HC10",
+     "voor": "Massale splenomegalie zonder klieren, pancytopenie, dry tap en BRAF-mutatie. Diagnose?",
+     "achter": "Hairy cell leukemie.",
+     "bron_guids": [
+      "gzc3x-5cb2ffbe4e74",
+      "L{&~wveQ;L"
+     ]
+    }
+   ],
+   "afgewezen": [
+    {
+     "voor": "Welke marker is typisch voor de blasten bij ALL?",
+     "reden": "Geschrapt: alle drie de bronkaarten zijn geen kern en het AML/ALL-onderscheid is volgens HC5 bijzaak; de Auerstaaf-kaart dekt de lijnbepaling al."
+    },
+    {
+     "voor": "Hoe groot is de kans op genezing met small molecules (BTK- en BCL2-remmers)?",
+     "reden": "Geschrapt: een slidegetal (0%) dat overlapt met de kaart agressief/indolent en met de samenvatting ('small molecules genezen niet'). Zo blijft er plek voor de kaarten over de grotere gaten."
+    },
+    {
+     "voor": "Welke naaldvormige insluiting in een blast bewijst de myeloïde lijn (AML)?",
+     "reden": "Antwoord verbeterd: 'komt uitsluitend bij AML voor' is te absoluut (Auerstaven komen ook voor bij MDS met blastenexces). Het antwoord zegt nu alleen wat klopt: de Auerstaaf bewijst de myeloïde lijn."
+    }
+   ]
+  },
+  {
+   "samenvattingen": [
+    {
+     "thema": "T3",
+     "punten": [
+      "Leukemie is de meest voorkomende kinderkanker (circa 30%); ALL circa 80%, piek 2-5 jaar, overleving circa 90%.",
+      "Sterkste prognostische factor bij kinder-ALL is de MRD-respons; hyperdiploïdie en t(12;21) ETV6-RUNX1 zijn gunstig.",
+      "Buikmassa bij peuter: neuroblastoom overschrijdt vaak de middellijn (VMA/HVA, MIBG), Wilms blijft aan één kant.",
+      "Wilms wordt volgens SIOP op beeldvorming behandeld zonder biopt; bij neuroblastoom is N-MYC-amplificatie sterk ongunstig.",
+      "Leukocorie plus strabismus bij een peuter is retinoblastoom (RB1); bilateraal is altijd erfelijk.",
+      "Osteosarcoom: metafyse rond knie, zonnestralen, niet stralingsgevoelig. Ewing: uienschil, t(11;22), wél stralingsgevoelig.",
+      "Late effecten (anthracyclines cardiotoxisch, cisplatine oto- en nefrotoxisch) vragen levenslange follow-up op de poli LATER.",
+      "AYA's: bespreek fertiliteitspreservatie vóór de start van de behandeling, ook als de patiënt er zelf niet over begint.",
+      "Ouderen: selecteer op kwetsbaarheid, niet op kalenderleeftijd; ook chirurgierisico hangt af van comorbiditeit en functionaliteit.",
+      "Behandelaars overschatten de performance status; screen 70-plussers met de G8 (maximaal 17), ≤14 afwijkend → CGA → interventies.",
+      "Chemotherapie werkt even goed bij fitte ouderen; toxiciteit stijgt door farmacokinetiek, depressie en vanaf circa drie geriatrische problemen.",
+      "Fit → standaardbehandeling; kwetsbaar → aangepast via gedeelde besluitvorming; maximaal kwetsbaar → sterk gelimiteerd of palliatief."
+     ]
+    },
+    {
+     "thema": "T4",
+     "punten": [
+      "Roken en alcohol werken synergistisch (circa 14×); HPV16 geeft orofarynx-, EBV nasofarynxcarcinoom.",
+      "Alarmsymptomen: heesheid langer dan 3 weken, pijnloze halszwelling, unilaterale otalgie (referred pain), eenzijdige OME bij volwassene.",
+      "Field cancerization: tweede primaire tumor circa 2-3% per jaar; stoppen met roken en drinken is essentieel.",
+      "HPV-positief orofarynxcarcinoom: jongere niet-roker, cystische halsklier, p16-positief, circa 80% vijfjaarsoverleving.",
+      "Glottisch larynxcarcinoom: vroeg heesheid, laat klieren; supraglottisch: rijke lymfedrainage, vroeg kliermetastasen.",
+      "Nasofarynxcarcinoom (EBV) wordt behandeld met (chemo)radiotherapie, niet met primaire chirurgie.",
+      "Marge onder 1 mm is irradicaal (zo mogelijk heroperatie); irradicaliteit of extranodale groei → postoperatieve chemoradiatie (cisplatine).",
+      "Speekselklier: pleiomorf adenoom niet enucleëren; facialisparese bij parotiszwelling is maligne tot het tegendeel bewezen.",
+      "Schildkliernodus is in circa 4-5% maligne; bij normaal TSH echo met punctie (Bethesda); geen jodiumcontrast.",
+      "Papillair (circa 80%) verspreidt lymfogeen, folliculair hematogeen; follow-up met thyreoglobuline als tumormarker.",
+      "Medullair carcinoom: C-cellen, calcitonine, RET/MEN2; I-131 zinloos; eerst feochromocytoom uitsluiten vóór operatie.",
+      "Oog: uveamelanoom metastaseert naar de lever; recidiverend chalazion → talgkliercarcinoom; salmon patch → lymfoom."
+     ]
+    }
+   ],
+   "kaarten": [
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Wat is de meest voorkomende maligniteit op de kinderleeftijd?",
+     "achter": "Leukemie (circa 30%), waarvan ALL circa 80%.",
+     "bron_guids": [
+      "kw@W78Q&QU"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Wat is de piekleeftijd van ALL bij kinderen?",
+     "achter": "Tussen 2 en 5 jaar.",
+     "bron_guids": [
+      "kw@W78Q&QU",
+      "gzc3x-7f93dfa9e7d7"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Wat is de sterkste prognostische factor bij ALL op de kinderleeftijd?",
+     "achter": "De MRD-respons (minimale restziekte in het beenmerg).",
+     "bron_guids": [
+      "KG55vUXE,X",
+      "l@mKf+nk73"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Welke twee cytogenetische afwijkingen zijn prognostisch gunstig bij kinder-ALL?",
+     "achter": "Hyperdiploïdie en t(12;21) ETV6-RUNX1.",
+     "bron_guids": [
+      "ld^`:.dSN#",
+      "CiYdLLo&Bu"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Peuter met buikmassa over de middellijn en verhoogd VMA/HVA in urine: diagnose?",
+     "achter": "Neuroblastoom (uitgaand van de neurale lijst, meestal het bijniermerg).",
+     "bron_guids": [
+      "gzc3x-e6df915fa160",
+      "y5k!#E1;F`"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Peuter met gladde, pijnloze buikmassa aan één kant, hypertensie en hematurie: diagnose?",
+     "achter": "Nefroblastoom (Wilms-tumor).",
+     "bron_guids": [
+      "gzc3x-87dc2558bb2d",
+      "gzc3x-b6e133280e35"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Welke kindertumor wordt volgens SIOP behandeld zonder biopt vooraf?",
+     "achter": "Nefroblastoom (Wilms): op beeldvorming preoperatieve chemo, daarna nefrectomie.",
+     "bron_guids": [
+      "gzc3x-87dc2558bb2d",
+      "Oi&X^]@~/f",
+      "gzc3x-a18e3a66a28b"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Welke moleculaire afwijking is sterk ongunstig bij neuroblastoom?",
+     "achter": "N-MYC-amplificatie.",
+     "bron_guids": [
+      "q5a13^o88u"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Peuter met witte pupil op foto's (leukocorie) en strabismus: diagnose?",
+     "achter": "Retinoblastoom (RB1-mutatie; bilateraal is altijd erfelijk).",
+     "bron_guids": [
+      "gzc3x-2fe81f47225e"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Tiener met zonnestralen en Codman-driehoek in de metafyse rond de knie: diagnose?",
+     "achter": "Osteosarcoom (niet stralingsgevoelig).",
+     "bron_guids": [
+      "gzc3x-112507338eb1",
+      "gzc3x-0c1833712a64",
+      "gzc3x-cfea994c184f"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Kind met bekkenpijn, koorts, uienschil-periostreactie en t(11;22): diagnose?",
+     "achter": "Ewing-sarcoom; anders dan osteosarcoom wél stralingsgevoelig.",
+     "bron_guids": [
+      "gzc3x-95eb6a6ae7aa",
+      "gzc3x-0633c7fd7cf3"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC11",
+     "voor": "Welke cytostatica zijn berucht om (late) cardiotoxiciteit?",
+     "achter": "Anthracyclines.",
+     "bron_guids": [
+      "p@Rw!vQ%fv",
+      "B;6]|%yNXx"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC12",
+     "voor": "Wanneer bespreek je fertiliteitspreservatie met een AYA met kanker?",
+     "achter": "Vóór de start van de behandeling, ook als de patiënt er zelf niet over begint.",
+     "bron_guids": [
+      "N!SY+n*[kK"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC13",
+     "voor": "Selecteer je ouderen voor kankerbehandeling op kalenderleeftijd of op kwetsbaarheid?",
+     "achter": "Op kwetsbaarheid (via CGA); kalenderleeftijd is een slechte voorspeller.",
+     "bron_guids": [
+      "gzc3c-5521db2cf9a7",
+      "Liuj|4Vn{v"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC13",
+     "voor": "Bij welke G8-score (maximaal 17) volgt een CGA?",
+     "achter": "Bij ≤14: afwijkend, mogelijk kwetsbaar.",
+     "bron_guids": [
+      "gzc3c-413f5912979e",
+      "gzc3c-ecf44617ef77"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC13",
+     "voor": "Waarom volstaat een normale performance status (ECOG/Karnofsky) niet bij ouderen?",
+     "achter": "Behandelaars overschatten hem: 10-40% met normale score heeft afwijkingen bij het CGA.",
+     "bron_guids": [
+      "k2I4z<z7Cq"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC13",
+     "voor": "Werkt chemotherapie minder goed bij een fitte oudere?",
+     "achter": "Nee: farmacodynamiek gelijk; meer toxiciteit door veranderde farmacokinetiek.",
+     "bron_guids": [
+      "gzc3c-dd3745aecd18"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC13",
+     "voor": "Welke psychische factor verhoogt aantoonbaar chemotoxiciteit en mortaliteit bij ouderen met kanker?",
+     "achter": "Depressieve klachten (voor dementie ontbreekt dat bewijs grotendeels).",
+     "bron_guids": [
+      "gzc3c-a83cbcb7c201",
+      "gzc3c-6cc91d943777"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC13",
+     "voor": "Vanaf hoeveel geriatrische problemen wordt de kans op toxiciteit groot?",
+     "achter": "Vanaf ongeveer drie (ook meer kans dat de behandeling niet wordt afgemaakt).",
+     "bron_guids": [
+      "gzc3c-c19f26c2d029"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC13",
+     "voor": "Bij welk deel van de ouderen verandert een CGA de therapiekeuze?",
+     "achter": "Circa 1/3; van hen krijgt 2/3 minder en 1/3 juist intensievere behandeling.",
+     "bron_guids": [
+      "gzc3c-e900b71d571e"
+     ]
+    },
+    {
+     "thema": "T3",
+     "college": "HC13",
+     "voor": "Welke behandeling krijgt de kwetsbare oudere (middengroep) na een CGA?",
+     "achter": "Een aangepaste behandeling, gekozen via gedeelde besluitvorming.",
+     "bron_guids": [
+      "h+*qIIk`r@"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Hoe verhoogt de combinatie roken en alcohol het risico op hoofd-halskanker?",
+     "achter": "Synergistisch: circa 14× verhoogd, meer dan de som van beide.",
+     "bron_guids": [
+      "Qc-BX+}HEV",
+      "x&4nw-kn*9"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Volwassene met eenzijdige otitis media met effusie: welke tumor moet je uitsluiten?",
+     "achter": "Nasofarynxcarcinoom (afsluiting van de buis van Eustachius).",
+     "bron_guids": [
+      "kMPSG%E~U?",
+      "gzc3x-763f53e59310"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Wat is de primaire behandeling van het nasofarynxcarcinoom?",
+     "achter": "(Chemo)radiotherapie; géén primaire chirurgie (slecht bereikbaar, zeer stralingsgevoelig).",
+     "bron_guids": [
+      "CEyzf2~uQX"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Niet-roker, 48 jaar, cystische halszwelling en kleine tonsiltumor: diagnose?",
+     "achter": "HPV-positief orofarynxcarcinoom.",
+     "bron_guids": [
+      "gzc3x-5d533339b89f",
+      "f7+;81e#3I"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Welke immunohistochemische marker dient als surrogaat voor HPV bij orofarynxcarcinoom?",
+     "achter": "p16 (overexpressie, doordat E7 de transcriptiefactor E2F vrijmaakt).",
+     "bron_guids": [
+      "g!Q&Lpx[(v",
+      "f7+;81e#3I"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Man, 65 jaar, rookt, sinds 5 weken hees, geen halsklieren: meest waarschijnlijke diagnose?",
+     "achter": "Glottisch larynxcarcinoom (vroeg heesheid, laat kliermetastasen).",
+     "bron_guids": [
+      "gzc3x-fde0f7fe7113",
+      "CCZCch`v!+"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Welk larynxcarcinoom geeft vroeg kliermetastasen: glottisch of supraglottisch?",
+     "achter": "Supraglottisch (rijke lymfedrainage); glottisch metastaseert laat.",
+     "bron_guids": [
+      "CCZCch`v!+",
+      "gzc3x-c57f1f0957b9",
+      "gzc3x-83d661b717da"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Unilaterale otalgie zonder oorafwijking bij een roker: waar wijst dit op?",
+     "achter": "Referred pain door een hoofd-halstumor (via n. V, IX of X).",
+     "bron_guids": [
+      "KH9c{G[=_;",
+      "qW=]3*L8j2"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Hoe groot is de kans op een tweede primaire tumor bij hoofd-halskanker?",
+     "achter": "Circa 2-3% per jaar (cumulatief 20-30%), door field cancerization.",
+     "bron_guids": [
+      "p>Qri>6v=|"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Bij welke resectiemarge is een hoofd-halsresectie irradicaal?",
+     "achter": "Minder dan 1 mm (1-5 mm krap vrij, meer dan 5 mm radicaal).",
+     "bron_guids": [
+      "Qd@u[p-~Cq"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Welke heeft de hoogste kans op dysplasie of carcinoom: leukoplakie of erytroplakie?",
+     "achter": "Erytroplakie (leukoplakie: lage kans, enkele procenten).",
+     "bron_guids": [
+      "H7q(3n#|~7"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Waarom geen enucleatie van een pleiomorf adenoom van de parotis?",
+     "achter": "Onvolledig kapsel met pseudopodieën: hoge recidiefkans. Dus oppervlakkige parotidectomie.",
+     "bron_guids": [
+      "BTg)iclE<l",
+      "gzc3x-2de4db92c0f9"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Parotiszwelling met facialisparese: waar denk je aan?",
+     "achter": "Maligne speekselkliertumor, tot het tegendeel bewezen is.",
+     "bron_guids": [
+      "gzc3x-4e8be5e31eaf",
+      "AX%AMW5^[W"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Schildkliernodus met normaal TSH: wat is de eerste diagnostiek?",
+     "achter": "Echo met cytologische punctie, beoordeeld volgens de Bethesda-classificatie.",
+     "bron_guids": [
+      "gzc3x-fe062e22b1f6",
+      "g`Fpv2U}#"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Hoe verspreidt papillair versus folliculair schildkliercarcinoom zich vooral?",
+     "achter": "Papillair lymfogeen (halsklieren); folliculair hematogeen (long, bot).",
+     "bron_guids": [
+      "oN/Z=I%-&4",
+      "gzc3x-928a0228f8dc",
+      "gzc3x-76bd0bd1e299"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Welk gen is gemuteerd bij erfelijk medullair schildkliercarcinoom (MEN2)?",
+     "achter": "RET (kiembaanmutatie, autosomaal dominant).",
+     "bron_guids": [
+      "fy#9?mo8j,",
+      "FItxYkPyw_",
+      "gzc3x-8d3b4351670a"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Waarom is I-131 zinloos bij medullair schildkliercarcinoom?",
+     "achter": "Het gaat uit van C-cellen, die geen jodium opnemen.",
+     "bron_guids": [
+      "gJ?SWV*na@",
+      "gzc3x-b164145863d8"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Wat moet je bij MEN2 vóór elke operatie uitsluiten?",
+     "achter": "Feochromocytoom ((nor)metanefrines); anders dreigt een hypertensieve crisis tijdens de narcose.",
+     "bron_guids": [
+      "i&|>W).$70",
+      "B+4A)U4Wqp"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Waarom geen CT met jodiumcontrast bij verdenking op schildkliercarcinoom?",
+     "achter": "Jodium verzadigt de jodiumpool: I-131-therapie moet dan maanden worden uitgesteld.",
+     "bron_guids": [
+      "Jm0tAtJS?k"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Wat is de tumormarker in de follow-up van gedifferentieerd schildkliercarcinoom?",
+     "achter": "Thyreoglobuline (betrouwbaar na totale thyreoïdectomie en ablatie; samen met anti-Tg).",
+     "bron_guids": [
+      "P;7;k9Eqv~"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Oudere met schildklier die in weken hard en gefixeerd groeit, met benauwdheid: diagnose?",
+     "achter": "Anaplastisch schildkliercarcinoom (altijd stadium IV, zeer slechte prognose).",
+     "bron_guids": [
+      "gzc3x-35e39513234e"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Wat zijn de twee typische complicaties van een thyreoïdectomie?",
+     "achter": "Uitval n. laryngeus recurrens (heesheid) en hypoparathyreoïdie met hypocalciëmie.",
+     "bron_guids": [
+      "G.&6VzD~NR"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Naar welk orgaan metastaseert het uveamelanoom vrijwel altijd?",
+     "achter": "De lever (hematogeen; het oog heeft geen lymfedrainage).",
+     "bron_guids": [
+      "iyEG1lVT:[",
+      "I_]inpDAbx"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Kratertje op onderooglid met parelmoerrand, teleangiëctasieën en wimperverlies: diagnose?",
+     "achter": "Basaalcelcarcinoom van het ooglid.",
+     "bron_guids": [
+      "gzc3x-4c6d94b574cb",
+      "iRgj|+*j<m"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Steeds terugkerend 'chalazion' bij een oudere: welke maligniteit moet je uitsluiten?",
+     "achter": "Talgkliercarcinoom van het ooglid; altijd biopteren.",
+     "bron_guids": [
+      "gzc3x-ce4a700b0a2a",
+      "r``L$XE~%V"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Zalmkleurige, pijnloze zwelling onder de conjunctiva (salmon patch): diagnose?",
+     "achter": "Non-Hodgkinlymfoom van de orbita.",
+     "bron_guids": [
+      "i*eZ3b(NdY",
+      "gzc3x-9683a396e661"
+     ]
+    },
+    {
+     "thema": "T4",
+     "college": "?",
+     "voor": "Kind met binnen dagen blauw, gezwollen ooglid en verplaatst oog: diagnose?",
+     "achter": "Orbitaal rhabdomyosarcoom: dezelfde dag biopteren en behandelen.",
+     "bron_guids": [
+      "imtG|X/jfD",
+      "gzc3x-bfc27a403724"
+     ]
+    }
+   ],
+   "afgewezen": [
+    {
+     "voor": "Wat is de vijfjaarsoverleving van ALL bij kinderen?",
+     "reden": "Geschrapt om binnen het T3-budget te blijven. De kaart steunt vooral op een niet-kernkaart en het getal (circa 90%) staat al in de samenvatting."
+    },
+    {
+     "voor": "Wat bepaalt bij ouderen vooral het risico van chirurgie?",
+     "reden": "Geschrapt: overlapt met de nieuwe kernkaart 'selecteer op kwetsbaarheid, niet op kalenderleeftijd'. Het chirurgiepunt staat nu in samenvattingspunt 9."
+    },
+    {
+     "voor": "Hoe groot is de kans dat een schildkliernodus maligne is?",
+     "reden": "Geschrapt om binnen het T4-budget te blijven. Het is een minder onderscheidend getal dat al in de samenvatting staat; de diagnostiekkaart (echo plus punctie) is belangrijker."
+    },
+    {
+     "voor": "Welke kinderbottumor is wél stralingsgevoelig: osteosarcoom of Ewing-sarcoom?",
+     "reden": "Herschreven tot een herkenningskaart voor Ewing (bekken, uienschil, t(11;22); kern-casus ontbrak). Stralingsgevoeligheid staat nu als contrast in het antwoord, en op de osteosarcoomkaart staat 'niet stralingsgevoelig'."
+    },
+    {
+     "voor": "Kinderbottumor met zonnestralen en Codman-driehoek in de metafyse rond de knie?",
+     "reden": "Verbeterd: de vraag miste 'diagnose?' en 'tiener' is toegevoegd. Het antwoord noemt nu ook 'niet stralingsgevoelig' als contrast met Ewing."
+    },
+    {
+     "voor": "Man, 65 jaar, rookt, sinds 5 weken hees, geen halsklieren: diagnose?",
+     "reden": "Aangescherpt tot 'meest waarschijnlijke diagnose': zonder laryngoscopie en PA is het een werkdiagnose."
+    },
+    {
+     "voor": "Samenvatting T4: 'Resectiemarge onder 1 mm is irradicaal; irradicaliteit of extranodale groei → postoperatieve chemoradiatie met cisplatine.'",
+     "reden": "Aangevuld volgens bron Qd@u[p-~Cq: bij irradicaliteit gaat heroperatie waar mogelijk voor. Chemoradiatie geldt bij irradicaliteit of extranodale groei."
+    }
+   ]
+  },
+  {
+   "samenvattingen": [
+    {
+     "thema": "B1",
+     "punten": [
+      "Lalonde: gezondheid bepaald door leefstijl, omgeving, biologie/erfelijkheid en gezondheidszorg; leefstijl is grootste beïnvloedbare deel.",
+      "Public health kijkt vanuit populatieperspectief; gezondheid wordt grotendeels buiten de zorg bepaald, dus collectieve preventie is vaak doelmatiger.",
+      "Incidentie = nieuwe gevallen (risico); prevalentie = bestaande gevallen, bepaald door incidentie én ziekteduur.",
+      "Sterftecijfer: sterfgevallen per bevolking; letaliteit: aandeel zieken dat eraan overlijdt (maat voor ernst).",
+      "DALY = YLL + YLD: vergelijkt ziekten die vooral doden met ziekten die vooral invalideren.",
+      "Gezonde levensverwachting blijft achter bij levensverwachting; lage en hoge SES verschillen circa 15 gezonde levensjaren.",
+      "Preventie: primair (voorkomen, bv. HPV-vaccinatie), secundair (vroegopsporing/bevolkingsonderzoek), tertiair (complicaties en verergering voorkomen).",
+      "Circa 1 op 2 Nederlanders krijgt ooit kanker; incidentie stijgt vooral door vergrijzing, sterfte per patiënt daalt.",
+      "Circa een kwart van kanker is vermijdbaar met gezonde leefstijl (roken belangrijkst); genetica verklaart circa 5%.",
+      "Huisarts hanteert voorafkans van circa 3% als drempel voor aanvullende diagnostiek bij verdenking kanker.",
+      "Screening: lage prevalentie geeft lage PVW en veel fout-positieven; overdiagnostiek is de belangrijkste schadepost.",
+      "Convergentiehypothese: kankerrisico van migranten verschuift richting dat van het gastland door overname van leefstijl."
+     ]
+    },
+    {
+     "thema": "B2",
+     "punten": [
+      "Oncologische revalidatie: herstellen of behouden van functioneren en participatie bij mensen met of na kanker, ook palliatief.",
+      "Denk in ICF: functies en anatomie, activiteiten, participatie; revalidatie kijkt naar functioneren, niet naar de tumor.",
+      "Contextuele factoren (extern en persoonlijk) verklaren waarom dezelfde stoornis tot verschillende participatie leidt.",
+      "Revalidatiearts coördineert het multidisciplinaire team en stelt behandeldoelen op vanuit ICF-perspectief.",
+      "Behandelopties: fysieke conditie, energiemanagement bij vermoeidheid en cognitieve klachten, arbeidsre-integratie, verwerking en acceptatie.",
+      "Kankergerelateerde vermoeidheid verdwijnt niet met rust; extra vermoeidheid de dag na training betekent een stapje terug.",
+      "Diagnose kanker is traumatisch: dreiging van binnenuit, langdurige onzekerheid en veel verliezen.",
+      "Elke ziektefase heeft eigen stressoren; herstelfase: wegvallen ziekenhuisstructuur en angst voor recidief.",
+      "Lastmeter (0-10 plus probleemlijst): bij score 5 of hoger, of op verzoek, gesprek over verwijzing.",
+      "Vijf copingstijlen; geen enkele is per definitie verkeerd: vermijden kan helpen doseren.",
+      "Existentiële crisis: eindigheid, toekomst valt weg, zinverlies, angst, eenzaamheid, onmacht, identiteitsverwarring."
+     ]
+    },
+    {
+     "thema": "B3",
+     "punten": [
+      "Palliatieve zorg begint niet pas terminaal; markeer de fase met de surprise question en start advance care planning.",
+      "Inventariseer altijd vier dimensies: lichamelijk, psychisch, sociaal en spiritueel; ze versterken elkaar (total pain).",
+      "Onderscheid nociceptief (somatisch/visceraal) en neuropathisch; neuropathisch: antidepressivum of anti-epilepticum.",
+      "WHO-ladder: oraal, op vaste tijden, op maat; stap 2 (zwak opioïd) bij kanker meestal overgeslagen.",
+      "Sterk opioïd: rescue circa 1/6 dagdosis (meer dan 3-4 keer per dag: onderhoud omhoog) en altijd een laxans.",
+      "Geen maximumdosering; ademdepressie vrijwel alleen bij opiaat-naïeven met hoge startdosis; bij rotatie berekende dosis 25-50% lager.",
+      "Viscerale bovenbuikpijn (pancreas) die onvoldoende reageert op opioïden: plexus coeliacus- of splanchnicusblokkade.",
+      "Dreigende dwarslaesie: nieuwe rugpijn; spoed-MRI, direct dexamethason, dan radiotherapie of decompressie; wie loopt blijft lopen.",
+      "Dyspneu: morfine eerste keus, ook zonder hypoxie; zuurstof alleen bij aangetoonde hypoxemie.",
+      "Anti-emeticum op mechanisme: CTZ haloperidol/metoclopramide, hersendruk dexamethason, angst benzodiazepine; obstructie geen prokineticum.",
+      "Delier: acuut, fluctuerend, gestoorde aandacht; hypoactieve vorm vaak aangezien voor depressie; haloperidol eerste keus.",
+      "Palliatieve sedatie: refractair symptoom, levensverwachting maximaal 1-2 weken, normaal medisch handelen; anders dan euthanasie."
+     ]
+    }
+   ],
+   "kaarten": [
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Welke determinantengroep van Lalonde vormt het grootste beïnvloedbare deel van de kankerlast?",
+     "achter": "Leefstijl (roken, alcohol, voeding, beweging).",
+     "bron_guids": [
+      "gzc3x-54df2f5f7db8",
+      ".{zt,4p]x"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Uit welke twee componenten bestaat een DALY?",
+     "achter": "YLL (verloren levensjaren door vroegtijdige sterfte) + YLD (jaren met beperking, gewogen naar ernst).",
+     "bron_guids": [
+      "DI_!HkmSo/"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Door welke twee factoren wordt de prevalentie van een ziekte bepaald?",
+     "achter": "Incidentie én ziekteduur.",
+     "bron_guids": [
+      "j:`o#3qtcZ"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Hoe heet het aandeel van de mensen mét een ziekte dat eraan overlijdt?",
+     "achter": "Letaliteit (maat voor de ernst van de ziekte).",
+     "bron_guids": [
+      "gzc3chk-2131ece0d0f4"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Hoe groot is het verschil in gezonde levensverwachting tussen lage en hoge sociaal-economische status?",
+     "achter": "Ongeveer 15 jaar.",
+     "bron_guids": [
+      "BV+Tq#,{Ss",
+      "K;R1x[}IY0"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Waardoor stijgt de kankerincidentie in Nederland vooral?",
+     "achter": "Door vergrijzing; de sterfte per patiënt daalt juist.",
+     "bron_guids": [
+      "nSi$z8iKc-"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Welke vorm van preventie is vroegopsporing via een bevolkingsonderzoek?",
+     "achter": "Secundaire preventie.",
+     "bron_guids": [
+      "v_RuTh@7Z+"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Welk deel van de kankergevallen is volgens het college vermijdbaar met een gezonde leefstijl?",
+     "achter": "Circa een kwart (24%); roken is verreweg het belangrijkst.",
+     "bron_guids": [
+      "DOuMfP1Z8m",
+      "AGl[N*So8a"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Bij welke voorafkans op kanker start de huisarts volgens de richtlijn aanvullende diagnostiek?",
+     "achter": "Circa 3%.",
+     "bron_guids": [
+      "oE(S}P]aDP"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Waarom is de positief voorspellende waarde bij screening laag?",
+     "achter": "Lage prevalentie in een gezonde populatie: de meeste positieven zijn fout-positief.",
+     "bron_guids": [
+      "hRJvnE(F!w",
+      "gzc3x-dfdce2ea1961"
+     ]
+    },
+    {
+     "thema": "B1",
+     "college": "?",
+     "voor": "Wat stelt de convergentiehypothese over het kankerrisico van migranten?",
+     "achter": "Het verschuift richting dat van het gastland, door overname van leefstijl en omgevingsfactoren.",
+     "bron_guids": [
+      "hR5Wen;7Jx"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "Welke drie componenten van functioneren onderscheidt het ICF-model?",
+     "achter": "Functies en anatomische eigenschappen, activiteiten, en participatie.",
+     "bron_guids": [
+      "F|d}?tEI4;"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "Welke twee soorten contextuele factoren kent het ICF-model?",
+     "achter": "Externe factoren (omgeving) en persoonlijke factoren.",
+     "bron_guids": [
+      "PIVA{z<>7$",
+      "F|d}?tEI4;"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "Een docent kan na laryngectomie zijn werk niet meer doen: welk ICF-niveau is dit?",
+     "achter": "Participatie (deelname aan het maatschappelijk leven).",
+     "bron_guids": [
+      "gzc3x-b7d0a33281c9"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "Waarop richt de revalidatiearts zich in de oncologische revalidatie, in plaats van op de tumor?",
+     "achter": "Op functioneren en participatie (ICF-perspectief).",
+     "bron_guids": [
+      "J;G[/,RI9A",
+      "I?%D6VBvi>"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "Wat onderscheidt kankergerelateerde vermoeidheid van gewone vermoeidheid?",
+     "achter": "Ze verdwijnt niet met rust.",
+     "bron_guids": [
+      "vCK*N[Y`ia"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "Wat is specifiek aan de diagnose kanker als traumatische gebeurtenis?",
+     "achter": "Dreiging van binnenuit, langdurige onzekerheid en veel verliezen.",
+     "bron_guids": [
+      "eG;&}?lmE]"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "In welke ziektefase spelen het wegvallen van de ziekenhuisstructuur en angst voor recidief?",
+     "achter": "De herstelfase.",
+     "bron_guids": [
+      "bA4+.IK;ZW"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "Bij welke Lastmeterscore volgt een gesprek over verwijzing?",
+     "achter": "5 of hoger (of op verzoek van de patiënt).",
+     "bron_guids": [
+      "NocJy!UDAq"
+     ]
+    },
+    {
+     "thema": "B2",
+     "college": "?",
+     "voor": "Waarom is vermijdende of bagatelliserende coping niet per definitie verkeerd?",
+     "achter": "Het kan helpen te doseren wat er op je afkomt.",
+     "bron_guids": [
+      "MqOW$3ZK84"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Welke vraag gebruik je om de palliatieve fase te markeren?",
+     "achter": "Surprise question: zou het mij verbazen als deze patiënt binnen een jaar overlijdt?",
+     "bron_guids": [
+      "K#Rf9_)&CO"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Welke stap van de WHO-pijnladder wordt bij kanker meestal overgeslagen?",
+     "achter": "Stap 2 (zwak opioïd zoals tramadol).",
+     "bron_guids": [
+      "z~i(<1@|AB",
+      "gzc3x-e3344f1f8bb5"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Hoe hoog doseer je rescue-medicatie bij doorbraakpijn?",
+     "achter": "Circa 1/6 van de orale dagdosis.",
+     "bron_guids": [
+      "y[ai17ooY*",
+      "Ag}?yMYmc8"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Wanneer verhoog je de onderhoudsdosis opioïd bij doorbraakpijn?",
+     "achter": "Als meer dan 3-4 keer per dag rescue-medicatie nodig is.",
+     "bron_guids": [
+      "y[ai17ooY*"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Voor welke opioïdbijwerking ontstaat géén tolerantie?",
+     "achter": "Obstipatie: daarom altijd profylactisch een laxans.",
+     "bron_guids": [
+      "FI*@{X>09k"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Bij wie treedt ademdepressie door opioïden vrijwel uitsluitend op?",
+     "achter": "De opiaat-naïeve patiënt die meteen een stevige, vooral parenterale, dosis krijgt.",
+     "bron_guids": [
+      "It|iu!v#Ba"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Met hoeveel verlaag je de berekende dosis bij opioïdrotatie?",
+     "achter": "Circa 25-50%, vanwege incomplete kruistolerantie.",
+     "bron_guids": [
+      "n^fE=#)Oyf"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Wat is de eerste keus medicatie bij neuropathische pijn?",
+     "achter": "Antidepressivum (amitriptyline, duloxetine) of anti-epilepticum (gabapentine, pregabaline).",
+     "bron_guids": [
+      "XB3.cF*!z",
+      "gzc3x-4d7823a65843"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Pancreascarcinoom met viscerale bovenbuikpijn, onvoldoende reactie op opioïden: welke ingreep?",
+     "achter": "Neurolytische plexus coeliacus- of splanchnicusblokkade.",
+     "bron_guids": [
+      "gzc3x-6619acf95e01",
+      "o:m+)<$A6q"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Wat is het vroege alarmsymptoom van een dreigende dwarslaesie bij wervelmetastasen?",
+     "achter": "Nieuwe of veranderde rugpijn, erger bij liggen of persen; mictiestoornissen pas laat.",
+     "bron_guids": [
+      "rt3}fpz+gi"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Wat is het beleid bij een dreigende dwarslaesie door wervelmetastasen?",
+     "achter": "Spoed-MRI hele wervelkolom en direct dexamethason, daarna radiotherapie of chirurgische decompressie.",
+     "bron_guids": [
+      "gzc3chk-61998ec30424",
+      "gzc3x-ff177b3bb745"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Plaveiselcelcarcinoom long, calcium 3,4 mmol/l met laag PTH: wat is het mechanisme?",
+     "achter": "Humorale hypercalciëmie: de tumor maakt PTHrP.",
+     "bron_guids": [
+      "gzc3x-ab7fd31e38bf"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Wat is de eerste keus bij symptomatische behandeling van dyspneu in de palliatieve fase?",
+     "achter": "Morfine (ook zonder hypoxie); zuurstof alleen bij aangetoonde hypoxemie.",
+     "bron_guids": [
+      "IPG>Xje)XA"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Welk anti-emeticum geef je bij misselijkheid via de chemoreceptor trigger zone, bv. door opioïden?",
+     "achter": "Haloperidol of metoclopramide (D2-antagonisten).",
+     "bron_guids": [
+      "GUKg!tn?B5",
+      "gzc3x-c3d40606f9c5"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Met welke aandoening wordt een hypoactief delier vaak verward?",
+     "achter": "Depressie.",
+     "bron_guids": [
+      "E0!F97,.S#",
+      "gzc3x-09d342db6956"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Wat is het medicamenteuze middel van eerste keus bij een delier?",
+     "achter": "Haloperidol (naast behandeling van uitlokkende factoren).",
+     "bron_guids": [
+      "gzc3chk-fccf5f53a3fb"
+     ]
+    },
+    {
+     "thema": "B3",
+     "college": "?",
+     "voor": "Welke levensverwachting hoort bij de indicatie voor palliatieve sedatie?",
+     "achter": "Maximaal 1-2 weken, bij een refractair symptoom.",
+     "bron_guids": [
+      "zNJwOEAdPu"
+     ]
+    }
+   ],
+   "afgewezen": [
+    {
+     "voor": "Waarom staat kudde-immuniteit onder druk?",
+     "reden": "Geschrapt: weinig tentamenrendement in een kankerblok. Het antwoord ('dalende vaccinatiegraad') is bijna tautologisch, en door 'onder meer' is het niet eenduidig. Vervangen door de K-kaart over vergrijzing als oorzaak van de stijgende kankerincidentie."
+    },
+    {
+     "voor": "Bestaat er een maximumdosering voor sterke opioïden bij kankerpijn?",
+     "reden": "Geschrapt: ja/nee-kaart met weinig inhoud, en het feit staat al in de samenvatting. Zo blijft B3 dicht bij het doel, met ruimte voor de valkuil over ademdepressie en de regel voor het ophogen van de onderhoudsdosis."
+    },
+    {
+     "voor": "Is vermijdende of bagatelliserende coping per definitie verkeerd?",
+     "reden": "Herschreven van een ja/nee-vraag naar een waarom-vraag, zodat je de kern (doseren) actief moet ophalen."
+    },
+    {
+     "voor": "Welke determinantengroep van Lalonde vormt het grootste beïnvloedbare deel van de kankerlast?",
+     "reden": "bron_guid gecorrigeerd: '.{zt,4p]x]' bestaat niet in het bestand, de juiste GUID is '.{zt,4p]x'. De inhoud blijft gelijk."
+    }
+   ]
+  }
+ ]
+}

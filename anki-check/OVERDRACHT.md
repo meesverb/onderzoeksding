@@ -1,4 +1,4 @@
-# Overdracht GZC III-studieproject (stand: 7 oktober 2026)
+# Overdracht GZC III-studieproject (stand: 8 oktober 2026)
 
 Plak dit in een nieuwe chat, of verwijs naar dit bestand op GitHub: repo `meesverb/onderzoeksding`, branch `claude/happy-goodall-mfwkk9`, map `anki-check/`.
 
@@ -36,6 +36,12 @@ Plak dit in een nieuwe chat, of verwijs naar dit bestand op GitHub: repo `meesve
 - **Kaartgrootte:**
   - mediane achterkant: eigen deck 35 woorden, collegekaarten 27, import 2 12;
   - ongeveer 1 op de 4 kaarten heeft een achterkant van meer dan 40 woorden. Dat zijn opsommingen of meerdere mechanismen op één kaart.
+- **Noodpakket** (`noodpakket.md`, deck *GZC III - Noodpakket*):
+  - 193 essentiekaarten, met een antwoord van gemiddeld 6 à 9 woorden;
+  - per thema een samenvatting;
+  - apart van de campagne.
+- **Afbeeldingen:** 38 stuks op 90 kaarten, plus 20 herkenkaarten. Bronnen staan in `beelden/BRONNEN.md`.
+- **Lastige kaarten:** de W-toets zet de tag `opgezocht` en houdt een teller bij in de collectieconfig (`gzc3_opgezocht`). De campagne combineert dat met het aantal keer fout en de rode vlag.
 - **Of de student alles heeft geïnstalleerd**, is niet bekend. De installatiecheck in de add-on laat het zien.
 
 ## Bestanden (`anki-check/`)
@@ -48,6 +54,7 @@ Plak dit in een nieuwe chat, of verwijs naar dit bestand op GitHub: repo `meesve
 | `bouw_colleges.py` | voegt alles samen → `GZC3_colleges_import.txt` (import 3), `kapstokken/`, `koppeling.md`, `campagne-addon/data/`, de quiz |
 | `campagne-addon/` | campagne-add-on (`campagne.py` = logica, `scherm.py` = HTML, `__init__.py` = Anki-koppeling); de voortgang staat in de collectieconfig en synchroniseert mee |
 | `waarom-addon/` | W-toets: kopieert vraag + antwoord als prompt naar Claude (houdt niets bij) |
+| `bouw_nood_beelden.py`, `verwerking/nood.json`, `verwerking/beelden.json`, `beelden/` | noodpakket en afbeeldingen → `campagne-addon/data/` (GZC3_nood_import, GZC3_beelden_import, nood.json, beelden.json, beelden/) |
 | `test_campagne.py` | test in een lege collectie (vereist `pip install anki==26.5`); moet eindigen met `ALLES OK` |
 | `STARTEN.md` | uitleg voor de student |
 
@@ -72,11 +79,12 @@ Plak dit in een nieuwe chat, of verwijs naar dit bestand op GitHub: repo `meesve
    ```
 5. Commit, push en stuur `gzc3_campagne.ankiaddon` naar de student. De student installeert die over de oude heen. Daarna verschijnt **Import 3** weer in de installatiecheck.
 
+## Lastige kaarten van de student verwerken
+De student plakt een lijst met de kop "Ik leer voor het blok Gezonde en Zieke Cellen III … mijn lastigste Anki-kaarten". Lever het gevraagde importbestand:
+- herschreven kaarten houden dezelfde GUID;
+- nieuwe kaarten krijgen een GUID die begint met `gzc3l-`;
+- notitietype `1706371006450`, deck *GZC III - Compleet*, tag `lastig::herschreven`.
+
 ## Open ideeën (nog niet gebouwd)
-- **Lichte modus:** alleen de kern en de collegekaarten leren; import 2 en transcriptkaarten zonder nadruk opschorten tot de laatste week.
-- **Lastige kaarten naar Claude:**
-  - de W-toets registreert per kaart dat je hem opzocht;
-  - een knop exporteert de kaarten met veel fouten (lapses, Again) of veel opzoeken;
-  - Claude maakt er kleinere kaarten, ezelsbruggen of contrastkaarten van en levert ze als import met dezelfde GUID.
 - **Lange kaarten opsplitsen:** de ~330 kaarten met een achterkant van meer dan 40 woorden, te beginnen bij de kern.
 - **Quiz synchroniseren tussen telefoon en laptop:** via de opslag van het artifact, in plaats van localStorage.

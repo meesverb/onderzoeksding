@@ -7,15 +7,35 @@
    1. **Import 1**: de gecontroleerde kaarten (er wordt eerst automatisch een back-up gemaakt).
    2. **Import 2**: casussen, schema's, tabellen en ezelsbruggen.
    3. **Import 3**: de 464 kaarten uit de colleges en 32 correcties. Komt er later een nieuwere versie, dan verschijnt deze stap vanzelf opnieuw.
-   4. **Dubbele kaarten verwijderen**: de 93 notities met `check::dubbel` of `check::verwijderen`.
-   5. **FSRS**: opent de deckopties. Zet FSRS aan, kies een retentie van 0,90 en klik op Opslaan.
-   6. **Campagne starten**: zet de nieuwe kaarten op volgorde van de colleges, en kaarten van colleges die je nog niet hebt gedaan, op slot. Je eerdere opschorting per thema vervalt daarmee.
+   4. **Afbeeldingen toevoegen**: 38 uitgezochte afbeeldingen op de achterkant van 90 kaarten, plus 20 herkenkaarten ("welke cel zie je?"). Ze gaan met het synchroniseren mee naar je telefoon.
+   5. **Dubbele kaarten verwijderen**: de 93 notities met `check::dubbel` of `check::verwijderen`.
+   6. **FSRS**: opent de deckopties. Zet FSRS aan, kies een retentie van 0,90 en klik op Opslaan.
+   7. **Campagne starten**: zet de nieuwe kaarten op volgorde van de colleges, en kaarten van colleges die je nog niet hebt gedaan, op slot. Je eerdere opschorting per thema vervalt daarmee.
 
    Het blok verdwijnt zodra alles klaar is. Heb je iets al met de hand gedaan, dan staat het al op ✅.
 3. Elke dag: **„Zet vandaag N nieuwe kaarten klaar”**.
 4. Na elk college: klik op het college op de **wereldkaart** (of op 📖 Open). Daar vind je de kapstok en de controlequiz, en met **„✓ College gedaan”** speel je de kaarten vrij (🔓, +50 XP).
 
 De add-on koppelt alle T1- en T2-kaarten zelf aan hun college (tag `college::HC3` enz.). Dat gebeurt bij het openen van je profiel, na elke import en na het synchroniseren. Zoek in de browser op `tag:college::HC3` om alle kaarten van één college te zien.
+
+## Nieuw: lastige kaarten, noodpakket en afbeeldingen
+
+- **W-toets houdt bij wat je opzoekt.** Elke keer dat je tijdens het leren op **W** drukt, krijgt de kaart de tag `opgezocht` en telt een teller mee. Op je telefoon werkt W niet: zet daar een **rode vlag** op een kaart die je lastig vindt.
+- **🧩 Lastige kaarten** (hoofdscherm): je zwaarste kaarten, gerekend naar hoe vaak je ze fout had, ze opzocht of een rode vlag gaf. Eens per 3 à 4 dagen:
+  1. Klik op **📋 Kopieer voor Claude**. De kaarten staan nu op je klembord, met een opdracht erbij.
+  2. Plak dat in een chat met Claude. Je krijgt een importbestand terug; sla het op als `lastig.txt`.
+  3. Klik op **📥 Bestand van Claude inladen** en kies dat bestand. Herschreven kaarten houden hun leergeschiedenis.
+- **🚨 Noodpakket**: een **apart deck** (*GZC III - Noodpakket*) met **193 essentiekaarten**, met vraag en antwoord in een paar woorden, plus per thema een samenvatting van één scherm. Het staat los van de campagne: het telt niet mee en het slot raakt het niet.
+  - Gebruik het **als je in tijdnood komt**. Zakt de prognose de laatste 10 dagen onder schema, dan wijst de campagne er zelf op.
+  - In tijdnood: lees per thema de samenvatting, leer de essentiekaarten (±60 per dag) en maak daarna oude tentamens.
+  - Installeren met één klik in het blok 🚨 Noodpakket. Lezen kan zonder installeren: **📄 Samenvattingen**. Alles staat ook in `noodpakket.md`.
+- **Afbeeldingen**: uitgezocht uit OpenStax, PubMed Central, Radiopaedia, Ed Uthmans pathologiefoto's en Wikimedia, en stuk voor stuk gecontroleerd.
+  - Uitstrijkjes: sikkelcellen, sferocyten, schistocyten, Auerstaven, Reed-Sternberg, hypersegmentatie en meer.
+  - Schema's: hepcidine, bilirubine, stolling en hematopoëse.
+  - Beeldvorming: myeloomschedel, PET bij Hodgkin, neuroblastoom, Wilms, osteosarcoom.
+  - Anatomie van hoofd-hals en schildklier.
+
+  Bron en licentie staan onder elk beeld en in `beelden/BRONNEN.md`.
 
 ## Verwerkte colleges: HC 1-7 en HC 13 (slides + transcripten)
 

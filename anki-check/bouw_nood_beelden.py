@@ -136,7 +136,7 @@ def beelden(deck):
             if eerste and 'prio::tentamen' in eerste['tags']:
                 tags.append('prio::tentamen')
             g = guid('gzc3b-', naam)
-            img = f'<img src="{esc(naam)}" style="max-width:100%;max-height:440px;border-radius:6px">'
+            img = f'<img src="{esc(naam)}" style="max-width:100%;max-height:80vh;border-radius:6px">'
             bronregel = ' · '.join(x for x in (item['auteur'], item['licentie'], item['bron']) if x)
             herken.append([g, NOTETYPE, DECK, f'🔬 {esc(hk["voor"])}<br>{img}',
                            f'{esc(hk["achter"])}<div style="font-size:13px;opacity:.8;margin-top:8px">{esc(b["bijschrift"])}</div>'
@@ -157,6 +157,10 @@ def beelden(deck):
     versie = hashlib.sha1(json.dumps([lijst, herken_guids, weg], sort_keys=True).encode()).hexdigest()[:10]
     (ADDON_DATA / 'beelden.json').write_text(json.dumps({'versie': versie, 'beelden': lijst, 'herken_guids': herken_guids, 'weg': weg},
                                                         ensure_ascii=False, indent=1), encoding='utf-8')
+    regels = ['# Bronnen van de afbeeldingen', '', 'Voor persoonlijke studie. Elke afbeelding staat met auteur en licentie onder het beeld op de kaart.', '',
+              '| Bestand | Wat | Auteur | Licentie | Bron |', '|---|---|---|---|---|']
+    regels += [f'| {b["bestand"]} | {b["bijschrift"]} | {b["auteur"]} | {b["licentie"]} | {b["bron_url"]} |' for b in lijst]
+    (ROOT / 'beelden' / 'BRONNEN.md').write_text('\n'.join(regels) + '\n', encoding='utf-8')
     kb = sum(p.stat().st_size for p in doel.iterdir()) // 1024
     print(f'afbeeldingen: {len(lijst)} ({kb} kB) op {len(met_beeld)} kaarten · {len(herken)} herkenkaarten · '
           f'{sum(map(len, weg.values()))} webafbeeldingen weg · versie {versie}')

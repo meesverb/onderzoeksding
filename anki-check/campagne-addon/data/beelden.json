@@ -1,0 +1,591 @@
+{
+ "versie": "cacfa8bf4f",
+ "beelden": [
+  {
+   "bestand": "gzc3_hemato_hematopoese_stamboom.jpg",
+   "bijschrift": "Eén zelfvernieuwende stamcel geeft een myeloïde en een lymfoïde lijn; vraag bij elk tekort: waar zit het defect?",
+   "auteur": "J. Gordon Betts e.a., OpenStax (Rice University), Anatomy and Physiology 2e, Figure 18.4",
+   "licentie": "CC BY-NC-SA 4.0",
+   "bron": "OpenStax",
+   "bron_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements",
+   "guids": [
+    "fM+B]FVAI9",
+    "gzc3c-cf624ab12458"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_bilirubine_stofwisseling.jpg",
+   "bijschrift": "Heem → biliverdine → ongeconjugeerd bilirubine → lever (glucuronyltransferase) → gal → darm: urobilinogeen; stercobiline kleurt feces bruin; deel via urine.",
+   "auteur": "Guerra Ruiz AR, Crespo J, López Martínez RM e.a., Adv Lab Med 2021, Figure 3",
+   "licentie": "CC BY 4.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10197288/",
+   "guids": [
+    "gzc3c-1118eba4f62c",
+    "gzc3c-746c15c48422",
+    "gzc3c-fab36d91d99d",
+    "gzc3c-6716a0c825de",
+    "gzc3c-0af3a780e645",
+    "gzc3c-8908e9501417"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_hepcidine_ferroportine.jpg",
+   "bijschrift": "Laag hepcidine: ferroportine exporteert ijzer. Hoog (ontsteking, IL-6): ferroportine afgebroken, ijzer blijft in enterocyt, macrofaag en hepatocyt.",
+   "auteur": "Michels K, Nemeth E, Ganz T, Mehrad B., PLoS Pathog 2015, Fig 2",
+   "licentie": "CC BY 4.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4546197/",
+   "guids": [
+    "P^egvNR`ZM",
+    "l^hJO<+Jil",
+    "FNZL:.Xb7Y"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_stollingscascade.jpg",
+   "bijschrift": "Extrinsiek (weefselfactor [III] + VII) → PT; intrinsiek (XII, XI, IX, VIII) → aPTT; via Xa en trombine naar fibrine.",
+   "auteur": "J. Gordon Betts e.a., OpenStax (Rice University), Anatomy and Physiology 2e, Figure 18.14b (uitsnede)",
+   "licentie": "CC BY-NC-SA 4.0",
+   "bron": "OpenStax",
+   "bron_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+   "guids": [
+    "oaD(,eTTHY",
+    "d=ww*<NUE5"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_fibrinolyse.png",
+   "bijschrift": "tPA/uPA zetten plasminogeen om in plasmine, dat fibrine afbreekt (o.a. D-dimeer); remmers: PAI-1, α2-antiplasmine en TAFI.",
+   "auteur": "Brailovsky Y, Lakhter V, Newman J e.a., Clin Appl Thromb Hemost 2023, Figure 1 (uitsnede; gemaakt met BioRender)",
+   "licentie": "CC BY-NC 4.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10014973/",
+   "guids": [
+    "PsSJq.A,!/"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_virchow_trias.png",
+   "bijschrift": "Trombose ontstaat door stase, endotheelschade en hypercoagulabiliteit; postoperatief en bij kanker spelen vaak alle drie.",
+   "auteur": "Rudolf.hellmuth (Wikimedia Commons)",
+   "licentie": "CC BY-SA 3.0",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Virchow%27s_Triad.svg",
+   "guids": [
+    "N5XIA^w8%k",
+    "gzc3c-f921f583cb53"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_sikkelcellen.jpg",
+   "bijschrift": "Sikkelvormige erytrocyten (HbS polymeriseert bij deoxygenatie), daarnaast target cells; rechtsboven een neutrofiel.",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "bron": "flickr.com",
+   "bron_url": "https://www.flickr.com/photos/euthman/5610746554/",
+   "guids": [
+    "Oo7YZIdZl",
+    "gzc3x-057adda2fe5e"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_sferocyten.jpg",
+   "bijschrift": "Kleine, ronde, egaal gekleurde erytrocyten zonder centrale opheldering; DAT-negatief, passend bij hereditaire sferocytose.",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "bron": "flickr.com",
+   "bron_url": "https://www.flickr.com/photos/euthman/4670166434/",
+   "guids": [
+    "%rvY+#Rc]",
+    "gzc3x-7fe4bc3641cc",
+    "gzc3c-cc730639aa41"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_ijzergebrek_uitstrijk.jpg",
+   "bijschrift": "Kleine, bleke erytrocyten met brede centrale opheldering en enkele potloodcellen; vergelijk met de lymfocyt (MCV 55 fl).",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "bron": "flickr.com",
+   "bron_url": "https://www.flickr.com/photos/euthman/4422704616/",
+   "guids": [
+    "gzc3x-df4049456ede",
+    "o`*d#5SSQu",
+    "Lw6p]rJjc<"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_hypergesegmenteerde_neutrofiel.jpg",
+   "bijschrift": "Neutrofiel met zes of meer kernlobben (hypersegmentatie): typisch voor megaloblastaire anemie door vitamine B12- of foliumzuurtekort.",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "bron": "flickr.com",
+   "bron_url": "https://www.flickr.com/photos/euthman/8612790151/",
+   "guids": [
+    "gzc3x-ff12ba9e7eb0",
+    "jC+AE5@5Y3"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_schistocyten_ttp.jpg",
+   "bijschrift": "Zwarte pijlen: fragmentocyten (schistocyten); blauwe pijlen: schaarse trombocyten. Micro-angiopathische hemolyse bij TTP.",
+   "auteur": "Hashmi HR, Diaz-Fuentes G, Jadhav P, Khaja M., Case Rep Crit Care 2015, Figure 1",
+   "licentie": "CC BY 3.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4637463/",
+   "guids": [
+    "gzc3c-f4f3cc8494d7",
+    "gzc3x-d6d9053bc8db",
+    "gzc3chk-3cc162094f98"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_apl_auerstaven.jpg",
+   "bijschrift": "Links een faggot-cel met bundels naaldvormige Auerse staven, rechts een hypergranulaire promyelocyt: APL, t(15;17).",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 2.0",
+   "bron": "flickr.com",
+   "bron_url": "https://www.flickr.com/photos/euthman/41052768711/",
+   "guids": [
+    "Q|Gz_J:z%A",
+    "gzc3x-2b461385f8ef",
+    "gzc3c-d2fc81b73bf5"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_cml_uitstrijk.jpg",
+   "bijschrift": "'Bont' bloedbeeld: granulocyten in alle rijpingsstadia, van promyelocyt tot segmentkernige. Denk aan CML (BCR-ABL1).",
+   "auteur": "Paulo Henrique Orlandi Mourao (Wikimedia Commons)",
+   "licentie": "CC BY-SA 3.0",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG",
+   "guids": [
+    "gzc3c-01bdf5c2cb97",
+    "gzc3x-df41010fd95c",
+    "KgpealOSj["
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_traandruppelcellen.jpg",
+   "bijschrift": "Druppelvormige erytrocyten: ze vervormen bij het verlaten van een fibrotisch beenmerg. Denk aan myelofibrose of beenmerginfiltratie.",
+   "auteur": "Paulo Henrique Orlandi Mourao (Wikimedia Commons)",
+   "licentie": "CC BY-SA 3.0",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Teardrop_Cells_smear_2009-09-22.JPG",
+   "guids": [
+    "gzc3x-831e8f63247e",
+    "gzc3c-fa5557443942"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_cll_gumprecht.jpg",
+   "bijschrift": "Veel kleine, rijpe lymfocyten met grof chromatine en roze kapotgestreken cellen (gumprechtse schollen, smudge cells): CLL.",
+   "auteur": "Yonal I, Nazlıgul E, Tas G, Agan MR, Yenerel MN, Nalcaci M., Rare Tumors 2012, Figure 1",
+   "licentie": "CC BY-NC 3.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3557565/",
+   "guids": [
+    "P/.Sqy[(7W",
+    "gzc3x-8d2ff63cb938"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_reed_sternberg.jpg",
+   "bijschrift": "Midden: Reed-Sternbergcel, binucleair met in elke kern een prominente nucleolus ('uilenogen'), tussen reactieve ontstekingscellen.",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "bron": "flickr.com",
+   "bron_url": "https://www.flickr.com/photos/euthman/3884125493/",
+   "guids": [
+    "wRGZmvd4iF",
+    "gzc3x-dd870e4d0961",
+    "z<g9GlKaS-"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_myeloom_plasmacel.jpg",
+   "bijschrift": "Plasmacel in perifeer bloed: excentrische kern, diepblauw cytoplasma en lichte hof naast de kern. Rechts twee neutrofielen.",
+   "auteur": "SpicyMilkBoy (Wikimedia Commons)",
+   "licentie": "CC BY-SA 4.0",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Multiple_myeloma_peripheral_blood_morphology_-_rouleaux,_background_staining_and_plasma_cell.jpg",
+   "guids": [
+    "gzc3x-47193022fd47",
+    "NI3ZK[uS>+"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_myeloom_schedel.jpg",
+   "bijschrift": "Laterale schedelfoto: talrijke scherp begrensde, ronde 'punched-out' ophelderingen (pijlen) zonder sclerotische rand: lytische myeloomhaarden.",
+   "auteur": "Sadiq AM, Suleiman JM, Vuai HS, Sadiq AM, Mkwizu EW., Int Med Case Rep J 2020, Figure 1",
+   "licentie": "CC BY-NC 3.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7457772/",
+   "guids": [
+    "gzc3c-4133efc18af7",
+    "x,m0]b]^H6"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_hodgkin_petct.jpg",
+   "bijschrift": "FDG-PET bij Hodgkin: a stadium III, b interim-rest mediastinum (Deauville 4), c recidief. Hersenen, hart, nieren, blaas: fysiologisch.",
+   "auteur": "Barrington SF, Kluge R., Eur J Nucl Med Mol Imaging 2017, Fig. 3 (beeld: courtesy Prof. Reinhardt, Pius Hospital Oldenburg)",
+   "licentie": "CC BY 4.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5541086/",
+   "guids": [
+    "IE-8ZgRC$V",
+    "gzc3c-944a174dcc4d",
+    "yv0_kIF#vw"
+   ]
+  },
+  {
+   "bestand": "gzc3_hemato_splenomegalie_ct.jpg",
+   "bijschrift": "Coronale CT: massale splenomegalie tot aan de bekkenkam (hier M. Gaucher). Hematologische DD: CML, myelofibrose, hairy cell leukemie.",
+   "auteur": "Garça M, Correia S, Goulart A, Ávila P., Eur J Case Rep Intern Med 2022, Figure 1 (casus M. Gaucher)",
+   "licentie": "CC BY-NC-ND 4.0 (ongewijzigd, alleen verkleind)",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9829019/",
+   "guids": [
+    "gzc3x-5cb2ffbe4e74",
+    "L{&~wveQ;L"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_retinoblastoom_leukocorie.jpg",
+   "bijschrift": "Witte pupilreflex rechts (leukocorie) in plaats van rode reflex; links normaal. Altijd verdacht voor retinoblastoom.",
+   "auteur": "Elfalah M, AlNawaiseh T, Atoum D, et al. (Clin Ophthalmol 2022, fig. 1)",
+   "licentie": "CC BY-NC 3.0 (Dove Medical Press, PMC open access)",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9188477/",
+   "guids": [
+    "gzc3x-2fe81f47225e",
+    "I_]inpDAbx"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_uveamelanoom_fundus.jpg",
+   "bijschrift": "Choroïdeamelanoom (pijlen): A klein, B langgerekt, beide met oranje pigment; C koepelvormig; D groot met subretinaal vocht.",
+   "auteur": "Shields CL, Lally SE, Dalvin LA, et al. (Transl Vis Sci Technol 2021, fig. 3)",
+   "licentie": "CC BY-NC-ND 4.0 (ongewijzigd, alleen verkleind)",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7900849/",
+   "guids": [
+    "gzc3x-c97de00f27f4",
+    "j=/_p&64Z{",
+    "mhJnS-$A5I"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_osteosarcoom_rontgen.jpg",
+   "bijschrift": "Osteosarcoom distale femur (zijaanzicht): wolkige tumorbotvorming die doorbreekt in een grote weke-delenmassa.",
+   "auteur": "Pir Abdul Ahad Aziz Qureshi (Radiopaedia.org, rID 69332)",
+   "licentie": "CC BY-NC-SA 3.0 (verkleind)",
+   "bron": "Radiopaedia",
+   "bron_url": "https://radiopaedia.org/cases/osteosarcoma-24",
+   "guids": [
+    "gzc3x-112507338eb1",
+    "gzc3x-7f7b35829243"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_periostreactie_typen.png",
+   "bijschrift": "Uienschil (gelaagd periost): typisch Ewing. Zonnestralen en Codman-driehoek: agressieve groei, typisch osteosarcoom. Niet strikt specifiek.",
+   "auteur": "Leonardo Lustosa (Radiopaedia.org, rID 97282); uitsnede en Nederlandse labels toegevoegd",
+   "licentie": "CC BY-NC-SA 3.0 (bewerkt: 3 panelen uitgesneden, NL labels)",
+   "bron": "Radiopaedia",
+   "bron_url": "https://radiopaedia.org/cases/periosteal-reaction-types",
+   "guids": [
+    "gzc3x-e2e6a51fdef4",
+    "gzc3x-0c1833712a64",
+    "gzc3x-95eb6a6ae7aa"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_wilms_klauwteken.jpg",
+   "bijschrift": "Wilmstumor rechts: nierparenchym klemt de massa in ('klauwteken', pijlen) = uitgaand van de nier; blijft aan één kant.",
+   "auteur": "Obasaju P, Shahab S, Dunn E, et al. (Cold Spring Harb Mol Case Stud 2020, fig. 1)",
+   "licentie": "CC BY-NC 4.0 (verkleind)",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7133746/",
+   "guids": [
+    "gzc3x-87dc2558bb2d",
+    "gzc3x-aee762b3096c",
+    "gzc3x-b6e133280e35"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_neuroblastoom_ct_verkalking.jpg",
+   "bijschrift": "Neuroblastoom rechterbijnier: grote massa met grove verkalkingen die de nier omlaag duwt (geen klauwteken).",
+   "auteur": "Lynch JD, Tomboc PJ (Cureus 2023, fig. 3)",
+   "licentie": "CC BY (Creative Commons Attribution License, Cureus; verkleind)",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10111876/",
+   "guids": [
+    "gzc3x-e6df915fa160",
+    "C%hA5?n=):"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_neuroblastoom_vaatomgroei.jpg",
+   "bijschrift": "Neuroblastoom steekt de middellijn over en omsluit aorta en truncus coeliacus; een Wilmstumor verdringt vaten juist.",
+   "auteur": "Pio L, Guérin F, Martucci C, et al. (Children 2023, fig. 1)",
+   "licentie": "CC BY 4.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9857095/",
+   "guids": [
+    "gzc3x-122b9880fb39",
+    "y5k!#E1;F`"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_hete_nodus_scintigrafie.jpg",
+   "bijschrift": "99mTc-scan: hete nodus in linkerkwab, opname in de rest van de schildklier onderdrukt (toxisch adenoom).",
+   "auteur": "Boronat M (Endocrinol Diabetes Metab Case Rep 2020, fig. 1)",
+   "licentie": "CC BY-NC-ND 4.0 (ongewijzigd, alleen verkleind)",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7354727/",
+   "guids": [
+    "gzc3x-7049d79d21d0",
+    "HS=r6*kUo1"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_leukoplakie_erytroplakie.jpg",
+   "bijschrift": "A: homogene leukoplakie, witte niet-afschraapbare plek. B: erytroleukoplakie; de rode component geeft veel meer kans op dysplasie.",
+   "auteur": "van der Waal I (Med Oral Patol Oral Cir Bucal 2019, fig. 1 en 4)",
+   "licentie": "CC BY 2.5 (twee figuren samengevoegd met labels A/B)",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6901141/",
+   "guids": [
+    "H7q(3n#|~7"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_basaalcelcarcinoom_ooglid.jpg",
+   "bijschrift": "Onderooglid: verheven, parelmoerachtige nodus met centrale ulceratie, fijne teleangiëctasieën en wimperverlies ter plaatse (madarose).",
+   "auteur": "Pe'er J (Indian J Ophthalmol 2016, 'Pathology of eyelid tumors', fig. 3)",
+   "licentie": "CC BY-NC-SA 3.0",
+   "bron": "pmc.ncbi.nlm.nih.gov",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4869455/",
+   "guids": [
+    "iRgj|+*j<m",
+    "gzc3x-4c6d94b574cb",
+    "r``L$XE~%V"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_plaveiselcelcarcinoom_histologie.jpg",
+   "bijschrift": "Plaveiselcelcarcinoom (hier long, in hoofd-hals gelijk): intercellulaire bruggen, verhoorning (keratinisatie), ruim eosinofiel cytoplasma.",
+   "auteur": "Mikael Häggström, M.D. (Wikimedia Commons)",
+   "licentie": "CC0 1.0 (publiek domein)",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_squamous-cell_carcinoma.png",
+   "guids": [
+    "gzc3chk-0b3b0653f9f6"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_pleiomorf_adenoom_histologie.jpg",
+   "bijschrift": "Menggezwel: ductale en myo-epitheliale cellen in myxoïd stroma. Lijkt scherp begrensd, maar het kapsel is onvolledig (pseudopodieën).",
+   "auteur": "Mikael Häggström, M.D. (Wikimedia Commons)",
+   "licentie": "CC0 1.0 (publiek domein; verkleind)",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pleomorphic_adenoma.png",
+   "guids": [
+    "BTg)iclE<l"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_larynx_supraglottis_glottis_subglottis.png",
+   "bijschrift": "Supraglottis: rijke lymfedrainage, vroeg kliermetastasen. Glottis: vroeg heesheid, laat metastasen. Subglottis: drainage naar level VI.",
+   "auteur": "Cancer Research UK / Wikimedia Commons; Nederlandse labels toegevoegd",
+   "licentie": "CC BY-SA 4.0 (bewerkt: Engelse labels vervangen door Nederlandse)",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Diagram_of_the_larynx_CRUK_039.svg",
+   "guids": [
+    "CCZCch`v!+",
+    "gzc3x-6e69c76e9fbe",
+    "gzc3x-8492807be79d"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_farynx_indeling.png",
+   "bijschrift": "Nasofarynx achter de neus, orofarynx achter de mond (tonsil, tongbasis), hypofarynx achter de larynx naar de slokdarm.",
+   "auteur": "Cancer Research UK / Wikimedia Commons",
+   "licentie": "CC BY-SA 4.0 (verkleind)",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_parts_of_the_pharynx_CRUK_334.svg",
+   "guids": [
+    "CEyzf2~uQX",
+    "xio!TXZq:M",
+    "f7+;81e#3I"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_halsklierniveaus.png",
+   "bijschrift": "Niveaus: I submentaal/submandibulair, II–IV jugulaire keten hoog-midden-laag, V achterste halsdriehoek, VI centraal, VII bovenmediastinum.",
+   "auteur": "Cancer Research UK / Wikimedia Commons",
+   "licentie": "CC BY-SA 4.0 (verkleind)",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_areas_of_lymph_nodes_in_the_head_and_neck_CRUK_292.svg",
+   "guids": [
+    "xWzqd_pJ=#",
+    "vd8}lHj3t%",
+    "b7GC7na)7>"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_laryngectomie_stoma.png",
+   "bijschrift": "Na laryngectomie: trachea eindigt in halsstoma, lucht- en voedselweg gescheiden. Geen luchtstroom door de neus (reukverlies), geen natuurlijke stem.",
+   "auteur": "Cancer Research UK / Wikimedia Commons",
+   "licentie": "CC BY-SA 4.0 (verkleind)",
+   "bron": "Wikimedia Commons",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_position_of_the_stoma_after_a_laryngectomy_CRUK_361.svg",
+   "guids": [
+    "H.m/gM+ye",
+    "dUV|c:5sn$"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_pijnbaan_spinothalamicus.jpg",
+   "bijschrift": "Pijnvezels kruisen op segmentniveau naar de contralaterale tractus spinothalamicus; daarom werkt chordotomie aan de andere lichaamshelft.",
+   "auteur": "Betts JG et al., OpenStax Anatomy and Physiology 2e (fig. 14.19, rechterpaneel)",
+   "licentie": "CC BY-NC-SA 4.0 (licentie die op de huidige OpenStax-boekpagina staat; uitsnede)",
+   "bron": "OpenStax",
+   "bron_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing",
+   "guids": [
+    "Jt~AdwWs>P"
+   ]
+  },
+  {
+   "bestand": "gzc3_overig_schildklier_bijschildklieren.jpg",
+   "bijschrift": "Bijschildklieren liggen achter op de schildklierkwabben: bij thyreoïdectomie risico op hypoparathyreoïdie en hypocalciëmie.",
+   "auteur": "Betts JG et al., OpenStax Anatomy and Physiology 2e (fig. 17.12 a-b)",
+   "licentie": "CC BY-NC-SA 4.0 (licentie die op de huidige OpenStax-boekpagina staat; uitsnede, verkleind)",
+   "bron": "OpenStax",
+   "bron_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+   "guids": [
+    "G.&6VzD~NR",
+    "nw?@C,DA*f"
+   ]
+  }
+ ],
+ "herken_guids": [
+  "gzc3b-e1df5acb96",
+  "gzc3b-b270fb9162",
+  "gzc3b-d16ac3bfc0",
+  "gzc3b-663b7eb3f6",
+  "gzc3b-81b82f27bc",
+  "gzc3b-c4d2547833",
+  "gzc3b-beae9c1451",
+  "gzc3b-64d228e67b",
+  "gzc3b-9a5dd842f8",
+  "gzc3b-76a8c15806",
+  "gzc3b-40c9049b23",
+  "gzc3b-5bdfaec4c5",
+  "gzc3b-e1f05ff298",
+  "gzc3b-18698208cd",
+  "gzc3b-1c3547e134",
+  "gzc3b-e71fa899ce",
+  "gzc3b-94c9fd0e07",
+  "gzc3b-1adc30291a",
+  "gzc3b-6cea1dff83",
+  "gzc3b-723f94cdc9"
+ ],
+ "weg": {
+  "Lw6p]rJjc<": [
+   "https://www.thebloodproject.com/wp-content/uploads/2024/03/MICROCYTIC-ANEMIA-TUT-2024-03-21T162749.105-1024x576.png"
+  ],
+  "oaD(,eTTHY": [],
+  "d=ww*<NUE5": [],
+  "FNZL:.Xb7Y": [],
+  "o`*d#5SSQu": [],
+  "jC+AE5@5Y3": [],
+  "IE-8ZgRC$V": [],
+  "yv0_kIF#vw": [],
+  "z<g9GlKaS-": [],
+  "P/.Sqy[(7W": [],
+  "x,m0]b]^H6": [],
+  "KgpealOSj[": [],
+  "y5k!#E1;F`": [],
+  "C%hA5?n=):": [],
+  "I_]inpDAbx": [],
+  "xWzqd_pJ=#": [],
+  "CCZCch`v!+": [],
+  "dUV|c:5sn$": [],
+  "CEyzf2~uQX": [],
+  "HS=r6*kUo1": [],
+  "mhJnS-$A5I": [],
+  "BTg)iclE<l": [],
+  "fM+B]FVAI9": [],
+  "PsSJq.A,!/": [],
+  "N5XIA^w8%k": [],
+  "Oo7YZIdZl": [],
+  "l^hJO<+Jil": [],
+  "vd8}lHj3t%": [],
+  "b7GC7na)7>": [],
+  "f7+;81e#3I": [],
+  "H7q(3n#|~7": [],
+  "H.m/gM+ye": [],
+  "nw?@C,DA*f": [],
+  "G.&6VzD~NR": [],
+  "r``L$XE~%V": [],
+  "P^egvNR`ZM": [],
+  "%rvY+#Rc]": [],
+  "Q|Gz_J:z%A": [],
+  "wRGZmvd4iF": [],
+  "L{&~wveQ;L": [],
+  "NI3ZK[uS>+": [],
+  "xio!TXZq:M": [],
+  "j=/_p&64Z{": [],
+  "iRgj|+*j<m": [],
+  "Jt~AdwWs>P": [],
+  "gzc3chk-3cc162094f98": [],
+  "gzc3chk-0b3b0653f9f6": [],
+  "gzc3x-df4049456ede": [],
+  "gzc3x-ff12ba9e7eb0": [],
+  "gzc3x-7fe4bc3641cc": [],
+  "gzc3x-057adda2fe5e": [],
+  "gzc3x-d6d9053bc8db": [],
+  "gzc3x-2b461385f8ef": [],
+  "gzc3x-df41010fd95c": [],
+  "gzc3x-831e8f63247e": [],
+  "gzc3x-8d2ff63cb938": [],
+  "gzc3x-dd870e4d0961": [],
+  "gzc3x-5cb2ffbe4e74": [],
+  "gzc3x-47193022fd47": [],
+  "gzc3x-e6df915fa160": [],
+  "gzc3x-87dc2558bb2d": [],
+  "gzc3x-2fe81f47225e": [],
+  "gzc3x-112507338eb1": [],
+  "gzc3x-95eb6a6ae7aa": [],
+  "gzc3x-7049d79d21d0": [],
+  "gzc3x-c97de00f27f4": [],
+  "gzc3x-4c6d94b574cb": [],
+  "gzc3x-7f7b35829243": [],
+  "gzc3x-0c1833712a64": [],
+  "gzc3x-e2e6a51fdef4": [],
+  "gzc3x-aee762b3096c": [],
+  "gzc3x-122b9880fb39": [],
+  "gzc3x-b6e133280e35": [],
+  "gzc3x-6e69c76e9fbe": [],
+  "gzc3x-8492807be79d": [],
+  "gzc3c-cf624ab12458": [],
+  "gzc3c-f4f3cc8494d7": [],
+  "gzc3c-1118eba4f62c": [],
+  "gzc3c-cc730639aa41": [],
+  "gzc3c-fab36d91d99d": [],
+  "gzc3c-6716a0c825de": [],
+  "gzc3c-746c15c48422": [],
+  "gzc3c-0af3a780e645": [],
+  "gzc3c-8908e9501417": [],
+  "gzc3c-f921f583cb53": [],
+  "gzc3c-4133efc18af7": [],
+  "gzc3c-d2fc81b73bf5": [],
+  "gzc3c-944a174dcc4d": [],
+  "gzc3c-01bdf5c2cb97": [],
+  "gzc3c-fa5557443942": []
+ }
+}

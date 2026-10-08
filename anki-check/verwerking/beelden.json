@@ -1,0 +1,668 @@
+{
+ "beelden": [
+  {
+   "bestand": "hemato_hematopoese_stamboom.jpg",
+   "onderwerp": "Hematopoëse: stamboom van de bloedcellen",
+   "bijschrift": "Eén zelfvernieuwende stamcel geeft een myeloïde en een lymfoïde lijn; vraag bij elk tekort: waar zit het defect?",
+   "bron_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements",
+   "auteur": "J. Gordon Betts e.a., OpenStax (Rice University), Anatomy and Physiology 2e, Figure 18.4",
+   "licentie": "CC BY-NC-SA 4.0",
+   "guids": [
+    "fM+B]FVAI9",
+    "gzc3c-cf624ab12458"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Toont de myeloïde en de lymfoïde lijn met alle voorlopers in één plaat, zodat je een stoornis (bijvoorbeeld een maturatiestop) in de boom kunt plaatsen. Op de telefoon moet je inzoomen om de labels te lezen.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_bilirubine_stofwisseling.jpg",
+   "onderwerp": "Bilirubinestofwisseling en enterohepatische kringloop",
+   "bijschrift": "Heem → biliverdine → ongeconjugeerd bilirubine → lever (glucuronyltransferase) → gal → darm: urobilinogeen; stercobiline kleurt feces bruin; deel via urine.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10197288/",
+   "auteur": "Guerra Ruiz AR, Crespo J, López Martínez RM e.a., Adv Lab Med 2021, Figure 3",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "gzc3c-1118eba4f62c",
+    "gzc3c-746c15c48422",
+    "gzc3c-fab36d91d99d",
+    "gzc3c-6716a0c825de",
+    "gzc3c-0af3a780e645",
+    "gzc3c-8908e9501417"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Volgt het schema 'afbraak van de erytrocyt' stap voor stap: de macrofaag (heem, biliverdine, bilirubine), conjugatie in de lever, urobilinogeen in de darm, stercobiline in de feces en urobiline in de urine. Verklaart ook waarom de feces bij hemolyse bruin blijven.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_hepcidine_ferroportine.jpg",
+   "onderwerp": "IJzerrecycling: hepcidine en ferroportine",
+   "bijschrift": "Laag hepcidine: ferroportine exporteert ijzer. Hoog (ontsteking, IL-6): ferroportine afgebroken, ijzer blijft in enterocyt, macrofaag en hepatocyt.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4546197/",
+   "auteur": "Michels K, Nemeth E, Ganz T, Mehrad B., PLoS Pathog 2015, Fig 2",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "P^egvNR`ZM",
+    "l^hJO<+Jil",
+    "FNZL:.Xb7Y"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Zet laag en hoog hepcidine naast elkaar, met de drie plaatsen van ferroportine (enterocyt, macrofaag, hepatocyt). Zo verklaar je in één beeld zowel anemie bij chronische ziekte als de aanpassing bij ijzergebrek.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_stollingscascade.jpg",
+   "onderwerp": "Stollingscascade: extrinsieke, intrinsieke en gemeenschappelijke route",
+   "bijschrift": "Extrinsiek (weefselfactor [III] + VII) → PT; intrinsiek (XII, XI, IX, VIII) → aPTT; via Xa en trombine naar fibrine.",
+   "bron_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-5-hemostasis",
+   "auteur": "J. Gordon Betts e.a., OpenStax (Rice University), Anatomy and Physiology 2e, Figure 18.14b (uitsnede)",
+   "licentie": "CC BY-NC-SA 4.0",
+   "guids": [
+    "oaD(,eTTHY",
+    "d=ww*<NUE5"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Met de routes voor ogen herleid je een verlengde PT of aPTT tot de juiste factoren (VII versus VIII/IX/XI/XII).",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_fibrinolyse.png",
+   "onderwerp": "Fibrinolyse",
+   "bijschrift": "tPA/uPA zetten plasminogeen om in plasmine, dat fibrine afbreekt (o.a. D-dimeer); remmers: PAI-1, α2-antiplasmine en TAFI.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10014973/",
+   "auteur": "Brailovsky Y, Lakhter V, Newman J e.a., Clin Appl Thromb Hemost 2023, Figure 1 (uitsnede; gemaakt met BioRender)",
+   "licentie": "CC BY-NC 4.0",
+   "guids": [
+    "PsSJq.A,!/"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Sluit één op één aan bij het kernkaartje over fibrinolyse: activatoren, remmers en D-dimeer als afbraakproduct. Het brede formaat past goed op een liggend scherm; staand moet je inzoomen.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_virchow_trias.png",
+   "onderwerp": "Trias van Virchow",
+   "bijschrift": "Trombose ontstaat door stase, endotheelschade en hypercoagulabiliteit; postoperatief en bij kanker spelen vaak alle drie.",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Virchow%27s_Triad.svg",
+   "auteur": "Rudolf.hellmuth (Wikimedia Commons)",
+   "licentie": "CC BY-SA 3.0",
+   "guids": [
+    "N5XIA^w8%k",
+    "gzc3c-f921f583cb53"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Een eenvoudige, goed leesbare driehoek als geheugensteun bij het kernkaartje en de DVT-casus na een heupoperatie. De transparante achtergrond is wit gemaakt: anders was de zwarte tekst in nachtmodus onzichtbaar.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_sikkelcellen.jpg",
+   "onderwerp": "Sikkelcellen in perifeer bloed",
+   "bijschrift": "Sikkelvormige erytrocyten (HbS polymeriseert bij deoxygenatie), daarnaast target cells; rechtsboven een neutrofiel.",
+   "bron_url": "https://www.flickr.com/photos/euthman/5610746554/",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "Oo7YZIdZl",
+    "gzc3x-057adda2fe5e"
+   ],
+   "herken_kaart": {
+    "voor": "Welke erytrocytvorm zie je in deze uitstrijk, en bij welke ziekte past die?",
+    "achter": "Sikkelcellen (drepanocyten), met target cells: sikkelcelziekte (HbS)"
+   },
+   "waarom_nuttig": "Klassiek uitstrijkje met veel duidelijke sikkelcellen, scherp genoeg voor een telefoon. Past bij het mechanismekaartje en bij de casus van de Surinaamse jongen met een pijncrise.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_sferocyten.jpg",
+   "onderwerp": "Sferocyten (kogelcellen)",
+   "bijschrift": "Kleine, ronde, egaal gekleurde erytrocyten zonder centrale opheldering; DAT-negatief, passend bij hereditaire sferocytose.",
+   "bron_url": "https://www.flickr.com/photos/euthman/4670166434/",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "%rvY+#Rc]",
+    "gzc3x-7fe4bc3641cc",
+    "gzc3c-cc730639aa41"
+   ],
+   "herken_kaart": {
+    "voor": "Welke afwijkende erytrocyten zie je, en welk labkenmerk hoort erbij?",
+    "achter": "Sferocyten (kogelcellen) zonder centrale opheldering; MCHC verhoogd"
+   },
+   "waarom_nuttig": "Bijna alle cellen missen de centrale opheldering, dus je ziet meteen wat 'kogelcel' en 'verhoogd MCHC' betekenen. De bron vermeldt een negatieve directe Coombs, zoals bij hereditaire sferocytose.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_ijzergebrek_uitstrijk.jpg",
+   "onderwerp": "Hypochrome microcyten bij ijzergebrek",
+   "bijschrift": "Kleine, bleke erytrocyten met brede centrale opheldering en enkele potloodcellen; vergelijk met de lymfocyt (MCV 55 fl).",
+   "bron_url": "https://www.flickr.com/photos/euthman/4422704616/",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "gzc3x-df4049456ede",
+    "o`*d#5SSQu",
+    "Lw6p]rJjc<"
+   ],
+   "herken_kaart": {
+    "voor": "Welk type anemie past bij dit uitstrijkje?",
+    "achter": "Microcytair-hypochroom beeld: past bij ijzergebrek (DD thalassemie)"
+   },
+   "waarom_nuttig": "Een uitgesproken voorbeeld (MCV 55 fl). De lymfocyt dient als maatstaf, zodat je zowel microcytose als hypochromie ziet.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_hypergesegmenteerde_neutrofiel.jpg",
+   "onderwerp": "Hypergesegmenteerde neutrofiel bij megaloblastaire anemie",
+   "bijschrift": "Neutrofiel met zes of meer kernlobben (hypersegmentatie): typisch voor megaloblastaire anemie door vitamine B12- of foliumzuurtekort.",
+   "bron_url": "https://www.flickr.com/photos/euthman/8612790151/",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "gzc3x-ff12ba9e7eb0",
+    "jC+AE5@5Y3"
+   ],
+   "herken_kaart": {
+    "voor": "Welke cel zie je, en aan welk tekort denk je?",
+    "achter": "Hypergesegmenteerde neutrofiel (≥6 lobben): vitamine B12- of foliumzuurtekort"
+   },
+   "waarom_nuttig": "Eén scherpe neutrofiel met duidelijk te veel lobben, uit een patiënt met megaloblastaire anemie. Het is precies het beeld uit de casus over pernicieuze anemie.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_schistocyten_ttp.jpg",
+   "onderwerp": "Schistocyten (fragmentocyten) bij TTP",
+   "bijschrift": "Zwarte pijlen: fragmentocyten (schistocyten); blauwe pijlen: schaarse trombocyten. Micro-angiopathische hemolyse bij TTP.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4637463/",
+   "auteur": "Hashmi HR, Diaz-Fuentes G, Jadhav P, Khaja M., Case Rep Crit Care 2015, Figure 1",
+   "licentie": "CC BY 3.0",
+   "guids": [
+    "gzc3c-f4f3cc8494d7",
+    "gzc3x-d6d9053bc8db",
+    "gzc3chk-3cc162094f98"
+   ],
+   "herken_kaart": {
+    "voor": "Wat wijzen de zwarte pijlen aan, en aan welke aandoening denk je?",
+    "achter": "Schistocyten (fragmentocyten): trombotische micro-angiopathie (TTP, HUS) of DIS"
+   },
+   "waarom_nuttig": "De pijlen wijzen de fragmentocyten aan, en tegelijk zie je de trombocytopenie: de twee kernbevindingen van TTP in één beeld.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_apl_auerstaven.jpg",
+   "onderwerp": "Auerse staven bij acute promyelocytenleukemie (APL)",
+   "bijschrift": "Links een faggot-cel met bundels naaldvormige Auerse staven, rechts een hypergranulaire promyelocyt: APL, t(15;17).",
+   "bron_url": "https://www.flickr.com/photos/euthman/41052768711/",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 2.0",
+   "guids": [
+    "Q|Gz_J:z%A",
+    "gzc3x-2b461385f8ef",
+    "gzc3c-d2fc81b73bf5"
+   ],
+   "herken_kaart": {
+    "voor": "Beenmerg: wat zie je in de linker cel, en welke diagnose past erbij?",
+    "achter": "Faggot-cel (bundels Auerse staven): APL, t(15;17); denk aan DIS"
+   },
+   "waarom_nuttig": "Beenmerg met 83% promyelocyten, t(15;17) bevestigd met FISH. Toont naast elkaar de Auerse staven en de hypergranulaire promyelocyt uit de APL/DIS-casus. Het beeld is iets zacht; de staven zie je het best als je inzoomt.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_cml_uitstrijk.jpg",
+   "onderwerp": "Bloeduitstrijk bij chronische myeloïde leukemie",
+   "bijschrift": "'Bont' bloedbeeld: granulocyten in alle rijpingsstadia, van promyelocyt tot segmentkernige. Denk aan CML (BCR-ABL1).",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG",
+   "auteur": "Paulo Henrique Orlandi Mourao (Wikimedia Commons)",
+   "licentie": "CC BY-SA 3.0",
+   "guids": [
+    "gzc3c-01bdf5c2cb97",
+    "gzc3x-df41010fd95c",
+    "KgpealOSj["
+   ],
+   "herken_kaart": {
+    "voor": "Perifeer bloed bij forse leukocytose: wat zie je, en welke diagnose past?",
+    "achter": "Alle granulocytaire rijpingsstadia ('bont beeld'): chronische myeloïde leukemie (BCR-ABL1)"
+   },
+   "waarom_nuttig": "Laat het verschil met een reactieve linksverschuiving zien: alle rijpingsstadia tegelijk, precies wat het kernkaartje vraagt.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_traandruppelcellen.jpg",
+   "onderwerp": "Traandruppelcellen (dacryocyten) bij myelofibrose",
+   "bijschrift": "Druppelvormige erytrocyten: ze vervormen bij het verlaten van een fibrotisch beenmerg. Denk aan myelofibrose of beenmerginfiltratie.",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Teardrop_Cells_smear_2009-09-22.JPG",
+   "auteur": "Paulo Henrique Orlandi Mourao (Wikimedia Commons)",
+   "licentie": "CC BY-SA 3.0",
+   "guids": [
+    "gzc3x-831e8f63247e",
+    "gzc3c-fa5557443942"
+   ],
+   "herken_kaart": {
+    "voor": "Welke erytrocytvorm zie je, en bij welke beenmergziekte past die?",
+    "achter": "Traandruppelcellen (dacryocyten): myelofibrose, ook bij beenmerginfiltratie"
+   },
+   "waarom_nuttig": "Een veld vol duidelijke traandruppelcellen, passend bij de myelofibrose-casus (enorme milt, dry tap) en bij het kaartje over hoe ze ontstaan.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_cll_gumprecht.jpg",
+   "onderwerp": "CLL-uitstrijk met gumprechtse schollen",
+   "bijschrift": "Veel kleine, rijpe lymfocyten met grof chromatine en roze kapotgestreken cellen (gumprechtse schollen, smudge cells): CLL.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3557565/",
+   "auteur": "Yonal I, Nazlıgul E, Tas G, Agan MR, Yenerel MN, Nalcaci M., Rare Tumors 2012, Figure 1",
+   "licentie": "CC BY-NC 3.0",
+   "guids": [
+    "P/.Sqy[(7W",
+    "gzc3x-8d2ff63cb938"
+   ],
+   "herken_kaart": {
+    "voor": "Oudere met lymfocytose: wat zie je in deze uitstrijk?",
+    "achter": "Monotone kleine lymfocyten met gumprechtse schollen: CLL"
+   },
+   "waarom_nuttig": "Toont de twee kenmerken uit de kaarten naast elkaar: monotone rijpe lymfocyten en roze, kapotgestreken kernen (gumprechtse schollen).",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_reed_sternberg.jpg",
+   "onderwerp": "Reed-Sternbergcel bij Hodgkinlymfoom",
+   "bijschrift": "Midden: Reed-Sternbergcel, binucleair met in elke kern een prominente nucleolus ('uilenogen'), tussen reactieve ontstekingscellen.",
+   "bron_url": "https://www.flickr.com/photos/euthman/3884125493/",
+   "auteur": "Ed Uthman (Flickr)",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "wRGZmvd4iF",
+    "gzc3x-dd870e4d0961",
+    "z<g9GlKaS-"
+   ],
+   "herken_kaart": {
+    "voor": "Lymfeklierbiopt: welke cel staat in het midden?",
+    "achter": "Reed-Sternbergcel (uilenogen): klassiek Hodgkinlymfoom, CD30+/CD15+"
+   },
+   "waarom_nuttig": "Een schoolvoorbeeld van de klassieke uilenoogcel, groot genoeg voor een telefoon. Je ziet ook dat de maligne cel zeldzaam is te midden van het reactieve infiltraat.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_myeloom_plasmacel.jpg",
+   "onderwerp": "Plasmacel in perifeer bloed bij multipel myeloom",
+   "bijschrift": "Plasmacel in perifeer bloed: excentrische kern, diepblauw cytoplasma en lichte hof naast de kern. Rechts twee neutrofielen.",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Multiple_myeloma_peripheral_blood_morphology_-_rouleaux,_background_staining_and_plasma_cell.jpg",
+   "auteur": "SpicyMilkBoy (Wikimedia Commons)",
+   "licentie": "CC BY-SA 4.0",
+   "guids": [
+    "gzc3x-47193022fd47",
+    "NI3ZK[uS>+"
+   ],
+   "herken_kaart": {
+    "voor": "Welke cel staat in het midden, en bij welke ziekte hoort een overmaat?",
+    "achter": "Plasmacel (excentrische kern, perinucleaire hof): multipel myeloom"
+   },
+   "waarom_nuttig": "Eén grote, scherpe plasmacel met alle kenmerken, met neutrofielen als maatstaf. Omdat het een circulerende plasmacel in perifeer bloed is, illustreert het ook het kaartje over plasmacelleukemie.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_myeloom_schedel.jpg",
+   "onderwerp": "Punched-out lytische laesies in de schedel bij multipel myeloom",
+   "bijschrift": "Laterale schedelfoto: talrijke scherp begrensde, ronde 'punched-out' ophelderingen (pijlen) zonder sclerotische rand: lytische myeloomhaarden.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7457772/",
+   "auteur": "Sadiq AM, Suleiman JM, Vuai HS, Sadiq AM, Mkwizu EW., Int Med Case Rep J 2020, Figure 1",
+   "licentie": "CC BY-NC 3.0",
+   "guids": [
+    "gzc3c-4133efc18af7",
+    "x,m0]b]^H6"
+   ],
+   "herken_kaart": {
+    "voor": "Schedelfoto bij rugpijn, hypercalciëmie en nierfalen: wat zie je?",
+    "achter": "Punched-out lytische laesies: multipel myeloom (de B van CRAB)"
+   },
+   "waarom_nuttig": "Het klassieke röntgenbeeld van de B in CRAB. Laat zien hoe osteoclastactivatie zonder osteoblastrespons zuiver lytische gaten geeft.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_hodgkin_petct.jpg",
+   "onderwerp": "FDG-PET bij Hodgkinlymfoom: stadiëring, interim en recidief",
+   "bijschrift": "FDG-PET bij Hodgkin: a stadium III, b interim-rest mediastinum (Deauville 4), c recidief. Hersenen, hart, nieren, blaas: fysiologisch.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5541086/",
+   "auteur": "Barrington SF, Kluge R., Eur J Nucl Med Mol Imaging 2017, Fig. 3 (beeld: courtesy Prof. Reinhardt, Pius Hospital Oldenburg)",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "IE-8ZgRC$V",
+    "gzc3c-944a174dcc4d",
+    "yv0_kIF#vw"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Drie PET-momenten naast elkaar: stadiëring, responsevaluatie met Deauville en recidief. Daarnaast de fysiologische opname in hersenen, hart, nieren en blaas.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "hemato_splenomegalie_ct.jpg",
+   "onderwerp": "Massale splenomegalie op CT",
+   "bijschrift": "Coronale CT: massale splenomegalie tot aan de bekkenkam (hier M. Gaucher). Hematologische DD: CML, myelofibrose, hairy cell leukemie.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9829019/",
+   "auteur": "Garça M, Correia S, Goulart A, Ávila P., Eur J Case Rep Intern Med 2022, Figure 1 (casus M. Gaucher)",
+   "licentie": "CC BY-NC-ND 4.0 (ongewijzigd, alleen verkleind)",
+   "guids": [
+    "gzc3x-5cb2ffbe4e74",
+    "L{&~wveQ;L"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Laat zien hoe groot een 'enorme' of 'massale' milt werkelijk is. Ondersteunt de casus en het kernkaartje over hairy cell leukemie.",
+   "_map": "hemato"
+  },
+  {
+   "bestand": "overig_retinoblastoom_leukocorie.jpg",
+   "onderwerp": "Retinoblastoom: leukocorie",
+   "bijschrift": "Witte pupilreflex rechts (leukocorie) in plaats van rode reflex; links normaal. Altijd verdacht voor retinoblastoom.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9188477/",
+   "auteur": "Elfalah M, AlNawaiseh T, Atoum D, et al. (Clin Ophthalmol 2022, fig. 1)",
+   "licentie": "CC BY-NC 3.0 (Dove Medical Press, PMC open access)",
+   "guids": [
+    "gzc3x-2fe81f47225e",
+    "I_]inpDAbx"
+   ],
+   "herken_kaart": {
+    "voor": "Kind met witte pupil op een foto: hoe heet dit teken en aan welke tumor denk je?",
+    "achter": "Leukocorie; retinoblastoom (RB1) tot het tegendeel bewezen."
+   },
+   "waarom_nuttig": "Klassiek klinisch beeld dat je direct moet herkennen. Scherp, en de legenda (unilateraal retinoblastoom, leukocorie rechts) is gecontroleerd.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_uveamelanoom_fundus.jpg",
+   "onderwerp": "Choroïdeamelanoom (uveamelanoom) fundoscopie",
+   "bijschrift": "Choroïdeamelanoom (pijlen): A klein, B langgerekt, beide met oranje pigment; C koepelvormig; D groot met subretinaal vocht.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7900849/",
+   "auteur": "Shields CL, Lally SE, Dalvin LA, et al. (Transl Vis Sci Technol 2021, fig. 3)",
+   "licentie": "CC BY-NC-ND 4.0 (ongewijzigd, alleen verkleind)",
+   "guids": [
+    "gzc3x-c97de00f27f4",
+    "j=/_p&64Z{",
+    "mhJnS-$A5I"
+   ],
+   "herken_kaart": {
+    "voor": "Fundoscopie bij een volwassene met lichtflitsen: wat is de diagnose?",
+    "achter": "Choroïdeamelanoom (uveamelanoom); metastaseert hematogeen naar de lever."
+   },
+   "waarom_nuttig": "Laat het spectrum van klein tot groot melanoom zien, inclusief subretinaal vocht; de diagnose wordt klinisch gesteld. Het bijschrift volgt nu de bronlegenda: alleen C is koepelvormig, oranje pigment alleen bij A en B.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_osteosarcoom_rontgen.jpg",
+   "onderwerp": "Osteosarcoom distale femur (röntgen)",
+   "bijschrift": "Osteosarcoom distale femur (zijaanzicht): wolkige tumorbotvorming die doorbreekt in een grote weke-delenmassa.",
+   "bron_url": "https://radiopaedia.org/cases/osteosarcoma-24",
+   "auteur": "Pir Abdul Ahad Aziz Qureshi (Radiopaedia.org, rID 69332)",
+   "licentie": "CC BY-NC-SA 3.0 (verkleind)",
+   "guids": [
+    "gzc3x-112507338eb1",
+    "gzc3x-7f7b35829243"
+   ],
+   "herken_kaart": {
+    "voor": "Pijnlijke zwelling boven de knie; röntgen distale femur: welke bottumor?",
+    "achter": "Osteosarcoom: tumorbot (osteoïd) in een weke-delenmassa; typisch metafyse rond de knie."
+   },
+   "waarom_nuttig": "Toont de typische lokalisatie rond de knie en tumorbotvorming in de weke delen. De patiënt is volgens de casus 25 jaar, daarom staat 'tiener' niet meer in de herkenkaart. Kaart 0c1833712a64 (zonnestralen/Codman) is verwijderd, omdat die niet duidelijk zichtbaar zijn; die kaart staat bij het periostschema.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_periostreactie_typen.png",
+   "onderwerp": "Periostreacties: uienschil, zonnestralen, Codman-driehoek",
+   "bijschrift": "Uienschil (gelaagd periost): typisch Ewing. Zonnestralen en Codman-driehoek: agressieve groei, typisch osteosarcoom. Niet strikt specifiek.",
+   "bron_url": "https://radiopaedia.org/cases/periosteal-reaction-types",
+   "auteur": "Leonardo Lustosa (Radiopaedia.org, rID 97282); uitsnede en Nederlandse labels toegevoegd",
+   "licentie": "CC BY-NC-SA 3.0 (bewerkt: 3 panelen uitgesneden, NL labels)",
+   "guids": [
+    "gzc3x-e2e6a51fdef4",
+    "gzc3x-0c1833712a64",
+    "gzc3x-95eb6a6ae7aa"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Zet de drie periostreacties uit de vergelijkkaarten naast elkaar en vult schematisch het ontbrekende Ewing-uienschilbeeld in. Auteur en licentie zijn gecontroleerd via een archiefversie van de casus.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_wilms_klauwteken.jpg",
+   "onderwerp": "Wilmstumor (nefroblastoom) met klauwteken op CT",
+   "bijschrift": "Wilmstumor rechts: nierparenchym klemt de massa in ('klauwteken', pijlen) = uitgaand van de nier; blijft aan één kant.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7133746/",
+   "auteur": "Obasaju P, Shahab S, Dunn E, et al. (Cold Spring Harb Mol Case Stud 2020, fig. 1)",
+   "licentie": "CC BY-NC 4.0 (verkleind)",
+   "guids": [
+    "gzc3x-87dc2558bb2d",
+    "gzc3x-aee762b3096c",
+    "gzc3x-b6e133280e35"
+   ],
+   "herken_kaart": {
+    "voor": "Kind met gladde buikmassa; CT: wat is de diagnose en welk teken zie je?",
+    "achter": "Nefroblastoom (Wilms): klauwteken toont renale oorsprong; geen biopt vooraf (SIOP)."
+   },
+   "waarom_nuttig": "Het klauwteken is hét beeldkenmerk dat Wilms van neuroblastoom onderscheidt (uitgangspunt nier, eenzijdig). 'Peuter' is 'kind' geworden, omdat de patiënt in de casus 6 jaar is.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_neuroblastoom_ct_verkalking.jpg",
+   "onderwerp": "Neuroblastoom bijnier met verkalkingen (CT)",
+   "bijschrift": "Neuroblastoom rechterbijnier: grote massa met grove verkalkingen die de nier omlaag duwt (geen klauwteken).",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10111876/",
+   "auteur": "Lynch JD, Tomboc PJ (Cureus 2023, fig. 3)",
+   "licentie": "CC BY (Creative Commons Attribution License, Cureus; verkleind)",
+   "guids": [
+    "gzc3x-e6df915fa160",
+    "C%hA5?n=):"
+   ],
+   "herken_kaart": {
+    "voor": "Peuter (3 jaar) met buikmassa: welke diagnose past bij deze CT?",
+    "achter": "Neuroblastoom: verkalkte bijniertumor die de nier omlaag duwt. Aanvullend: VMA/HVA in urine, MIBG, biopt."
+   },
+   "waarom_nuttig": "Verkalkingen en suprarenale oorsprong zijn typisch voor neuroblastoom; samen met het Wilms-klauwteken vormt het een paar. De oude herkenkaart verklapte de bevindingen al op de voorkant. Kaart 642a79ae872b (VMA/HVA, MIBG) is verwijderd, omdat de CT die onderzoeken niet laat zien.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_neuroblastoom_vaatomgroei.jpg",
+   "onderwerp": "Neuroblastoom: middellijnoverschrijding en vaatomgroei",
+   "bijschrift": "Neuroblastoom steekt de middellijn over en omsluit aorta en truncus coeliacus; een Wilmstumor verdringt vaten juist.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9857095/",
+   "auteur": "Pio L, Guérin F, Martucci C, et al. (Children 2023, fig. 1)",
+   "licentie": "CC BY 4.0",
+   "guids": [
+    "gzc3x-122b9880fb39",
+    "y5k!#E1;F`"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Maakt het verschil zichtbaar tussen 'overschrijdt de middellijn' en 'blijft aan één kant', en verklaart waarom resectie lastig is. De bronlegenda (omsluiting van truncus coeliacus en aorta) is gecontroleerd. De DD-kaart QDt3?Ek~t& (brede differentiaaldiagnose van buikzwelling) is verwijderd, omdat het beeld daar niet bij helpt.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_hete_nodus_scintigrafie.jpg",
+   "onderwerp": "Hete nodus (toxisch folliculair adenoom) op scintigrafie",
+   "bijschrift": "99mTc-scan: hete nodus in linkerkwab, opname in de rest van de schildklier onderdrukt (toxisch adenoom).",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7354727/",
+   "auteur": "Boronat M (Endocrinol Diabetes Metab Case Rep 2020, fig. 1)",
+   "licentie": "CC BY-NC-ND 4.0 (ongewijzigd, alleen verkleind)",
+   "guids": [
+    "gzc3x-7049d79d21d0",
+    "HS=r6*kUo1"
+   ],
+   "herken_kaart": {
+    "voor": "Scintigrafie bij hyperthyreoïdie met onderdrukt TSH: wat zie je?",
+    "achter": "Hete nodus: toxisch folliculair adenoom, rest onderdrukt; zelden maligne."
+   },
+   "waarom_nuttig": "Precies het beeld uit de Wie-ben-ik-kaart. 'Neemt alle tracer op' is aangepast, omdat de speekselklieren ook zwak zichtbaar zijn.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_leukoplakie_erytroplakie.jpg",
+   "onderwerp": "Leukoplakie en erytroleukoplakie van het mondslijmvlies",
+   "bijschrift": "A: homogene leukoplakie, witte niet-afschraapbare plek. B: erytroleukoplakie; de rode component geeft veel meer kans op dysplasie.",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6901141/",
+   "auteur": "van der Waal I (Med Oral Patol Oral Cir Bucal 2019, fig. 1 en 4)",
+   "licentie": "CC BY 2.5 (twee figuren samengevoegd met labels A/B)",
+   "guids": [
+    "H7q(3n#|~7"
+   ],
+   "herken_kaart": {
+    "voor": "Mondslijmvlies van twee patiënten: wat zie je bij A en bij B?",
+    "achter": "A homogene leukoplakie; B erytroleukoplakie (veel meer kans op dysplasie). Beide biopteren."
+   },
+   "waarom_nuttig": "Laat het verschil zien tussen de relatief onschuldige witte plek en de gevaarlijkere rode component uit de kernkaart. 'Roker' is uit de herkenkaart gehaald, omdat de bron dat niet vermeldt.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_basaalcelcarcinoom_ooglid.jpg",
+   "onderwerp": "Basaalcelcarcinoom van het onderooglid",
+   "bijschrift": "Onderooglid: verheven, parelmoerachtige nodus met centrale ulceratie, fijne teleangiëctasieën en wimperverlies ter plaatse (madarose).",
+   "bron_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4869455/",
+   "auteur": "Pe'er J (Indian J Ophthalmol 2016, 'Pathology of eyelid tumors', fig. 3)",
+   "licentie": "CC BY-NC-SA 3.0",
+   "guids": [
+    "iRgj|+*j<m",
+    "gzc3x-4c6d94b574cb",
+    "r``L$XE~%V"
+   ],
+   "herken_kaart": {
+    "voor": "Oudere met een langzaam groeiende afwijking op het onderooglid: diagnose?",
+    "achter": "Basaalcelcarcinoom: parelmoerrand, teleangiëctasieën, madarose; excisie met margecontrole."
+   },
+   "waarom_nuttig": "De kernkaart vraagt letterlijk 'waaraan herken je het', en de foto toont die kenmerken. De ulceratie uit de bronlegenda ('elevated ulcerated nodule') staat nu ook in het bijschrift.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_plaveiselcelcarcinoom_histologie.jpg",
+   "onderwerp": "Histologie plaveiselcelcarcinoom (geannoteerd)",
+   "bijschrift": "Plaveiselcelcarcinoom (hier long, in hoofd-hals gelijk): intercellulaire bruggen, verhoorning (keratinisatie), ruim eosinofiel cytoplasma.",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_squamous-cell_carcinoma.png",
+   "auteur": "Mikael Häggström, M.D. (Wikimedia Commons)",
+   "licentie": "CC0 1.0 (publiek domein)",
+   "guids": [
+    "gzc3chk-0b3b0653f9f6"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Toont met pijlen precies de histologische kenmerken uit de kernkaart. De Engelse labels zijn goed te begrijpen. Het bijschrift vermeldt nu eerlijk dat het preparaat uit de long komt.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_pleiomorf_adenoom_histologie.jpg",
+   "onderwerp": "Histologie pleiomorf adenoom (menggezwel, geannoteerd)",
+   "bijschrift": "Menggezwel: ductale en myo-epitheliale cellen in myxoïd stroma. Lijkt scherp begrensd, maar het kapsel is onvolledig (pseudopodieën).",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pleomorphic_adenoma.png",
+   "auteur": "Mikael Häggström, M.D. (Wikimedia Commons)",
+   "licentie": "CC0 1.0 (publiek domein; verkleind)",
+   "guids": [
+    "BTg)iclE<l"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Laat zien waarom het een menggezwel heet: epitheliale componenten naast stroma. Het oude bijschrift beweerde dat pseudopodieën zichtbaar waren, maar het beeld zegt 'well defined borders'; het nieuwe bijschrift vangt die tegenstrijdigheid op. De klinische Wie-ben-ik-kaart 2de4db92c0f9 is verwijderd: histologie helpt daar niet, en het label 'well defined borders' botst met 'onvolledig kapsel'.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_larynx_supraglottis_glottis_subglottis.png",
+   "onderwerp": "Larynx: supraglottis, glottis, subglottis",
+   "bijschrift": "Supraglottis: rijke lymfedrainage, vroeg kliermetastasen. Glottis: vroeg heesheid, laat metastasen. Subglottis: drainage naar level VI.",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Diagram_of_the_larynx_CRUK_039.svg",
+   "auteur": "Cancer Research UK / Wikimedia Commons; Nederlandse labels toegevoegd",
+   "licentie": "CC BY-SA 4.0 (bewerkt: Engelse labels vervangen door Nederlandse)",
+   "guids": [
+    "CCZCch`v!+",
+    "gzc3x-6e69c76e9fbe",
+    "gzc3x-8492807be79d"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Maakt de drie sublokalisaties uit de vergelijkkaarten ruimtelijk duidelijk. De NL-labels zijn naast het origineel gelegd: de aanwijslijnen kloppen.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_farynx_indeling.png",
+   "onderwerp": "Indeling farynx: naso-, oro- en hypofarynx",
+   "bijschrift": "Nasofarynx achter de neus, orofarynx achter de mond (tonsil, tongbasis), hypofarynx achter de larynx naar de slokdarm.",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_parts_of_the_pharynx_CRUK_334.svg",
+   "auteur": "Cancer Research UK / Wikimedia Commons",
+   "licentie": "CC BY-SA 4.0 (verkleind)",
+   "guids": [
+    "CEyzf2~uQX",
+    "xio!TXZq:M",
+    "f7+;81e#3I"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Plaatst nasofarynx (slecht bereikbaar), HPV-orofarynx (tonsil/tongbasis) en hypofarynx, wat nodig is voor de kaarten over sublokalisatie en prognose.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_halsklierniveaus.png",
+   "onderwerp": "Lymfeklierniveaus in de hals",
+   "bijschrift": "Niveaus: I submentaal/submandibulair, II–IV jugulaire keten hoog-midden-laag, V achterste halsdriehoek, VI centraal, VII bovenmediastinum.",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_areas_of_lymph_nodes_in_the_head_and_neck_CRUK_292.svg",
+   "auteur": "Cancer Research UK / Wikimedia Commons",
+   "licentie": "CC BY-SA 4.0 (verkleind)",
+   "guids": [
+    "xWzqd_pJ=#",
+    "vd8}lHj3t%",
+    "b7GC7na)7>"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Anatomische context bij de drainagekaarten en bij de typen halsklierdissectie (levels I-V).",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_laryngectomie_stoma.png",
+   "onderwerp": "Situatie na totale laryngectomie (tracheostoma)",
+   "bijschrift": "Na laryngectomie: trachea eindigt in halsstoma, lucht- en voedselweg gescheiden. Geen luchtstroom door de neus (reukverlies), geen natuurlijke stem.",
+   "bron_url": "https://commons.wikimedia.org/wiki/File:Diagram_showing_the_position_of_the_stoma_after_a_laryngectomy_CRUK_361.svg",
+   "auteur": "Cancer Research UK / Wikimedia Commons",
+   "licentie": "CC BY-SA 4.0 (verkleind)",
+   "guids": [
+    "H.m/gM+ye",
+    "dUV|c:5sn$"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Verklaart in één beeld de gevolgen uit de kernkaart (stem, reuk, niet snuiten) en laat zien dat trachea en oesofagus naast elkaar liggen (plaats van de shunt voor de stemprothese). Het bijschrift is gecorrigeerd: het stemverlies komt door het verwijderen van de larynx, niet door de scheiding. De ICF-schemakaart 6fb71467e10a is verwijderd, omdat een anatomiebeeld daar afleidt.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_pijnbaan_spinothalamicus.jpg",
+   "onderwerp": "Tractus spinothalamicus (pijnbaan) en chordotomie",
+   "bijschrift": "Pijnvezels kruisen op segmentniveau naar de contralaterale tractus spinothalamicus; daarom werkt chordotomie aan de andere lichaamshelft.",
+   "bron_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing",
+   "auteur": "Betts JG et al., OpenStax Anatomy and Physiology 2e (fig. 14.19, rechterpaneel)",
+   "licentie": "CC BY-NC-SA 4.0 (licentie die op de huidige OpenStax-boekpagina staat; uitsnede)",
+   "guids": [
+    "Jt~AdwWs>P"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Maakt zichtbaar waarom een chordotomie contralateraal werkt. De licentie is gecorrigeerd: de OpenStax-pagina vermeldt nu CC BY-NC-SA 4.0, ook toegestaan.",
+   "_map": "overig"
+  },
+  {
+   "bestand": "overig_schildklier_bijschildklieren.jpg",
+   "onderwerp": "Schildklier en bijschildklieren (voor- en achteraanzicht)",
+   "bijschrift": "Bijschildklieren liggen achter op de schildklierkwabben: bij thyreoïdectomie risico op hypoparathyreoïdie en hypocalciëmie.",
+   "bron_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+   "auteur": "Betts JG et al., OpenStax Anatomy and Physiology 2e (fig. 17.12 a-b)",
+   "licentie": "CC BY-NC-SA 4.0 (licentie die op de huidige OpenStax-boekpagina staat; uitsnede, verkleind)",
+   "guids": [
+    "G.&6VzD~NR",
+    "nw?@C,DA*f"
+   ],
+   "herken_kaart": null,
+   "waarom_nuttig": "Toont de anatomie achter de belangrijkste complicatie van een thyreoïdectomie (hypoparathyreoïdie). De licentie is gecorrigeerd naar wat OpenStax nu vermeldt.",
+   "_map": "overig"
+  }
+ ],
+ "afgewezen": [
+  {
+   "bestand": "hemato_erytrocyt_levenscyclus.jpg",
+   "reden": "Bevat medische fouten. Stap 5 noemt biliverdine de transportvorm in het bloed (dat is ongeconjugeerd bilirubine aan albumine), en stap 6 plus de blauwe pijl naar het beenmerg suggereren dat heem wordt hergebruikt voor de hematopoëse (alleen ijzer wordt hergebruikt). Daarnaast is het beeld tekstrijk en op telefoonformaat slecht leesbaar. De route heem → bilirubine zit nu correct in hemato_bilirubine_stofwisseling.jpg (gzc3c-fab36d91d99d daarheen verplaatst); het ijzerhergebruik dekt de hepcidinefiguur. Licentie is overigens CC BY-NC-SA 4.0, niet CC BY 4.0."
+  },
+  {
+   "bestand": "hemato_burkitt_starry_sky.jpg",
+   "reden": "Het starry sky-patroon is op telefoonformaat nauwelijks te zien: de lichte macrofagen zijn klein en schaars, en het beeld oogt als een egale paarse celzee. Daardoor helpt het onvoldoende bij de casus (gzc3x-f2865325af25). Bij xSU&)hx?vb (de drie vormen van Burkitt) paste het sowieso niet. Licentie (CC BY 4.0) was in orde."
+  }
+ ],
+ "niet_gevonden": [
+  "Duidelijke geldrolvorming (rouleaux) als los beeld: het plasmacelbeeld toont rouleaux maar zwak, en het marrow-beeld met rouleaux (Erhabor, CC BY-SA 3.0) had een afwijkende geelgroene kleuring en is daarom niet gebruikt",
+  "Scherpe losse Auerse staaf in een myeloblast: de kandidaten waren wazig (Uthman) of te klein voor telefoonformaat (PMC10965747); de APL faggot-cel dekt het onderwerp",
+  "Duidelijk starry sky-beeld bij Burkitt-lymfoom op lage vergroting: de kandidaat van Uthman (Flickr 144136196) is afgekeurd omdat het patroon op telefoonformaat nauwelijks zichtbaar is",
+  "Foutloos schema van de erytrocytlevenscyclus met hergebruik van ijzer en globine: OpenStax Fig. 18.8 is afgekeurd wegens fouten (biliverdine als transportvorm, heem hergebruikt); heem → bilirubine is gedekt door de bilirubinefiguur",
+  "Ewing-sarcoom: echte röntgenfoto met duidelijke uienschil-periostreactie. De kandidaten (Radiopaedia, Wikimedia) toonden die niet scherp, dus alleen het schema is opgenomen.",
+  "Papillair schildkliercarcinoom-histologie met zichtbare ingekeepte kernen: het WebPath-beeld (ENDO027) is te klein, de kernkenmerken zijn niet te zien. Daarom niet opgenomen.",
+  "Speekselklieranatomie met het verloop van de n. facialis door de glandula parotis: het OpenStax-beeld toont de zenuw niet, daarom niet opgenomen.",
+  "Talgkliercarcinoom van het ooglid ('recidiverend chalazion'): niet gezocht, omdat het maximum van 4 nieuwe downloads bereikt was."
+ ]
+}

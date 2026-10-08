@@ -89,6 +89,8 @@ def main():
                 for r in (ADDON / 'data' / naam).read_text(encoding='utf-8').splitlines() if not r.startswith('#')}
     rijen = [r.split('\t') for r in (ADDON / 'data' / 'GZC3_colleges_import.txt').read_text(encoding='utf-8').splitlines() if not r.startswith('#')]
     log = importeer(col, 'GZC3_colleges_import.txt')
+    pad_b = ADDON / 'data' / 'GZC3_beelden_import.txt'
+    beeldrijen = [r.split('\t') for r in pad_b.read_text(encoding='utf-8').splitlines() if not r.startswith('#')] if pad_b.exists() else []
     verwacht_nieuw = sum(r[0] not in bestaand for r in rijen)
     assert len(log.new) == verwacht_nieuw and len(log.updated) == len(rijen) - verwacht_nieuw, (len(log.new), len(log.updated))
     mcv = col.get_note(col.find_notes('"Hoe classificeer je anemie morfologisch*"')[0])
@@ -143,7 +145,8 @@ def main():
     for g, tags in campagne.EXTRA_TAGS.items():
         assert all(t.lower() in guid_tags[g] for t in tags), g
     for k in ('HC1', 'HC3', 'HC4', 'HC5', 'HC7', 'HC13'):
-        verwacht = {g for g, c in campagne.KOPPELING.items() if c == k} | {r[0] for r in rijen if f'college::{k}' in r[5].split()}
+        verwacht = ({g for g, c in campagne.KOPPELING.items() if c == k} | {r[0] for r in rijen if f'college::{k}' in r[5].split()}
+                    | {r[0] for r in beeldrijen if f'college::{k}' in r[5].split()})
         gevonden = len(col.find_notes(f'tag:college::{k}'))
         assert gevonden == len(verwacht), (k, gevonden, len(verwacht))
     # een afwijkende college-tag wordt rechtgezet
@@ -159,7 +162,9 @@ def main():
     st['slot'] = True
     campagne.campagne_starten(col, CFG, {})
     opgeschort = len(col.find_cards('is:suspended'))
-    zonder_thema = sum(1 for (tags,) in col.db.all('select tags from notes') if not campagne.thema_van(tags.split()))
+    zonder_thema = sum(1 for (tags,) in col.db.all('select n.tags from notes n where n.id in (select nid from cards where did in ({}))'.format(
+        ','.join(map(str, campagne.deck_ids(col, CFG['deck']))))) if not campagne.thema_van(tags.split()))
+    assert not col.find_cards(f'deck:"{campagne.NOOD_DECK}" is:suspended'), 'het slot van de campagne mag het noodpakket niet raken'
     print('slot aan:', opgeschort, 'van', totaal, 'kaarten op slot ·', zonder_thema, 'notities zonder thema')
     assert opgeschort == totaal - zonder_thema, 'zonder afgevinkte colleges moet alles met een thema op slot'
     st['afgevinkt'] = {'HC1': '2026-10-06', 'HC2': '2026-10-06'}

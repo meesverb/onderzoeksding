@@ -16,3 +16,5 @@ Elk bestand `HCx.json` is het **gecontroleerde** resultaat van een workflow met 
 **Volledig nieuw verwerkt college** (HC 6, 7, 13): een kapstok, controlevragen, kaarten, casussen en tabellen, plus correcties, nadruk en `koppeling` (welke bestaande kaart bij welk college hoort).
 
 In elk bestand staat onder `afgewezen` wat de controleur heeft geschrapt, en waarom.
+
+**Noodpakket en afbeeldingen** (`nood.json`, `beelden.json`): gemaakt met een workflow met per themagroep een schrijver en een controleur, en per spoor een beeldzoeker en een controleur. Elke afbeelding is bekeken. `bouw_nood_beelden.py` zet ze om naar de add-on. De afbeeldingsbestanden staan in `../beelden/`, met `BRONNEN.md`.

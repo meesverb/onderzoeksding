@@ -686,7 +686,7 @@ def nood_stand(col) -> dict | None:
     per = defaultdict(Counter)
     for tags, ctype, ivl in col.db.all(f'select n.tags, c.type, c.ivl from cards c join notes n on n.id = c.nid '
                                        f'where c.did in ({ids}) or c.odid in ({ids})'):
-        th = next((t[6:].upper() for t in tags.split() if t.lower().startswith('nood::')), '?')
+        th = next((t[6:].upper() for t in tags.split() if t.lower().startswith('nood::') and t[6:].upper() in THEMAS), '?')
         for c in (per[th], per['totaal']):
             c['n'] += 1
             c['gezien'] += ctype != 0
@@ -713,7 +713,7 @@ def nood_instellen(col) -> int:
 def beeld_html(b: dict) -> str:
     bron = ' · '.join(x for x in (b.get('auteur'), b.get('licentie'), b.get('bron')) if x)
     return (f'<div class="gzc3-beeld" style="margin-top:12px"><img src="{html.escape(b["bestand"])}" '
-            f'style="max-width:100%;max-height:440px;border-radius:6px"><div style="font-size:13px;opacity:.8;margin-top:3px">'
+            f'style="max-width:100%;max-height:80vh;border-radius:6px"><div style="font-size:13px;opacity:.8;margin-top:3px">'
             f'{html.escape(b["bijschrift"])}</div><div style="font-size:10px;opacity:.55">{html.escape(bron)}</div></div>')
 
 
